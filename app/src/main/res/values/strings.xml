@@ -1,0 +1,26 @@
+<resources>
+    <string name="app_name">E-Angkot</string>
+    <string name="placeholder_email">Email</string>
+    <string name="placeholder_password">Password</string>
+    <string name="placeholder_name">Full Name</string>
+    <string name="text_login">Login</string>
+    <string name="text_register">Register here!</string>
+    <string name="text_register2">Register</string>
+    <string name="text_room_number">Room Number :</string>
+    <string name="text_total">Total :</string>
+    <string name="text_durasi">Durasi :</string>
+    <string name="text_tariff">Tariff :</string>
+    <string name="text_hitung">Hitung</string>
+    <string name="text_pesan">Pesan</string>
+    <string name="text_pesananAktif">Pesanan Aktif</string>
+    <string name="text_pesananId">Pesanan ID :</string>
+    <string name="text_biaya">Biaya :</string>
+    <string name="text_jumlahHari">Jumlah Hari :</string>
+    <string name="text_tanggalpesan">Tanggal Pesan :</string>
+    <string name="text_Selesaikan">Selesaikan</string>
+    <string name="text_batalkan">Batalkan</string>
+
+    <string name="title_activity_splash_screen">SplashScreen</string>
+    <string name="dummy_button">Dummy Button</string>
+    <string name="dummy_content">DUMMY\nCONTENT</string>
+</resources>

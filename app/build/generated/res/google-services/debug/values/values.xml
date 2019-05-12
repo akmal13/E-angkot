@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="default_web_client_id" translatable="false">328129901380-hsdd14m35bqsaugakc32mkla04i6r7ed.apps.googleusercontent.com</string>
+    <string name="firebase_database_url" translatable="false">https://islamicduties.firebaseio.com</string>
+    <string name="gcm_defaultSenderId" translatable="false">328129901380</string>
+    <string name="google_api_key" translatable="false">AIzaSyCZ_7HspQCZlzaQotlykJYuX1iQOc2gxEY</string>
+    <string name="google_app_id" translatable="false">1:328129901380:android:d0f8f62c29fa025d</string>
+    <string name="google_crash_reporting_api_key" translatable="false">AIzaSyCZ_7HspQCZlzaQotlykJYuX1iQOc2gxEY</string>
+    <string name="google_storage_bucket" translatable="false">islamicduties.appspot.com</string>
+    <string name="project_id" translatable="false">islamicduties</string>
+</resources>

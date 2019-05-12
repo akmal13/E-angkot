@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:background="@drawable/backgroundfix"
+    >
+
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        >
+
+        <TextView
+            android:id="@+id/MapBtn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_marginTop="250dp"
+            android:text="Maps"
+            android:textColor="#000"
+            android:textSize="65sp"
+            android:layout_centerHorizontal="true"/>
+
+        <TextView
+            android:id="@+id/CamBtn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="25sp"
+            android:layout_below="@+id/MapBtn"
+            android:textColor="@color/black"
+            android:text="Camera"
+            android:textSize="65sp"
+            android:layout_centerHorizontal="true"/>
+
+
+
+        <TextClock
+            android:id="@+id/Jamsekarang"
+            android:layout_width="wrap_content"
+            android:layout_height="150dp"
+            android:layout_marginTop="20dp"
+            android:layout_centerHorizontal="true"
+            android:format12Hour="hh:mm"
+            android:format24Hour="@null"
+            android:gravity="center"
+            android:text="16.30"
+            android:textColor="#000"
+            android:textSize="80sp" />
+
+
+    </RelativeLayout>
+
+
+</RelativeLayout>
+
+
+

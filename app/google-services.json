@@ -1,0 +1,73 @@
+{
+  "project_info": {
+    "project_number": "328129901380",
+    "firebase_url": "https://islamicduties.firebaseio.com",
+    "project_id": "islamicduties",
+    "storage_bucket": "islamicduties.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:328129901380:android:70036390d9f65b57",
+        "android_client_info": {
+          "package_name": "com.example.akmal_pc.islamic_duties"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "328129901380-hsdd14m35bqsaugakc32mkla04i6r7ed.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCZ_7HspQCZlzaQotlykJYuX1iQOc2gxEY"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:328129901380:android:d0f8f62c29fa025d",
+        "android_client_info": {
+          "package_name": "com.example.akmal_pc.jhotel_android_akmal"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "328129901380-hsdd14m35bqsaugakc32mkla04i6r7ed.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCZ_7HspQCZlzaQotlykJYuX1iQOc2gxEY"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

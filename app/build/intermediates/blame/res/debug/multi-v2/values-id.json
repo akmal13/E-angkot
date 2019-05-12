@@ -1,0 +1,26 @@
+{
+    "logs": [
+        {
+            "outputFile": "E:\\Backup\\Documents\\GitHub\\E-Angkot\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-id\\values-id.xml",
+            "map": [
+                {
+                    "source": "C:\\Users\\Akmal\\.gradle\\caches\\transforms-1\\files-1.1\\capture-activity-2.3.0-1.2.aar\\81c1bd6b746bbb6b083d182a62c68e74\\res\\values-id\\values.xml",
+                    "from": {
+                        "startLines": "6,7,8",
+                        "startColumns": "4,4,4",
+                        "startOffsets": "204,246,386",
+                        "endColumns": "40,138,102",
+                        "endOffsets": "240,380,484"
+                    },
+                    "to": {
+                        "startLines": "2,3,4",
+                        "startColumns": "4,4,4",
+                        "startOffsets": "55,96,235",
+                        "endColumns": "40,138,102",
+                        "endOffsets": "91,230,333"
+                    }
+                }
+            ]
+        }
+    ]
+}
