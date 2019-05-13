@@ -1,0 +1,12 @@
+<component name="libraryTable">
+  <library name="Gradle: info.vividcode.android.zxing:capture-activity:2.3.0-1.2@aar">
+    <CLASSES>
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/db065a7af6503f34e53e1533cc76db24/res" />
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/db065a7af6503f34e53e1533cc76db24/jars/classes.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/info.vividcode.android.zxing/capture-activity/2.3.0-1.2/ce8525388318700f83e2e0621f80dd56857c933d/capture-activity-2.3.0-1.2-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

@@ -5,7 +5,7 @@
  * should not be modified by hand.
  */
 
-package com.example.akmal_pc.Eangkot;
+package com.example.akmal_pc.eangkot;
 
 public final class R {
   public static final class anim {

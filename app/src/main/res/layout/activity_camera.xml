@@ -7,7 +7,7 @@
     android:paddingLeft="16dp"
     android:paddingRight="16dp"
     android:paddingTop="16dp"
-    tools:context="com.example.akmal_pc.Eangkot.CameraActivity">
+    tools:context="com.example.akmal_pc.eangkot.CameraActivity">
 
     <TextView
         android:layout_width="wrap_content"

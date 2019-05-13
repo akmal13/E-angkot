@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="com.example.akmal_pc.Eangkot">
+    package="com.example.akmal_pc.eangkot">
 
     <uses-permission android:name="android.permission.INTERNET" />
     <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION"/>
@@ -10,6 +10,7 @@
     <uses-permission android:name="android.permission.READ_PHONE_STATE"/>
 
     <application
+
         android:allowBackup="true"
         android:icon="@drawable/icon"
         android:label="@string/app_name"
@@ -25,21 +26,18 @@
         <meta-data
             android:name="com.google.android.gms.version"
             android:value="@integer/google_play_services_version" />
-
-        <activity android:name="com.example.akmal_pc.Eangkot.SplashScreen">
+        <activity android:name="com.example.akmal_pc.eangkot.SplashScreen">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
-
+                <action android:name="android.intent.action.VIEW" />
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
-
         </activity>
-        <activity android:name="com.example.akmal_pc.Eangkot.RegisterActivity" />
-        <activity android:name="com.example.akmal_pc.Eangkot.MainActivity" />
-        <activity android:name="com.example.akmal_pc.Eangkot.LoginActivity" />
-        <activity android:name="com.example.akmal_pc.Eangkot.MapActivity" />
-        <activity android:name="com.example.akmal_pc.Eangkot.CameraActivity" />
-
+        <activity android:name="com.example.akmal_pc.eangkot.RegisterActivity" />
+        <activity android:name="com.example.akmal_pc.eangkot.MainActivity" />
+        <activity android:name="com.example.akmal_pc.eangkot.LoginActivity"/>
+        <activity android:name="com.example.akmal_pc.eangkot.MapActivity" />
+        <activity android:name="com.example.akmal_pc.eangkot.CameraActivity" />
     </application>
 
 

@@ -1,7 +1,7 @@
 #Internal package file, do not edit.
-#Sun May 12 23:20:37 ICT 2019
+#Mon May 13 12:28:22 ICT 2019
 0.baseType=DIRECTORY
-0.base=E\:\\Backup\\Documents\\GitHub\\E-Angkot\\app\\build\\intermediates\\transforms\\dexMerger\\debug\\0
+0.base=C\:\\Users\\Akmal\\Documents\\E-angkot\\app\\build\\intermediates\\dex\\debug\\mergeDexDebug\\out
 0.path=classes.dex
 0.set=DEX
 count=1

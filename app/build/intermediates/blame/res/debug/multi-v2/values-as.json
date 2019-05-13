@@ -1,10 +1,10 @@
 {
     "logs": [
         {
-            "outputFile": "E:\\Backup\\Documents\\GitHub\\E-Angkot\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-as\\values-as.xml",
+            "outputFile": "C:\\Users\\Akmal\\Documents\\E-angkot\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-as\\values-as.xml",
             "map": [
                 {
-                    "source": "C:\\Users\\Akmal\\.gradle\\caches\\transforms-1\\files-1.1\\play-services-basement-16.2.0.aar\\b88cfe81f61fa034f6ae828c54abed98\\res\\values-as\\values.xml",
+                    "source": "C:\\Users\\Akmal\\.gradle\\caches\\transforms-2\\files-2.1\\9f4c412f55019a7d5a0471bb72f9b19a\\res\\values-as\\values.xml",
                     "from": {
                         "startLines": "4",
                         "startColumns": "0",
@@ -21,7 +21,7 @@
                     }
                 },
                 {
-                    "source": "C:\\Users\\Akmal\\.gradle\\caches\\transforms-1\\files-1.1\\play-services-base-16.0.1.aar\\de1928df53a8b41c4ff6ee79b98161b2\\res\\values-as\\values.xml",
+                    "source": "C:\\Users\\Akmal\\.gradle\\caches\\transforms-2\\files-2.1\\12af08969c5099e9b5422f0986ebd321\\res\\values-as\\values.xml",
                     "from": {
                         "startLines": "4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20",
                         "startColumns": "0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0",
