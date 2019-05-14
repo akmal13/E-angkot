@@ -4,17 +4,7 @@
             "outputFile": "C:\\Users\\Akmal\\Documents\\E-angkot\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-v16\\values-v16.xml",
             "map": [
                 {
-                    "source": "C:\\Users\\Akmal\\.gradle\\caches\\transforms-2\\files-2.1\\9372fd40551be60882e938298b53e3e0\\res\\values-v16\\values-v16.xml",
-                    "from": {
-                        "startLines": "2",
-                        "startColumns": "4",
-                        "startOffsets": "55",
-                        "endColumns": "65",
-                        "endOffsets": "116"
-                    }
-                },
-                {
-                    "source": "C:\\Users\\Akmal\\.gradle\\caches\\transforms-2\\files-2.1\\3abe5709eea26fa166b4ff7a208abea0\\res\\values-v16\\values-v16.xml",
+                    "source": "C:\\Users\\Akmal\\.gradle\\caches\\transforms-2\\files-2.1\\d5b0ded86a4f18da11babb2ed8584fc2\\res\\values-v16\\values-v16.xml",
                     "from": {
                         "startLines": "2",
                         "startColumns": "4",
@@ -30,6 +20,16 @@
                         "endLines": "6",
                         "endColumns": "12",
                         "endOffsets": "289"
+                    }
+                },
+                {
+                    "source": "C:\\Users\\Akmal\\.gradle\\caches\\transforms-2\\files-2.1\\0d024300dbf4283b455335f8b7e665d0\\res\\values-v16\\values-v16.xml",
+                    "from": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endColumns": "65",
+                        "endOffsets": "116"
                     }
                 }
             ]

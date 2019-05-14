@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:background="@drawable/backgroundfix">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Nama Driver : "
+        android:textColor="@color/black"
+        android:textSize="20sp"
+        android:layout_marginTop="280dp"
+        android:layout_marginStart="80dp"
+        android:id="@+id/Nadriver"
+
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_toRightOf="@+id/Nadriver"
+        android:textColor="@color/black"
+        android:textSize="20sp"
+        android:layout_marginLeft="30dp"
+        android:layout_alignTop="@+id/Nadriver"
+        android:id="@+id/inputnamadriver"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Nomor Angkot : "
+        android:textColor="@color/black"
+        android:textSize="20sp"
+        android:layout_marginTop="330dp"
+        android:layout_marginStart="80dp"
+        android:id="@+id/Noangkot"
+
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_toRightOf="@+id/Nadriver"
+        android:textColor="@color/black"
+        android:textSize="20sp"
+        android:layout_marginLeft="30dp"
+        android:layout_alignTop="@+id/Noangkot"
+        android:id="@+id/inputnodriver"
+        />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Konfirmasi Ride Selesai"
+        android:layout_marginTop="110dp"
+        android:textSize="25sp"
+        android:layout_below="@id/Noangkot"
+        android:layout_centerHorizontal="true"
+        android:id="@+id/Buttonkonfirmasi"/>
+
+
+</RelativeLayout>
+
+
+

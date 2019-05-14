@@ -2,9 +2,8 @@
 <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="wrap_content"
     android:layout_height="wrap_content"
-    android:background="@drawable/backgroundfix"
-    >
-
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:background="@drawable/backgroundfix">
 
 
     <RelativeLayout
@@ -18,7 +17,7 @@
             android:layout_height="wrap_content"
             android:layout_alignParentTop="true"
             android:layout_marginTop="250dp"
-            android:text="Maps"
+            android:text="Locator"
             android:textColor="#000"
             android:textSize="65sp"
             android:layout_centerHorizontal="true"/>
@@ -30,7 +29,7 @@
             android:layout_marginTop="25sp"
             android:layout_below="@+id/MapBtn"
             android:textColor="@color/black"
-            android:text="Camera"
+            android:text="Ride"
             android:textSize="65sp"
             android:layout_centerHorizontal="true"/>
 
@@ -51,6 +50,7 @@
 
 
     </RelativeLayout>
+
 
 
 </RelativeLayout>

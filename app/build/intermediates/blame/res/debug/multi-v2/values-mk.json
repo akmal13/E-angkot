@@ -4,7 +4,24 @@
             "outputFile": "C:\\Users\\Akmal\\Documents\\E-angkot\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-mk\\values-mk.xml",
             "map": [
                 {
-                    "source": "C:\\Users\\Akmal\\.gradle\\caches\\transforms-2\\files-2.1\\3abe5709eea26fa166b4ff7a208abea0\\res\\values-mk\\values-mk.xml",
+                    "source": "C:\\Users\\Akmal\\.gradle\\caches\\transforms-2\\files-2.1\\672d2caf12d308b7f62a3f7c2f9c237b\\res\\values-mk\\values.xml",
+                    "from": {
+                        "startLines": "4",
+                        "startColumns": "0",
+                        "startOffsets": "247",
+                        "endColumns": "195",
+                        "endOffsets": "442"
+                    },
+                    "to": {
+                        "startLines": "27",
+                        "startColumns": "4",
+                        "startOffsets": "3021",
+                        "endColumns": "195",
+                        "endOffsets": "3212"
+                    }
+                },
+                {
+                    "source": "C:\\Users\\Akmal\\.gradle\\caches\\transforms-2\\files-2.1\\d5b0ded86a4f18da11babb2ed8584fc2\\res\\values-mk\\values-mk.xml",
                     "from": {
                         "startLines": "2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20",
                         "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4",
@@ -21,7 +38,7 @@
                     }
                 },
                 {
-                    "source": "C:\\Users\\Akmal\\.gradle\\caches\\transforms-2\\files-2.1\\12af08969c5099e9b5422f0986ebd321\\res\\values-mk\\values.xml",
+                    "source": "C:\\Users\\Akmal\\.gradle\\caches\\transforms-2\\files-2.1\\af4f3c52f3dd0387ca5611685f160f5d\\res\\values-mk\\values.xml",
                     "from": {
                         "startLines": "4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20",
                         "startColumns": "0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0",
@@ -35,23 +52,6 @@
                         "startOffsets": "1844,1953,2146,2281,2393,2597,2732,2882,3217,3433,3542,3739,3874,4086,4275,4374,4468",
                         "endColumns": "108,192,134,111,203,134,149,138,215,108,196,134,211,188,98,93,107",
                         "endOffsets": "1948,2141,2276,2388,2592,2727,2877,3016,3428,3537,3734,3869,4081,4270,4369,4463,4571"
-                    }
-                },
-                {
-                    "source": "C:\\Users\\Akmal\\.gradle\\caches\\transforms-2\\files-2.1\\9f4c412f55019a7d5a0471bb72f9b19a\\res\\values-mk\\values.xml",
-                    "from": {
-                        "startLines": "4",
-                        "startColumns": "0",
-                        "startOffsets": "247",
-                        "endColumns": "195",
-                        "endOffsets": "442"
-                    },
-                    "to": {
-                        "startLines": "27",
-                        "startColumns": "4",
-                        "startOffsets": "3021",
-                        "endColumns": "195",
-                        "endOffsets": "3212"
                     }
                 }
             ]

@@ -14,16 +14,16 @@ public final class R {
 
         public static final int autoFocusButtonColor = 0x7f02002d;
         public static final int autoFocusButtonVisible = 0x7f02002e;
-        public static final int flashButtonColor = 0x7f020083;
-        public static final int flashButtonVisible = 0x7f020084;
-        public static final int frameAspectRatioHeight = 0x7f02008f;
-        public static final int frameAspectRatioWidth = 0x7f020090;
-        public static final int frameColor = 0x7f020091;
-        public static final int frameCornersRadius = 0x7f020092;
-        public static final int frameCornersSize = 0x7f020093;
-        public static final int frameSize = 0x7f020094;
-        public static final int frameThickness = 0x7f020095;
-        public static final int maskColor = 0x7f0200ed;
+        public static final int flashButtonColor = 0x7f02008e;
+        public static final int flashButtonVisible = 0x7f02008f;
+        public static final int frameAspectRatioHeight = 0x7f02009a;
+        public static final int frameAspectRatioWidth = 0x7f02009b;
+        public static final int frameColor = 0x7f02009c;
+        public static final int frameCornersRadius = 0x7f02009d;
+        public static final int frameCornersSize = 0x7f02009e;
+        public static final int frameSize = 0x7f02009f;
+        public static final int frameThickness = 0x7f0200a0;
+        public static final int maskColor = 0x7f0200f8;
     }
     public static final class drawable {
         private drawable() {}
@@ -36,7 +36,7 @@ public final class R {
     public static final class styleable {
         private styleable() {}
 
-        public static final int[] CodeScannerView = { 0x7f02002d, 0x7f02002e, 0x7f020083, 0x7f020084, 0x7f02008f, 0x7f020090, 0x7f020091, 0x7f020092, 0x7f020093, 0x7f020094, 0x7f020095, 0x7f0200ed };
+        public static final int[] CodeScannerView = { 0x7f02002d, 0x7f02002e, 0x7f02008e, 0x7f02008f, 0x7f02009a, 0x7f02009b, 0x7f02009c, 0x7f02009d, 0x7f02009e, 0x7f02009f, 0x7f0200a0, 0x7f0200f8 };
         public static final int CodeScannerView_autoFocusButtonColor = 0;
         public static final int CodeScannerView_autoFocusButtonVisible = 1;
         public static final int CodeScannerView_flashButtonColor = 2;

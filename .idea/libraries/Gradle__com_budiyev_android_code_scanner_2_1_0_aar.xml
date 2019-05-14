@@ -1,11 +1,11 @@
 <component name="libraryTable">
   <library name="Gradle: com.budiyev.android:code-scanner:2.1.0@aar">
     <ANNOTATIONS>
-      <root url="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/b23d0d2957cbe3faaad8f5d357dc0a9e/annotations.zip!/" />
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/cb828a23199fced755ec02f4b0085b3f/annotations.zip!/" />
     </ANNOTATIONS>
     <CLASSES>
-      <root url="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/b23d0d2957cbe3faaad8f5d357dc0a9e/jars/classes.jar!/" />
-      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/b23d0d2957cbe3faaad8f5d357dc0a9e/res" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/cb828a23199fced755ec02f4b0085b3f/res" />
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/cb828a23199fced755ec02f4b0085b3f/jars/classes.jar!/" />
     </CLASSES>
     <JAVADOC />
     <SOURCES>

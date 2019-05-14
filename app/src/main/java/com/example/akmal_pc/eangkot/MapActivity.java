@@ -146,6 +146,12 @@ public class MapActivity extends AppCompatActivity implements OnMapReadyCallback
                                 moveCamera(new LatLng(currentLocation.getLatitude(), currentLocation.getLongitude()),
                                         DEFAULT_ZOOM,
                                         "My Location");
+                                LatLng ln1 = new LatLng(-6.3624,106.824);
+                                MarkerOptions lat1 = new MarkerOptions().position(ln1).title("Jamil , B-30");
+                                mMap.addMarker(lat1);
+                                LatLng ln2 = new LatLng(-6.3627,106.825);
+                                MarkerOptions lat2 = new MarkerOptions().position(ln2).title("Teja , B-24");
+                                mMap.addMarker(lat2);
                             }catch (NullPointerException e){Log.e("Lat","LATLONG tidak dapat");}
 
 
@@ -172,6 +178,8 @@ public class MapActivity extends AppCompatActivity implements OnMapReadyCallback
                     .title(title);
             mMap.addMarker(options);
         }
+
+
 
         hideSoftKeyboard();
     }

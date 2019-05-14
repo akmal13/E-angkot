@@ -4,24 +4,7 @@
             "outputFile": "C:\\Users\\Akmal\\Documents\\E-angkot\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-lo\\values-lo.xml",
             "map": [
                 {
-                    "source": "C:\\Users\\Akmal\\.gradle\\caches\\transforms-2\\files-2.1\\9f4c412f55019a7d5a0471bb72f9b19a\\res\\values-lo\\values.xml",
-                    "from": {
-                        "startLines": "4",
-                        "startColumns": "0",
-                        "startOffsets": "247",
-                        "endColumns": "190",
-                        "endOffsets": "437"
-                    },
-                    "to": {
-                        "startLines": "29",
-                        "startColumns": "4",
-                        "startOffsets": "3186",
-                        "endColumns": "190",
-                        "endOffsets": "3372"
-                    }
-                },
-                {
-                    "source": "C:\\Users\\Akmal\\.gradle\\caches\\transforms-2\\files-2.1\\12af08969c5099e9b5422f0986ebd321\\res\\values-lo\\values.xml",
+                    "source": "C:\\Users\\Akmal\\.gradle\\caches\\transforms-2\\files-2.1\\af4f3c52f3dd0387ca5611685f160f5d\\res\\values-lo\\values.xml",
                     "from": {
                         "startLines": "4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20",
                         "startColumns": "0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0",
@@ -38,7 +21,24 @@
                     }
                 },
                 {
-                    "source": "C:\\Users\\Akmal\\.gradle\\caches\\transforms-2\\files-2.1\\3abe5709eea26fa166b4ff7a208abea0\\res\\values-lo\\values-lo.xml",
+                    "source": "C:\\Users\\Akmal\\.gradle\\caches\\transforms-2\\files-2.1\\672d2caf12d308b7f62a3f7c2f9c237b\\res\\values-lo\\values.xml",
+                    "from": {
+                        "startLines": "4",
+                        "startColumns": "0",
+                        "startOffsets": "247",
+                        "endColumns": "190",
+                        "endOffsets": "437"
+                    },
+                    "to": {
+                        "startLines": "29",
+                        "startColumns": "4",
+                        "startOffsets": "3186",
+                        "endColumns": "190",
+                        "endOffsets": "3372"
+                    }
+                },
+                {
+                    "source": "C:\\Users\\Akmal\\.gradle\\caches\\transforms-2\\files-2.1\\d5b0ded86a4f18da11babb2ed8584fc2\\res\\values-lo\\values-lo.xml",
                     "from": {
                         "startLines": "2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22",
                         "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4",

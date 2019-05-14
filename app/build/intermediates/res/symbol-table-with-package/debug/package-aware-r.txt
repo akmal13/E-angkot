@@ -1,4 +1,4 @@
-com.example.akmal_pc.jhotel_android_akmal
+com.example.tim3a.eangkotUser
 anim abc_fade_in
 anim abc_fade_out
 anim abc_grow_fade_in_from_bottom
@@ -91,6 +91,12 @@ attr cameraTargetLat
 attr cameraTargetLng
 attr cameraTilt
 attr cameraZoom
+attr cardBackgroundColor
+attr cardCornerRadius
+attr cardElevation
+attr cardMaxElevation
+attr cardPreventCornerOverlap
+attr cardUseCompatPadding
 attr chainUseRtl
 attr checkboxStyle
 attr checkedTextViewStyle
@@ -122,6 +128,11 @@ attr contentInsetLeft
 attr contentInsetRight
 attr contentInsetStart
 attr contentInsetStartWithNavigation
+attr contentPadding
+attr contentPaddingBottom
+attr contentPaddingLeft
+attr contentPaddingRight
+attr contentPaddingTop
 attr controlBackground
 attr customNavigationLayout
 attr defaultQueryHint
@@ -413,6 +424,10 @@ color bright_foreground_material_dark
 color bright_foreground_material_light
 color button_material_dark
 color button_material_light
+color cardview_dark_background
+color cardview_light_background
+color cardview_shadow_end_color
+color cardview_shadow_start_color
 color colorAccent
 color colorPrimary
 color colorPrimaryDark
@@ -556,6 +571,9 @@ dimen abc_text_size_subhead_material
 dimen abc_text_size_subtitle_material_toolbar
 dimen abc_text_size_title_material
 dimen abc_text_size_title_material_toolbar
+dimen cardview_compat_inset_shadow
+dimen cardview_default_elevation
+dimen cardview_default_radius
 dimen compat_button_inset_horizontal_material
 dimen compat_button_inset_vertical_material
 dimen compat_button_padding_horizontal_material
@@ -709,6 +727,7 @@ drawable ic_magnify
 drawable icon
 drawable iconbundar
 drawable loginpage
+drawable mapicon
 drawable notification_action_background
 drawable notification_bg
 drawable notification_bg_low
@@ -727,12 +746,16 @@ drawable tooltip_frame_dark
 drawable tooltip_frame_light
 drawable white_border
 id ALT
+id Buttonkemenu
+id Buttonkonfirmasi
 id CTRL
 id CamBtn
 id FUNCTION
 id Jamsekarang
 id META
 id MapBtn
+id Nadriver
+id Noangkot
 id SHIFT
 id SYM
 id action0
@@ -762,6 +785,7 @@ id alertTitle
 id always
 id async
 id auto
+id banyakmeter
 id barrier
 id beginning
 id blocking
@@ -803,6 +827,8 @@ id icon_only
 id ifRoom
 id image
 id info
+id inputnamadriver
+id inputnodriver
 id invisible
 id italic
 id left
@@ -819,6 +845,7 @@ id middle
 id multiply
 id nameInput
 id never
+id nilaibayar
 id none
 id normal
 id notification_background
@@ -886,6 +913,8 @@ id titleDividerNoCustom
 id title_template
 id top
 id topPanel
+id tulisanjarak
+id tulisantarif
 id uniform
 id up
 id useLogo
@@ -951,6 +980,8 @@ layout notification_template_media
 layout notification_template_media_custom
 layout notification_template_part_chronometer
 layout notification_template_part_time
+layout payment_info
+layout ride_info
 layout select_dialog_item_material
 layout select_dialog_multichoice_material
 layout select_dialog_singlechoice_material
@@ -1062,6 +1093,7 @@ style Base_AlertDialog_AppCompat_Light
 style Base_Animation_AppCompat_Dialog
 style Base_Animation_AppCompat_DropDownUp
 style Base_Animation_AppCompat_Tooltip
+style Base_CardView
 style Base_DialogWindowTitle_AppCompat
 style Base_DialogWindowTitleBackground_AppCompat
 style Base_TextAppearance_AppCompat
@@ -1215,6 +1247,9 @@ style Base_Widget_AppCompat_Spinner_Underlined
 style Base_Widget_AppCompat_TextView_SpinnerItem
 style Base_Widget_AppCompat_Toolbar
 style Base_Widget_AppCompat_Toolbar_Button_Navigation
+style CardView
+style CardView_Dark
+style CardView_Light
 style FullscreenActionBarStyle
 style FullscreenTheme
 style Platform_AppCompat
@@ -1434,6 +1469,7 @@ styleable AppCompatTheme android_windowIsFloating android_windowAnimationStyle a
 styleable BarcodeScannerView shouldScaleToFill
 styleable ButtonBarContainerTheme metaButtonBarButtonStyle metaButtonBarStyle
 styleable ButtonBarLayout allowStacking
+styleable CardView android_minWidth android_minHeight cardBackgroundColor cardCornerRadius cardElevation cardMaxElevation cardPreventCornerOverlap cardUseCompatPadding contentPadding contentPaddingBottom contentPaddingLeft contentPaddingRight contentPaddingTop
 styleable CodeScannerView autoFocusButtonColor autoFocusButtonVisible flashButtonColor flashButtonVisible frameAspectRatioHeight frameAspectRatioWidth frameColor frameCornersRadius frameCornersSize frameSize frameThickness maskColor
 styleable ColorStateListItem android_color android_alpha alpha
 styleable CompoundButton android_button buttonTint buttonTintMode

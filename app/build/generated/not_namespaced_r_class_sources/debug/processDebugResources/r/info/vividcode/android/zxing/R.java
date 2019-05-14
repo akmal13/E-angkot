@@ -12,25 +12,25 @@ public final class R {
     public static final class color {
         private color() {}
 
-        public static final int possible_result_points = 0x7f04004f;
-        public static final int result_points = 0x7f040058;
-        public static final int result_view = 0x7f040059;
-        public static final int status_text = 0x7f040060;
-        public static final int transparent = 0x7f040069;
-        public static final int viewfinder_laser = 0x7f04006b;
-        public static final int viewfinder_mask = 0x7f04006c;
+        public static final int possible_result_points = 0x7f040053;
+        public static final int result_points = 0x7f04005c;
+        public static final int result_view = 0x7f04005d;
+        public static final int status_text = 0x7f040064;
+        public static final int transparent = 0x7f04006d;
+        public static final int viewfinder_laser = 0x7f04006f;
+        public static final int viewfinder_mask = 0x7f040070;
     }
     public static final class id {
         private id() {}
 
-        public static final int decode = 0x7f070032;
-        public static final int decode_failed = 0x7f070033;
-        public static final int decode_succeeded = 0x7f070034;
-        public static final int preview_view = 0x7f070067;
-        public static final int quit = 0x7f07006a;
-        public static final int return_scan_result = 0x7f07006e;
-        public static final int status_view = 0x7f070090;
-        public static final int viewfinder_view = 0x7f0700a3;
+        public static final int decode = 0x7f070037;
+        public static final int decode_failed = 0x7f070038;
+        public static final int decode_succeeded = 0x7f070039;
+        public static final int preview_view = 0x7f07006f;
+        public static final int quit = 0x7f070072;
+        public static final int return_scan_result = 0x7f070076;
+        public static final int status_view = 0x7f070098;
+        public static final int viewfinder_view = 0x7f0700ad;
     }
     public static final class layout {
         private layout() {}
@@ -47,6 +47,6 @@ public final class R {
     public static final class style {
         private style() {}
 
-        public static final int Theme_ZXingCaptureActivity = 0x7f0c011e;
+        public static final int Theme_ZXingCaptureActivity = 0x7f0c0122;
     }
 }

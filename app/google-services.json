@@ -1,70 +1,82 @@
 {
   "project_info": {
-    "project_number": "328129901380",
-    "firebase_url": "https://islamicduties.firebaseio.com",
-    "project_id": "islamicduties",
-    "storage_bucket": "islamicduties.appspot.com"
+    "project_number": "610853553370",
+    "firebase_url": "https://e-angkot-com.firebaseio.com",
+    "project_id": "e-angkot-com",
+    "storage_bucket": "e-angkot-com.appspot.com"
   },
   "client": [
     {
       "client_info": {
-        "mobilesdk_app_id": "1:328129901380:android:70036390d9f65b57",
+        "mobilesdk_app_id": "1:610853553370:android:a2e51d4d6ff446fa",
         "android_client_info": {
-          "package_name": "com.example.akmal_pc.islamic_duties"
+          "package_name": "com.example.tim3a.eangkotUser"
         }
       },
       "oauth_client": [
         {
-          "client_id": "328129901380-hsdd14m35bqsaugakc32mkla04i6r7ed.apps.googleusercontent.com",
+          "client_id": "610853553370-r1aekak13bmrusmmt6e6ff9hohnr843o.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.tim3a.eangkotUser",
+            "certificate_hash": "96024b0c8b2a220e8c5b452bcbad633f0b78daf7"
+          }
+        },
+        {
+          "client_id": "610853553370-a097r3ck6tqcnj6pk1rio3n0hb74dt1u.apps.googleusercontent.com",
           "client_type": 3
         }
       ],
       "api_key": [
         {
-          "current_key": "AIzaSyCZ_7HspQCZlzaQotlykJYuX1iQOc2gxEY"
+          "current_key": "AIzaSyDB7k8oSfdGKrNYB0XxaSTPi1uhhWHlgC0"
         }
       ],
       "services": {
-        "analytics_service": {
-          "status": 1
-        },
         "appinvite_service": {
-          "status": 1,
-          "other_platform_oauth_client": []
-        },
-        "ads_service": {
-          "status": 2
+          "other_platform_oauth_client": [
+            {
+              "client_id": "610853553370-a097r3ck6tqcnj6pk1rio3n0hb74dt1u.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
         }
       }
     },
     {
       "client_info": {
-        "mobilesdk_app_id": "1:328129901380:android:d0f8f62c29fa025d",
+        "mobilesdk_app_id": "1:610853553370:android:d802c42687f854d7",
         "android_client_info": {
-          "package_name": "com.example.akmal_pc.jhotel_android_akmal"
+          "package_name": "com.tim3a.eangkotdriver"
         }
       },
       "oauth_client": [
         {
-          "client_id": "328129901380-hsdd14m35bqsaugakc32mkla04i6r7ed.apps.googleusercontent.com",
+          "client_id": "610853553370-oh5tit6g7n7t6of8g2jtdtjimr5vk0os.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.tim3a.eangkotdriver",
+            "certificate_hash": "ac135c3dca684cff6ce4283fce9f0c4ba2cd4c39"
+          }
+        },
+        {
+          "client_id": "610853553370-a097r3ck6tqcnj6pk1rio3n0hb74dt1u.apps.googleusercontent.com",
           "client_type": 3
         }
       ],
       "api_key": [
         {
-          "current_key": "AIzaSyCZ_7HspQCZlzaQotlykJYuX1iQOc2gxEY"
+          "current_key": "AIzaSyDB7k8oSfdGKrNYB0XxaSTPi1uhhWHlgC0"
         }
       ],
       "services": {
-        "analytics_service": {
-          "status": 1
-        },
         "appinvite_service": {
-          "status": 1,
-          "other_platform_oauth_client": []
-        },
-        "ads_service": {
-          "status": 2
+          "other_platform_oauth_client": [
+            {
+              "client_id": "610853553370-a097r3ck6tqcnj6pk1rio3n0hb74dt1u.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
         }
       }
     }

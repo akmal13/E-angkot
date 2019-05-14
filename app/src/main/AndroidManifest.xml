@@ -9,6 +9,7 @@
     <uses-permission android:name="android.permission.CAMERA"/>
     <uses-permission android:name="android.permission.READ_PHONE_STATE"/>
 
+
     <application
 
         android:allowBackup="true"
@@ -38,6 +39,8 @@
         <activity android:name="com.example.akmal_pc.eangkot.LoginActivity"/>
         <activity android:name="com.example.akmal_pc.eangkot.MapActivity" />
         <activity android:name="com.example.akmal_pc.eangkot.CameraActivity" />
+        <activity android:name="com.example.akmal_pc.eangkot.RideInfo" />
+        <activity android:name="com.example.akmal_pc.eangkot.PaymentInfo" />
     </application>
 
 

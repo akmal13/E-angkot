@@ -2,16 +2,14 @@ package com.example.akmal_pc.eangkot;
 
 public class Location {
     public double latit,longit;
-    public String email;
 
 
     public Location() {
     }
 
-    public Location(double latit,double longit, String email) {
+    public Location(double latit,double longit) {
         this.latit = latit;
         this.longit = longit;
-        this.email = email;
 
     }
 

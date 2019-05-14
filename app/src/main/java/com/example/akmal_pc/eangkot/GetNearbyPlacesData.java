@@ -12,9 +12,6 @@ import com.google.android.gms.maps.model.MarkerOptions;
 import java.util.HashMap;
 import java.util.List;
 
-/**
- * Created by navneet on 23/7/16.
- */
 public class GetNearbyPlacesData extends AsyncTask<Object, String, String> {
 
     String googlePlacesData;

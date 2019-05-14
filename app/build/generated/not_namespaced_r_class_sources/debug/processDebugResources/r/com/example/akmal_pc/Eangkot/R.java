@@ -621,97 +621,137 @@ public final class R {
      */
     public static final int cameraZoom=0x7f02004f;
     /**
+     * <p>May be a color value, in the form of "<code>#<i>rgb</i></code>",
+     * "<code>#<i>argb</i></code>", "<code>#<i>rrggbb</i></code>", or
+     * "<code>#<i>aarrggbb</i></code>".
+     */
+    public static final int cardBackgroundColor=0x7f020050;
+    /**
+     * <p>May be a dimension value, which is a floating point number appended with a
+     * unit such as "<code>14.5sp</code>".
+     * Available units are: px (pixels), dp (density-independent pixels),
+     * sp (scaled pixels based on preferred font size), in (inches), and
+     * mm (millimeters).
+     */
+    public static final int cardCornerRadius=0x7f020051;
+    /**
+     * <p>May be a dimension value, which is a floating point number appended with a
+     * unit such as "<code>14.5sp</code>".
+     * Available units are: px (pixels), dp (density-independent pixels),
+     * sp (scaled pixels based on preferred font size), in (inches), and
+     * mm (millimeters).
+     */
+    public static final int cardElevation=0x7f020052;
+    /**
+     * <p>May be a dimension value, which is a floating point number appended with a
+     * unit such as "<code>14.5sp</code>".
+     * Available units are: px (pixels), dp (density-independent pixels),
+     * sp (scaled pixels based on preferred font size), in (inches), and
+     * mm (millimeters).
+     */
+    public static final int cardMaxElevation=0x7f020053;
+    /**
      * <p>May be a boolean value, such as "<code>true</code>" or
      * "<code>false</code>".
      */
-    public static final int chainUseRtl=0x7f020050;
-    /**
-     * <p>May be a reference to another resource, in the form
-     * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
-     * attribute in the form
-     * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
-     */
-    public static final int checkboxStyle=0x7f020051;
-    /**
-     * <p>May be a reference to another resource, in the form
-     * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
-     * attribute in the form
-     * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
-     */
-    public static final int checkedTextViewStyle=0x7f020052;
+    public static final int cardPreventCornerOverlap=0x7f020054;
     /**
      * <p>May be a boolean value, such as "<code>true</code>" or
      * "<code>false</code>".
      */
-    public static final int circleCrop=0x7f020053;
+    public static final int cardUseCompatPadding=0x7f020055;
+    /**
+     * <p>May be a boolean value, such as "<code>true</code>" or
+     * "<code>false</code>".
+     */
+    public static final int chainUseRtl=0x7f020056;
     /**
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      */
-    public static final int closeIcon=0x7f020054;
+    public static final int checkboxStyle=0x7f020057;
     /**
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      */
-    public static final int closeItemLayout=0x7f020055;
+    public static final int checkedTextViewStyle=0x7f020058;
+    /**
+     * <p>May be a boolean value, such as "<code>true</code>" or
+     * "<code>false</code>".
+     */
+    public static final int circleCrop=0x7f020059;
+    /**
+     * <p>May be a reference to another resource, in the form
+     * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
+     * attribute in the form
+     * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
+     */
+    public static final int closeIcon=0x7f02005a;
+    /**
+     * <p>May be a reference to another resource, in the form
+     * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
+     * attribute in the form
+     * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
+     */
+    public static final int closeItemLayout=0x7f02005b;
     /**
      * <p>May be a string value, using '\\;' to escape characters such as
      * '\\n' or '\\uxxxx' for a unicode character;
      */
-    public static final int collapseContentDescription=0x7f020056;
+    public static final int collapseContentDescription=0x7f02005c;
     /**
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      */
-    public static final int collapseIcon=0x7f020057;
+    public static final int collapseIcon=0x7f02005d;
     /**
      * <p>May be a color value, in the form of "<code>#<i>rgb</i></code>",
      * "<code>#<i>argb</i></code>", "<code>#<i>rrggbb</i></code>", or
      * "<code>#<i>aarrggbb</i></code>".
      */
-    public static final int color=0x7f020058;
+    public static final int color=0x7f02005e;
     /**
      * <p>May be a color value, in the form of "<code>#<i>rgb</i></code>",
      * "<code>#<i>argb</i></code>", "<code>#<i>rrggbb</i></code>", or
      * "<code>#<i>aarrggbb</i></code>".
      */
-    public static final int colorAccent=0x7f020059;
+    public static final int colorAccent=0x7f02005f;
     /**
      * <p>May be a color value, in the form of "<code>#<i>rgb</i></code>",
      * "<code>#<i>argb</i></code>", "<code>#<i>rrggbb</i></code>", or
      * "<code>#<i>aarrggbb</i></code>".
      */
-    public static final int colorBackgroundFloating=0x7f02005a;
+    public static final int colorBackgroundFloating=0x7f020060;
     /**
      * <p>May be a color value, in the form of "<code>#<i>rgb</i></code>",
      * "<code>#<i>argb</i></code>", "<code>#<i>rrggbb</i></code>", or
      * "<code>#<i>aarrggbb</i></code>".
      */
-    public static final int colorButtonNormal=0x7f02005b;
+    public static final int colorButtonNormal=0x7f020061;
     /**
      * <p>May be a color value, in the form of "<code>#<i>rgb</i></code>",
      * "<code>#<i>argb</i></code>", "<code>#<i>rrggbb</i></code>", or
      * "<code>#<i>aarrggbb</i></code>".
      */
-    public static final int colorControlActivated=0x7f02005c;
+    public static final int colorControlActivated=0x7f020062;
     /**
      * <p>May be a color value, in the form of "<code>#<i>rgb</i></code>",
      * "<code>#<i>argb</i></code>", "<code>#<i>rrggbb</i></code>", or
      * "<code>#<i>aarrggbb</i></code>".
      */
-    public static final int colorControlHighlight=0x7f02005d;
+    public static final int colorControlHighlight=0x7f020063;
     /**
      * <p>May be a color value, in the form of "<code>#<i>rgb</i></code>",
      * "<code>#<i>argb</i></code>", "<code>#<i>rrggbb</i></code>", or
      * "<code>#<i>aarrggbb</i></code>".
      */
-    public static final int colorControlNormal=0x7f02005e;
+    public static final int colorControlNormal=0x7f020064;
     /**
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
@@ -721,19 +761,19 @@ public final class R {
      * "<code>#<i>argb</i></code>", "<code>#<i>rrggbb</i></code>", or
      * "<code>#<i>aarrggbb</i></code>".
      */
-    public static final int colorError=0x7f02005f;
+    public static final int colorError=0x7f020065;
     /**
      * <p>May be a color value, in the form of "<code>#<i>rgb</i></code>",
      * "<code>#<i>argb</i></code>", "<code>#<i>rrggbb</i></code>", or
      * "<code>#<i>aarrggbb</i></code>".
      */
-    public static final int colorPrimary=0x7f020060;
+    public static final int colorPrimary=0x7f020066;
     /**
      * <p>May be a color value, in the form of "<code>#<i>rgb</i></code>",
      * "<code>#<i>argb</i></code>", "<code>#<i>rrggbb</i></code>", or
      * "<code>#<i>aarrggbb</i></code>".
      */
-    public static final int colorPrimaryDark=0x7f020061;
+    public static final int colorPrimaryDark=0x7f020067;
     /**
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
@@ -750,44 +790,44 @@ public final class R {
      * <tr><td>light</td><td>1</td><td></td></tr>
      * </table>
      */
-    public static final int colorScheme=0x7f020062;
+    public static final int colorScheme=0x7f020068;
     /**
      * <p>May be a color value, in the form of "<code>#<i>rgb</i></code>",
      * "<code>#<i>argb</i></code>", "<code>#<i>rrggbb</i></code>", or
      * "<code>#<i>aarrggbb</i></code>".
      */
-    public static final int colorSwitchThumbNormal=0x7f020063;
+    public static final int colorSwitchThumbNormal=0x7f020069;
     /**
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      */
-    public static final int commitIcon=0x7f020064;
+    public static final int commitIcon=0x7f02006a;
     /**
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      */
-    public static final int constraintSet=0x7f020065;
+    public static final int constraintSet=0x7f02006b;
     /**
      * <p>May be a string value, using '\\;' to escape characters such as
      * '\\n' or '\\uxxxx' for a unicode character;
      */
-    public static final int constraint_referenced_ids=0x7f020066;
+    public static final int constraint_referenced_ids=0x7f02006c;
     /**
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      */
-    public static final int content=0x7f020067;
+    public static final int content=0x7f02006d;
     /**
      * <p>May be a string value, using '\\;' to escape characters such as
      * '\\n' or '\\uxxxx' for a unicode character;
      */
-    public static final int contentDescription=0x7f020068;
+    public static final int contentDescription=0x7f02006e;
     /**
      * <p>May be a dimension value, which is a floating point number appended with a
      * unit such as "<code>14.5sp</code>".
@@ -795,7 +835,7 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      */
-    public static final int contentInsetEnd=0x7f020069;
+    public static final int contentInsetEnd=0x7f02006f;
     /**
      * <p>May be a dimension value, which is a floating point number appended with a
      * unit such as "<code>14.5sp</code>".
@@ -803,7 +843,7 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      */
-    public static final int contentInsetEndWithActions=0x7f02006a;
+    public static final int contentInsetEndWithActions=0x7f020070;
     /**
      * <p>May be a dimension value, which is a floating point number appended with a
      * unit such as "<code>14.5sp</code>".
@@ -811,7 +851,7 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      */
-    public static final int contentInsetLeft=0x7f02006b;
+    public static final int contentInsetLeft=0x7f020071;
     /**
      * <p>May be a dimension value, which is a floating point number appended with a
      * unit such as "<code>14.5sp</code>".
@@ -819,7 +859,7 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      */
-    public static final int contentInsetRight=0x7f02006c;
+    public static final int contentInsetRight=0x7f020072;
     /**
      * <p>May be a dimension value, which is a floating point number appended with a
      * unit such as "<code>14.5sp</code>".
@@ -827,7 +867,7 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      */
-    public static final int contentInsetStart=0x7f02006d;
+    public static final int contentInsetStart=0x7f020073;
     /**
      * <p>May be a dimension value, which is a floating point number appended with a
      * unit such as "<code>14.5sp</code>".
@@ -835,26 +875,66 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      */
-    public static final int contentInsetStartWithNavigation=0x7f02006e;
+    public static final int contentInsetStartWithNavigation=0x7f020074;
+    /**
+     * <p>May be a dimension value, which is a floating point number appended with a
+     * unit such as "<code>14.5sp</code>".
+     * Available units are: px (pixels), dp (density-independent pixels),
+     * sp (scaled pixels based on preferred font size), in (inches), and
+     * mm (millimeters).
+     */
+    public static final int contentPadding=0x7f020075;
+    /**
+     * <p>May be a dimension value, which is a floating point number appended with a
+     * unit such as "<code>14.5sp</code>".
+     * Available units are: px (pixels), dp (density-independent pixels),
+     * sp (scaled pixels based on preferred font size), in (inches), and
+     * mm (millimeters).
+     */
+    public static final int contentPaddingBottom=0x7f020076;
+    /**
+     * <p>May be a dimension value, which is a floating point number appended with a
+     * unit such as "<code>14.5sp</code>".
+     * Available units are: px (pixels), dp (density-independent pixels),
+     * sp (scaled pixels based on preferred font size), in (inches), and
+     * mm (millimeters).
+     */
+    public static final int contentPaddingLeft=0x7f020077;
+    /**
+     * <p>May be a dimension value, which is a floating point number appended with a
+     * unit such as "<code>14.5sp</code>".
+     * Available units are: px (pixels), dp (density-independent pixels),
+     * sp (scaled pixels based on preferred font size), in (inches), and
+     * mm (millimeters).
+     */
+    public static final int contentPaddingRight=0x7f020078;
+    /**
+     * <p>May be a dimension value, which is a floating point number appended with a
+     * unit such as "<code>14.5sp</code>".
+     * Available units are: px (pixels), dp (density-independent pixels),
+     * sp (scaled pixels based on preferred font size), in (inches), and
+     * mm (millimeters).
+     */
+    public static final int contentPaddingTop=0x7f020079;
     /**
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      */
-    public static final int controlBackground=0x7f02006f;
+    public static final int controlBackground=0x7f02007a;
     /**
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      */
-    public static final int customNavigationLayout=0x7f020070;
+    public static final int customNavigationLayout=0x7f02007b;
     /**
      * <p>May be a string value, using '\\;' to escape characters such as
      * '\\n' or '\\uxxxx' for a unicode character;
      */
-    public static final int defaultQueryHint=0x7f020071;
+    public static final int defaultQueryHint=0x7f02007c;
     /**
      * <p>May be a dimension value, which is a floating point number appended with a
      * unit such as "<code>14.5sp</code>".
@@ -862,14 +942,14 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      */
-    public static final int dialogPreferredPadding=0x7f020072;
+    public static final int dialogPreferredPadding=0x7f02007d;
     /**
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      */
-    public static final int dialogTheme=0x7f020073;
+    public static final int dialogTheme=0x7f02007e;
     /**
      * <p>Must be one or more (separated by '|') of the following constant values.</p>
      * <table>
@@ -886,21 +966,21 @@ public final class R {
      * <tr><td>useLogo</td><td>1</td><td></td></tr>
      * </table>
      */
-    public static final int displayOptions=0x7f020074;
+    public static final int displayOptions=0x7f02007f;
     /**
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      */
-    public static final int divider=0x7f020075;
+    public static final int divider=0x7f020080;
     /**
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      */
-    public static final int dividerHorizontal=0x7f020076;
+    public static final int dividerHorizontal=0x7f020081;
     /**
      * <p>May be a dimension value, which is a floating point number appended with a
      * unit such as "<code>14.5sp</code>".
@@ -908,14 +988,14 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      */
-    public static final int dividerPadding=0x7f020077;
+    public static final int dividerPadding=0x7f020082;
     /**
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      */
-    public static final int dividerVertical=0x7f020078;
+    public static final int dividerVertical=0x7f020083;
     /**
      * <p>May be a dimension value, which is a floating point number appended with a
      * unit such as "<code>14.5sp</code>".
@@ -923,21 +1003,21 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      */
-    public static final int drawableSize=0x7f020079;
+    public static final int drawableSize=0x7f020084;
     /**
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      */
-    public static final int drawerArrowStyle=0x7f02007a;
+    public static final int drawerArrowStyle=0x7f020085;
     /**
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      */
-    public static final int dropDownListViewStyle=0x7f02007b;
+    public static final int dropDownListViewStyle=0x7f020086;
     /**
      * <p>May be a dimension value, which is a floating point number appended with a
      * unit such as "<code>14.5sp</code>".
@@ -945,14 +1025,14 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      */
-    public static final int dropdownListPreferredItemHeight=0x7f02007c;
+    public static final int dropdownListPreferredItemHeight=0x7f020087;
     /**
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      */
-    public static final int editTextBackground=0x7f02007d;
+    public static final int editTextBackground=0x7f020088;
     /**
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
@@ -962,14 +1042,14 @@ public final class R {
      * "<code>#<i>argb</i></code>", "<code>#<i>rrggbb</i></code>", or
      * "<code>#<i>aarrggbb</i></code>".
      */
-    public static final int editTextColor=0x7f02007e;
+    public static final int editTextColor=0x7f020089;
     /**
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      */
-    public static final int editTextStyle=0x7f02007f;
+    public static final int editTextStyle=0x7f02008a;
     /**
      * <p>May be a dimension value, which is a floating point number appended with a
      * unit such as "<code>14.5sp</code>".
@@ -977,7 +1057,7 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      */
-    public static final int elevation=0x7f020080;
+    public static final int elevation=0x7f02008b;
     /**
      * <p>Must be one of the following constant values.</p>
      * <table>
@@ -989,49 +1069,49 @@ public final class R {
      * <tr><td>invisible</td><td>1</td><td></td></tr>
      * </table>
      */
-    public static final int emptyVisibility=0x7f020081;
+    public static final int emptyVisibility=0x7f02008c;
     /**
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      */
-    public static final int expandActivityOverflowButtonDrawable=0x7f020082;
+    public static final int expandActivityOverflowButtonDrawable=0x7f02008d;
     /**
      * <p>May be a color value, in the form of "<code>#<i>rgb</i></code>",
      * "<code>#<i>argb</i></code>", "<code>#<i>rrggbb</i></code>", or
      * "<code>#<i>aarrggbb</i></code>".
      */
-    public static final int flashButtonColor=0x7f020083;
+    public static final int flashButtonColor=0x7f02008e;
     /**
      * <p>May be a boolean value, such as "<code>true</code>" or
      * "<code>false</code>".
      */
-    public static final int flashButtonVisible=0x7f020084;
+    public static final int flashButtonVisible=0x7f02008f;
     /**
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      */
-    public static final int font=0x7f020085;
+    public static final int font=0x7f020090;
     /**
      * <p>May be a string value, using '\\;' to escape characters such as
      * '\\n' or '\\uxxxx' for a unicode character;
      */
-    public static final int fontFamily=0x7f020086;
+    public static final int fontFamily=0x7f020091;
     /**
      * <p>May be a string value, using '\\;' to escape characters such as
      * '\\n' or '\\uxxxx' for a unicode character;
      */
-    public static final int fontProviderAuthority=0x7f020087;
+    public static final int fontProviderAuthority=0x7f020092;
     /**
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      */
-    public static final int fontProviderCerts=0x7f020088;
+    public static final int fontProviderCerts=0x7f020093;
     /**
      * <p>Must be one of the following constant values.</p>
      * <table>
@@ -1043,7 +1123,7 @@ public final class R {
      * <tr><td>blocking</td><td>0</td><td></td></tr>
      * </table>
      */
-    public static final int fontProviderFetchStrategy=0x7f020089;
+    public static final int fontProviderFetchStrategy=0x7f020094;
     /**
      * <p>May be an integer value, such as "<code>100</code>".
      * <p>Must be one of the following constant values.</p>
@@ -1055,17 +1135,17 @@ public final class R {
      * <tr><td>forever</td><td>ffffffff</td><td></td></tr>
      * </table>
      */
-    public static final int fontProviderFetchTimeout=0x7f02008a;
+    public static final int fontProviderFetchTimeout=0x7f020095;
     /**
      * <p>May be a string value, using '\\;' to escape characters such as
      * '\\n' or '\\uxxxx' for a unicode character;
      */
-    public static final int fontProviderPackage=0x7f02008b;
+    public static final int fontProviderPackage=0x7f020096;
     /**
      * <p>May be a string value, using '\\;' to escape characters such as
      * '\\n' or '\\uxxxx' for a unicode character;
      */
-    public static final int fontProviderQuery=0x7f02008c;
+    public static final int fontProviderQuery=0x7f020097;
     /**
      * <p>Must be one of the following constant values.</p>
      * <table>
@@ -1077,25 +1157,25 @@ public final class R {
      * <tr><td>normal</td><td>0</td><td></td></tr>
      * </table>
      */
-    public static final int fontStyle=0x7f02008d;
+    public static final int fontStyle=0x7f020098;
     /**
      * <p>May be an integer value, such as "<code>100</code>".
      */
-    public static final int fontWeight=0x7f02008e;
+    public static final int fontWeight=0x7f020099;
     /**
      * <p>May be a floating point value, such as "<code>1.2</code>".
      */
-    public static final int frameAspectRatioHeight=0x7f02008f;
+    public static final int frameAspectRatioHeight=0x7f02009a;
     /**
      * <p>May be a floating point value, such as "<code>1.2</code>".
      */
-    public static final int frameAspectRatioWidth=0x7f020090;
+    public static final int frameAspectRatioWidth=0x7f02009b;
     /**
      * <p>May be a color value, in the form of "<code>#<i>rgb</i></code>",
      * "<code>#<i>argb</i></code>", "<code>#<i>rrggbb</i></code>", or
      * "<code>#<i>aarrggbb</i></code>".
      */
-    public static final int frameColor=0x7f020091;
+    public static final int frameColor=0x7f02009c;
     /**
      * <p>May be a dimension value, which is a floating point number appended with a
      * unit such as "<code>14.5sp</code>".
@@ -1103,7 +1183,7 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      */
-    public static final int frameCornersRadius=0x7f020092;
+    public static final int frameCornersRadius=0x7f02009d;
     /**
      * <p>May be a dimension value, which is a floating point number appended with a
      * unit such as "<code>14.5sp</code>".
@@ -1111,11 +1191,11 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      */
-    public static final int frameCornersSize=0x7f020093;
+    public static final int frameCornersSize=0x7f02009e;
     /**
      * <p>May be a floating point value, such as "<code>1.2</code>".
      */
-    public static final int frameSize=0x7f020094;
+    public static final int frameSize=0x7f02009f;
     /**
      * <p>May be a dimension value, which is a floating point number appended with a
      * unit such as "<code>14.5sp</code>".
@@ -1123,7 +1203,7 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      */
-    public static final int frameThickness=0x7f020095;
+    public static final int frameThickness=0x7f0200a0;
     /**
      * <p>May be a dimension value, which is a floating point number appended with a
      * unit such as "<code>14.5sp</code>".
@@ -1131,14 +1211,14 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      */
-    public static final int gapBetweenBars=0x7f020096;
+    public static final int gapBetweenBars=0x7f0200a1;
     /**
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      */
-    public static final int goIcon=0x7f020097;
+    public static final int goIcon=0x7f0200a2;
     /**
      * <p>May be a dimension value, which is a floating point number appended with a
      * unit such as "<code>14.5sp</code>".
@@ -1146,39 +1226,39 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      */
-    public static final int height=0x7f020098;
+    public static final int height=0x7f0200a3;
     /**
      * <p>May be a boolean value, such as "<code>true</code>" or
      * "<code>false</code>".
      */
-    public static final int hideOnContentScroll=0x7f020099;
+    public static final int hideOnContentScroll=0x7f0200a4;
     /**
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      */
-    public static final int homeAsUpIndicator=0x7f02009a;
+    public static final int homeAsUpIndicator=0x7f0200a5;
     /**
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      */
-    public static final int homeLayout=0x7f02009b;
+    public static final int homeLayout=0x7f0200a6;
     /**
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      */
-    public static final int icon=0x7f02009c;
+    public static final int icon=0x7f0200a7;
     /**
      * <p>May be a color value, in the form of "<code>#<i>rgb</i></code>",
      * "<code>#<i>argb</i></code>", "<code>#<i>rrggbb</i></code>", or
      * "<code>#<i>aarrggbb</i></code>".
      */
-    public static final int iconTint=0x7f02009d;
+    public static final int iconTint=0x7f0200a8;
     /**
      * <p>Must be one of the following constant values.</p>
      * <table>
@@ -1194,16 +1274,16 @@ public final class R {
      * <tr><td>src_over</td><td>3</td><td></td></tr>
      * </table>
      */
-    public static final int iconTintMode=0x7f02009e;
+    public static final int iconTintMode=0x7f0200a9;
     /**
      * <p>May be a boolean value, such as "<code>true</code>" or
      * "<code>false</code>".
      */
-    public static final int iconifiedByDefault=0x7f02009f;
+    public static final int iconifiedByDefault=0x7f0200aa;
     /**
      * <p>May be a floating point value, such as "<code>1.2</code>".
      */
-    public static final int imageAspectRatio=0x7f0200a0;
+    public static final int imageAspectRatio=0x7f0200ab;
     /**
      * <p>Must be one of the following constant values.</p>
      * <table>
@@ -1216,31 +1296,31 @@ public final class R {
      * <tr><td>none</td><td>0</td><td></td></tr>
      * </table>
      */
-    public static final int imageAspectRatioAdjust=0x7f0200a1;
+    public static final int imageAspectRatioAdjust=0x7f0200ac;
     /**
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      */
-    public static final int imageButtonStyle=0x7f0200a2;
+    public static final int imageButtonStyle=0x7f0200ad;
     /**
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      */
-    public static final int indeterminateProgressStyle=0x7f0200a3;
+    public static final int indeterminateProgressStyle=0x7f0200ae;
     /**
      * <p>May be a string value, using '\\;' to escape characters such as
      * '\\n' or '\\uxxxx' for a unicode character;
      */
-    public static final int initialActivityCount=0x7f0200a4;
+    public static final int initialActivityCount=0x7f0200af;
     /**
      * <p>May be a boolean value, such as "<code>true</code>" or
      * "<code>false</code>".
      */
-    public static final int isLightTheme=0x7f0200a5;
+    public static final int isLightTheme=0x7f0200b0;
     /**
      * <p>May be a dimension value, which is a floating point number appended with a
      * unit such as "<code>14.5sp</code>".
@@ -1248,44 +1328,44 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      */
-    public static final int itemPadding=0x7f0200a6;
+    public static final int itemPadding=0x7f0200b1;
     /**
      * <p>May be a floating point value, such as "<code>1.2</code>".
      */
-    public static final int latLngBoundsNorthEastLatitude=0x7f0200a7;
+    public static final int latLngBoundsNorthEastLatitude=0x7f0200b2;
     /**
      * <p>May be a floating point value, such as "<code>1.2</code>".
      */
-    public static final int latLngBoundsNorthEastLongitude=0x7f0200a8;
+    public static final int latLngBoundsNorthEastLongitude=0x7f0200b3;
     /**
      * <p>May be a floating point value, such as "<code>1.2</code>".
      */
-    public static final int latLngBoundsSouthWestLatitude=0x7f0200a9;
+    public static final int latLngBoundsSouthWestLatitude=0x7f0200b4;
     /**
      * <p>May be a floating point value, such as "<code>1.2</code>".
      */
-    public static final int latLngBoundsSouthWestLongitude=0x7f0200aa;
+    public static final int latLngBoundsSouthWestLongitude=0x7f0200b5;
     /**
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      */
-    public static final int layout=0x7f0200ab;
+    public static final int layout=0x7f0200b6;
     /**
      * <p>May be a boolean value, such as "<code>true</code>" or
      * "<code>false</code>".
      */
-    public static final int layout_constrainedHeight=0x7f0200ac;
+    public static final int layout_constrainedHeight=0x7f0200b7;
     /**
      * <p>May be a boolean value, such as "<code>true</code>" or
      * "<code>false</code>".
      */
-    public static final int layout_constrainedWidth=0x7f0200ad;
+    public static final int layout_constrainedWidth=0x7f0200b8;
     /**
      * <p>May be an integer value, such as "<code>100</code>".
      */
-    public static final int layout_constraintBaseline_creator=0x7f0200ae;
+    public static final int layout_constraintBaseline_creator=0x7f0200b9;
     /**
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
@@ -1300,11 +1380,11 @@ public final class R {
      * <tr><td>parent</td><td>0</td><td></td></tr>
      * </table>
      */
-    public static final int layout_constraintBaseline_toBaselineOf=0x7f0200af;
+    public static final int layout_constraintBaseline_toBaselineOf=0x7f0200ba;
     /**
      * <p>May be an integer value, such as "<code>100</code>".
      */
-    public static final int layout_constraintBottom_creator=0x7f0200b0;
+    public static final int layout_constraintBottom_creator=0x7f0200bb;
     /**
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
@@ -1319,7 +1399,7 @@ public final class R {
      * <tr><td>parent</td><td>0</td><td></td></tr>
      * </table>
      */
-    public static final int layout_constraintBottom_toBottomOf=0x7f0200b1;
+    public static final int layout_constraintBottom_toBottomOf=0x7f0200bc;
     /**
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
@@ -1334,18 +1414,18 @@ public final class R {
      * <tr><td>parent</td><td>0</td><td></td></tr>
      * </table>
      */
-    public static final int layout_constraintBottom_toTopOf=0x7f0200b2;
+    public static final int layout_constraintBottom_toTopOf=0x7f0200bd;
     /**
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      */
-    public static final int layout_constraintCircle=0x7f0200b3;
+    public static final int layout_constraintCircle=0x7f0200be;
     /**
      * <p>May be an integer value, such as "<code>100</code>".
      */
-    public static final int layout_constraintCircleAngle=0x7f0200b4;
+    public static final int layout_constraintCircleAngle=0x7f0200bf;
     /**
      * <p>May be a dimension value, which is a floating point number appended with a
      * unit such as "<code>14.5sp</code>".
@@ -1353,12 +1433,12 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      */
-    public static final int layout_constraintCircleRadius=0x7f0200b5;
+    public static final int layout_constraintCircleRadius=0x7f0200c0;
     /**
      * <p>May be a string value, using '\\;' to escape characters such as
      * '\\n' or '\\uxxxx' for a unicode character;
      */
-    public static final int layout_constraintDimensionRatio=0x7f0200b6;
+    public static final int layout_constraintDimensionRatio=0x7f0200c1;
     /**
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
@@ -1373,7 +1453,7 @@ public final class R {
      * <tr><td>parent</td><td>0</td><td></td></tr>
      * </table>
      */
-    public static final int layout_constraintEnd_toEndOf=0x7f0200b7;
+    public static final int layout_constraintEnd_toEndOf=0x7f0200c2;
     /**
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
@@ -1388,7 +1468,7 @@ public final class R {
      * <tr><td>parent</td><td>0</td><td></td></tr>
      * </table>
      */
-    public static final int layout_constraintEnd_toStartOf=0x7f0200b8;
+    public static final int layout_constraintEnd_toStartOf=0x7f0200c3;
     /**
      * <p>May be a dimension value, which is a floating point number appended with a
      * unit such as "<code>14.5sp</code>".
@@ -1396,7 +1476,7 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      */
-    public static final int layout_constraintGuide_begin=0x7f0200b9;
+    public static final int layout_constraintGuide_begin=0x7f0200c4;
     /**
      * <p>May be a dimension value, which is a floating point number appended with a
      * unit such as "<code>14.5sp</code>".
@@ -1404,11 +1484,11 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      */
-    public static final int layout_constraintGuide_end=0x7f0200ba;
+    public static final int layout_constraintGuide_end=0x7f0200c5;
     /**
      * <p>May be a floating point value, such as "<code>1.2</code>".
      */
-    public static final int layout_constraintGuide_percent=0x7f0200bb;
+    public static final int layout_constraintGuide_percent=0x7f0200c6;
     /**
      * <p>Must be one of the following constant values.</p>
      * <table>
@@ -1421,7 +1501,7 @@ public final class R {
      * <tr><td>wrap</td><td>1</td><td></td></tr>
      * </table>
      */
-    public static final int layout_constraintHeight_default=0x7f0200bc;
+    public static final int layout_constraintHeight_default=0x7f0200c7;
     /**
      * <p>May be a dimension value, which is a floating point number appended with a
      * unit such as "<code>14.5sp</code>".
@@ -1437,7 +1517,7 @@ public final class R {
      * <tr><td>wrap</td><td>fffffffe</td><td></td></tr>
      * </table>
      */
-    public static final int layout_constraintHeight_max=0x7f0200bd;
+    public static final int layout_constraintHeight_max=0x7f0200c8;
     /**
      * <p>May be a dimension value, which is a floating point number appended with a
      * unit such as "<code>14.5sp</code>".
@@ -1453,15 +1533,15 @@ public final class R {
      * <tr><td>wrap</td><td>fffffffe</td><td></td></tr>
      * </table>
      */
-    public static final int layout_constraintHeight_min=0x7f0200be;
+    public static final int layout_constraintHeight_min=0x7f0200c9;
     /**
      * <p>May be a floating point value, such as "<code>1.2</code>".
      */
-    public static final int layout_constraintHeight_percent=0x7f0200bf;
+    public static final int layout_constraintHeight_percent=0x7f0200ca;
     /**
      * <p>May be a floating point value, such as "<code>1.2</code>".
      */
-    public static final int layout_constraintHorizontal_bias=0x7f0200c0;
+    public static final int layout_constraintHorizontal_bias=0x7f0200cb;
     /**
      * <p>Must be one of the following constant values.</p>
      * <table>
@@ -1474,15 +1554,15 @@ public final class R {
      * <tr><td>spread_inside</td><td>1</td><td></td></tr>
      * </table>
      */
-    public static final int layout_constraintHorizontal_chainStyle=0x7f0200c1;
+    public static final int layout_constraintHorizontal_chainStyle=0x7f0200cc;
     /**
      * <p>May be a floating point value, such as "<code>1.2</code>".
      */
-    public static final int layout_constraintHorizontal_weight=0x7f0200c2;
+    public static final int layout_constraintHorizontal_weight=0x7f0200cd;
     /**
      * <p>May be an integer value, such as "<code>100</code>".
      */
-    public static final int layout_constraintLeft_creator=0x7f0200c3;
+    public static final int layout_constraintLeft_creator=0x7f0200ce;
     /**
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
@@ -1497,7 +1577,7 @@ public final class R {
      * <tr><td>parent</td><td>0</td><td></td></tr>
      * </table>
      */
-    public static final int layout_constraintLeft_toLeftOf=0x7f0200c4;
+    public static final int layout_constraintLeft_toLeftOf=0x7f0200cf;
     /**
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
@@ -1512,11 +1592,11 @@ public final class R {
      * <tr><td>parent</td><td>0</td><td></td></tr>
      * </table>
      */
-    public static final int layout_constraintLeft_toRightOf=0x7f0200c5;
+    public static final int layout_constraintLeft_toRightOf=0x7f0200d0;
     /**
      * <p>May be an integer value, such as "<code>100</code>".
      */
-    public static final int layout_constraintRight_creator=0x7f0200c6;
+    public static final int layout_constraintRight_creator=0x7f0200d1;
     /**
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
@@ -1531,7 +1611,7 @@ public final class R {
      * <tr><td>parent</td><td>0</td><td></td></tr>
      * </table>
      */
-    public static final int layout_constraintRight_toLeftOf=0x7f0200c7;
+    public static final int layout_constraintRight_toLeftOf=0x7f0200d2;
     /**
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
@@ -1546,7 +1626,7 @@ public final class R {
      * <tr><td>parent</td><td>0</td><td></td></tr>
      * </table>
      */
-    public static final int layout_constraintRight_toRightOf=0x7f0200c8;
+    public static final int layout_constraintRight_toRightOf=0x7f0200d3;
     /**
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
@@ -1561,7 +1641,7 @@ public final class R {
      * <tr><td>parent</td><td>0</td><td></td></tr>
      * </table>
      */
-    public static final int layout_constraintStart_toEndOf=0x7f0200c9;
+    public static final int layout_constraintStart_toEndOf=0x7f0200d4;
     /**
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
@@ -1576,11 +1656,11 @@ public final class R {
      * <tr><td>parent</td><td>0</td><td></td></tr>
      * </table>
      */
-    public static final int layout_constraintStart_toStartOf=0x7f0200ca;
+    public static final int layout_constraintStart_toStartOf=0x7f0200d5;
     /**
      * <p>May be an integer value, such as "<code>100</code>".
      */
-    public static final int layout_constraintTop_creator=0x7f0200cb;
+    public static final int layout_constraintTop_creator=0x7f0200d6;
     /**
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
@@ -1595,7 +1675,7 @@ public final class R {
      * <tr><td>parent</td><td>0</td><td></td></tr>
      * </table>
      */
-    public static final int layout_constraintTop_toBottomOf=0x7f0200cc;
+    public static final int layout_constraintTop_toBottomOf=0x7f0200d7;
     /**
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
@@ -1610,11 +1690,11 @@ public final class R {
      * <tr><td>parent</td><td>0</td><td></td></tr>
      * </table>
      */
-    public static final int layout_constraintTop_toTopOf=0x7f0200cd;
+    public static final int layout_constraintTop_toTopOf=0x7f0200d8;
     /**
      * <p>May be a floating point value, such as "<code>1.2</code>".
      */
-    public static final int layout_constraintVertical_bias=0x7f0200ce;
+    public static final int layout_constraintVertical_bias=0x7f0200d9;
     /**
      * <p>Must be one of the following constant values.</p>
      * <table>
@@ -1627,11 +1707,11 @@ public final class R {
      * <tr><td>spread_inside</td><td>1</td><td></td></tr>
      * </table>
      */
-    public static final int layout_constraintVertical_chainStyle=0x7f0200cf;
+    public static final int layout_constraintVertical_chainStyle=0x7f0200da;
     /**
      * <p>May be a floating point value, such as "<code>1.2</code>".
      */
-    public static final int layout_constraintVertical_weight=0x7f0200d0;
+    public static final int layout_constraintVertical_weight=0x7f0200db;
     /**
      * <p>Must be one of the following constant values.</p>
      * <table>
@@ -1644,7 +1724,7 @@ public final class R {
      * <tr><td>wrap</td><td>1</td><td></td></tr>
      * </table>
      */
-    public static final int layout_constraintWidth_default=0x7f0200d1;
+    public static final int layout_constraintWidth_default=0x7f0200dc;
     /**
      * <p>May be a dimension value, which is a floating point number appended with a
      * unit such as "<code>14.5sp</code>".
@@ -1660,7 +1740,7 @@ public final class R {
      * <tr><td>wrap</td><td>fffffffe</td><td></td></tr>
      * </table>
      */
-    public static final int layout_constraintWidth_max=0x7f0200d2;
+    public static final int layout_constraintWidth_max=0x7f0200dd;
     /**
      * <p>May be a dimension value, which is a floating point number appended with a
      * unit such as "<code>14.5sp</code>".
@@ -1676,11 +1756,11 @@ public final class R {
      * <tr><td>wrap</td><td>fffffffe</td><td></td></tr>
      * </table>
      */
-    public static final int layout_constraintWidth_min=0x7f0200d3;
+    public static final int layout_constraintWidth_min=0x7f0200de;
     /**
      * <p>May be a floating point value, such as "<code>1.2</code>".
      */
-    public static final int layout_constraintWidth_percent=0x7f0200d4;
+    public static final int layout_constraintWidth_percent=0x7f0200df;
     /**
      * <p>May be a dimension value, which is a floating point number appended with a
      * unit such as "<code>14.5sp</code>".
@@ -1688,7 +1768,7 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      */
-    public static final int layout_editor_absoluteX=0x7f0200d5;
+    public static final int layout_editor_absoluteX=0x7f0200e0;
     /**
      * <p>May be a dimension value, which is a floating point number appended with a
      * unit such as "<code>14.5sp</code>".
@@ -1696,7 +1776,7 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      */
-    public static final int layout_editor_absoluteY=0x7f0200d6;
+    public static final int layout_editor_absoluteY=0x7f0200e1;
     /**
      * <p>May be a dimension value, which is a floating point number appended with a
      * unit such as "<code>14.5sp</code>".
@@ -1704,7 +1784,7 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      */
-    public static final int layout_goneMarginBottom=0x7f0200d7;
+    public static final int layout_goneMarginBottom=0x7f0200e2;
     /**
      * <p>May be a dimension value, which is a floating point number appended with a
      * unit such as "<code>14.5sp</code>".
@@ -1712,7 +1792,7 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      */
-    public static final int layout_goneMarginEnd=0x7f0200d8;
+    public static final int layout_goneMarginEnd=0x7f0200e3;
     /**
      * <p>May be a dimension value, which is a floating point number appended with a
      * unit such as "<code>14.5sp</code>".
@@ -1720,7 +1800,7 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      */
-    public static final int layout_goneMarginLeft=0x7f0200d9;
+    public static final int layout_goneMarginLeft=0x7f0200e4;
     /**
      * <p>May be a dimension value, which is a floating point number appended with a
      * unit such as "<code>14.5sp</code>".
@@ -1728,7 +1808,7 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      */
-    public static final int layout_goneMarginRight=0x7f0200da;
+    public static final int layout_goneMarginRight=0x7f0200e5;
     /**
      * <p>May be a dimension value, which is a floating point number appended with a
      * unit such as "<code>14.5sp</code>".
@@ -1736,7 +1816,7 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      */
-    public static final int layout_goneMarginStart=0x7f0200db;
+    public static final int layout_goneMarginStart=0x7f0200e6;
     /**
      * <p>May be a dimension value, which is a floating point number appended with a
      * unit such as "<code>14.5sp</code>".
@@ -1744,7 +1824,7 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      */
-    public static final int layout_goneMarginTop=0x7f0200dc;
+    public static final int layout_goneMarginTop=0x7f0200e7;
     /**
      * <p>Must be one or more (separated by '|') of the following constant values.</p>
      * <table>
@@ -1761,49 +1841,49 @@ public final class R {
      * <tr><td>standard</td><td>7</td><td></td></tr>
      * </table>
      */
-    public static final int layout_optimizationLevel=0x7f0200dd;
+    public static final int layout_optimizationLevel=0x7f0200e8;
     /**
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      */
-    public static final int listChoiceBackgroundIndicator=0x7f0200de;
+    public static final int listChoiceBackgroundIndicator=0x7f0200e9;
     /**
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      */
-    public static final int listDividerAlertDialog=0x7f0200df;
+    public static final int listDividerAlertDialog=0x7f0200ea;
     /**
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      */
-    public static final int listItemLayout=0x7f0200e0;
+    public static final int listItemLayout=0x7f0200eb;
     /**
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      */
-    public static final int listLayout=0x7f0200e1;
+    public static final int listLayout=0x7f0200ec;
     /**
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      */
-    public static final int listMenuViewStyle=0x7f0200e2;
+    public static final int listMenuViewStyle=0x7f0200ed;
     /**
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      */
-    public static final int listPopupWindowStyle=0x7f0200e3;
+    public static final int listPopupWindowStyle=0x7f0200ee;
     /**
      * <p>May be a dimension value, which is a floating point number appended with a
      * unit such as "<code>14.5sp</code>".
@@ -1811,7 +1891,7 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      */
-    public static final int listPreferredItemHeight=0x7f0200e4;
+    public static final int listPreferredItemHeight=0x7f0200ef;
     /**
      * <p>May be a dimension value, which is a floating point number appended with a
      * unit such as "<code>14.5sp</code>".
@@ -1819,7 +1899,7 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      */
-    public static final int listPreferredItemHeightLarge=0x7f0200e5;
+    public static final int listPreferredItemHeightLarge=0x7f0200f0;
     /**
      * <p>May be a dimension value, which is a floating point number appended with a
      * unit such as "<code>14.5sp</code>".
@@ -1827,7 +1907,7 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      */
-    public static final int listPreferredItemHeightSmall=0x7f0200e6;
+    public static final int listPreferredItemHeightSmall=0x7f0200f1;
     /**
      * <p>May be a dimension value, which is a floating point number appended with a
      * unit such as "<code>14.5sp</code>".
@@ -1835,7 +1915,7 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      */
-    public static final int listPreferredItemPaddingLeft=0x7f0200e7;
+    public static final int listPreferredItemPaddingLeft=0x7f0200f2;
     /**
      * <p>May be a dimension value, which is a floating point number appended with a
      * unit such as "<code>14.5sp</code>".
@@ -1843,24 +1923,24 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      */
-    public static final int listPreferredItemPaddingRight=0x7f0200e8;
+    public static final int listPreferredItemPaddingRight=0x7f0200f3;
     /**
      * <p>May be a boolean value, such as "<code>true</code>" or
      * "<code>false</code>".
      */
-    public static final int liteMode=0x7f0200e9;
+    public static final int liteMode=0x7f0200f4;
     /**
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      */
-    public static final int logo=0x7f0200ea;
+    public static final int logo=0x7f0200f5;
     /**
      * <p>May be a string value, using '\\;' to escape characters such as
      * '\\n' or '\\uxxxx' for a unicode character;
      */
-    public static final int logoDescription=0x7f0200eb;
+    public static final int logoDescription=0x7f0200f6;
     /**
      * <p>Must be one of the following constant values.</p>
      * <table>
@@ -1875,13 +1955,13 @@ public final class R {
      * <tr><td>terrain</td><td>3</td><td></td></tr>
      * </table>
      */
-    public static final int mapType=0x7f0200ec;
+    public static final int mapType=0x7f0200f7;
     /**
      * <p>May be a color value, in the form of "<code>#<i>rgb</i></code>",
      * "<code>#<i>argb</i></code>", "<code>#<i>rrggbb</i></code>", or
      * "<code>#<i>aarrggbb</i></code>".
      */
-    public static final int maskColor=0x7f0200ed;
+    public static final int maskColor=0x7f0200f8;
     /**
      * <p>May be a dimension value, which is a floating point number appended with a
      * unit such as "<code>14.5sp</code>".
@@ -1889,45 +1969,45 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      */
-    public static final int maxButtonHeight=0x7f0200ee;
+    public static final int maxButtonHeight=0x7f0200f9;
     /**
      * <p>May be a boolean value, such as "<code>true</code>" or
      * "<code>false</code>".
      */
-    public static final int measureWithLargestChild=0x7f0200ef;
+    public static final int measureWithLargestChild=0x7f0200fa;
     /**
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      */
-    public static final int metaButtonBarButtonStyle=0x7f0200f0;
+    public static final int metaButtonBarButtonStyle=0x7f0200fb;
     /**
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      */
-    public static final int metaButtonBarStyle=0x7f0200f1;
+    public static final int metaButtonBarStyle=0x7f0200fc;
     /**
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      */
-    public static final int multiChoiceItemLayout=0x7f0200f2;
+    public static final int multiChoiceItemLayout=0x7f0200fd;
     /**
      * <p>May be a string value, using '\\;' to escape characters such as
      * '\\n' or '\\uxxxx' for a unicode character;
      */
-    public static final int navigationContentDescription=0x7f0200f3;
+    public static final int navigationContentDescription=0x7f0200fe;
     /**
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      */
-    public static final int navigationIcon=0x7f0200f4;
+    public static final int navigationIcon=0x7f0200ff;
     /**
      * <p>Must be one of the following constant values.</p>
      * <table>
@@ -1940,7 +2020,7 @@ public final class R {
      * <tr><td>tabMode</td><td>2</td><td></td></tr>
      * </table>
      */
-    public static final int navigationMode=0x7f0200f5;
+    public static final int navigationMode=0x7f020100;
     /**
      * <p>Must be one or more (separated by '|') of the following constant values.</p>
      * <table>
@@ -1956,12 +2036,12 @@ public final class R {
      * <tr><td>SYM</td><td>4</td><td></td></tr>
      * </table>
      */
-    public static final int numericModifiers=0x7f0200f6;
+    public static final int numericModifiers=0x7f020101;
     /**
      * <p>May be a boolean value, such as "<code>true</code>" or
      * "<code>false</code>".
      */
-    public static final int overlapAnchor=0x7f0200f7;
+    public static final int overlapAnchor=0x7f020102;
     /**
      * <p>May be a dimension value, which is a floating point number appended with a
      * unit such as "<code>14.5sp</code>".
@@ -1969,7 +2049,7 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      */
-    public static final int paddingBottomNoButtons=0x7f0200f8;
+    public static final int paddingBottomNoButtons=0x7f020103;
     /**
      * <p>May be a dimension value, which is a floating point number appended with a
      * unit such as "<code>14.5sp</code>".
@@ -1977,7 +2057,7 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      */
-    public static final int paddingEnd=0x7f0200f9;
+    public static final int paddingEnd=0x7f020104;
     /**
      * <p>May be a dimension value, which is a floating point number appended with a
      * unit such as "<code>14.5sp</code>".
@@ -1985,7 +2065,7 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      */
-    public static final int paddingStart=0x7f0200fa;
+    public static final int paddingStart=0x7f020105;
     /**
      * <p>May be a dimension value, which is a floating point number appended with a
      * unit such as "<code>14.5sp</code>".
@@ -1993,21 +2073,21 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      */
-    public static final int paddingTopNoTitle=0x7f0200fb;
+    public static final int paddingTopNoTitle=0x7f020106;
     /**
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      */
-    public static final int panelBackground=0x7f0200fc;
+    public static final int panelBackground=0x7f020107;
     /**
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      */
-    public static final int panelMenuListTheme=0x7f0200fd;
+    public static final int panelMenuListTheme=0x7f020108;
     /**
      * <p>May be a dimension value, which is a floating point number appended with a
      * unit such as "<code>14.5sp</code>".
@@ -2015,33 +2095,33 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      */
-    public static final int panelMenuListWidth=0x7f0200fe;
+    public static final int panelMenuListWidth=0x7f020109;
     /**
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      */
-    public static final int popupMenuStyle=0x7f0200ff;
+    public static final int popupMenuStyle=0x7f02010a;
     /**
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      */
-    public static final int popupTheme=0x7f020100;
+    public static final int popupTheme=0x7f02010b;
     /**
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      */
-    public static final int popupWindowStyle=0x7f020101;
+    public static final int popupWindowStyle=0x7f02010c;
     /**
      * <p>May be a boolean value, such as "<code>true</code>" or
      * "<code>false</code>".
      */
-    public static final int preserveIconSpacing=0x7f020102;
+    public static final int preserveIconSpacing=0x7f02010d;
     /**
      * <p>May be a dimension value, which is a floating point number appended with a
      * unit such as "<code>14.5sp</code>".
@@ -2049,54 +2129,54 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      */
-    public static final int progressBarPadding=0x7f020103;
+    public static final int progressBarPadding=0x7f02010e;
     /**
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      */
-    public static final int progressBarStyle=0x7f020104;
+    public static final int progressBarStyle=0x7f02010f;
     /**
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      */
-    public static final int queryBackground=0x7f020105;
+    public static final int queryBackground=0x7f020110;
     /**
      * <p>May be a string value, using '\\;' to escape characters such as
      * '\\n' or '\\uxxxx' for a unicode character;
      */
-    public static final int queryHint=0x7f020106;
+    public static final int queryHint=0x7f020111;
     /**
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      */
-    public static final int radioButtonStyle=0x7f020107;
+    public static final int radioButtonStyle=0x7f020112;
     /**
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      */
-    public static final int ratingBarStyle=0x7f020108;
+    public static final int ratingBarStyle=0x7f020113;
     /**
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      */
-    public static final int ratingBarStyleIndicator=0x7f020109;
+    public static final int ratingBarStyleIndicator=0x7f020114;
     /**
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      */
-    public static final int ratingBarStyleSmall=0x7f02010a;
+    public static final int ratingBarStyleSmall=0x7f020115;
     /**
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
@@ -2105,54 +2185,54 @@ public final class R {
      * <p>May be a string value, using '\\;' to escape characters such as
      * '\\n' or '\\uxxxx' for a unicode character;
      */
-    public static final int scopeUris=0x7f02010b;
+    public static final int scopeUris=0x7f020116;
     /**
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      */
-    public static final int searchHintIcon=0x7f02010c;
+    public static final int searchHintIcon=0x7f020117;
     /**
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      */
-    public static final int searchIcon=0x7f02010d;
+    public static final int searchIcon=0x7f020118;
     /**
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      */
-    public static final int searchViewStyle=0x7f02010e;
+    public static final int searchViewStyle=0x7f020119;
     /**
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      */
-    public static final int seekBarStyle=0x7f02010f;
+    public static final int seekBarStyle=0x7f02011a;
     /**
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      */
-    public static final int selectableItemBackground=0x7f020110;
+    public static final int selectableItemBackground=0x7f02011b;
     /**
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      */
-    public static final int selectableItemBackgroundBorderless=0x7f020111;
+    public static final int selectableItemBackgroundBorderless=0x7f02011c;
     /**
      * <p>May be a boolean value, such as "<code>true</code>" or
      * "<code>false</code>".
      */
-    public static final int shouldScaleToFill=0x7f020112;
+    public static final int shouldScaleToFill=0x7f02011d;
     /**
      * <p>Must be one or more (separated by '|') of the following constant values.</p>
      * <table>
@@ -2167,7 +2247,7 @@ public final class R {
      * <tr><td>withText</td><td>4</td><td></td></tr>
      * </table>
      */
-    public static final int showAsAction=0x7f020113;
+    public static final int showAsAction=0x7f02011e;
     /**
      * <p>Must be one or more (separated by '|') of the following constant values.</p>
      * <table>
@@ -2181,106 +2261,106 @@ public final class R {
      * <tr><td>none</td><td>0</td><td></td></tr>
      * </table>
      */
-    public static final int showDividers=0x7f020114;
+    public static final int showDividers=0x7f02011f;
     /**
      * <p>May be a boolean value, such as "<code>true</code>" or
      * "<code>false</code>".
      */
-    public static final int showText=0x7f020115;
+    public static final int showText=0x7f020120;
     /**
      * <p>May be a boolean value, such as "<code>true</code>" or
      * "<code>false</code>".
      */
-    public static final int showTitle=0x7f020116;
+    public static final int showTitle=0x7f020121;
     /**
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      */
-    public static final int singleChoiceItemLayout=0x7f020117;
+    public static final int singleChoiceItemLayout=0x7f020122;
     /**
      * <p>May be a boolean value, such as "<code>true</code>" or
      * "<code>false</code>".
      */
-    public static final int spinBars=0x7f020118;
+    public static final int spinBars=0x7f020123;
     /**
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      */
-    public static final int spinnerDropDownItemStyle=0x7f020119;
+    public static final int spinnerDropDownItemStyle=0x7f020124;
     /**
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      */
-    public static final int spinnerStyle=0x7f02011a;
+    public static final int spinnerStyle=0x7f020125;
     /**
      * <p>May be a boolean value, such as "<code>true</code>" or
      * "<code>false</code>".
      */
-    public static final int splitTrack=0x7f02011b;
+    public static final int splitTrack=0x7f020126;
     /**
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      */
-    public static final int srcCompat=0x7f02011c;
+    public static final int srcCompat=0x7f020127;
     /**
      * <p>May be a boolean value, such as "<code>true</code>" or
      * "<code>false</code>".
      */
-    public static final int state_above_anchor=0x7f02011d;
+    public static final int state_above_anchor=0x7f020128;
     /**
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      */
-    public static final int subMenuArrow=0x7f02011e;
+    public static final int subMenuArrow=0x7f020129;
     /**
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      */
-    public static final int submitBackground=0x7f02011f;
+    public static final int submitBackground=0x7f02012a;
     /**
      * <p>May be a string value, using '\\;' to escape characters such as
      * '\\n' or '\\uxxxx' for a unicode character;
      */
-    public static final int subtitle=0x7f020120;
+    public static final int subtitle=0x7f02012b;
     /**
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      */
-    public static final int subtitleTextAppearance=0x7f020121;
+    public static final int subtitleTextAppearance=0x7f02012c;
     /**
      * <p>May be a color value, in the form of "<code>#<i>rgb</i></code>",
      * "<code>#<i>argb</i></code>", "<code>#<i>rrggbb</i></code>", or
      * "<code>#<i>aarrggbb</i></code>".
      */
-    public static final int subtitleTextColor=0x7f020122;
+    public static final int subtitleTextColor=0x7f02012d;
     /**
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      */
-    public static final int subtitleTextStyle=0x7f020123;
+    public static final int subtitleTextStyle=0x7f02012e;
     /**
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      */
-    public static final int suggestionRowLayout=0x7f020124;
+    public static final int suggestionRowLayout=0x7f02012f;
     /**
      * <p>May be a dimension value, which is a floating point number appended with a
      * unit such as "<code>14.5sp</code>".
@@ -2288,7 +2368,7 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      */
-    public static final int switchMinWidth=0x7f020125;
+    public static final int switchMinWidth=0x7f020130;
     /**
      * <p>May be a dimension value, which is a floating point number appended with a
      * unit such as "<code>14.5sp</code>".
@@ -2296,21 +2376,21 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      */
-    public static final int switchPadding=0x7f020126;
+    public static final int switchPadding=0x7f020131;
     /**
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      */
-    public static final int switchStyle=0x7f020127;
+    public static final int switchStyle=0x7f020132;
     /**
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      */
-    public static final int switchTextAppearance=0x7f020128;
+    public static final int switchTextAppearance=0x7f020133;
     /**
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
@@ -2319,73 +2399,63 @@ public final class R {
      * <p>May be a boolean value, such as "<code>true</code>" or
      * "<code>false</code>".
      */
-    public static final int textAllCaps=0x7f020129;
+    public static final int textAllCaps=0x7f020134;
     /**
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      */
-    public static final int textAppearanceLargePopupMenu=0x7f02012a;
+    public static final int textAppearanceLargePopupMenu=0x7f020135;
     /**
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      */
-    public static final int textAppearanceListItem=0x7f02012b;
+    public static final int textAppearanceListItem=0x7f020136;
     /**
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      */
-    public static final int textAppearanceListItemSecondary=0x7f02012c;
+    public static final int textAppearanceListItemSecondary=0x7f020137;
     /**
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      */
-    public static final int textAppearanceListItemSmall=0x7f02012d;
+    public static final int textAppearanceListItemSmall=0x7f020138;
     /**
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      */
-    public static final int textAppearancePopupMenuHeader=0x7f02012e;
+    public static final int textAppearancePopupMenuHeader=0x7f020139;
     /**
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      */
-    public static final int textAppearanceSearchResultSubtitle=0x7f02012f;
+    public static final int textAppearanceSearchResultSubtitle=0x7f02013a;
     /**
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      */
-    public static final int textAppearanceSearchResultTitle=0x7f020130;
+    public static final int textAppearanceSearchResultTitle=0x7f02013b;
     /**
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      */
-    public static final int textAppearanceSmallPopupMenu=0x7f020131;
-    /**
-     * <p>May be a reference to another resource, in the form
-     * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
-     * attribute in the form
-     * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
-     * <p>May be a color value, in the form of "<code>#<i>rgb</i></code>",
-     * "<code>#<i>argb</i></code>", "<code>#<i>rrggbb</i></code>", or
-     * "<code>#<i>aarrggbb</i></code>".
-     */
-    public static final int textColorAlertDialogListItem=0x7f020132;
+    public static final int textAppearanceSmallPopupMenu=0x7f02013c;
     /**
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
@@ -2395,14 +2465,24 @@ public final class R {
      * "<code>#<i>argb</i></code>", "<code>#<i>rrggbb</i></code>", or
      * "<code>#<i>aarrggbb</i></code>".
      */
-    public static final int textColorSearchUrl=0x7f020133;
+    public static final int textColorAlertDialogListItem=0x7f02013d;
+    /**
+     * <p>May be a reference to another resource, in the form
+     * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
+     * attribute in the form
+     * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
+     * <p>May be a color value, in the form of "<code>#<i>rgb</i></code>",
+     * "<code>#<i>argb</i></code>", "<code>#<i>rrggbb</i></code>", or
+     * "<code>#<i>aarrggbb</i></code>".
+     */
+    public static final int textColorSearchUrl=0x7f02013e;
     /**
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      */
-    public static final int theme=0x7f020134;
+    public static final int theme=0x7f02013f;
     /**
      * <p>May be a dimension value, which is a floating point number appended with a
      * unit such as "<code>14.5sp</code>".
@@ -2410,7 +2490,7 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      */
-    public static final int thickness=0x7f020135;
+    public static final int thickness=0x7f020140;
     /**
      * <p>May be a dimension value, which is a floating point number appended with a
      * unit such as "<code>14.5sp</code>".
@@ -2418,13 +2498,13 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      */
-    public static final int thumbTextPadding=0x7f020136;
+    public static final int thumbTextPadding=0x7f020141;
     /**
      * <p>May be a color value, in the form of "<code>#<i>rgb</i></code>",
      * "<code>#<i>argb</i></code>", "<code>#<i>rrggbb</i></code>", or
      * "<code>#<i>aarrggbb</i></code>".
      */
-    public static final int thumbTint=0x7f020137;
+    public static final int thumbTint=0x7f020142;
     /**
      * <p>Must be one of the following constant values.</p>
      * <table>
@@ -2440,20 +2520,20 @@ public final class R {
      * <tr><td>src_over</td><td>3</td><td></td></tr>
      * </table>
      */
-    public static final int thumbTintMode=0x7f020138;
+    public static final int thumbTintMode=0x7f020143;
     /**
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      */
-    public static final int tickMark=0x7f020139;
+    public static final int tickMark=0x7f020144;
     /**
      * <p>May be a color value, in the form of "<code>#<i>rgb</i></code>",
      * "<code>#<i>argb</i></code>", "<code>#<i>rrggbb</i></code>", or
      * "<code>#<i>aarrggbb</i></code>".
      */
-    public static final int tickMarkTint=0x7f02013a;
+    public static final int tickMarkTint=0x7f020145;
     /**
      * <p>Must be one of the following constant values.</p>
      * <table>
@@ -2469,13 +2549,13 @@ public final class R {
      * <tr><td>src_over</td><td>3</td><td></td></tr>
      * </table>
      */
-    public static final int tickMarkTintMode=0x7f02013b;
+    public static final int tickMarkTintMode=0x7f020146;
     /**
      * <p>May be a color value, in the form of "<code>#<i>rgb</i></code>",
      * "<code>#<i>argb</i></code>", "<code>#<i>rrggbb</i></code>", or
      * "<code>#<i>aarrggbb</i></code>".
      */
-    public static final int tint=0x7f02013c;
+    public static final int tint=0x7f020147;
     /**
      * <p>Must be one of the following constant values.</p>
      * <table>
@@ -2490,12 +2570,12 @@ public final class R {
      * <tr><td>src_over</td><td>3</td><td></td></tr>
      * </table>
      */
-    public static final int tintMode=0x7f02013d;
+    public static final int tintMode=0x7f020148;
     /**
      * <p>May be a string value, using '\\;' to escape characters such as
      * '\\n' or '\\uxxxx' for a unicode character;
      */
-    public static final int title=0x7f02013e;
+    public static final int title=0x7f020149;
     /**
      * <p>May be a dimension value, which is a floating point number appended with a
      * unit such as "<code>14.5sp</code>".
@@ -2503,7 +2583,7 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      */
-    public static final int titleMargin=0x7f02013f;
+    public static final int titleMargin=0x7f02014a;
     /**
      * <p>May be a dimension value, which is a floating point number appended with a
      * unit such as "<code>14.5sp</code>".
@@ -2511,7 +2591,7 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      */
-    public static final int titleMarginBottom=0x7f020140;
+    public static final int titleMarginBottom=0x7f02014b;
     /**
      * <p>May be a dimension value, which is a floating point number appended with a
      * unit such as "<code>14.5sp</code>".
@@ -2519,7 +2599,7 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      */
-    public static final int titleMarginEnd=0x7f020141;
+    public static final int titleMarginEnd=0x7f02014c;
     /**
      * <p>May be a dimension value, which is a floating point number appended with a
      * unit such as "<code>14.5sp</code>".
@@ -2527,7 +2607,7 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      */
-    public static final int titleMarginStart=0x7f020142;
+    public static final int titleMarginStart=0x7f02014d;
     /**
      * <p>May be a dimension value, which is a floating point number appended with a
      * unit such as "<code>14.5sp</code>".
@@ -2535,7 +2615,7 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      */
-    public static final int titleMarginTop=0x7f020143;
+    public static final int titleMarginTop=0x7f02014e;
     /**
      * <p>May be a dimension value, which is a floating point number appended with a
      * unit such as "<code>14.5sp</code>".
@@ -2543,41 +2623,41 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      */
-    public static final int titleMargins=0x7f020144;
+    public static final int titleMargins=0x7f02014f;
     /**
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      */
-    public static final int titleTextAppearance=0x7f020145;
+    public static final int titleTextAppearance=0x7f020150;
     /**
      * <p>May be a color value, in the form of "<code>#<i>rgb</i></code>",
      * "<code>#<i>argb</i></code>", "<code>#<i>rrggbb</i></code>", or
      * "<code>#<i>aarrggbb</i></code>".
      */
-    public static final int titleTextColor=0x7f020146;
+    public static final int titleTextColor=0x7f020151;
     /**
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      */
-    public static final int titleTextStyle=0x7f020147;
+    public static final int titleTextStyle=0x7f020152;
     /**
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      */
-    public static final int toolbarNavigationButtonStyle=0x7f020148;
+    public static final int toolbarNavigationButtonStyle=0x7f020153;
     /**
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      */
-    public static final int toolbarStyle=0x7f020149;
+    public static final int toolbarStyle=0x7f020154;
     /**
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
@@ -2587,32 +2667,32 @@ public final class R {
      * "<code>#<i>argb</i></code>", "<code>#<i>rrggbb</i></code>", or
      * "<code>#<i>aarrggbb</i></code>".
      */
-    public static final int tooltipForegroundColor=0x7f02014a;
+    public static final int tooltipForegroundColor=0x7f020155;
     /**
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      */
-    public static final int tooltipFrameBackground=0x7f02014b;
+    public static final int tooltipFrameBackground=0x7f020156;
     /**
      * <p>May be a string value, using '\\;' to escape characters such as
      * '\\n' or '\\uxxxx' for a unicode character;
      */
-    public static final int tooltipText=0x7f02014c;
+    public static final int tooltipText=0x7f020157;
     /**
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      */
-    public static final int track=0x7f02014d;
+    public static final int track=0x7f020158;
     /**
      * <p>May be a color value, in the form of "<code>#<i>rgb</i></code>",
      * "<code>#<i>argb</i></code>", "<code>#<i>rrggbb</i></code>", or
      * "<code>#<i>aarrggbb</i></code>".
      */
-    public static final int trackTint=0x7f02014e;
+    public static final int trackTint=0x7f020159;
     /**
      * <p>Must be one of the following constant values.</p>
      * <table>
@@ -2628,74 +2708,74 @@ public final class R {
      * <tr><td>src_over</td><td>3</td><td></td></tr>
      * </table>
      */
-    public static final int trackTintMode=0x7f02014f;
+    public static final int trackTintMode=0x7f02015a;
     /**
      * <p>May be a boolean value, such as "<code>true</code>" or
      * "<code>false</code>".
      */
-    public static final int uiCompass=0x7f020150;
+    public static final int uiCompass=0x7f02015b;
     /**
      * <p>May be a boolean value, such as "<code>true</code>" or
      * "<code>false</code>".
      */
-    public static final int uiMapToolbar=0x7f020151;
+    public static final int uiMapToolbar=0x7f02015c;
     /**
      * <p>May be a boolean value, such as "<code>true</code>" or
      * "<code>false</code>".
      */
-    public static final int uiRotateGestures=0x7f020152;
+    public static final int uiRotateGestures=0x7f02015d;
     /**
      * <p>May be a boolean value, such as "<code>true</code>" or
      * "<code>false</code>".
      */
-    public static final int uiScrollGestures=0x7f020153;
+    public static final int uiScrollGestures=0x7f02015e;
     /**
      * <p>May be a boolean value, such as "<code>true</code>" or
      * "<code>false</code>".
      */
-    public static final int uiScrollGesturesDuringRotateOrZoom=0x7f020154;
+    public static final int uiScrollGesturesDuringRotateOrZoom=0x7f02015f;
     /**
      * <p>May be a boolean value, such as "<code>true</code>" or
      * "<code>false</code>".
      */
-    public static final int uiTiltGestures=0x7f020155;
+    public static final int uiTiltGestures=0x7f020160;
     /**
      * <p>May be a boolean value, such as "<code>true</code>" or
      * "<code>false</code>".
      */
-    public static final int uiZoomControls=0x7f020156;
+    public static final int uiZoomControls=0x7f020161;
     /**
      * <p>May be a boolean value, such as "<code>true</code>" or
      * "<code>false</code>".
      */
-    public static final int uiZoomGestures=0x7f020157;
+    public static final int uiZoomGestures=0x7f020162;
     /**
      * <p>May be a boolean value, such as "<code>true</code>" or
      * "<code>false</code>".
      */
-    public static final int useViewLifecycle=0x7f020158;
+    public static final int useViewLifecycle=0x7f020163;
     /**
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      */
-    public static final int voiceIcon=0x7f020159;
+    public static final int voiceIcon=0x7f020164;
     /**
      * <p>May be a boolean value, such as "<code>true</code>" or
      * "<code>false</code>".
      */
-    public static final int windowActionBar=0x7f02015a;
+    public static final int windowActionBar=0x7f020165;
     /**
      * <p>May be a boolean value, such as "<code>true</code>" or
      * "<code>false</code>".
      */
-    public static final int windowActionBarOverlay=0x7f02015b;
+    public static final int windowActionBarOverlay=0x7f020166;
     /**
      * <p>May be a boolean value, such as "<code>true</code>" or
      * "<code>false</code>".
      */
-    public static final int windowActionModeOverlay=0x7f02015c;
+    public static final int windowActionModeOverlay=0x7f020167;
     /**
      * <p>May be a dimension value, which is a floating point number appended with a
      * unit such as "<code>14.5sp</code>".
@@ -2707,7 +2787,7 @@ public final class R {
      * The % suffix always means a percentage of the base size;
      * the optional %p suffix provides a size relative to some parent container.
      */
-    public static final int windowFixedHeightMajor=0x7f02015d;
+    public static final int windowFixedHeightMajor=0x7f020168;
     /**
      * <p>May be a dimension value, which is a floating point number appended with a
      * unit such as "<code>14.5sp</code>".
@@ -2719,7 +2799,7 @@ public final class R {
      * The % suffix always means a percentage of the base size;
      * the optional %p suffix provides a size relative to some parent container.
      */
-    public static final int windowFixedHeightMinor=0x7f02015e;
+    public static final int windowFixedHeightMinor=0x7f020169;
     /**
      * <p>May be a dimension value, which is a floating point number appended with a
      * unit such as "<code>14.5sp</code>".
@@ -2731,7 +2811,7 @@ public final class R {
      * The % suffix always means a percentage of the base size;
      * the optional %p suffix provides a size relative to some parent container.
      */
-    public static final int windowFixedWidthMajor=0x7f02015f;
+    public static final int windowFixedWidthMajor=0x7f02016a;
     /**
      * <p>May be a dimension value, which is a floating point number appended with a
      * unit such as "<code>14.5sp</code>".
@@ -2743,7 +2823,7 @@ public final class R {
      * The % suffix always means a percentage of the base size;
      * the optional %p suffix provides a size relative to some parent container.
      */
-    public static final int windowFixedWidthMinor=0x7f020160;
+    public static final int windowFixedWidthMinor=0x7f02016b;
     /**
      * <p>May be a dimension value, which is a floating point number appended with a
      * unit such as "<code>14.5sp</code>".
@@ -2755,7 +2835,7 @@ public final class R {
      * The % suffix always means a percentage of the base size;
      * the optional %p suffix provides a size relative to some parent container.
      */
-    public static final int windowMinWidthMajor=0x7f020161;
+    public static final int windowMinWidthMajor=0x7f02016c;
     /**
      * <p>May be a dimension value, which is a floating point number appended with a
      * unit such as "<code>14.5sp</code>".
@@ -2767,17 +2847,17 @@ public final class R {
      * The % suffix always means a percentage of the base size;
      * the optional %p suffix provides a size relative to some parent container.
      */
-    public static final int windowMinWidthMinor=0x7f020162;
+    public static final int windowMinWidthMinor=0x7f02016d;
     /**
      * <p>May be a boolean value, such as "<code>true</code>" or
      * "<code>false</code>".
      */
-    public static final int windowNoTitle=0x7f020163;
+    public static final int windowNoTitle=0x7f02016e;
     /**
      * <p>May be a boolean value, such as "<code>true</code>" or
      * "<code>false</code>".
      */
-    public static final int zOrderOnTop=0x7f020164;
+    public static final int zOrderOnTop=0x7f02016f;
   }
   public static final class bool {
     public static final int abc_action_bar_embed_tabs=0x7f030000;
@@ -2827,75 +2907,79 @@ public final class R {
     public static final int bright_foreground_material_light=0x7f040025;
     public static final int button_material_dark=0x7f040026;
     public static final int button_material_light=0x7f040027;
-    public static final int colorAccent=0x7f040028;
-    public static final int colorPrimary=0x7f040029;
-    public static final int colorPrimaryDark=0x7f04002a;
-    public static final int colorwhite=0x7f04002b;
-    public static final int common_google_signin_btn_text_dark=0x7f04002c;
-    public static final int common_google_signin_btn_text_dark_default=0x7f04002d;
-    public static final int common_google_signin_btn_text_dark_disabled=0x7f04002e;
-    public static final int common_google_signin_btn_text_dark_focused=0x7f04002f;
-    public static final int common_google_signin_btn_text_dark_pressed=0x7f040030;
-    public static final int common_google_signin_btn_text_light=0x7f040031;
-    public static final int common_google_signin_btn_text_light_default=0x7f040032;
-    public static final int common_google_signin_btn_text_light_disabled=0x7f040033;
-    public static final int common_google_signin_btn_text_light_focused=0x7f040034;
-    public static final int common_google_signin_btn_text_light_pressed=0x7f040035;
-    public static final int common_google_signin_btn_tint=0x7f040036;
-    public static final int dim_foreground_disabled_material_dark=0x7f040037;
-    public static final int dim_foreground_disabled_material_light=0x7f040038;
-    public static final int dim_foreground_material_dark=0x7f040039;
-    public static final int dim_foreground_material_light=0x7f04003a;
-    public static final int error_color_material=0x7f04003b;
-    public static final int foreground_material_dark=0x7f04003c;
-    public static final int foreground_material_light=0x7f04003d;
-    public static final int highlighted_text_material_dark=0x7f04003e;
-    public static final int highlighted_text_material_light=0x7f04003f;
-    public static final int material_blue_grey_800=0x7f040040;
-    public static final int material_blue_grey_900=0x7f040041;
-    public static final int material_blue_grey_950=0x7f040042;
-    public static final int material_deep_teal_200=0x7f040043;
-    public static final int material_deep_teal_500=0x7f040044;
-    public static final int material_grey_100=0x7f040045;
-    public static final int material_grey_300=0x7f040046;
-    public static final int material_grey_50=0x7f040047;
-    public static final int material_grey_600=0x7f040048;
-    public static final int material_grey_800=0x7f040049;
-    public static final int material_grey_850=0x7f04004a;
-    public static final int material_grey_900=0x7f04004b;
-    public static final int notification_action_color_filter=0x7f04004c;
-    public static final int notification_icon_bg_color=0x7f04004d;
-    public static final int notification_material_background_media_default_color=0x7f04004e;
-    public static final int possible_result_points=0x7f04004f;
-    public static final int primary_dark_material_dark=0x7f040050;
-    public static final int primary_dark_material_light=0x7f040051;
-    public static final int primary_material_dark=0x7f040052;
-    public static final int primary_material_light=0x7f040053;
-    public static final int primary_text_default_material_dark=0x7f040054;
-    public static final int primary_text_default_material_light=0x7f040055;
-    public static final int primary_text_disabled_material_dark=0x7f040056;
-    public static final int primary_text_disabled_material_light=0x7f040057;
-    public static final int result_points=0x7f040058;
-    public static final int result_view=0x7f040059;
-    public static final int ripple_material_dark=0x7f04005a;
-    public static final int ripple_material_light=0x7f04005b;
-    public static final int secondary_text_default_material_dark=0x7f04005c;
-    public static final int secondary_text_default_material_light=0x7f04005d;
-    public static final int secondary_text_disabled_material_dark=0x7f04005e;
-    public static final int secondary_text_disabled_material_light=0x7f04005f;
-    public static final int status_text=0x7f040060;
-    public static final int switch_thumb_disabled_material_dark=0x7f040061;
-    public static final int switch_thumb_disabled_material_light=0x7f040062;
-    public static final int switch_thumb_material_dark=0x7f040063;
-    public static final int switch_thumb_material_light=0x7f040064;
-    public static final int switch_thumb_normal_material_dark=0x7f040065;
-    public static final int switch_thumb_normal_material_light=0x7f040066;
-    public static final int tooltip_background_dark=0x7f040067;
-    public static final int tooltip_background_light=0x7f040068;
-    public static final int transparent=0x7f040069;
-    public static final int viewfinder_border=0x7f04006a;
-    public static final int viewfinder_laser=0x7f04006b;
-    public static final int viewfinder_mask=0x7f04006c;
+    public static final int cardview_dark_background=0x7f040028;
+    public static final int cardview_light_background=0x7f040029;
+    public static final int cardview_shadow_end_color=0x7f04002a;
+    public static final int cardview_shadow_start_color=0x7f04002b;
+    public static final int colorAccent=0x7f04002c;
+    public static final int colorPrimary=0x7f04002d;
+    public static final int colorPrimaryDark=0x7f04002e;
+    public static final int colorwhite=0x7f04002f;
+    public static final int common_google_signin_btn_text_dark=0x7f040030;
+    public static final int common_google_signin_btn_text_dark_default=0x7f040031;
+    public static final int common_google_signin_btn_text_dark_disabled=0x7f040032;
+    public static final int common_google_signin_btn_text_dark_focused=0x7f040033;
+    public static final int common_google_signin_btn_text_dark_pressed=0x7f040034;
+    public static final int common_google_signin_btn_text_light=0x7f040035;
+    public static final int common_google_signin_btn_text_light_default=0x7f040036;
+    public static final int common_google_signin_btn_text_light_disabled=0x7f040037;
+    public static final int common_google_signin_btn_text_light_focused=0x7f040038;
+    public static final int common_google_signin_btn_text_light_pressed=0x7f040039;
+    public static final int common_google_signin_btn_tint=0x7f04003a;
+    public static final int dim_foreground_disabled_material_dark=0x7f04003b;
+    public static final int dim_foreground_disabled_material_light=0x7f04003c;
+    public static final int dim_foreground_material_dark=0x7f04003d;
+    public static final int dim_foreground_material_light=0x7f04003e;
+    public static final int error_color_material=0x7f04003f;
+    public static final int foreground_material_dark=0x7f040040;
+    public static final int foreground_material_light=0x7f040041;
+    public static final int highlighted_text_material_dark=0x7f040042;
+    public static final int highlighted_text_material_light=0x7f040043;
+    public static final int material_blue_grey_800=0x7f040044;
+    public static final int material_blue_grey_900=0x7f040045;
+    public static final int material_blue_grey_950=0x7f040046;
+    public static final int material_deep_teal_200=0x7f040047;
+    public static final int material_deep_teal_500=0x7f040048;
+    public static final int material_grey_100=0x7f040049;
+    public static final int material_grey_300=0x7f04004a;
+    public static final int material_grey_50=0x7f04004b;
+    public static final int material_grey_600=0x7f04004c;
+    public static final int material_grey_800=0x7f04004d;
+    public static final int material_grey_850=0x7f04004e;
+    public static final int material_grey_900=0x7f04004f;
+    public static final int notification_action_color_filter=0x7f040050;
+    public static final int notification_icon_bg_color=0x7f040051;
+    public static final int notification_material_background_media_default_color=0x7f040052;
+    public static final int possible_result_points=0x7f040053;
+    public static final int primary_dark_material_dark=0x7f040054;
+    public static final int primary_dark_material_light=0x7f040055;
+    public static final int primary_material_dark=0x7f040056;
+    public static final int primary_material_light=0x7f040057;
+    public static final int primary_text_default_material_dark=0x7f040058;
+    public static final int primary_text_default_material_light=0x7f040059;
+    public static final int primary_text_disabled_material_dark=0x7f04005a;
+    public static final int primary_text_disabled_material_light=0x7f04005b;
+    public static final int result_points=0x7f04005c;
+    public static final int result_view=0x7f04005d;
+    public static final int ripple_material_dark=0x7f04005e;
+    public static final int ripple_material_light=0x7f04005f;
+    public static final int secondary_text_default_material_dark=0x7f040060;
+    public static final int secondary_text_default_material_light=0x7f040061;
+    public static final int secondary_text_disabled_material_dark=0x7f040062;
+    public static final int secondary_text_disabled_material_light=0x7f040063;
+    public static final int status_text=0x7f040064;
+    public static final int switch_thumb_disabled_material_dark=0x7f040065;
+    public static final int switch_thumb_disabled_material_light=0x7f040066;
+    public static final int switch_thumb_material_dark=0x7f040067;
+    public static final int switch_thumb_material_light=0x7f040068;
+    public static final int switch_thumb_normal_material_dark=0x7f040069;
+    public static final int switch_thumb_normal_material_light=0x7f04006a;
+    public static final int tooltip_background_dark=0x7f04006b;
+    public static final int tooltip_background_light=0x7f04006c;
+    public static final int transparent=0x7f04006d;
+    public static final int viewfinder_border=0x7f04006e;
+    public static final int viewfinder_laser=0x7f04006f;
+    public static final int viewfinder_mask=0x7f040070;
   }
   public static final class dimen {
     public static final int abc_action_bar_content_inset_material=0x7f050000;
@@ -2972,43 +3056,46 @@ public final class R {
     public static final int abc_text_size_subtitle_material_toolbar=0x7f050047;
     public static final int abc_text_size_title_material=0x7f050048;
     public static final int abc_text_size_title_material_toolbar=0x7f050049;
-    public static final int compat_button_inset_horizontal_material=0x7f05004a;
-    public static final int compat_button_inset_vertical_material=0x7f05004b;
-    public static final int compat_button_padding_horizontal_material=0x7f05004c;
-    public static final int compat_button_padding_vertical_material=0x7f05004d;
-    public static final int compat_control_corner_material=0x7f05004e;
-    public static final int disabled_alpha_material_dark=0x7f05004f;
-    public static final int disabled_alpha_material_light=0x7f050050;
-    public static final int highlight_alpha_material_colored=0x7f050051;
-    public static final int highlight_alpha_material_dark=0x7f050052;
-    public static final int highlight_alpha_material_light=0x7f050053;
-    public static final int hint_alpha_material_dark=0x7f050054;
-    public static final int hint_alpha_material_light=0x7f050055;
-    public static final int hint_pressed_alpha_material_dark=0x7f050056;
-    public static final int hint_pressed_alpha_material_light=0x7f050057;
-    public static final int notification_action_icon_size=0x7f050058;
-    public static final int notification_action_text_size=0x7f050059;
-    public static final int notification_big_circle_margin=0x7f05005a;
-    public static final int notification_content_margin_start=0x7f05005b;
-    public static final int notification_large_icon_height=0x7f05005c;
-    public static final int notification_large_icon_width=0x7f05005d;
-    public static final int notification_main_column_padding_top=0x7f05005e;
-    public static final int notification_media_narrow_margin=0x7f05005f;
-    public static final int notification_right_icon_size=0x7f050060;
-    public static final int notification_right_side_padding_top=0x7f050061;
-    public static final int notification_small_icon_background_padding=0x7f050062;
-    public static final int notification_small_icon_size_as_large=0x7f050063;
-    public static final int notification_subtext_size=0x7f050064;
-    public static final int notification_top_pad=0x7f050065;
-    public static final int notification_top_pad_large_text=0x7f050066;
-    public static final int tooltip_corner_radius=0x7f050067;
-    public static final int tooltip_horizontal_padding=0x7f050068;
-    public static final int tooltip_margin=0x7f050069;
-    public static final int tooltip_precise_anchor_extra_offset=0x7f05006a;
-    public static final int tooltip_precise_anchor_threshold=0x7f05006b;
-    public static final int tooltip_vertical_padding=0x7f05006c;
-    public static final int tooltip_y_offset_non_touch=0x7f05006d;
-    public static final int tooltip_y_offset_touch=0x7f05006e;
+    public static final int cardview_compat_inset_shadow=0x7f05004a;
+    public static final int cardview_default_elevation=0x7f05004b;
+    public static final int cardview_default_radius=0x7f05004c;
+    public static final int compat_button_inset_horizontal_material=0x7f05004d;
+    public static final int compat_button_inset_vertical_material=0x7f05004e;
+    public static final int compat_button_padding_horizontal_material=0x7f05004f;
+    public static final int compat_button_padding_vertical_material=0x7f050050;
+    public static final int compat_control_corner_material=0x7f050051;
+    public static final int disabled_alpha_material_dark=0x7f050052;
+    public static final int disabled_alpha_material_light=0x7f050053;
+    public static final int highlight_alpha_material_colored=0x7f050054;
+    public static final int highlight_alpha_material_dark=0x7f050055;
+    public static final int highlight_alpha_material_light=0x7f050056;
+    public static final int hint_alpha_material_dark=0x7f050057;
+    public static final int hint_alpha_material_light=0x7f050058;
+    public static final int hint_pressed_alpha_material_dark=0x7f050059;
+    public static final int hint_pressed_alpha_material_light=0x7f05005a;
+    public static final int notification_action_icon_size=0x7f05005b;
+    public static final int notification_action_text_size=0x7f05005c;
+    public static final int notification_big_circle_margin=0x7f05005d;
+    public static final int notification_content_margin_start=0x7f05005e;
+    public static final int notification_large_icon_height=0x7f05005f;
+    public static final int notification_large_icon_width=0x7f050060;
+    public static final int notification_main_column_padding_top=0x7f050061;
+    public static final int notification_media_narrow_margin=0x7f050062;
+    public static final int notification_right_icon_size=0x7f050063;
+    public static final int notification_right_side_padding_top=0x7f050064;
+    public static final int notification_small_icon_background_padding=0x7f050065;
+    public static final int notification_small_icon_size_as_large=0x7f050066;
+    public static final int notification_subtext_size=0x7f050067;
+    public static final int notification_top_pad=0x7f050068;
+    public static final int notification_top_pad_large_text=0x7f050069;
+    public static final int tooltip_corner_radius=0x7f05006a;
+    public static final int tooltip_horizontal_padding=0x7f05006b;
+    public static final int tooltip_margin=0x7f05006c;
+    public static final int tooltip_precise_anchor_extra_offset=0x7f05006d;
+    public static final int tooltip_precise_anchor_threshold=0x7f05006e;
+    public static final int tooltip_vertical_padding=0x7f05006f;
+    public static final int tooltip_y_offset_non_touch=0x7f050070;
+    public static final int tooltip_y_offset_touch=0x7f050071;
   }
   public static final class drawable {
     public static final int abc_ab_share_pack_mtrl_alpha=0x7f060001;
@@ -3127,193 +3214,204 @@ public final class R {
     public static final int icon=0x7f060072;
     public static final int iconbundar=0x7f060073;
     public static final int loginpage=0x7f060074;
-    public static final int notification_action_background=0x7f060075;
-    public static final int notification_bg=0x7f060076;
-    public static final int notification_bg_low=0x7f060077;
-    public static final int notification_bg_low_normal=0x7f060078;
-    public static final int notification_bg_low_pressed=0x7f060079;
-    public static final int notification_bg_normal=0x7f06007a;
-    public static final int notification_bg_normal_pressed=0x7f06007b;
-    public static final int notification_icon_background=0x7f06007c;
-    public static final int notification_template_icon_bg=0x7f06007d;
-    public static final int notification_template_icon_low_bg=0x7f06007e;
-    public static final int notification_tile_bg=0x7f06007f;
-    public static final int notify_panel_notification_icon_bg=0x7f060080;
-    public static final int registerback=0x7f060081;
-    public static final int splashscreen=0x7f060082;
-    public static final int tooltip_frame_dark=0x7f060083;
-    public static final int tooltip_frame_light=0x7f060084;
-    public static final int white_border=0x7f060085;
+    public static final int mapicon=0x7f060075;
+    public static final int notification_action_background=0x7f060076;
+    public static final int notification_bg=0x7f060077;
+    public static final int notification_bg_low=0x7f060078;
+    public static final int notification_bg_low_normal=0x7f060079;
+    public static final int notification_bg_low_pressed=0x7f06007a;
+    public static final int notification_bg_normal=0x7f06007b;
+    public static final int notification_bg_normal_pressed=0x7f06007c;
+    public static final int notification_icon_background=0x7f06007d;
+    public static final int notification_template_icon_bg=0x7f06007e;
+    public static final int notification_template_icon_low_bg=0x7f06007f;
+    public static final int notification_tile_bg=0x7f060080;
+    public static final int notify_panel_notification_icon_bg=0x7f060081;
+    public static final int registerback=0x7f060082;
+    public static final int splashscreen=0x7f060083;
+    public static final int tooltip_frame_dark=0x7f060084;
+    public static final int tooltip_frame_light=0x7f060085;
+    public static final int white_border=0x7f060086;
   }
   public static final class id {
     public static final int ALT=0x7f070000;
-    public static final int CTRL=0x7f070001;
-    public static final int CamBtn=0x7f070002;
-    public static final int FUNCTION=0x7f070003;
-    public static final int Jamsekarang=0x7f070004;
-    public static final int META=0x7f070005;
-    public static final int MapBtn=0x7f070006;
-    public static final int SHIFT=0x7f070007;
-    public static final int SYM=0x7f070008;
-    public static final int action0=0x7f070009;
-    public static final int action_bar=0x7f07000a;
-    public static final int action_bar_activity_content=0x7f07000b;
-    public static final int action_bar_container=0x7f07000c;
-    public static final int action_bar_root=0x7f07000d;
-    public static final int action_bar_spinner=0x7f07000e;
-    public static final int action_bar_subtitle=0x7f07000f;
-    public static final int action_bar_title=0x7f070010;
-    public static final int action_container=0x7f070011;
-    public static final int action_context_bar=0x7f070012;
-    public static final int action_divider=0x7f070013;
-    public static final int action_image=0x7f070014;
-    public static final int action_menu_divider=0x7f070015;
-    public static final int action_menu_presenter=0x7f070016;
-    public static final int action_mode_bar=0x7f070017;
-    public static final int action_mode_bar_stub=0x7f070018;
-    public static final int action_mode_close_button=0x7f070019;
-    public static final int action_text=0x7f07001a;
-    public static final int actions=0x7f07001b;
-    public static final int activity_chooser_view_content=0x7f07001c;
-    public static final int add=0x7f07001d;
-    public static final int adjust_height=0x7f07001e;
-    public static final int adjust_width=0x7f07001f;
-    public static final int alertTitle=0x7f070020;
-    public static final int always=0x7f070021;
-    public static final int async=0x7f070022;
-    public static final int auto=0x7f070023;
-    public static final int barrier=0x7f070024;
-    public static final int beginning=0x7f070025;
-    public static final int blocking=0x7f070026;
-    public static final int bottom=0x7f070027;
-    public static final int buttonPanel=0x7f070028;
-    public static final int cancel_action=0x7f070029;
-    public static final int chains=0x7f07002a;
-    public static final int checkbox=0x7f07002b;
-    public static final int chronometer=0x7f07002c;
-    public static final int collapseActionView=0x7f07002d;
-    public static final int contentPanel=0x7f07002e;
-    public static final int custom=0x7f07002f;
-    public static final int customPanel=0x7f070030;
-    public static final int dark=0x7f070031;
-    public static final int decode=0x7f070032;
-    public static final int decode_failed=0x7f070033;
-    public static final int decode_succeeded=0x7f070034;
-    public static final int decor_content_parent=0x7f070035;
-    public static final int default_activity_button=0x7f070036;
-    public static final int dimensions=0x7f070037;
-    public static final int direct=0x7f070038;
-    public static final int disableHome=0x7f070039;
-    public static final int edit_query=0x7f07003a;
-    public static final int emailInput=0x7f07003b;
-    public static final int end=0x7f07003c;
-    public static final int end_padder=0x7f07003d;
-    public static final int expand_activities_button=0x7f07003e;
-    public static final int expanded_menu=0x7f07003f;
-    public static final int forever=0x7f070040;
-    public static final int gone=0x7f070041;
-    public static final int groups=0x7f070042;
-    public static final int home=0x7f070043;
-    public static final int homeAsUp=0x7f070044;
-    public static final int hybrid=0x7f070045;
-    public static final int ic_gps=0x7f070046;
-    public static final int icon=0x7f070047;
-    public static final int icon_group=0x7f070048;
-    public static final int icon_only=0x7f070049;
-    public static final int ifRoom=0x7f07004a;
-    public static final int image=0x7f07004b;
-    public static final int info=0x7f07004c;
-    public static final int invisible=0x7f07004d;
-    public static final int italic=0x7f07004e;
-    public static final int left=0x7f07004f;
-    public static final int light=0x7f070050;
-    public static final int line1=0x7f070051;
-    public static final int line3=0x7f070052;
-    public static final int listMode=0x7f070053;
-    public static final int list_item=0x7f070054;
-    public static final int loginButton=0x7f070055;
-    public static final int map=0x7f070056;
-    public static final int media_actions=0x7f070057;
-    public static final int message=0x7f070058;
-    public static final int middle=0x7f070059;
-    public static final int multiply=0x7f07005a;
-    public static final int nameInput=0x7f07005b;
-    public static final int never=0x7f07005c;
-    public static final int none=0x7f07005d;
-    public static final int normal=0x7f07005e;
-    public static final int notification_background=0x7f07005f;
-    public static final int notification_main_column=0x7f070060;
-    public static final int notification_main_column_container=0x7f070061;
-    public static final int packed=0x7f070062;
-    public static final int parent=0x7f070063;
-    public static final int parentPanel=0x7f070064;
-    public static final int passInput=0x7f070065;
-    public static final int percent=0x7f070066;
-    public static final int preview_view=0x7f070067;
-    public static final int progress_circular=0x7f070068;
-    public static final int progress_horizontal=0x7f070069;
-    public static final int quit=0x7f07006a;
-    public static final int radio=0x7f07006b;
-    public static final int registerButton=0x7f07006c;
-    public static final int registerClick=0x7f07006d;
-    public static final int return_scan_result=0x7f07006e;
-    public static final int right=0x7f07006f;
-    public static final int right_icon=0x7f070070;
-    public static final int right_side=0x7f070071;
-    public static final int satellite=0x7f070072;
-    public static final int screen=0x7f070073;
-    public static final int scrollIndicatorDown=0x7f070074;
-    public static final int scrollIndicatorUp=0x7f070075;
-    public static final int scrollView=0x7f070076;
-    public static final int search_badge=0x7f070077;
-    public static final int search_bar=0x7f070078;
-    public static final int search_button=0x7f070079;
-    public static final int search_close_btn=0x7f07007a;
-    public static final int search_edit_frame=0x7f07007b;
-    public static final int search_go_btn=0x7f07007c;
-    public static final int search_mag_icon=0x7f07007d;
-    public static final int search_plate=0x7f07007e;
-    public static final int search_src_text=0x7f07007f;
-    public static final int search_voice_btn=0x7f070080;
-    public static final int select_dialog_listview=0x7f070081;
-    public static final int shortcut=0x7f070082;
-    public static final int showCustom=0x7f070083;
-    public static final int showHome=0x7f070084;
-    public static final int showTitle=0x7f070085;
-    public static final int spacer=0x7f070086;
-    public static final int split_action_bar=0x7f070087;
-    public static final int spread=0x7f070088;
-    public static final int spread_inside=0x7f070089;
-    public static final int src_atop=0x7f07008a;
-    public static final int src_in=0x7f07008b;
-    public static final int src_over=0x7f07008c;
-    public static final int standard=0x7f07008d;
-    public static final int start=0x7f07008e;
-    public static final int status_bar_latest_event_content=0x7f07008f;
-    public static final int status_view=0x7f070090;
-    public static final int submenuarrow=0x7f070091;
-    public static final int submit_area=0x7f070092;
-    public static final int tabMode=0x7f070093;
-    public static final int terrain=0x7f070094;
-    public static final int text=0x7f070095;
-    public static final int text2=0x7f070096;
-    public static final int textSpacerNoButtons=0x7f070097;
-    public static final int textSpacerNoTitle=0x7f070098;
-    public static final int textView=0x7f070099;
-    public static final int time=0x7f07009a;
-    public static final int title=0x7f07009b;
-    public static final int titleDividerNoCustom=0x7f07009c;
-    public static final int title_template=0x7f07009d;
-    public static final int top=0x7f07009e;
-    public static final int topPanel=0x7f07009f;
-    public static final int uniform=0x7f0700a0;
-    public static final int up=0x7f0700a1;
-    public static final int useLogo=0x7f0700a2;
-    public static final int viewfinder_view=0x7f0700a3;
-    public static final int wide=0x7f0700a4;
-    public static final int withText=0x7f0700a5;
-    public static final int wrap=0x7f0700a6;
-    public static final int wrap_content=0x7f0700a7;
+    public static final int Buttonkemenu=0x7f070001;
+    public static final int Buttonkonfirmasi=0x7f070002;
+    public static final int CTRL=0x7f070003;
+    public static final int CamBtn=0x7f070004;
+    public static final int FUNCTION=0x7f070005;
+    public static final int Jamsekarang=0x7f070006;
+    public static final int META=0x7f070007;
+    public static final int MapBtn=0x7f070008;
+    public static final int Nadriver=0x7f070009;
+    public static final int Noangkot=0x7f07000a;
+    public static final int SHIFT=0x7f07000b;
+    public static final int SYM=0x7f07000c;
+    public static final int action0=0x7f07000d;
+    public static final int action_bar=0x7f07000e;
+    public static final int action_bar_activity_content=0x7f07000f;
+    public static final int action_bar_container=0x7f070010;
+    public static final int action_bar_root=0x7f070011;
+    public static final int action_bar_spinner=0x7f070012;
+    public static final int action_bar_subtitle=0x7f070013;
+    public static final int action_bar_title=0x7f070014;
+    public static final int action_container=0x7f070015;
+    public static final int action_context_bar=0x7f070016;
+    public static final int action_divider=0x7f070017;
+    public static final int action_image=0x7f070018;
+    public static final int action_menu_divider=0x7f070019;
+    public static final int action_menu_presenter=0x7f07001a;
+    public static final int action_mode_bar=0x7f07001b;
+    public static final int action_mode_bar_stub=0x7f07001c;
+    public static final int action_mode_close_button=0x7f07001d;
+    public static final int action_text=0x7f07001e;
+    public static final int actions=0x7f07001f;
+    public static final int activity_chooser_view_content=0x7f070020;
+    public static final int add=0x7f070021;
+    public static final int adjust_height=0x7f070022;
+    public static final int adjust_width=0x7f070023;
+    public static final int alertTitle=0x7f070024;
+    public static final int always=0x7f070025;
+    public static final int async=0x7f070026;
+    public static final int auto=0x7f070027;
+    public static final int banyakmeter=0x7f070028;
+    public static final int barrier=0x7f070029;
+    public static final int beginning=0x7f07002a;
+    public static final int blocking=0x7f07002b;
+    public static final int bottom=0x7f07002c;
+    public static final int buttonPanel=0x7f07002d;
+    public static final int cancel_action=0x7f07002e;
+    public static final int chains=0x7f07002f;
+    public static final int checkbox=0x7f070030;
+    public static final int chronometer=0x7f070031;
+    public static final int collapseActionView=0x7f070032;
+    public static final int contentPanel=0x7f070033;
+    public static final int custom=0x7f070034;
+    public static final int customPanel=0x7f070035;
+    public static final int dark=0x7f070036;
+    public static final int decode=0x7f070037;
+    public static final int decode_failed=0x7f070038;
+    public static final int decode_succeeded=0x7f070039;
+    public static final int decor_content_parent=0x7f07003a;
+    public static final int default_activity_button=0x7f07003b;
+    public static final int dimensions=0x7f07003c;
+    public static final int direct=0x7f07003d;
+    public static final int disableHome=0x7f07003e;
+    public static final int edit_query=0x7f07003f;
+    public static final int emailInput=0x7f070040;
+    public static final int end=0x7f070041;
+    public static final int end_padder=0x7f070042;
+    public static final int expand_activities_button=0x7f070043;
+    public static final int expanded_menu=0x7f070044;
+    public static final int forever=0x7f070045;
+    public static final int gone=0x7f070046;
+    public static final int groups=0x7f070047;
+    public static final int home=0x7f070048;
+    public static final int homeAsUp=0x7f070049;
+    public static final int hybrid=0x7f07004a;
+    public static final int ic_gps=0x7f07004b;
+    public static final int icon=0x7f07004c;
+    public static final int icon_group=0x7f07004d;
+    public static final int icon_only=0x7f07004e;
+    public static final int ifRoom=0x7f07004f;
+    public static final int image=0x7f070050;
+    public static final int info=0x7f070051;
+    public static final int inputnamadriver=0x7f070052;
+    public static final int inputnodriver=0x7f070053;
+    public static final int invisible=0x7f070054;
+    public static final int italic=0x7f070055;
+    public static final int left=0x7f070056;
+    public static final int light=0x7f070057;
+    public static final int line1=0x7f070058;
+    public static final int line3=0x7f070059;
+    public static final int listMode=0x7f07005a;
+    public static final int list_item=0x7f07005b;
+    public static final int loginButton=0x7f07005c;
+    public static final int map=0x7f07005d;
+    public static final int media_actions=0x7f07005e;
+    public static final int message=0x7f07005f;
+    public static final int middle=0x7f070060;
+    public static final int multiply=0x7f070061;
+    public static final int nameInput=0x7f070062;
+    public static final int never=0x7f070063;
+    public static final int nilaibayar=0x7f070064;
+    public static final int none=0x7f070065;
+    public static final int normal=0x7f070066;
+    public static final int notification_background=0x7f070067;
+    public static final int notification_main_column=0x7f070068;
+    public static final int notification_main_column_container=0x7f070069;
+    public static final int packed=0x7f07006a;
+    public static final int parent=0x7f07006b;
+    public static final int parentPanel=0x7f07006c;
+    public static final int passInput=0x7f07006d;
+    public static final int percent=0x7f07006e;
+    public static final int preview_view=0x7f07006f;
+    public static final int progress_circular=0x7f070070;
+    public static final int progress_horizontal=0x7f070071;
+    public static final int quit=0x7f070072;
+    public static final int radio=0x7f070073;
+    public static final int registerButton=0x7f070074;
+    public static final int registerClick=0x7f070075;
+    public static final int return_scan_result=0x7f070076;
+    public static final int right=0x7f070077;
+    public static final int right_icon=0x7f070078;
+    public static final int right_side=0x7f070079;
+    public static final int satellite=0x7f07007a;
+    public static final int screen=0x7f07007b;
+    public static final int scrollIndicatorDown=0x7f07007c;
+    public static final int scrollIndicatorUp=0x7f07007d;
+    public static final int scrollView=0x7f07007e;
+    public static final int search_badge=0x7f07007f;
+    public static final int search_bar=0x7f070080;
+    public static final int search_button=0x7f070081;
+    public static final int search_close_btn=0x7f070082;
+    public static final int search_edit_frame=0x7f070083;
+    public static final int search_go_btn=0x7f070084;
+    public static final int search_mag_icon=0x7f070085;
+    public static final int search_plate=0x7f070086;
+    public static final int search_src_text=0x7f070087;
+    public static final int search_voice_btn=0x7f070088;
+    public static final int select_dialog_listview=0x7f070089;
+    public static final int shortcut=0x7f07008a;
+    public static final int showCustom=0x7f07008b;
+    public static final int showHome=0x7f07008c;
+    public static final int showTitle=0x7f07008d;
+    public static final int spacer=0x7f07008e;
+    public static final int split_action_bar=0x7f07008f;
+    public static final int spread=0x7f070090;
+    public static final int spread_inside=0x7f070091;
+    public static final int src_atop=0x7f070092;
+    public static final int src_in=0x7f070093;
+    public static final int src_over=0x7f070094;
+    public static final int standard=0x7f070095;
+    public static final int start=0x7f070096;
+    public static final int status_bar_latest_event_content=0x7f070097;
+    public static final int status_view=0x7f070098;
+    public static final int submenuarrow=0x7f070099;
+    public static final int submit_area=0x7f07009a;
+    public static final int tabMode=0x7f07009b;
+    public static final int terrain=0x7f07009c;
+    public static final int text=0x7f07009d;
+    public static final int text2=0x7f07009e;
+    public static final int textSpacerNoButtons=0x7f07009f;
+    public static final int textSpacerNoTitle=0x7f0700a0;
+    public static final int textView=0x7f0700a1;
+    public static final int time=0x7f0700a2;
+    public static final int title=0x7f0700a3;
+    public static final int titleDividerNoCustom=0x7f0700a4;
+    public static final int title_template=0x7f0700a5;
+    public static final int top=0x7f0700a6;
+    public static final int topPanel=0x7f0700a7;
+    public static final int tulisanjarak=0x7f0700a8;
+    public static final int tulisantarif=0x7f0700a9;
+    public static final int uniform=0x7f0700aa;
+    public static final int up=0x7f0700ab;
+    public static final int useLogo=0x7f0700ac;
+    public static final int viewfinder_view=0x7f0700ad;
+    public static final int wide=0x7f0700ae;
+    public static final int withText=0x7f0700af;
+    public static final int wrap=0x7f0700b0;
+    public static final int wrap_content=0x7f0700b1;
   }
   public static final class integer {
     public static final int abc_config_activityDefaultDur=0x7f080000;
@@ -3375,11 +3473,13 @@ public final class R {
     public static final int notification_template_media_custom=0x7f09002e;
     public static final int notification_template_part_chronometer=0x7f09002f;
     public static final int notification_template_part_time=0x7f090030;
-    public static final int select_dialog_item_material=0x7f090031;
-    public static final int select_dialog_multichoice_material=0x7f090032;
-    public static final int select_dialog_singlechoice_material=0x7f090033;
-    public static final int support_simple_spinner_dropdown_item=0x7f090034;
-    public static final int tooltip=0x7f090035;
+    public static final int payment_info=0x7f090031;
+    public static final int ride_info=0x7f090032;
+    public static final int select_dialog_item_material=0x7f090033;
+    public static final int select_dialog_multichoice_material=0x7f090034;
+    public static final int select_dialog_singlechoice_material=0x7f090035;
+    public static final int support_simple_spinner_dropdown_item=0x7f090036;
+    public static final int tooltip=0x7f090037;
   }
   public static final class mipmap {
     public static final int backgroundfix=0x7f0a0000;
@@ -3492,363 +3592,367 @@ public final class R {
     public static final int Base_Animation_AppCompat_Dialog=0x7f0c0008;
     public static final int Base_Animation_AppCompat_DropDownUp=0x7f0c0009;
     public static final int Base_Animation_AppCompat_Tooltip=0x7f0c000a;
-    public static final int Base_DialogWindowTitle_AppCompat=0x7f0c000b;
-    public static final int Base_DialogWindowTitleBackground_AppCompat=0x7f0c000c;
-    public static final int Base_TextAppearance_AppCompat=0x7f0c000d;
-    public static final int Base_TextAppearance_AppCompat_Body1=0x7f0c000e;
-    public static final int Base_TextAppearance_AppCompat_Body2=0x7f0c000f;
-    public static final int Base_TextAppearance_AppCompat_Button=0x7f0c0010;
-    public static final int Base_TextAppearance_AppCompat_Caption=0x7f0c0011;
-    public static final int Base_TextAppearance_AppCompat_Display1=0x7f0c0012;
-    public static final int Base_TextAppearance_AppCompat_Display2=0x7f0c0013;
-    public static final int Base_TextAppearance_AppCompat_Display3=0x7f0c0014;
-    public static final int Base_TextAppearance_AppCompat_Display4=0x7f0c0015;
-    public static final int Base_TextAppearance_AppCompat_Headline=0x7f0c0016;
-    public static final int Base_TextAppearance_AppCompat_Inverse=0x7f0c0017;
-    public static final int Base_TextAppearance_AppCompat_Large=0x7f0c0018;
-    public static final int Base_TextAppearance_AppCompat_Large_Inverse=0x7f0c0019;
-    public static final int Base_TextAppearance_AppCompat_Light_Widget_PopupMenu_Large=0x7f0c001a;
-    public static final int Base_TextAppearance_AppCompat_Light_Widget_PopupMenu_Small=0x7f0c001b;
-    public static final int Base_TextAppearance_AppCompat_Medium=0x7f0c001c;
-    public static final int Base_TextAppearance_AppCompat_Medium_Inverse=0x7f0c001d;
-    public static final int Base_TextAppearance_AppCompat_Menu=0x7f0c001e;
-    public static final int Base_TextAppearance_AppCompat_SearchResult=0x7f0c001f;
-    public static final int Base_TextAppearance_AppCompat_SearchResult_Subtitle=0x7f0c0020;
-    public static final int Base_TextAppearance_AppCompat_SearchResult_Title=0x7f0c0021;
-    public static final int Base_TextAppearance_AppCompat_Small=0x7f0c0022;
-    public static final int Base_TextAppearance_AppCompat_Small_Inverse=0x7f0c0023;
-    public static final int Base_TextAppearance_AppCompat_Subhead=0x7f0c0024;
-    public static final int Base_TextAppearance_AppCompat_Subhead_Inverse=0x7f0c0025;
-    public static final int Base_TextAppearance_AppCompat_Title=0x7f0c0026;
-    public static final int Base_TextAppearance_AppCompat_Title_Inverse=0x7f0c0027;
-    public static final int Base_TextAppearance_AppCompat_Tooltip=0x7f0c0028;
-    public static final int Base_TextAppearance_AppCompat_Widget_ActionBar_Menu=0x7f0c0029;
-    public static final int Base_TextAppearance_AppCompat_Widget_ActionBar_Subtitle=0x7f0c002a;
-    public static final int Base_TextAppearance_AppCompat_Widget_ActionBar_Subtitle_Inverse=0x7f0c002b;
-    public static final int Base_TextAppearance_AppCompat_Widget_ActionBar_Title=0x7f0c002c;
-    public static final int Base_TextAppearance_AppCompat_Widget_ActionBar_Title_Inverse=0x7f0c002d;
-    public static final int Base_TextAppearance_AppCompat_Widget_ActionMode_Subtitle=0x7f0c002e;
-    public static final int Base_TextAppearance_AppCompat_Widget_ActionMode_Title=0x7f0c002f;
-    public static final int Base_TextAppearance_AppCompat_Widget_Button=0x7f0c0030;
-    public static final int Base_TextAppearance_AppCompat_Widget_Button_Borderless_Colored=0x7f0c0031;
-    public static final int Base_TextAppearance_AppCompat_Widget_Button_Colored=0x7f0c0032;
-    public static final int Base_TextAppearance_AppCompat_Widget_Button_Inverse=0x7f0c0033;
-    public static final int Base_TextAppearance_AppCompat_Widget_DropDownItem=0x7f0c0034;
-    public static final int Base_TextAppearance_AppCompat_Widget_PopupMenu_Header=0x7f0c0035;
-    public static final int Base_TextAppearance_AppCompat_Widget_PopupMenu_Large=0x7f0c0036;
-    public static final int Base_TextAppearance_AppCompat_Widget_PopupMenu_Small=0x7f0c0037;
-    public static final int Base_TextAppearance_AppCompat_Widget_Switch=0x7f0c0038;
-    public static final int Base_TextAppearance_AppCompat_Widget_TextView_SpinnerItem=0x7f0c0039;
-    public static final int Base_TextAppearance_Widget_AppCompat_ExpandedMenu_Item=0x7f0c003a;
-    public static final int Base_TextAppearance_Widget_AppCompat_Toolbar_Subtitle=0x7f0c003b;
-    public static final int Base_TextAppearance_Widget_AppCompat_Toolbar_Title=0x7f0c003c;
-    public static final int Base_Theme_AppCompat=0x7f0c003d;
-    public static final int Base_Theme_AppCompat_CompactMenu=0x7f0c003e;
-    public static final int Base_Theme_AppCompat_Dialog=0x7f0c003f;
-    public static final int Base_Theme_AppCompat_Dialog_Alert=0x7f0c0040;
-    public static final int Base_Theme_AppCompat_Dialog_FixedSize=0x7f0c0041;
-    public static final int Base_Theme_AppCompat_Dialog_MinWidth=0x7f0c0042;
-    public static final int Base_Theme_AppCompat_DialogWhenLarge=0x7f0c0043;
-    public static final int Base_Theme_AppCompat_Light=0x7f0c0044;
-    public static final int Base_Theme_AppCompat_Light_DarkActionBar=0x7f0c0045;
-    public static final int Base_Theme_AppCompat_Light_Dialog=0x7f0c0046;
-    public static final int Base_Theme_AppCompat_Light_Dialog_Alert=0x7f0c0047;
-    public static final int Base_Theme_AppCompat_Light_Dialog_FixedSize=0x7f0c0048;
-    public static final int Base_Theme_AppCompat_Light_Dialog_MinWidth=0x7f0c0049;
-    public static final int Base_Theme_AppCompat_Light_DialogWhenLarge=0x7f0c004a;
-    public static final int Base_ThemeOverlay_AppCompat=0x7f0c004b;
-    public static final int Base_ThemeOverlay_AppCompat_ActionBar=0x7f0c004c;
-    public static final int Base_ThemeOverlay_AppCompat_Dark=0x7f0c004d;
-    public static final int Base_ThemeOverlay_AppCompat_Dark_ActionBar=0x7f0c004e;
-    public static final int Base_ThemeOverlay_AppCompat_Dialog=0x7f0c004f;
-    public static final int Base_ThemeOverlay_AppCompat_Dialog_Alert=0x7f0c0050;
-    public static final int Base_ThemeOverlay_AppCompat_Light=0x7f0c0051;
-    public static final int Base_V11_Theme_AppCompat_Dialog=0x7f0c0052;
-    public static final int Base_V11_Theme_AppCompat_Light_Dialog=0x7f0c0053;
-    public static final int Base_V11_ThemeOverlay_AppCompat_Dialog=0x7f0c0054;
-    public static final int Base_V12_Widget_AppCompat_AutoCompleteTextView=0x7f0c0055;
-    public static final int Base_V12_Widget_AppCompat_EditText=0x7f0c0056;
-    public static final int Base_V21_Theme_AppCompat=0x7f0c0057;
-    public static final int Base_V21_Theme_AppCompat_Dialog=0x7f0c0058;
-    public static final int Base_V21_Theme_AppCompat_Light=0x7f0c0059;
-    public static final int Base_V21_Theme_AppCompat_Light_Dialog=0x7f0c005a;
-    public static final int Base_V21_ThemeOverlay_AppCompat_Dialog=0x7f0c005b;
-    public static final int Base_V22_Theme_AppCompat=0x7f0c005c;
-    public static final int Base_V22_Theme_AppCompat_Light=0x7f0c005d;
-    public static final int Base_V23_Theme_AppCompat=0x7f0c005e;
-    public static final int Base_V23_Theme_AppCompat_Light=0x7f0c005f;
-    public static final int Base_V26_Theme_AppCompat=0x7f0c0060;
-    public static final int Base_V26_Theme_AppCompat_Light=0x7f0c0061;
-    public static final int Base_V26_Widget_AppCompat_Toolbar=0x7f0c0062;
-    public static final int Base_V7_Theme_AppCompat=0x7f0c0063;
-    public static final int Base_V7_Theme_AppCompat_Dialog=0x7f0c0064;
-    public static final int Base_V7_Theme_AppCompat_Light=0x7f0c0065;
-    public static final int Base_V7_Theme_AppCompat_Light_Dialog=0x7f0c0066;
-    public static final int Base_V7_ThemeOverlay_AppCompat_Dialog=0x7f0c0067;
-    public static final int Base_V7_Widget_AppCompat_AutoCompleteTextView=0x7f0c0068;
-    public static final int Base_V7_Widget_AppCompat_EditText=0x7f0c0069;
-    public static final int Base_V7_Widget_AppCompat_Toolbar=0x7f0c006a;
-    public static final int Base_Widget_AppCompat_ActionBar=0x7f0c006b;
-    public static final int Base_Widget_AppCompat_ActionBar_Solid=0x7f0c006c;
-    public static final int Base_Widget_AppCompat_ActionBar_TabBar=0x7f0c006d;
-    public static final int Base_Widget_AppCompat_ActionBar_TabText=0x7f0c006e;
-    public static final int Base_Widget_AppCompat_ActionBar_TabView=0x7f0c006f;
-    public static final int Base_Widget_AppCompat_ActionButton=0x7f0c0070;
-    public static final int Base_Widget_AppCompat_ActionButton_CloseMode=0x7f0c0071;
-    public static final int Base_Widget_AppCompat_ActionButton_Overflow=0x7f0c0072;
-    public static final int Base_Widget_AppCompat_ActionMode=0x7f0c0073;
-    public static final int Base_Widget_AppCompat_ActivityChooserView=0x7f0c0074;
-    public static final int Base_Widget_AppCompat_AutoCompleteTextView=0x7f0c0075;
-    public static final int Base_Widget_AppCompat_Button=0x7f0c0076;
-    public static final int Base_Widget_AppCompat_Button_Borderless=0x7f0c0077;
-    public static final int Base_Widget_AppCompat_Button_Borderless_Colored=0x7f0c0078;
-    public static final int Base_Widget_AppCompat_Button_ButtonBar_AlertDialog=0x7f0c0079;
-    public static final int Base_Widget_AppCompat_Button_Colored=0x7f0c007a;
-    public static final int Base_Widget_AppCompat_Button_Small=0x7f0c007b;
-    public static final int Base_Widget_AppCompat_ButtonBar=0x7f0c007c;
-    public static final int Base_Widget_AppCompat_ButtonBar_AlertDialog=0x7f0c007d;
-    public static final int Base_Widget_AppCompat_CompoundButton_CheckBox=0x7f0c007e;
-    public static final int Base_Widget_AppCompat_CompoundButton_RadioButton=0x7f0c007f;
-    public static final int Base_Widget_AppCompat_CompoundButton_Switch=0x7f0c0080;
-    public static final int Base_Widget_AppCompat_DrawerArrowToggle=0x7f0c0081;
-    public static final int Base_Widget_AppCompat_DrawerArrowToggle_Common=0x7f0c0082;
-    public static final int Base_Widget_AppCompat_DropDownItem_Spinner=0x7f0c0083;
-    public static final int Base_Widget_AppCompat_EditText=0x7f0c0084;
-    public static final int Base_Widget_AppCompat_ImageButton=0x7f0c0085;
-    public static final int Base_Widget_AppCompat_Light_ActionBar=0x7f0c0086;
-    public static final int Base_Widget_AppCompat_Light_ActionBar_Solid=0x7f0c0087;
-    public static final int Base_Widget_AppCompat_Light_ActionBar_TabBar=0x7f0c0088;
-    public static final int Base_Widget_AppCompat_Light_ActionBar_TabText=0x7f0c0089;
-    public static final int Base_Widget_AppCompat_Light_ActionBar_TabText_Inverse=0x7f0c008a;
-    public static final int Base_Widget_AppCompat_Light_ActionBar_TabView=0x7f0c008b;
-    public static final int Base_Widget_AppCompat_Light_PopupMenu=0x7f0c008c;
-    public static final int Base_Widget_AppCompat_Light_PopupMenu_Overflow=0x7f0c008d;
-    public static final int Base_Widget_AppCompat_ListMenuView=0x7f0c008e;
-    public static final int Base_Widget_AppCompat_ListPopupWindow=0x7f0c008f;
-    public static final int Base_Widget_AppCompat_ListView=0x7f0c0090;
-    public static final int Base_Widget_AppCompat_ListView_DropDown=0x7f0c0091;
-    public static final int Base_Widget_AppCompat_ListView_Menu=0x7f0c0092;
-    public static final int Base_Widget_AppCompat_PopupMenu=0x7f0c0093;
-    public static final int Base_Widget_AppCompat_PopupMenu_Overflow=0x7f0c0094;
-    public static final int Base_Widget_AppCompat_PopupWindow=0x7f0c0095;
-    public static final int Base_Widget_AppCompat_ProgressBar=0x7f0c0096;
-    public static final int Base_Widget_AppCompat_ProgressBar_Horizontal=0x7f0c0097;
-    public static final int Base_Widget_AppCompat_RatingBar=0x7f0c0098;
-    public static final int Base_Widget_AppCompat_RatingBar_Indicator=0x7f0c0099;
-    public static final int Base_Widget_AppCompat_RatingBar_Small=0x7f0c009a;
-    public static final int Base_Widget_AppCompat_SearchView=0x7f0c009b;
-    public static final int Base_Widget_AppCompat_SearchView_ActionBar=0x7f0c009c;
-    public static final int Base_Widget_AppCompat_SeekBar=0x7f0c009d;
-    public static final int Base_Widget_AppCompat_SeekBar_Discrete=0x7f0c009e;
-    public static final int Base_Widget_AppCompat_Spinner=0x7f0c009f;
-    public static final int Base_Widget_AppCompat_Spinner_Underlined=0x7f0c00a0;
-    public static final int Base_Widget_AppCompat_TextView_SpinnerItem=0x7f0c00a1;
-    public static final int Base_Widget_AppCompat_Toolbar=0x7f0c00a2;
-    public static final int Base_Widget_AppCompat_Toolbar_Button_Navigation=0x7f0c00a3;
-    public static final int FullscreenActionBarStyle=0x7f0c00a4;
-    public static final int FullscreenTheme=0x7f0c00a5;
-    public static final int Platform_AppCompat=0x7f0c00a6;
-    public static final int Platform_AppCompat_Light=0x7f0c00a7;
-    public static final int Platform_ThemeOverlay_AppCompat=0x7f0c00a8;
-    public static final int Platform_ThemeOverlay_AppCompat_Dark=0x7f0c00a9;
-    public static final int Platform_ThemeOverlay_AppCompat_Light=0x7f0c00aa;
-    public static final int Platform_V11_AppCompat=0x7f0c00ab;
-    public static final int Platform_V11_AppCompat_Light=0x7f0c00ac;
-    public static final int Platform_V14_AppCompat=0x7f0c00ad;
-    public static final int Platform_V14_AppCompat_Light=0x7f0c00ae;
-    public static final int Platform_V21_AppCompat=0x7f0c00af;
-    public static final int Platform_V21_AppCompat_Light=0x7f0c00b0;
-    public static final int Platform_V25_AppCompat=0x7f0c00b1;
-    public static final int Platform_V25_AppCompat_Light=0x7f0c00b2;
-    public static final int Platform_Widget_AppCompat_Spinner=0x7f0c00b3;
-    public static final int RtlOverlay_DialogWindowTitle_AppCompat=0x7f0c00b4;
-    public static final int RtlOverlay_Widget_AppCompat_ActionBar_TitleItem=0x7f0c00b5;
-    public static final int RtlOverlay_Widget_AppCompat_DialogTitle_Icon=0x7f0c00b6;
-    public static final int RtlOverlay_Widget_AppCompat_PopupMenuItem=0x7f0c00b7;
-    public static final int RtlOverlay_Widget_AppCompat_PopupMenuItem_InternalGroup=0x7f0c00b8;
-    public static final int RtlOverlay_Widget_AppCompat_PopupMenuItem_Text=0x7f0c00b9;
-    public static final int RtlOverlay_Widget_AppCompat_Search_DropDown=0x7f0c00ba;
-    public static final int RtlOverlay_Widget_AppCompat_Search_DropDown_Icon1=0x7f0c00bb;
-    public static final int RtlOverlay_Widget_AppCompat_Search_DropDown_Icon2=0x7f0c00bc;
-    public static final int RtlOverlay_Widget_AppCompat_Search_DropDown_Query=0x7f0c00bd;
-    public static final int RtlOverlay_Widget_AppCompat_Search_DropDown_Text=0x7f0c00be;
-    public static final int RtlOverlay_Widget_AppCompat_SearchView_MagIcon=0x7f0c00bf;
-    public static final int RtlUnderlay_Widget_AppCompat_ActionButton=0x7f0c00c0;
-    public static final int RtlUnderlay_Widget_AppCompat_ActionButton_Overflow=0x7f0c00c1;
-    public static final int TextAppearance_AppCompat=0x7f0c00c2;
-    public static final int TextAppearance_AppCompat_Body1=0x7f0c00c3;
-    public static final int TextAppearance_AppCompat_Body2=0x7f0c00c4;
-    public static final int TextAppearance_AppCompat_Button=0x7f0c00c5;
-    public static final int TextAppearance_AppCompat_Caption=0x7f0c00c6;
-    public static final int TextAppearance_AppCompat_Display1=0x7f0c00c7;
-    public static final int TextAppearance_AppCompat_Display2=0x7f0c00c8;
-    public static final int TextAppearance_AppCompat_Display3=0x7f0c00c9;
-    public static final int TextAppearance_AppCompat_Display4=0x7f0c00ca;
-    public static final int TextAppearance_AppCompat_Headline=0x7f0c00cb;
-    public static final int TextAppearance_AppCompat_Inverse=0x7f0c00cc;
-    public static final int TextAppearance_AppCompat_Large=0x7f0c00cd;
-    public static final int TextAppearance_AppCompat_Large_Inverse=0x7f0c00ce;
-    public static final int TextAppearance_AppCompat_Light_SearchResult_Subtitle=0x7f0c00cf;
-    public static final int TextAppearance_AppCompat_Light_SearchResult_Title=0x7f0c00d0;
-    public static final int TextAppearance_AppCompat_Light_Widget_PopupMenu_Large=0x7f0c00d1;
-    public static final int TextAppearance_AppCompat_Light_Widget_PopupMenu_Small=0x7f0c00d2;
-    public static final int TextAppearance_AppCompat_Medium=0x7f0c00d3;
-    public static final int TextAppearance_AppCompat_Medium_Inverse=0x7f0c00d4;
-    public static final int TextAppearance_AppCompat_Menu=0x7f0c00d5;
-    public static final int TextAppearance_AppCompat_Notification=0x7f0c00d6;
-    public static final int TextAppearance_AppCompat_Notification_Info=0x7f0c00d7;
-    public static final int TextAppearance_AppCompat_Notification_Info_Media=0x7f0c00d8;
-    public static final int TextAppearance_AppCompat_Notification_Line2=0x7f0c00d9;
-    public static final int TextAppearance_AppCompat_Notification_Line2_Media=0x7f0c00da;
-    public static final int TextAppearance_AppCompat_Notification_Media=0x7f0c00db;
-    public static final int TextAppearance_AppCompat_Notification_Time=0x7f0c00dc;
-    public static final int TextAppearance_AppCompat_Notification_Time_Media=0x7f0c00dd;
-    public static final int TextAppearance_AppCompat_Notification_Title=0x7f0c00de;
-    public static final int TextAppearance_AppCompat_Notification_Title_Media=0x7f0c00df;
-    public static final int TextAppearance_AppCompat_SearchResult_Subtitle=0x7f0c00e0;
-    public static final int TextAppearance_AppCompat_SearchResult_Title=0x7f0c00e1;
-    public static final int TextAppearance_AppCompat_Small=0x7f0c00e2;
-    public static final int TextAppearance_AppCompat_Small_Inverse=0x7f0c00e3;
-    public static final int TextAppearance_AppCompat_Subhead=0x7f0c00e4;
-    public static final int TextAppearance_AppCompat_Subhead_Inverse=0x7f0c00e5;
-    public static final int TextAppearance_AppCompat_Title=0x7f0c00e6;
-    public static final int TextAppearance_AppCompat_Title_Inverse=0x7f0c00e7;
-    public static final int TextAppearance_AppCompat_Tooltip=0x7f0c00e8;
-    public static final int TextAppearance_AppCompat_Widget_ActionBar_Menu=0x7f0c00e9;
-    public static final int TextAppearance_AppCompat_Widget_ActionBar_Subtitle=0x7f0c00ea;
-    public static final int TextAppearance_AppCompat_Widget_ActionBar_Subtitle_Inverse=0x7f0c00eb;
-    public static final int TextAppearance_AppCompat_Widget_ActionBar_Title=0x7f0c00ec;
-    public static final int TextAppearance_AppCompat_Widget_ActionBar_Title_Inverse=0x7f0c00ed;
-    public static final int TextAppearance_AppCompat_Widget_ActionMode_Subtitle=0x7f0c00ee;
-    public static final int TextAppearance_AppCompat_Widget_ActionMode_Subtitle_Inverse=0x7f0c00ef;
-    public static final int TextAppearance_AppCompat_Widget_ActionMode_Title=0x7f0c00f0;
-    public static final int TextAppearance_AppCompat_Widget_ActionMode_Title_Inverse=0x7f0c00f1;
-    public static final int TextAppearance_AppCompat_Widget_Button=0x7f0c00f2;
-    public static final int TextAppearance_AppCompat_Widget_Button_Borderless_Colored=0x7f0c00f3;
-    public static final int TextAppearance_AppCompat_Widget_Button_Colored=0x7f0c00f4;
-    public static final int TextAppearance_AppCompat_Widget_Button_Inverse=0x7f0c00f5;
-    public static final int TextAppearance_AppCompat_Widget_DropDownItem=0x7f0c00f6;
-    public static final int TextAppearance_AppCompat_Widget_PopupMenu_Header=0x7f0c00f7;
-    public static final int TextAppearance_AppCompat_Widget_PopupMenu_Large=0x7f0c00f8;
-    public static final int TextAppearance_AppCompat_Widget_PopupMenu_Small=0x7f0c00f9;
-    public static final int TextAppearance_AppCompat_Widget_Switch=0x7f0c00fa;
-    public static final int TextAppearance_AppCompat_Widget_TextView_SpinnerItem=0x7f0c00fb;
-    public static final int TextAppearance_Compat_Notification=0x7f0c00fc;
-    public static final int TextAppearance_Compat_Notification_Info=0x7f0c00fd;
-    public static final int TextAppearance_Compat_Notification_Info_Media=0x7f0c00fe;
-    public static final int TextAppearance_Compat_Notification_Line2=0x7f0c00ff;
-    public static final int TextAppearance_Compat_Notification_Line2_Media=0x7f0c0100;
-    public static final int TextAppearance_Compat_Notification_Media=0x7f0c0101;
-    public static final int TextAppearance_Compat_Notification_Time=0x7f0c0102;
-    public static final int TextAppearance_Compat_Notification_Time_Media=0x7f0c0103;
-    public static final int TextAppearance_Compat_Notification_Title=0x7f0c0104;
-    public static final int TextAppearance_Compat_Notification_Title_Media=0x7f0c0105;
-    public static final int TextAppearance_Widget_AppCompat_ExpandedMenu_Item=0x7f0c0106;
-    public static final int TextAppearance_Widget_AppCompat_Toolbar_Subtitle=0x7f0c0107;
-    public static final int TextAppearance_Widget_AppCompat_Toolbar_Title=0x7f0c0108;
-    public static final int Theme_AppCompat=0x7f0c0109;
-    public static final int Theme_AppCompat_CompactMenu=0x7f0c010a;
-    public static final int Theme_AppCompat_DayNight=0x7f0c010b;
-    public static final int Theme_AppCompat_DayNight_DarkActionBar=0x7f0c010c;
-    public static final int Theme_AppCompat_DayNight_Dialog=0x7f0c010d;
-    public static final int Theme_AppCompat_DayNight_Dialog_Alert=0x7f0c010e;
-    public static final int Theme_AppCompat_DayNight_Dialog_MinWidth=0x7f0c010f;
-    public static final int Theme_AppCompat_DayNight_DialogWhenLarge=0x7f0c0110;
-    public static final int Theme_AppCompat_DayNight_NoActionBar=0x7f0c0111;
-    public static final int Theme_AppCompat_Dialog=0x7f0c0112;
-    public static final int Theme_AppCompat_Dialog_Alert=0x7f0c0113;
-    public static final int Theme_AppCompat_Dialog_MinWidth=0x7f0c0114;
-    public static final int Theme_AppCompat_DialogWhenLarge=0x7f0c0115;
-    public static final int Theme_AppCompat_Light=0x7f0c0116;
-    public static final int Theme_AppCompat_Light_DarkActionBar=0x7f0c0117;
-    public static final int Theme_AppCompat_Light_Dialog=0x7f0c0118;
-    public static final int Theme_AppCompat_Light_Dialog_Alert=0x7f0c0119;
-    public static final int Theme_AppCompat_Light_Dialog_MinWidth=0x7f0c011a;
-    public static final int Theme_AppCompat_Light_DialogWhenLarge=0x7f0c011b;
-    public static final int Theme_AppCompat_Light_NoActionBar=0x7f0c011c;
-    public static final int Theme_AppCompat_NoActionBar=0x7f0c011d;
-    public static final int Theme_ZXingCaptureActivity=0x7f0c011e;
-    public static final int ThemeOverlay_AppCompat=0x7f0c011f;
-    public static final int ThemeOverlay_AppCompat_ActionBar=0x7f0c0120;
-    public static final int ThemeOverlay_AppCompat_Dark=0x7f0c0121;
-    public static final int ThemeOverlay_AppCompat_Dark_ActionBar=0x7f0c0122;
-    public static final int ThemeOverlay_AppCompat_Dialog=0x7f0c0123;
-    public static final int ThemeOverlay_AppCompat_Dialog_Alert=0x7f0c0124;
-    public static final int ThemeOverlay_AppCompat_Light=0x7f0c0125;
-    public static final int Widget_AppCompat_ActionBar=0x7f0c0126;
-    public static final int Widget_AppCompat_ActionBar_Solid=0x7f0c0127;
-    public static final int Widget_AppCompat_ActionBar_TabBar=0x7f0c0128;
-    public static final int Widget_AppCompat_ActionBar_TabText=0x7f0c0129;
-    public static final int Widget_AppCompat_ActionBar_TabView=0x7f0c012a;
-    public static final int Widget_AppCompat_ActionButton=0x7f0c012b;
-    public static final int Widget_AppCompat_ActionButton_CloseMode=0x7f0c012c;
-    public static final int Widget_AppCompat_ActionButton_Overflow=0x7f0c012d;
-    public static final int Widget_AppCompat_ActionMode=0x7f0c012e;
-    public static final int Widget_AppCompat_ActivityChooserView=0x7f0c012f;
-    public static final int Widget_AppCompat_AutoCompleteTextView=0x7f0c0130;
-    public static final int Widget_AppCompat_Button=0x7f0c0131;
-    public static final int Widget_AppCompat_Button_Borderless=0x7f0c0132;
-    public static final int Widget_AppCompat_Button_Borderless_Colored=0x7f0c0133;
-    public static final int Widget_AppCompat_Button_ButtonBar_AlertDialog=0x7f0c0134;
-    public static final int Widget_AppCompat_Button_Colored=0x7f0c0135;
-    public static final int Widget_AppCompat_Button_Small=0x7f0c0136;
-    public static final int Widget_AppCompat_ButtonBar=0x7f0c0137;
-    public static final int Widget_AppCompat_ButtonBar_AlertDialog=0x7f0c0138;
-    public static final int Widget_AppCompat_CompoundButton_CheckBox=0x7f0c0139;
-    public static final int Widget_AppCompat_CompoundButton_RadioButton=0x7f0c013a;
-    public static final int Widget_AppCompat_CompoundButton_Switch=0x7f0c013b;
-    public static final int Widget_AppCompat_DrawerArrowToggle=0x7f0c013c;
-    public static final int Widget_AppCompat_DropDownItem_Spinner=0x7f0c013d;
-    public static final int Widget_AppCompat_EditText=0x7f0c013e;
-    public static final int Widget_AppCompat_ImageButton=0x7f0c013f;
-    public static final int Widget_AppCompat_Light_ActionBar=0x7f0c0140;
-    public static final int Widget_AppCompat_Light_ActionBar_Solid=0x7f0c0141;
-    public static final int Widget_AppCompat_Light_ActionBar_Solid_Inverse=0x7f0c0142;
-    public static final int Widget_AppCompat_Light_ActionBar_TabBar=0x7f0c0143;
-    public static final int Widget_AppCompat_Light_ActionBar_TabBar_Inverse=0x7f0c0144;
-    public static final int Widget_AppCompat_Light_ActionBar_TabText=0x7f0c0145;
-    public static final int Widget_AppCompat_Light_ActionBar_TabText_Inverse=0x7f0c0146;
-    public static final int Widget_AppCompat_Light_ActionBar_TabView=0x7f0c0147;
-    public static final int Widget_AppCompat_Light_ActionBar_TabView_Inverse=0x7f0c0148;
-    public static final int Widget_AppCompat_Light_ActionButton=0x7f0c0149;
-    public static final int Widget_AppCompat_Light_ActionButton_CloseMode=0x7f0c014a;
-    public static final int Widget_AppCompat_Light_ActionButton_Overflow=0x7f0c014b;
-    public static final int Widget_AppCompat_Light_ActionMode_Inverse=0x7f0c014c;
-    public static final int Widget_AppCompat_Light_ActivityChooserView=0x7f0c014d;
-    public static final int Widget_AppCompat_Light_AutoCompleteTextView=0x7f0c014e;
-    public static final int Widget_AppCompat_Light_DropDownItem_Spinner=0x7f0c014f;
-    public static final int Widget_AppCompat_Light_ListPopupWindow=0x7f0c0150;
-    public static final int Widget_AppCompat_Light_ListView_DropDown=0x7f0c0151;
-    public static final int Widget_AppCompat_Light_PopupMenu=0x7f0c0152;
-    public static final int Widget_AppCompat_Light_PopupMenu_Overflow=0x7f0c0153;
-    public static final int Widget_AppCompat_Light_SearchView=0x7f0c0154;
-    public static final int Widget_AppCompat_Light_Spinner_DropDown_ActionBar=0x7f0c0155;
-    public static final int Widget_AppCompat_ListMenuView=0x7f0c0156;
-    public static final int Widget_AppCompat_ListPopupWindow=0x7f0c0157;
-    public static final int Widget_AppCompat_ListView=0x7f0c0158;
-    public static final int Widget_AppCompat_ListView_DropDown=0x7f0c0159;
-    public static final int Widget_AppCompat_ListView_Menu=0x7f0c015a;
-    public static final int Widget_AppCompat_PopupMenu=0x7f0c015b;
-    public static final int Widget_AppCompat_PopupMenu_Overflow=0x7f0c015c;
-    public static final int Widget_AppCompat_PopupWindow=0x7f0c015d;
-    public static final int Widget_AppCompat_ProgressBar=0x7f0c015e;
-    public static final int Widget_AppCompat_ProgressBar_Horizontal=0x7f0c015f;
-    public static final int Widget_AppCompat_RatingBar=0x7f0c0160;
-    public static final int Widget_AppCompat_RatingBar_Indicator=0x7f0c0161;
-    public static final int Widget_AppCompat_RatingBar_Small=0x7f0c0162;
-    public static final int Widget_AppCompat_SearchView=0x7f0c0163;
-    public static final int Widget_AppCompat_SearchView_ActionBar=0x7f0c0164;
-    public static final int Widget_AppCompat_SeekBar=0x7f0c0165;
-    public static final int Widget_AppCompat_SeekBar_Discrete=0x7f0c0166;
-    public static final int Widget_AppCompat_Spinner=0x7f0c0167;
-    public static final int Widget_AppCompat_Spinner_DropDown=0x7f0c0168;
-    public static final int Widget_AppCompat_Spinner_DropDown_ActionBar=0x7f0c0169;
-    public static final int Widget_AppCompat_Spinner_Underlined=0x7f0c016a;
-    public static final int Widget_AppCompat_TextView_SpinnerItem=0x7f0c016b;
-    public static final int Widget_AppCompat_Toolbar=0x7f0c016c;
-    public static final int Widget_AppCompat_Toolbar_Button_Navigation=0x7f0c016d;
-    public static final int Widget_Compat_NotificationActionContainer=0x7f0c016e;
-    public static final int Widget_Compat_NotificationActionText=0x7f0c016f;
+    public static final int Base_CardView=0x7f0c000b;
+    public static final int Base_DialogWindowTitle_AppCompat=0x7f0c000c;
+    public static final int Base_DialogWindowTitleBackground_AppCompat=0x7f0c000d;
+    public static final int Base_TextAppearance_AppCompat=0x7f0c000e;
+    public static final int Base_TextAppearance_AppCompat_Body1=0x7f0c000f;
+    public static final int Base_TextAppearance_AppCompat_Body2=0x7f0c0010;
+    public static final int Base_TextAppearance_AppCompat_Button=0x7f0c0011;
+    public static final int Base_TextAppearance_AppCompat_Caption=0x7f0c0012;
+    public static final int Base_TextAppearance_AppCompat_Display1=0x7f0c0013;
+    public static final int Base_TextAppearance_AppCompat_Display2=0x7f0c0014;
+    public static final int Base_TextAppearance_AppCompat_Display3=0x7f0c0015;
+    public static final int Base_TextAppearance_AppCompat_Display4=0x7f0c0016;
+    public static final int Base_TextAppearance_AppCompat_Headline=0x7f0c0017;
+    public static final int Base_TextAppearance_AppCompat_Inverse=0x7f0c0018;
+    public static final int Base_TextAppearance_AppCompat_Large=0x7f0c0019;
+    public static final int Base_TextAppearance_AppCompat_Large_Inverse=0x7f0c001a;
+    public static final int Base_TextAppearance_AppCompat_Light_Widget_PopupMenu_Large=0x7f0c001b;
+    public static final int Base_TextAppearance_AppCompat_Light_Widget_PopupMenu_Small=0x7f0c001c;
+    public static final int Base_TextAppearance_AppCompat_Medium=0x7f0c001d;
+    public static final int Base_TextAppearance_AppCompat_Medium_Inverse=0x7f0c001e;
+    public static final int Base_TextAppearance_AppCompat_Menu=0x7f0c001f;
+    public static final int Base_TextAppearance_AppCompat_SearchResult=0x7f0c0020;
+    public static final int Base_TextAppearance_AppCompat_SearchResult_Subtitle=0x7f0c0021;
+    public static final int Base_TextAppearance_AppCompat_SearchResult_Title=0x7f0c0022;
+    public static final int Base_TextAppearance_AppCompat_Small=0x7f0c0023;
+    public static final int Base_TextAppearance_AppCompat_Small_Inverse=0x7f0c0024;
+    public static final int Base_TextAppearance_AppCompat_Subhead=0x7f0c0025;
+    public static final int Base_TextAppearance_AppCompat_Subhead_Inverse=0x7f0c0026;
+    public static final int Base_TextAppearance_AppCompat_Title=0x7f0c0027;
+    public static final int Base_TextAppearance_AppCompat_Title_Inverse=0x7f0c0028;
+    public static final int Base_TextAppearance_AppCompat_Tooltip=0x7f0c0029;
+    public static final int Base_TextAppearance_AppCompat_Widget_ActionBar_Menu=0x7f0c002a;
+    public static final int Base_TextAppearance_AppCompat_Widget_ActionBar_Subtitle=0x7f0c002b;
+    public static final int Base_TextAppearance_AppCompat_Widget_ActionBar_Subtitle_Inverse=0x7f0c002c;
+    public static final int Base_TextAppearance_AppCompat_Widget_ActionBar_Title=0x7f0c002d;
+    public static final int Base_TextAppearance_AppCompat_Widget_ActionBar_Title_Inverse=0x7f0c002e;
+    public static final int Base_TextAppearance_AppCompat_Widget_ActionMode_Subtitle=0x7f0c002f;
+    public static final int Base_TextAppearance_AppCompat_Widget_ActionMode_Title=0x7f0c0030;
+    public static final int Base_TextAppearance_AppCompat_Widget_Button=0x7f0c0031;
+    public static final int Base_TextAppearance_AppCompat_Widget_Button_Borderless_Colored=0x7f0c0032;
+    public static final int Base_TextAppearance_AppCompat_Widget_Button_Colored=0x7f0c0033;
+    public static final int Base_TextAppearance_AppCompat_Widget_Button_Inverse=0x7f0c0034;
+    public static final int Base_TextAppearance_AppCompat_Widget_DropDownItem=0x7f0c0035;
+    public static final int Base_TextAppearance_AppCompat_Widget_PopupMenu_Header=0x7f0c0036;
+    public static final int Base_TextAppearance_AppCompat_Widget_PopupMenu_Large=0x7f0c0037;
+    public static final int Base_TextAppearance_AppCompat_Widget_PopupMenu_Small=0x7f0c0038;
+    public static final int Base_TextAppearance_AppCompat_Widget_Switch=0x7f0c0039;
+    public static final int Base_TextAppearance_AppCompat_Widget_TextView_SpinnerItem=0x7f0c003a;
+    public static final int Base_TextAppearance_Widget_AppCompat_ExpandedMenu_Item=0x7f0c003b;
+    public static final int Base_TextAppearance_Widget_AppCompat_Toolbar_Subtitle=0x7f0c003c;
+    public static final int Base_TextAppearance_Widget_AppCompat_Toolbar_Title=0x7f0c003d;
+    public static final int Base_Theme_AppCompat=0x7f0c003e;
+    public static final int Base_Theme_AppCompat_CompactMenu=0x7f0c003f;
+    public static final int Base_Theme_AppCompat_Dialog=0x7f0c0040;
+    public static final int Base_Theme_AppCompat_Dialog_Alert=0x7f0c0041;
+    public static final int Base_Theme_AppCompat_Dialog_FixedSize=0x7f0c0042;
+    public static final int Base_Theme_AppCompat_Dialog_MinWidth=0x7f0c0043;
+    public static final int Base_Theme_AppCompat_DialogWhenLarge=0x7f0c0044;
+    public static final int Base_Theme_AppCompat_Light=0x7f0c0045;
+    public static final int Base_Theme_AppCompat_Light_DarkActionBar=0x7f0c0046;
+    public static final int Base_Theme_AppCompat_Light_Dialog=0x7f0c0047;
+    public static final int Base_Theme_AppCompat_Light_Dialog_Alert=0x7f0c0048;
+    public static final int Base_Theme_AppCompat_Light_Dialog_FixedSize=0x7f0c0049;
+    public static final int Base_Theme_AppCompat_Light_Dialog_MinWidth=0x7f0c004a;
+    public static final int Base_Theme_AppCompat_Light_DialogWhenLarge=0x7f0c004b;
+    public static final int Base_ThemeOverlay_AppCompat=0x7f0c004c;
+    public static final int Base_ThemeOverlay_AppCompat_ActionBar=0x7f0c004d;
+    public static final int Base_ThemeOverlay_AppCompat_Dark=0x7f0c004e;
+    public static final int Base_ThemeOverlay_AppCompat_Dark_ActionBar=0x7f0c004f;
+    public static final int Base_ThemeOverlay_AppCompat_Dialog=0x7f0c0050;
+    public static final int Base_ThemeOverlay_AppCompat_Dialog_Alert=0x7f0c0051;
+    public static final int Base_ThemeOverlay_AppCompat_Light=0x7f0c0052;
+    public static final int Base_V11_Theme_AppCompat_Dialog=0x7f0c0053;
+    public static final int Base_V11_Theme_AppCompat_Light_Dialog=0x7f0c0054;
+    public static final int Base_V11_ThemeOverlay_AppCompat_Dialog=0x7f0c0055;
+    public static final int Base_V12_Widget_AppCompat_AutoCompleteTextView=0x7f0c0056;
+    public static final int Base_V12_Widget_AppCompat_EditText=0x7f0c0057;
+    public static final int Base_V21_Theme_AppCompat=0x7f0c0058;
+    public static final int Base_V21_Theme_AppCompat_Dialog=0x7f0c0059;
+    public static final int Base_V21_Theme_AppCompat_Light=0x7f0c005a;
+    public static final int Base_V21_Theme_AppCompat_Light_Dialog=0x7f0c005b;
+    public static final int Base_V21_ThemeOverlay_AppCompat_Dialog=0x7f0c005c;
+    public static final int Base_V22_Theme_AppCompat=0x7f0c005d;
+    public static final int Base_V22_Theme_AppCompat_Light=0x7f0c005e;
+    public static final int Base_V23_Theme_AppCompat=0x7f0c005f;
+    public static final int Base_V23_Theme_AppCompat_Light=0x7f0c0060;
+    public static final int Base_V26_Theme_AppCompat=0x7f0c0061;
+    public static final int Base_V26_Theme_AppCompat_Light=0x7f0c0062;
+    public static final int Base_V26_Widget_AppCompat_Toolbar=0x7f0c0063;
+    public static final int Base_V7_Theme_AppCompat=0x7f0c0064;
+    public static final int Base_V7_Theme_AppCompat_Dialog=0x7f0c0065;
+    public static final int Base_V7_Theme_AppCompat_Light=0x7f0c0066;
+    public static final int Base_V7_Theme_AppCompat_Light_Dialog=0x7f0c0067;
+    public static final int Base_V7_ThemeOverlay_AppCompat_Dialog=0x7f0c0068;
+    public static final int Base_V7_Widget_AppCompat_AutoCompleteTextView=0x7f0c0069;
+    public static final int Base_V7_Widget_AppCompat_EditText=0x7f0c006a;
+    public static final int Base_V7_Widget_AppCompat_Toolbar=0x7f0c006b;
+    public static final int Base_Widget_AppCompat_ActionBar=0x7f0c006c;
+    public static final int Base_Widget_AppCompat_ActionBar_Solid=0x7f0c006d;
+    public static final int Base_Widget_AppCompat_ActionBar_TabBar=0x7f0c006e;
+    public static final int Base_Widget_AppCompat_ActionBar_TabText=0x7f0c006f;
+    public static final int Base_Widget_AppCompat_ActionBar_TabView=0x7f0c0070;
+    public static final int Base_Widget_AppCompat_ActionButton=0x7f0c0071;
+    public static final int Base_Widget_AppCompat_ActionButton_CloseMode=0x7f0c0072;
+    public static final int Base_Widget_AppCompat_ActionButton_Overflow=0x7f0c0073;
+    public static final int Base_Widget_AppCompat_ActionMode=0x7f0c0074;
+    public static final int Base_Widget_AppCompat_ActivityChooserView=0x7f0c0075;
+    public static final int Base_Widget_AppCompat_AutoCompleteTextView=0x7f0c0076;
+    public static final int Base_Widget_AppCompat_Button=0x7f0c0077;
+    public static final int Base_Widget_AppCompat_Button_Borderless=0x7f0c0078;
+    public static final int Base_Widget_AppCompat_Button_Borderless_Colored=0x7f0c0079;
+    public static final int Base_Widget_AppCompat_Button_ButtonBar_AlertDialog=0x7f0c007a;
+    public static final int Base_Widget_AppCompat_Button_Colored=0x7f0c007b;
+    public static final int Base_Widget_AppCompat_Button_Small=0x7f0c007c;
+    public static final int Base_Widget_AppCompat_ButtonBar=0x7f0c007d;
+    public static final int Base_Widget_AppCompat_ButtonBar_AlertDialog=0x7f0c007e;
+    public static final int Base_Widget_AppCompat_CompoundButton_CheckBox=0x7f0c007f;
+    public static final int Base_Widget_AppCompat_CompoundButton_RadioButton=0x7f0c0080;
+    public static final int Base_Widget_AppCompat_CompoundButton_Switch=0x7f0c0081;
+    public static final int Base_Widget_AppCompat_DrawerArrowToggle=0x7f0c0082;
+    public static final int Base_Widget_AppCompat_DrawerArrowToggle_Common=0x7f0c0083;
+    public static final int Base_Widget_AppCompat_DropDownItem_Spinner=0x7f0c0084;
+    public static final int Base_Widget_AppCompat_EditText=0x7f0c0085;
+    public static final int Base_Widget_AppCompat_ImageButton=0x7f0c0086;
+    public static final int Base_Widget_AppCompat_Light_ActionBar=0x7f0c0087;
+    public static final int Base_Widget_AppCompat_Light_ActionBar_Solid=0x7f0c0088;
+    public static final int Base_Widget_AppCompat_Light_ActionBar_TabBar=0x7f0c0089;
+    public static final int Base_Widget_AppCompat_Light_ActionBar_TabText=0x7f0c008a;
+    public static final int Base_Widget_AppCompat_Light_ActionBar_TabText_Inverse=0x7f0c008b;
+    public static final int Base_Widget_AppCompat_Light_ActionBar_TabView=0x7f0c008c;
+    public static final int Base_Widget_AppCompat_Light_PopupMenu=0x7f0c008d;
+    public static final int Base_Widget_AppCompat_Light_PopupMenu_Overflow=0x7f0c008e;
+    public static final int Base_Widget_AppCompat_ListMenuView=0x7f0c008f;
+    public static final int Base_Widget_AppCompat_ListPopupWindow=0x7f0c0090;
+    public static final int Base_Widget_AppCompat_ListView=0x7f0c0091;
+    public static final int Base_Widget_AppCompat_ListView_DropDown=0x7f0c0092;
+    public static final int Base_Widget_AppCompat_ListView_Menu=0x7f0c0093;
+    public static final int Base_Widget_AppCompat_PopupMenu=0x7f0c0094;
+    public static final int Base_Widget_AppCompat_PopupMenu_Overflow=0x7f0c0095;
+    public static final int Base_Widget_AppCompat_PopupWindow=0x7f0c0096;
+    public static final int Base_Widget_AppCompat_ProgressBar=0x7f0c0097;
+    public static final int Base_Widget_AppCompat_ProgressBar_Horizontal=0x7f0c0098;
+    public static final int Base_Widget_AppCompat_RatingBar=0x7f0c0099;
+    public static final int Base_Widget_AppCompat_RatingBar_Indicator=0x7f0c009a;
+    public static final int Base_Widget_AppCompat_RatingBar_Small=0x7f0c009b;
+    public static final int Base_Widget_AppCompat_SearchView=0x7f0c009c;
+    public static final int Base_Widget_AppCompat_SearchView_ActionBar=0x7f0c009d;
+    public static final int Base_Widget_AppCompat_SeekBar=0x7f0c009e;
+    public static final int Base_Widget_AppCompat_SeekBar_Discrete=0x7f0c009f;
+    public static final int Base_Widget_AppCompat_Spinner=0x7f0c00a0;
+    public static final int Base_Widget_AppCompat_Spinner_Underlined=0x7f0c00a1;
+    public static final int Base_Widget_AppCompat_TextView_SpinnerItem=0x7f0c00a2;
+    public static final int Base_Widget_AppCompat_Toolbar=0x7f0c00a3;
+    public static final int Base_Widget_AppCompat_Toolbar_Button_Navigation=0x7f0c00a4;
+    public static final int CardView=0x7f0c00a5;
+    public static final int CardView_Dark=0x7f0c00a6;
+    public static final int CardView_Light=0x7f0c00a7;
+    public static final int FullscreenActionBarStyle=0x7f0c00a8;
+    public static final int FullscreenTheme=0x7f0c00a9;
+    public static final int Platform_AppCompat=0x7f0c00aa;
+    public static final int Platform_AppCompat_Light=0x7f0c00ab;
+    public static final int Platform_ThemeOverlay_AppCompat=0x7f0c00ac;
+    public static final int Platform_ThemeOverlay_AppCompat_Dark=0x7f0c00ad;
+    public static final int Platform_ThemeOverlay_AppCompat_Light=0x7f0c00ae;
+    public static final int Platform_V11_AppCompat=0x7f0c00af;
+    public static final int Platform_V11_AppCompat_Light=0x7f0c00b0;
+    public static final int Platform_V14_AppCompat=0x7f0c00b1;
+    public static final int Platform_V14_AppCompat_Light=0x7f0c00b2;
+    public static final int Platform_V21_AppCompat=0x7f0c00b3;
+    public static final int Platform_V21_AppCompat_Light=0x7f0c00b4;
+    public static final int Platform_V25_AppCompat=0x7f0c00b5;
+    public static final int Platform_V25_AppCompat_Light=0x7f0c00b6;
+    public static final int Platform_Widget_AppCompat_Spinner=0x7f0c00b7;
+    public static final int RtlOverlay_DialogWindowTitle_AppCompat=0x7f0c00b8;
+    public static final int RtlOverlay_Widget_AppCompat_ActionBar_TitleItem=0x7f0c00b9;
+    public static final int RtlOverlay_Widget_AppCompat_DialogTitle_Icon=0x7f0c00ba;
+    public static final int RtlOverlay_Widget_AppCompat_PopupMenuItem=0x7f0c00bb;
+    public static final int RtlOverlay_Widget_AppCompat_PopupMenuItem_InternalGroup=0x7f0c00bc;
+    public static final int RtlOverlay_Widget_AppCompat_PopupMenuItem_Text=0x7f0c00bd;
+    public static final int RtlOverlay_Widget_AppCompat_Search_DropDown=0x7f0c00be;
+    public static final int RtlOverlay_Widget_AppCompat_Search_DropDown_Icon1=0x7f0c00bf;
+    public static final int RtlOverlay_Widget_AppCompat_Search_DropDown_Icon2=0x7f0c00c0;
+    public static final int RtlOverlay_Widget_AppCompat_Search_DropDown_Query=0x7f0c00c1;
+    public static final int RtlOverlay_Widget_AppCompat_Search_DropDown_Text=0x7f0c00c2;
+    public static final int RtlOverlay_Widget_AppCompat_SearchView_MagIcon=0x7f0c00c3;
+    public static final int RtlUnderlay_Widget_AppCompat_ActionButton=0x7f0c00c4;
+    public static final int RtlUnderlay_Widget_AppCompat_ActionButton_Overflow=0x7f0c00c5;
+    public static final int TextAppearance_AppCompat=0x7f0c00c6;
+    public static final int TextAppearance_AppCompat_Body1=0x7f0c00c7;
+    public static final int TextAppearance_AppCompat_Body2=0x7f0c00c8;
+    public static final int TextAppearance_AppCompat_Button=0x7f0c00c9;
+    public static final int TextAppearance_AppCompat_Caption=0x7f0c00ca;
+    public static final int TextAppearance_AppCompat_Display1=0x7f0c00cb;
+    public static final int TextAppearance_AppCompat_Display2=0x7f0c00cc;
+    public static final int TextAppearance_AppCompat_Display3=0x7f0c00cd;
+    public static final int TextAppearance_AppCompat_Display4=0x7f0c00ce;
+    public static final int TextAppearance_AppCompat_Headline=0x7f0c00cf;
+    public static final int TextAppearance_AppCompat_Inverse=0x7f0c00d0;
+    public static final int TextAppearance_AppCompat_Large=0x7f0c00d1;
+    public static final int TextAppearance_AppCompat_Large_Inverse=0x7f0c00d2;
+    public static final int TextAppearance_AppCompat_Light_SearchResult_Subtitle=0x7f0c00d3;
+    public static final int TextAppearance_AppCompat_Light_SearchResult_Title=0x7f0c00d4;
+    public static final int TextAppearance_AppCompat_Light_Widget_PopupMenu_Large=0x7f0c00d5;
+    public static final int TextAppearance_AppCompat_Light_Widget_PopupMenu_Small=0x7f0c00d6;
+    public static final int TextAppearance_AppCompat_Medium=0x7f0c00d7;
+    public static final int TextAppearance_AppCompat_Medium_Inverse=0x7f0c00d8;
+    public static final int TextAppearance_AppCompat_Menu=0x7f0c00d9;
+    public static final int TextAppearance_AppCompat_Notification=0x7f0c00da;
+    public static final int TextAppearance_AppCompat_Notification_Info=0x7f0c00db;
+    public static final int TextAppearance_AppCompat_Notification_Info_Media=0x7f0c00dc;
+    public static final int TextAppearance_AppCompat_Notification_Line2=0x7f0c00dd;
+    public static final int TextAppearance_AppCompat_Notification_Line2_Media=0x7f0c00de;
+    public static final int TextAppearance_AppCompat_Notification_Media=0x7f0c00df;
+    public static final int TextAppearance_AppCompat_Notification_Time=0x7f0c00e0;
+    public static final int TextAppearance_AppCompat_Notification_Time_Media=0x7f0c00e1;
+    public static final int TextAppearance_AppCompat_Notification_Title=0x7f0c00e2;
+    public static final int TextAppearance_AppCompat_Notification_Title_Media=0x7f0c00e3;
+    public static final int TextAppearance_AppCompat_SearchResult_Subtitle=0x7f0c00e4;
+    public static final int TextAppearance_AppCompat_SearchResult_Title=0x7f0c00e5;
+    public static final int TextAppearance_AppCompat_Small=0x7f0c00e6;
+    public static final int TextAppearance_AppCompat_Small_Inverse=0x7f0c00e7;
+    public static final int TextAppearance_AppCompat_Subhead=0x7f0c00e8;
+    public static final int TextAppearance_AppCompat_Subhead_Inverse=0x7f0c00e9;
+    public static final int TextAppearance_AppCompat_Title=0x7f0c00ea;
+    public static final int TextAppearance_AppCompat_Title_Inverse=0x7f0c00eb;
+    public static final int TextAppearance_AppCompat_Tooltip=0x7f0c00ec;
+    public static final int TextAppearance_AppCompat_Widget_ActionBar_Menu=0x7f0c00ed;
+    public static final int TextAppearance_AppCompat_Widget_ActionBar_Subtitle=0x7f0c00ee;
+    public static final int TextAppearance_AppCompat_Widget_ActionBar_Subtitle_Inverse=0x7f0c00ef;
+    public static final int TextAppearance_AppCompat_Widget_ActionBar_Title=0x7f0c00f0;
+    public static final int TextAppearance_AppCompat_Widget_ActionBar_Title_Inverse=0x7f0c00f1;
+    public static final int TextAppearance_AppCompat_Widget_ActionMode_Subtitle=0x7f0c00f2;
+    public static final int TextAppearance_AppCompat_Widget_ActionMode_Subtitle_Inverse=0x7f0c00f3;
+    public static final int TextAppearance_AppCompat_Widget_ActionMode_Title=0x7f0c00f4;
+    public static final int TextAppearance_AppCompat_Widget_ActionMode_Title_Inverse=0x7f0c00f5;
+    public static final int TextAppearance_AppCompat_Widget_Button=0x7f0c00f6;
+    public static final int TextAppearance_AppCompat_Widget_Button_Borderless_Colored=0x7f0c00f7;
+    public static final int TextAppearance_AppCompat_Widget_Button_Colored=0x7f0c00f8;
+    public static final int TextAppearance_AppCompat_Widget_Button_Inverse=0x7f0c00f9;
+    public static final int TextAppearance_AppCompat_Widget_DropDownItem=0x7f0c00fa;
+    public static final int TextAppearance_AppCompat_Widget_PopupMenu_Header=0x7f0c00fb;
+    public static final int TextAppearance_AppCompat_Widget_PopupMenu_Large=0x7f0c00fc;
+    public static final int TextAppearance_AppCompat_Widget_PopupMenu_Small=0x7f0c00fd;
+    public static final int TextAppearance_AppCompat_Widget_Switch=0x7f0c00fe;
+    public static final int TextAppearance_AppCompat_Widget_TextView_SpinnerItem=0x7f0c00ff;
+    public static final int TextAppearance_Compat_Notification=0x7f0c0100;
+    public static final int TextAppearance_Compat_Notification_Info=0x7f0c0101;
+    public static final int TextAppearance_Compat_Notification_Info_Media=0x7f0c0102;
+    public static final int TextAppearance_Compat_Notification_Line2=0x7f0c0103;
+    public static final int TextAppearance_Compat_Notification_Line2_Media=0x7f0c0104;
+    public static final int TextAppearance_Compat_Notification_Media=0x7f0c0105;
+    public static final int TextAppearance_Compat_Notification_Time=0x7f0c0106;
+    public static final int TextAppearance_Compat_Notification_Time_Media=0x7f0c0107;
+    public static final int TextAppearance_Compat_Notification_Title=0x7f0c0108;
+    public static final int TextAppearance_Compat_Notification_Title_Media=0x7f0c0109;
+    public static final int TextAppearance_Widget_AppCompat_ExpandedMenu_Item=0x7f0c010a;
+    public static final int TextAppearance_Widget_AppCompat_Toolbar_Subtitle=0x7f0c010b;
+    public static final int TextAppearance_Widget_AppCompat_Toolbar_Title=0x7f0c010c;
+    public static final int Theme_AppCompat=0x7f0c010d;
+    public static final int Theme_AppCompat_CompactMenu=0x7f0c010e;
+    public static final int Theme_AppCompat_DayNight=0x7f0c010f;
+    public static final int Theme_AppCompat_DayNight_DarkActionBar=0x7f0c0110;
+    public static final int Theme_AppCompat_DayNight_Dialog=0x7f0c0111;
+    public static final int Theme_AppCompat_DayNight_Dialog_Alert=0x7f0c0112;
+    public static final int Theme_AppCompat_DayNight_Dialog_MinWidth=0x7f0c0113;
+    public static final int Theme_AppCompat_DayNight_DialogWhenLarge=0x7f0c0114;
+    public static final int Theme_AppCompat_DayNight_NoActionBar=0x7f0c0115;
+    public static final int Theme_AppCompat_Dialog=0x7f0c0116;
+    public static final int Theme_AppCompat_Dialog_Alert=0x7f0c0117;
+    public static final int Theme_AppCompat_Dialog_MinWidth=0x7f0c0118;
+    public static final int Theme_AppCompat_DialogWhenLarge=0x7f0c0119;
+    public static final int Theme_AppCompat_Light=0x7f0c011a;
+    public static final int Theme_AppCompat_Light_DarkActionBar=0x7f0c011b;
+    public static final int Theme_AppCompat_Light_Dialog=0x7f0c011c;
+    public static final int Theme_AppCompat_Light_Dialog_Alert=0x7f0c011d;
+    public static final int Theme_AppCompat_Light_Dialog_MinWidth=0x7f0c011e;
+    public static final int Theme_AppCompat_Light_DialogWhenLarge=0x7f0c011f;
+    public static final int Theme_AppCompat_Light_NoActionBar=0x7f0c0120;
+    public static final int Theme_AppCompat_NoActionBar=0x7f0c0121;
+    public static final int Theme_ZXingCaptureActivity=0x7f0c0122;
+    public static final int ThemeOverlay_AppCompat=0x7f0c0123;
+    public static final int ThemeOverlay_AppCompat_ActionBar=0x7f0c0124;
+    public static final int ThemeOverlay_AppCompat_Dark=0x7f0c0125;
+    public static final int ThemeOverlay_AppCompat_Dark_ActionBar=0x7f0c0126;
+    public static final int ThemeOverlay_AppCompat_Dialog=0x7f0c0127;
+    public static final int ThemeOverlay_AppCompat_Dialog_Alert=0x7f0c0128;
+    public static final int ThemeOverlay_AppCompat_Light=0x7f0c0129;
+    public static final int Widget_AppCompat_ActionBar=0x7f0c012a;
+    public static final int Widget_AppCompat_ActionBar_Solid=0x7f0c012b;
+    public static final int Widget_AppCompat_ActionBar_TabBar=0x7f0c012c;
+    public static final int Widget_AppCompat_ActionBar_TabText=0x7f0c012d;
+    public static final int Widget_AppCompat_ActionBar_TabView=0x7f0c012e;
+    public static final int Widget_AppCompat_ActionButton=0x7f0c012f;
+    public static final int Widget_AppCompat_ActionButton_CloseMode=0x7f0c0130;
+    public static final int Widget_AppCompat_ActionButton_Overflow=0x7f0c0131;
+    public static final int Widget_AppCompat_ActionMode=0x7f0c0132;
+    public static final int Widget_AppCompat_ActivityChooserView=0x7f0c0133;
+    public static final int Widget_AppCompat_AutoCompleteTextView=0x7f0c0134;
+    public static final int Widget_AppCompat_Button=0x7f0c0135;
+    public static final int Widget_AppCompat_Button_Borderless=0x7f0c0136;
+    public static final int Widget_AppCompat_Button_Borderless_Colored=0x7f0c0137;
+    public static final int Widget_AppCompat_Button_ButtonBar_AlertDialog=0x7f0c0138;
+    public static final int Widget_AppCompat_Button_Colored=0x7f0c0139;
+    public static final int Widget_AppCompat_Button_Small=0x7f0c013a;
+    public static final int Widget_AppCompat_ButtonBar=0x7f0c013b;
+    public static final int Widget_AppCompat_ButtonBar_AlertDialog=0x7f0c013c;
+    public static final int Widget_AppCompat_CompoundButton_CheckBox=0x7f0c013d;
+    public static final int Widget_AppCompat_CompoundButton_RadioButton=0x7f0c013e;
+    public static final int Widget_AppCompat_CompoundButton_Switch=0x7f0c013f;
+    public static final int Widget_AppCompat_DrawerArrowToggle=0x7f0c0140;
+    public static final int Widget_AppCompat_DropDownItem_Spinner=0x7f0c0141;
+    public static final int Widget_AppCompat_EditText=0x7f0c0142;
+    public static final int Widget_AppCompat_ImageButton=0x7f0c0143;
+    public static final int Widget_AppCompat_Light_ActionBar=0x7f0c0144;
+    public static final int Widget_AppCompat_Light_ActionBar_Solid=0x7f0c0145;
+    public static final int Widget_AppCompat_Light_ActionBar_Solid_Inverse=0x7f0c0146;
+    public static final int Widget_AppCompat_Light_ActionBar_TabBar=0x7f0c0147;
+    public static final int Widget_AppCompat_Light_ActionBar_TabBar_Inverse=0x7f0c0148;
+    public static final int Widget_AppCompat_Light_ActionBar_TabText=0x7f0c0149;
+    public static final int Widget_AppCompat_Light_ActionBar_TabText_Inverse=0x7f0c014a;
+    public static final int Widget_AppCompat_Light_ActionBar_TabView=0x7f0c014b;
+    public static final int Widget_AppCompat_Light_ActionBar_TabView_Inverse=0x7f0c014c;
+    public static final int Widget_AppCompat_Light_ActionButton=0x7f0c014d;
+    public static final int Widget_AppCompat_Light_ActionButton_CloseMode=0x7f0c014e;
+    public static final int Widget_AppCompat_Light_ActionButton_Overflow=0x7f0c014f;
+    public static final int Widget_AppCompat_Light_ActionMode_Inverse=0x7f0c0150;
+    public static final int Widget_AppCompat_Light_ActivityChooserView=0x7f0c0151;
+    public static final int Widget_AppCompat_Light_AutoCompleteTextView=0x7f0c0152;
+    public static final int Widget_AppCompat_Light_DropDownItem_Spinner=0x7f0c0153;
+    public static final int Widget_AppCompat_Light_ListPopupWindow=0x7f0c0154;
+    public static final int Widget_AppCompat_Light_ListView_DropDown=0x7f0c0155;
+    public static final int Widget_AppCompat_Light_PopupMenu=0x7f0c0156;
+    public static final int Widget_AppCompat_Light_PopupMenu_Overflow=0x7f0c0157;
+    public static final int Widget_AppCompat_Light_SearchView=0x7f0c0158;
+    public static final int Widget_AppCompat_Light_Spinner_DropDown_ActionBar=0x7f0c0159;
+    public static final int Widget_AppCompat_ListMenuView=0x7f0c015a;
+    public static final int Widget_AppCompat_ListPopupWindow=0x7f0c015b;
+    public static final int Widget_AppCompat_ListView=0x7f0c015c;
+    public static final int Widget_AppCompat_ListView_DropDown=0x7f0c015d;
+    public static final int Widget_AppCompat_ListView_Menu=0x7f0c015e;
+    public static final int Widget_AppCompat_PopupMenu=0x7f0c015f;
+    public static final int Widget_AppCompat_PopupMenu_Overflow=0x7f0c0160;
+    public static final int Widget_AppCompat_PopupWindow=0x7f0c0161;
+    public static final int Widget_AppCompat_ProgressBar=0x7f0c0162;
+    public static final int Widget_AppCompat_ProgressBar_Horizontal=0x7f0c0163;
+    public static final int Widget_AppCompat_RatingBar=0x7f0c0164;
+    public static final int Widget_AppCompat_RatingBar_Indicator=0x7f0c0165;
+    public static final int Widget_AppCompat_RatingBar_Small=0x7f0c0166;
+    public static final int Widget_AppCompat_SearchView=0x7f0c0167;
+    public static final int Widget_AppCompat_SearchView_ActionBar=0x7f0c0168;
+    public static final int Widget_AppCompat_SeekBar=0x7f0c0169;
+    public static final int Widget_AppCompat_SeekBar_Discrete=0x7f0c016a;
+    public static final int Widget_AppCompat_Spinner=0x7f0c016b;
+    public static final int Widget_AppCompat_Spinner_DropDown=0x7f0c016c;
+    public static final int Widget_AppCompat_Spinner_DropDown_ActionBar=0x7f0c016d;
+    public static final int Widget_AppCompat_Spinner_Underlined=0x7f0c016e;
+    public static final int Widget_AppCompat_TextView_SpinnerItem=0x7f0c016f;
+    public static final int Widget_AppCompat_Toolbar=0x7f0c0170;
+    public static final int Widget_AppCompat_Toolbar_Button_Navigation=0x7f0c0171;
+    public static final int Widget_Compat_NotificationActionContainer=0x7f0c0172;
+    public static final int Widget_Compat_NotificationActionText=0x7f0c0173;
   }
   public static final class styleable {
     /**
@@ -3858,35 +3962,35 @@ public final class R {
      * <colgroup align="left" />
      * <colgroup align="left" />
      * <tr><th>Attribute</th><th>Description</th></tr>
-     * <tr><td><code>{@link #ActionBar_background com.example.akmal_pc.jhotel_android_akmal:background}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ActionBar_backgroundSplit com.example.akmal_pc.jhotel_android_akmal:backgroundSplit}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ActionBar_backgroundStacked com.example.akmal_pc.jhotel_android_akmal:backgroundStacked}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ActionBar_contentInsetEnd com.example.akmal_pc.jhotel_android_akmal:contentInsetEnd}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ActionBar_contentInsetEndWithActions com.example.akmal_pc.jhotel_android_akmal:contentInsetEndWithActions}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ActionBar_contentInsetLeft com.example.akmal_pc.jhotel_android_akmal:contentInsetLeft}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ActionBar_contentInsetRight com.example.akmal_pc.jhotel_android_akmal:contentInsetRight}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ActionBar_contentInsetStart com.example.akmal_pc.jhotel_android_akmal:contentInsetStart}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ActionBar_contentInsetStartWithNavigation com.example.akmal_pc.jhotel_android_akmal:contentInsetStartWithNavigation}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ActionBar_customNavigationLayout com.example.akmal_pc.jhotel_android_akmal:customNavigationLayout}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ActionBar_displayOptions com.example.akmal_pc.jhotel_android_akmal:displayOptions}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ActionBar_divider com.example.akmal_pc.jhotel_android_akmal:divider}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ActionBar_elevation com.example.akmal_pc.jhotel_android_akmal:elevation}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ActionBar_height com.example.akmal_pc.jhotel_android_akmal:height}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ActionBar_hideOnContentScroll com.example.akmal_pc.jhotel_android_akmal:hideOnContentScroll}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ActionBar_homeAsUpIndicator com.example.akmal_pc.jhotel_android_akmal:homeAsUpIndicator}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ActionBar_homeLayout com.example.akmal_pc.jhotel_android_akmal:homeLayout}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ActionBar_icon com.example.akmal_pc.jhotel_android_akmal:icon}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ActionBar_indeterminateProgressStyle com.example.akmal_pc.jhotel_android_akmal:indeterminateProgressStyle}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ActionBar_itemPadding com.example.akmal_pc.jhotel_android_akmal:itemPadding}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ActionBar_logo com.example.akmal_pc.jhotel_android_akmal:logo}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ActionBar_navigationMode com.example.akmal_pc.jhotel_android_akmal:navigationMode}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ActionBar_popupTheme com.example.akmal_pc.jhotel_android_akmal:popupTheme}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ActionBar_progressBarPadding com.example.akmal_pc.jhotel_android_akmal:progressBarPadding}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ActionBar_progressBarStyle com.example.akmal_pc.jhotel_android_akmal:progressBarStyle}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ActionBar_subtitle com.example.akmal_pc.jhotel_android_akmal:subtitle}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ActionBar_subtitleTextStyle com.example.akmal_pc.jhotel_android_akmal:subtitleTextStyle}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ActionBar_title com.example.akmal_pc.jhotel_android_akmal:title}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ActionBar_titleTextStyle com.example.akmal_pc.jhotel_android_akmal:titleTextStyle}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ActionBar_background com.example.tim3a.eangkotUser:background}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ActionBar_backgroundSplit com.example.tim3a.eangkotUser:backgroundSplit}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ActionBar_backgroundStacked com.example.tim3a.eangkotUser:backgroundStacked}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ActionBar_contentInsetEnd com.example.tim3a.eangkotUser:contentInsetEnd}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ActionBar_contentInsetEndWithActions com.example.tim3a.eangkotUser:contentInsetEndWithActions}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ActionBar_contentInsetLeft com.example.tim3a.eangkotUser:contentInsetLeft}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ActionBar_contentInsetRight com.example.tim3a.eangkotUser:contentInsetRight}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ActionBar_contentInsetStart com.example.tim3a.eangkotUser:contentInsetStart}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ActionBar_contentInsetStartWithNavigation com.example.tim3a.eangkotUser:contentInsetStartWithNavigation}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ActionBar_customNavigationLayout com.example.tim3a.eangkotUser:customNavigationLayout}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ActionBar_displayOptions com.example.tim3a.eangkotUser:displayOptions}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ActionBar_divider com.example.tim3a.eangkotUser:divider}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ActionBar_elevation com.example.tim3a.eangkotUser:elevation}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ActionBar_height com.example.tim3a.eangkotUser:height}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ActionBar_hideOnContentScroll com.example.tim3a.eangkotUser:hideOnContentScroll}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ActionBar_homeAsUpIndicator com.example.tim3a.eangkotUser:homeAsUpIndicator}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ActionBar_homeLayout com.example.tim3a.eangkotUser:homeLayout}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ActionBar_icon com.example.tim3a.eangkotUser:icon}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ActionBar_indeterminateProgressStyle com.example.tim3a.eangkotUser:indeterminateProgressStyle}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ActionBar_itemPadding com.example.tim3a.eangkotUser:itemPadding}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ActionBar_logo com.example.tim3a.eangkotUser:logo}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ActionBar_navigationMode com.example.tim3a.eangkotUser:navigationMode}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ActionBar_popupTheme com.example.tim3a.eangkotUser:popupTheme}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ActionBar_progressBarPadding com.example.tim3a.eangkotUser:progressBarPadding}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ActionBar_progressBarStyle com.example.tim3a.eangkotUser:progressBarStyle}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ActionBar_subtitle com.example.tim3a.eangkotUser:subtitle}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ActionBar_subtitleTextStyle com.example.tim3a.eangkotUser:subtitleTextStyle}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ActionBar_title com.example.tim3a.eangkotUser:title}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ActionBar_titleTextStyle com.example.tim3a.eangkotUser:titleTextStyle}</code></td><td></td></tr>
      * </table>
      * @see #ActionBar_background
      * @see #ActionBar_backgroundSplit
@@ -3919,17 +4023,17 @@ public final class R {
      * @see #ActionBar_titleTextStyle
      */
     public static final int[] ActionBar={
-      0x7f020034, 0x7f020035, 0x7f020036, 0x7f020069, 
-      0x7f02006a, 0x7f02006b, 0x7f02006c, 0x7f02006d, 
-      0x7f02006e, 0x7f020070, 0x7f020074, 0x7f020075, 
-      0x7f020080, 0x7f020098, 0x7f020099, 0x7f02009a, 
-      0x7f02009b, 0x7f02009c, 0x7f0200a3, 0x7f0200a6, 
-      0x7f0200ea, 0x7f0200f5, 0x7f020100, 0x7f020103, 
-      0x7f020104, 0x7f020120, 0x7f020123, 0x7f02013e, 
-      0x7f020147
+      0x7f020034, 0x7f020035, 0x7f020036, 0x7f02006f, 
+      0x7f020070, 0x7f020071, 0x7f020072, 0x7f020073, 
+      0x7f020074, 0x7f02007b, 0x7f02007f, 0x7f020080, 
+      0x7f02008b, 0x7f0200a3, 0x7f0200a4, 0x7f0200a5, 
+      0x7f0200a6, 0x7f0200a7, 0x7f0200ae, 0x7f0200b1, 
+      0x7f0200f5, 0x7f020100, 0x7f02010b, 0x7f02010e, 
+      0x7f02010f, 0x7f02012b, 0x7f02012e, 0x7f020149, 
+      0x7f020152
     };
     /**
-     * <p>This symbol is the offset where the {@link com.example.akmal_pc.jhotel_android_akmal.R.attr#background}
+     * <p>This symbol is the offset where the {@link com.example.tim3a.eangkotUser.R.attr#background}
      * attribute's value can be found in the {@link #ActionBar} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -3937,11 +4041,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.example.akmal_pc.jhotel_android_akmal:background
+     * @attr name com.example.tim3a.eangkotUser:background
      */
     public static final int ActionBar_background=0;
     /**
-     * <p>This symbol is the offset where the {@link com.example.akmal_pc.jhotel_android_akmal.R.attr#backgroundSplit}
+     * <p>This symbol is the offset where the {@link com.example.tim3a.eangkotUser.R.attr#backgroundSplit}
      * attribute's value can be found in the {@link #ActionBar} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -3952,11 +4056,11 @@ public final class R {
      * "<code>#<i>argb</i></code>", "<code>#<i>rrggbb</i></code>", or
      * "<code>#<i>aarrggbb</i></code>".
      *
-     * @attr name com.example.akmal_pc.jhotel_android_akmal:backgroundSplit
+     * @attr name com.example.tim3a.eangkotUser:backgroundSplit
      */
     public static final int ActionBar_backgroundSplit=1;
     /**
-     * <p>This symbol is the offset where the {@link com.example.akmal_pc.jhotel_android_akmal.R.attr#backgroundStacked}
+     * <p>This symbol is the offset where the {@link com.example.tim3a.eangkotUser.R.attr#backgroundStacked}
      * attribute's value can be found in the {@link #ActionBar} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -3967,11 +4071,11 @@ public final class R {
      * "<code>#<i>argb</i></code>", "<code>#<i>rrggbb</i></code>", or
      * "<code>#<i>aarrggbb</i></code>".
      *
-     * @attr name com.example.akmal_pc.jhotel_android_akmal:backgroundStacked
+     * @attr name com.example.tim3a.eangkotUser:backgroundStacked
      */
     public static final int ActionBar_backgroundStacked=2;
     /**
-     * <p>This symbol is the offset where the {@link com.example.akmal_pc.jhotel_android_akmal.R.attr#contentInsetEnd}
+     * <p>This symbol is the offset where the {@link com.example.tim3a.eangkotUser.R.attr#contentInsetEnd}
      * attribute's value can be found in the {@link #ActionBar} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -3980,11 +4084,11 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name com.example.akmal_pc.jhotel_android_akmal:contentInsetEnd
+     * @attr name com.example.tim3a.eangkotUser:contentInsetEnd
      */
     public static final int ActionBar_contentInsetEnd=3;
     /**
-     * <p>This symbol is the offset where the {@link com.example.akmal_pc.jhotel_android_akmal.R.attr#contentInsetEndWithActions}
+     * <p>This symbol is the offset where the {@link com.example.tim3a.eangkotUser.R.attr#contentInsetEndWithActions}
      * attribute's value can be found in the {@link #ActionBar} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -3993,11 +4097,11 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name com.example.akmal_pc.jhotel_android_akmal:contentInsetEndWithActions
+     * @attr name com.example.tim3a.eangkotUser:contentInsetEndWithActions
      */
     public static final int ActionBar_contentInsetEndWithActions=4;
     /**
-     * <p>This symbol is the offset where the {@link com.example.akmal_pc.jhotel_android_akmal.R.attr#contentInsetLeft}
+     * <p>This symbol is the offset where the {@link com.example.tim3a.eangkotUser.R.attr#contentInsetLeft}
      * attribute's value can be found in the {@link #ActionBar} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -4006,11 +4110,11 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name com.example.akmal_pc.jhotel_android_akmal:contentInsetLeft
+     * @attr name com.example.tim3a.eangkotUser:contentInsetLeft
      */
     public static final int ActionBar_contentInsetLeft=5;
     /**
-     * <p>This symbol is the offset where the {@link com.example.akmal_pc.jhotel_android_akmal.R.attr#contentInsetRight}
+     * <p>This symbol is the offset where the {@link com.example.tim3a.eangkotUser.R.attr#contentInsetRight}
      * attribute's value can be found in the {@link #ActionBar} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -4019,11 +4123,11 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name com.example.akmal_pc.jhotel_android_akmal:contentInsetRight
+     * @attr name com.example.tim3a.eangkotUser:contentInsetRight
      */
     public static final int ActionBar_contentInsetRight=6;
     /**
-     * <p>This symbol is the offset where the {@link com.example.akmal_pc.jhotel_android_akmal.R.attr#contentInsetStart}
+     * <p>This symbol is the offset where the {@link com.example.tim3a.eangkotUser.R.attr#contentInsetStart}
      * attribute's value can be found in the {@link #ActionBar} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -4032,11 +4136,11 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name com.example.akmal_pc.jhotel_android_akmal:contentInsetStart
+     * @attr name com.example.tim3a.eangkotUser:contentInsetStart
      */
     public static final int ActionBar_contentInsetStart=7;
     /**
-     * <p>This symbol is the offset where the {@link com.example.akmal_pc.jhotel_android_akmal.R.attr#contentInsetStartWithNavigation}
+     * <p>This symbol is the offset where the {@link com.example.tim3a.eangkotUser.R.attr#contentInsetStartWithNavigation}
      * attribute's value can be found in the {@link #ActionBar} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -4045,11 +4149,11 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name com.example.akmal_pc.jhotel_android_akmal:contentInsetStartWithNavigation
+     * @attr name com.example.tim3a.eangkotUser:contentInsetStartWithNavigation
      */
     public static final int ActionBar_contentInsetStartWithNavigation=8;
     /**
-     * <p>This symbol is the offset where the {@link com.example.akmal_pc.jhotel_android_akmal.R.attr#customNavigationLayout}
+     * <p>This symbol is the offset where the {@link com.example.tim3a.eangkotUser.R.attr#customNavigationLayout}
      * attribute's value can be found in the {@link #ActionBar} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -4057,11 +4161,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.example.akmal_pc.jhotel_android_akmal:customNavigationLayout
+     * @attr name com.example.tim3a.eangkotUser:customNavigationLayout
      */
     public static final int ActionBar_customNavigationLayout=9;
     /**
-     * <p>This symbol is the offset where the {@link com.example.akmal_pc.jhotel_android_akmal.R.attr#displayOptions}
+     * <p>This symbol is the offset where the {@link com.example.tim3a.eangkotUser.R.attr#displayOptions}
      * attribute's value can be found in the {@link #ActionBar} array.
      *
      * <p>Must be one or more (separated by '|') of the following constant values.</p>
@@ -4079,11 +4183,11 @@ public final class R {
      * <tr><td>useLogo</td><td>1</td><td></td></tr>
      * </table>
      *
-     * @attr name com.example.akmal_pc.jhotel_android_akmal:displayOptions
+     * @attr name com.example.tim3a.eangkotUser:displayOptions
      */
     public static final int ActionBar_displayOptions=10;
     /**
-     * <p>This symbol is the offset where the {@link com.example.akmal_pc.jhotel_android_akmal.R.attr#divider}
+     * <p>This symbol is the offset where the {@link com.example.tim3a.eangkotUser.R.attr#divider}
      * attribute's value can be found in the {@link #ActionBar} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -4091,11 +4195,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.example.akmal_pc.jhotel_android_akmal:divider
+     * @attr name com.example.tim3a.eangkotUser:divider
      */
     public static final int ActionBar_divider=11;
     /**
-     * <p>This symbol is the offset where the {@link com.example.akmal_pc.jhotel_android_akmal.R.attr#elevation}
+     * <p>This symbol is the offset where the {@link com.example.tim3a.eangkotUser.R.attr#elevation}
      * attribute's value can be found in the {@link #ActionBar} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -4104,11 +4208,11 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name com.example.akmal_pc.jhotel_android_akmal:elevation
+     * @attr name com.example.tim3a.eangkotUser:elevation
      */
     public static final int ActionBar_elevation=12;
     /**
-     * <p>This symbol is the offset where the {@link com.example.akmal_pc.jhotel_android_akmal.R.attr#height}
+     * <p>This symbol is the offset where the {@link com.example.tim3a.eangkotUser.R.attr#height}
      * attribute's value can be found in the {@link #ActionBar} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -4117,21 +4221,21 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name com.example.akmal_pc.jhotel_android_akmal:height
+     * @attr name com.example.tim3a.eangkotUser:height
      */
     public static final int ActionBar_height=13;
     /**
-     * <p>This symbol is the offset where the {@link com.example.akmal_pc.jhotel_android_akmal.R.attr#hideOnContentScroll}
+     * <p>This symbol is the offset where the {@link com.example.tim3a.eangkotUser.R.attr#hideOnContentScroll}
      * attribute's value can be found in the {@link #ActionBar} array.
      *
      * <p>May be a boolean value, such as "<code>true</code>" or
      * "<code>false</code>".
      *
-     * @attr name com.example.akmal_pc.jhotel_android_akmal:hideOnContentScroll
+     * @attr name com.example.tim3a.eangkotUser:hideOnContentScroll
      */
     public static final int ActionBar_hideOnContentScroll=14;
     /**
-     * <p>This symbol is the offset where the {@link com.example.akmal_pc.jhotel_android_akmal.R.attr#homeAsUpIndicator}
+     * <p>This symbol is the offset where the {@link com.example.tim3a.eangkotUser.R.attr#homeAsUpIndicator}
      * attribute's value can be found in the {@link #ActionBar} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -4139,11 +4243,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.example.akmal_pc.jhotel_android_akmal:homeAsUpIndicator
+     * @attr name com.example.tim3a.eangkotUser:homeAsUpIndicator
      */
     public static final int ActionBar_homeAsUpIndicator=15;
     /**
-     * <p>This symbol is the offset where the {@link com.example.akmal_pc.jhotel_android_akmal.R.attr#homeLayout}
+     * <p>This symbol is the offset where the {@link com.example.tim3a.eangkotUser.R.attr#homeLayout}
      * attribute's value can be found in the {@link #ActionBar} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -4151,11 +4255,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.example.akmal_pc.jhotel_android_akmal:homeLayout
+     * @attr name com.example.tim3a.eangkotUser:homeLayout
      */
     public static final int ActionBar_homeLayout=16;
     /**
-     * <p>This symbol is the offset where the {@link com.example.akmal_pc.jhotel_android_akmal.R.attr#icon}
+     * <p>This symbol is the offset where the {@link com.example.tim3a.eangkotUser.R.attr#icon}
      * attribute's value can be found in the {@link #ActionBar} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -4163,11 +4267,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.example.akmal_pc.jhotel_android_akmal:icon
+     * @attr name com.example.tim3a.eangkotUser:icon
      */
     public static final int ActionBar_icon=17;
     /**
-     * <p>This symbol is the offset where the {@link com.example.akmal_pc.jhotel_android_akmal.R.attr#indeterminateProgressStyle}
+     * <p>This symbol is the offset where the {@link com.example.tim3a.eangkotUser.R.attr#indeterminateProgressStyle}
      * attribute's value can be found in the {@link #ActionBar} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -4175,11 +4279,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.example.akmal_pc.jhotel_android_akmal:indeterminateProgressStyle
+     * @attr name com.example.tim3a.eangkotUser:indeterminateProgressStyle
      */
     public static final int ActionBar_indeterminateProgressStyle=18;
     /**
-     * <p>This symbol is the offset where the {@link com.example.akmal_pc.jhotel_android_akmal.R.attr#itemPadding}
+     * <p>This symbol is the offset where the {@link com.example.tim3a.eangkotUser.R.attr#itemPadding}
      * attribute's value can be found in the {@link #ActionBar} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -4188,11 +4292,11 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name com.example.akmal_pc.jhotel_android_akmal:itemPadding
+     * @attr name com.example.tim3a.eangkotUser:itemPadding
      */
     public static final int ActionBar_itemPadding=19;
     /**
-     * <p>This symbol is the offset where the {@link com.example.akmal_pc.jhotel_android_akmal.R.attr#logo}
+     * <p>This symbol is the offset where the {@link com.example.tim3a.eangkotUser.R.attr#logo}
      * attribute's value can be found in the {@link #ActionBar} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -4200,11 +4304,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.example.akmal_pc.jhotel_android_akmal:logo
+     * @attr name com.example.tim3a.eangkotUser:logo
      */
     public static final int ActionBar_logo=20;
     /**
-     * <p>This symbol is the offset where the {@link com.example.akmal_pc.jhotel_android_akmal.R.attr#navigationMode}
+     * <p>This symbol is the offset where the {@link com.example.tim3a.eangkotUser.R.attr#navigationMode}
      * attribute's value can be found in the {@link #ActionBar} array.
      *
      * <p>Must be one of the following constant values.</p>
@@ -4218,11 +4322,11 @@ public final class R {
      * <tr><td>tabMode</td><td>2</td><td></td></tr>
      * </table>
      *
-     * @attr name com.example.akmal_pc.jhotel_android_akmal:navigationMode
+     * @attr name com.example.tim3a.eangkotUser:navigationMode
      */
     public static final int ActionBar_navigationMode=21;
     /**
-     * <p>This symbol is the offset where the {@link com.example.akmal_pc.jhotel_android_akmal.R.attr#popupTheme}
+     * <p>This symbol is the offset where the {@link com.example.tim3a.eangkotUser.R.attr#popupTheme}
      * attribute's value can be found in the {@link #ActionBar} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -4230,11 +4334,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.example.akmal_pc.jhotel_android_akmal:popupTheme
+     * @attr name com.example.tim3a.eangkotUser:popupTheme
      */
     public static final int ActionBar_popupTheme=22;
     /**
-     * <p>This symbol is the offset where the {@link com.example.akmal_pc.jhotel_android_akmal.R.attr#progressBarPadding}
+     * <p>This symbol is the offset where the {@link com.example.tim3a.eangkotUser.R.attr#progressBarPadding}
      * attribute's value can be found in the {@link #ActionBar} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -4243,11 +4347,11 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name com.example.akmal_pc.jhotel_android_akmal:progressBarPadding
+     * @attr name com.example.tim3a.eangkotUser:progressBarPadding
      */
     public static final int ActionBar_progressBarPadding=23;
     /**
-     * <p>This symbol is the offset where the {@link com.example.akmal_pc.jhotel_android_akmal.R.attr#progressBarStyle}
+     * <p>This symbol is the offset where the {@link com.example.tim3a.eangkotUser.R.attr#progressBarStyle}
      * attribute's value can be found in the {@link #ActionBar} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -4255,21 +4359,21 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.example.akmal_pc.jhotel_android_akmal:progressBarStyle
+     * @attr name com.example.tim3a.eangkotUser:progressBarStyle
      */
     public static final int ActionBar_progressBarStyle=24;
     /**
-     * <p>This symbol is the offset where the {@link com.example.akmal_pc.jhotel_android_akmal.R.attr#subtitle}
+     * <p>This symbol is the offset where the {@link com.example.tim3a.eangkotUser.R.attr#subtitle}
      * attribute's value can be found in the {@link #ActionBar} array.
      *
      * <p>May be a string value, using '\\;' to escape characters such as
      * '\\n' or '\\uxxxx' for a unicode character;
      *
-     * @attr name com.example.akmal_pc.jhotel_android_akmal:subtitle
+     * @attr name com.example.tim3a.eangkotUser:subtitle
      */
     public static final int ActionBar_subtitle=25;
     /**
-     * <p>This symbol is the offset where the {@link com.example.akmal_pc.jhotel_android_akmal.R.attr#subtitleTextStyle}
+     * <p>This symbol is the offset where the {@link com.example.tim3a.eangkotUser.R.attr#subtitleTextStyle}
      * attribute's value can be found in the {@link #ActionBar} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -4277,21 +4381,21 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.example.akmal_pc.jhotel_android_akmal:subtitleTextStyle
+     * @attr name com.example.tim3a.eangkotUser:subtitleTextStyle
      */
     public static final int ActionBar_subtitleTextStyle=26;
     /**
-     * <p>This symbol is the offset where the {@link com.example.akmal_pc.jhotel_android_akmal.R.attr#title}
+     * <p>This symbol is the offset where the {@link com.example.tim3a.eangkotUser.R.attr#title}
      * attribute's value can be found in the {@link #ActionBar} array.
      *
      * <p>May be a string value, using '\\;' to escape characters such as
      * '\\n' or '\\uxxxx' for a unicode character;
      *
-     * @attr name com.example.akmal_pc.jhotel_android_akmal:title
+     * @attr name com.example.tim3a.eangkotUser:title
      */
     public static final int ActionBar_title=27;
     /**
-     * <p>This symbol is the offset where the {@link com.example.akmal_pc.jhotel_android_akmal.R.attr#titleTextStyle}
+     * <p>This symbol is the offset where the {@link com.example.tim3a.eangkotUser.R.attr#titleTextStyle}
      * attribute's value can be found in the {@link #ActionBar} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -4299,7 +4403,7 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.example.akmal_pc.jhotel_android_akmal:titleTextStyle
+     * @attr name com.example.tim3a.eangkotUser:titleTextStyle
      */
     public static final int ActionBar_titleTextStyle=28;
     /**
@@ -4381,12 +4485,12 @@ public final class R {
      * <colgroup align="left" />
      * <colgroup align="left" />
      * <tr><th>Attribute</th><th>Description</th></tr>
-     * <tr><td><code>{@link #ActionMode_background com.example.akmal_pc.jhotel_android_akmal:background}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ActionMode_backgroundSplit com.example.akmal_pc.jhotel_android_akmal:backgroundSplit}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ActionMode_closeItemLayout com.example.akmal_pc.jhotel_android_akmal:closeItemLayout}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ActionMode_height com.example.akmal_pc.jhotel_android_akmal:height}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ActionMode_subtitleTextStyle com.example.akmal_pc.jhotel_android_akmal:subtitleTextStyle}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ActionMode_titleTextStyle com.example.akmal_pc.jhotel_android_akmal:titleTextStyle}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ActionMode_background com.example.tim3a.eangkotUser:background}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ActionMode_backgroundSplit com.example.tim3a.eangkotUser:backgroundSplit}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ActionMode_closeItemLayout com.example.tim3a.eangkotUser:closeItemLayout}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ActionMode_height com.example.tim3a.eangkotUser:height}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ActionMode_subtitleTextStyle com.example.tim3a.eangkotUser:subtitleTextStyle}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ActionMode_titleTextStyle com.example.tim3a.eangkotUser:titleTextStyle}</code></td><td></td></tr>
      * </table>
      * @see #ActionMode_background
      * @see #ActionMode_backgroundSplit
@@ -4396,11 +4500,11 @@ public final class R {
      * @see #ActionMode_titleTextStyle
      */
     public static final int[] ActionMode={
-      0x7f020034, 0x7f020035, 0x7f020055, 0x7f020098, 
-      0x7f020123, 0x7f020147
+      0x7f020034, 0x7f020035, 0x7f02005b, 0x7f0200a3, 
+      0x7f02012e, 0x7f020152
     };
     /**
-     * <p>This symbol is the offset where the {@link com.example.akmal_pc.jhotel_android_akmal.R.attr#background}
+     * <p>This symbol is the offset where the {@link com.example.tim3a.eangkotUser.R.attr#background}
      * attribute's value can be found in the {@link #ActionMode} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -4408,11 +4512,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.example.akmal_pc.jhotel_android_akmal:background
+     * @attr name com.example.tim3a.eangkotUser:background
      */
     public static final int ActionMode_background=0;
     /**
-     * <p>This symbol is the offset where the {@link com.example.akmal_pc.jhotel_android_akmal.R.attr#backgroundSplit}
+     * <p>This symbol is the offset where the {@link com.example.tim3a.eangkotUser.R.attr#backgroundSplit}
      * attribute's value can be found in the {@link #ActionMode} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -4423,11 +4527,11 @@ public final class R {
      * "<code>#<i>argb</i></code>", "<code>#<i>rrggbb</i></code>", or
      * "<code>#<i>aarrggbb</i></code>".
      *
-     * @attr name com.example.akmal_pc.jhotel_android_akmal:backgroundSplit
+     * @attr name com.example.tim3a.eangkotUser:backgroundSplit
      */
     public static final int ActionMode_backgroundSplit=1;
     /**
-     * <p>This symbol is the offset where the {@link com.example.akmal_pc.jhotel_android_akmal.R.attr#closeItemLayout}
+     * <p>This symbol is the offset where the {@link com.example.tim3a.eangkotUser.R.attr#closeItemLayout}
      * attribute's value can be found in the {@link #ActionMode} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -4435,11 +4539,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.example.akmal_pc.jhotel_android_akmal:closeItemLayout
+     * @attr name com.example.tim3a.eangkotUser:closeItemLayout
      */
     public static final int ActionMode_closeItemLayout=2;
     /**
-     * <p>This symbol is the offset where the {@link com.example.akmal_pc.jhotel_android_akmal.R.attr#height}
+     * <p>This symbol is the offset where the {@link com.example.tim3a.eangkotUser.R.attr#height}
      * attribute's value can be found in the {@link #ActionMode} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -4448,11 +4552,11 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name com.example.akmal_pc.jhotel_android_akmal:height
+     * @attr name com.example.tim3a.eangkotUser:height
      */
     public static final int ActionMode_height=3;
     /**
-     * <p>This symbol is the offset where the {@link com.example.akmal_pc.jhotel_android_akmal.R.attr#subtitleTextStyle}
+     * <p>This symbol is the offset where the {@link com.example.tim3a.eangkotUser.R.attr#subtitleTextStyle}
      * attribute's value can be found in the {@link #ActionMode} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -4460,11 +4564,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.example.akmal_pc.jhotel_android_akmal:subtitleTextStyle
+     * @attr name com.example.tim3a.eangkotUser:subtitleTextStyle
      */
     public static final int ActionMode_subtitleTextStyle=4;
     /**
-     * <p>This symbol is the offset where the {@link com.example.akmal_pc.jhotel_android_akmal.R.attr#titleTextStyle}
+     * <p>This symbol is the offset where the {@link com.example.tim3a.eangkotUser.R.attr#titleTextStyle}
      * attribute's value can be found in the {@link #ActionMode} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -4472,7 +4576,7 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.example.akmal_pc.jhotel_android_akmal:titleTextStyle
+     * @attr name com.example.tim3a.eangkotUser:titleTextStyle
      */
     public static final int ActionMode_titleTextStyle=5;
     /**
@@ -4482,17 +4586,17 @@ public final class R {
      * <colgroup align="left" />
      * <colgroup align="left" />
      * <tr><th>Attribute</th><th>Description</th></tr>
-     * <tr><td><code>{@link #ActivityChooserView_expandActivityOverflowButtonDrawable com.example.akmal_pc.jhotel_android_akmal:expandActivityOverflowButtonDrawable}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ActivityChooserView_initialActivityCount com.example.akmal_pc.jhotel_android_akmal:initialActivityCount}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ActivityChooserView_expandActivityOverflowButtonDrawable com.example.tim3a.eangkotUser:expandActivityOverflowButtonDrawable}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ActivityChooserView_initialActivityCount com.example.tim3a.eangkotUser:initialActivityCount}</code></td><td></td></tr>
      * </table>
      * @see #ActivityChooserView_expandActivityOverflowButtonDrawable
      * @see #ActivityChooserView_initialActivityCount
      */
     public static final int[] ActivityChooserView={
-      0x7f020082, 0x7f0200a4
+      0x7f02008d, 0x7f0200af
     };
     /**
-     * <p>This symbol is the offset where the {@link com.example.akmal_pc.jhotel_android_akmal.R.attr#expandActivityOverflowButtonDrawable}
+     * <p>This symbol is the offset where the {@link com.example.tim3a.eangkotUser.R.attr#expandActivityOverflowButtonDrawable}
      * attribute's value can be found in the {@link #ActivityChooserView} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -4500,17 +4604,17 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.example.akmal_pc.jhotel_android_akmal:expandActivityOverflowButtonDrawable
+     * @attr name com.example.tim3a.eangkotUser:expandActivityOverflowButtonDrawable
      */
     public static final int ActivityChooserView_expandActivityOverflowButtonDrawable=0;
     /**
-     * <p>This symbol is the offset where the {@link com.example.akmal_pc.jhotel_android_akmal.R.attr#initialActivityCount}
+     * <p>This symbol is the offset where the {@link com.example.tim3a.eangkotUser.R.attr#initialActivityCount}
      * attribute's value can be found in the {@link #ActivityChooserView} array.
      *
      * <p>May be a string value, using '\\;' to escape characters such as
      * '\\n' or '\\uxxxx' for a unicode character;
      *
-     * @attr name com.example.akmal_pc.jhotel_android_akmal:initialActivityCount
+     * @attr name com.example.tim3a.eangkotUser:initialActivityCount
      */
     public static final int ActivityChooserView_initialActivityCount=1;
     /**
@@ -4521,12 +4625,12 @@ public final class R {
      * <colgroup align="left" />
      * <tr><th>Attribute</th><th>Description</th></tr>
      * <tr><td><code>{@link #AlertDialog_android_layout android:layout}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AlertDialog_buttonPanelSideLayout com.example.akmal_pc.jhotel_android_akmal:buttonPanelSideLayout}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AlertDialog_listItemLayout com.example.akmal_pc.jhotel_android_akmal:listItemLayout}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AlertDialog_listLayout com.example.akmal_pc.jhotel_android_akmal:listLayout}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AlertDialog_multiChoiceItemLayout com.example.akmal_pc.jhotel_android_akmal:multiChoiceItemLayout}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AlertDialog_showTitle com.example.akmal_pc.jhotel_android_akmal:showTitle}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AlertDialog_singleChoiceItemLayout com.example.akmal_pc.jhotel_android_akmal:singleChoiceItemLayout}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AlertDialog_buttonPanelSideLayout com.example.tim3a.eangkotUser:buttonPanelSideLayout}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AlertDialog_listItemLayout com.example.tim3a.eangkotUser:listItemLayout}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AlertDialog_listLayout com.example.tim3a.eangkotUser:listLayout}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AlertDialog_multiChoiceItemLayout com.example.tim3a.eangkotUser:multiChoiceItemLayout}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AlertDialog_showTitle com.example.tim3a.eangkotUser:showTitle}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AlertDialog_singleChoiceItemLayout com.example.tim3a.eangkotUser:singleChoiceItemLayout}</code></td><td></td></tr>
      * </table>
      * @see #AlertDialog_android_layout
      * @see #AlertDialog_buttonPanelSideLayout
@@ -4537,8 +4641,8 @@ public final class R {
      * @see #AlertDialog_singleChoiceItemLayout
      */
     public static final int[] AlertDialog={
-      0x010100f2, 0x7f020043, 0x7f0200e0, 0x7f0200e1, 
-      0x7f0200f2, 0x7f020116, 0x7f020117
+      0x010100f2, 0x7f020043, 0x7f0200eb, 0x7f0200ec, 
+      0x7f0200fd, 0x7f020121, 0x7f020122
     };
     /**
      * <p>This symbol is the offset where the {@link android.R.attr#layout}
@@ -4553,7 +4657,7 @@ public final class R {
      */
     public static final int AlertDialog_android_layout=0;
     /**
-     * <p>This symbol is the offset where the {@link com.example.akmal_pc.jhotel_android_akmal.R.attr#buttonPanelSideLayout}
+     * <p>This symbol is the offset where the {@link com.example.tim3a.eangkotUser.R.attr#buttonPanelSideLayout}
      * attribute's value can be found in the {@link #AlertDialog} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -4561,11 +4665,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.example.akmal_pc.jhotel_android_akmal:buttonPanelSideLayout
+     * @attr name com.example.tim3a.eangkotUser:buttonPanelSideLayout
      */
     public static final int AlertDialog_buttonPanelSideLayout=1;
     /**
-     * <p>This symbol is the offset where the {@link com.example.akmal_pc.jhotel_android_akmal.R.attr#listItemLayout}
+     * <p>This symbol is the offset where the {@link com.example.tim3a.eangkotUser.R.attr#listItemLayout}
      * attribute's value can be found in the {@link #AlertDialog} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -4573,11 +4677,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.example.akmal_pc.jhotel_android_akmal:listItemLayout
+     * @attr name com.example.tim3a.eangkotUser:listItemLayout
      */
     public static final int AlertDialog_listItemLayout=2;
     /**
-     * <p>This symbol is the offset where the {@link com.example.akmal_pc.jhotel_android_akmal.R.attr#listLayout}
+     * <p>This symbol is the offset where the {@link com.example.tim3a.eangkotUser.R.attr#listLayout}
      * attribute's value can be found in the {@link #AlertDialog} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -4585,11 +4689,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.example.akmal_pc.jhotel_android_akmal:listLayout
+     * @attr name com.example.tim3a.eangkotUser:listLayout
      */
     public static final int AlertDialog_listLayout=3;
     /**
-     * <p>This symbol is the offset where the {@link com.example.akmal_pc.jhotel_android_akmal.R.attr#multiChoiceItemLayout}
+     * <p>This symbol is the offset where the {@link com.example.tim3a.eangkotUser.R.attr#multiChoiceItemLayout}
      * attribute's value can be found in the {@link #AlertDialog} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -4597,21 +4701,21 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.example.akmal_pc.jhotel_android_akmal:multiChoiceItemLayout
+     * @attr name com.example.tim3a.eangkotUser:multiChoiceItemLayout
      */
     public static final int AlertDialog_multiChoiceItemLayout=4;
     /**
-     * <p>This symbol is the offset where the {@link com.example.akmal_pc.jhotel_android_akmal.R.attr#showTitle}
+     * <p>This symbol is the offset where the {@link com.example.tim3a.eangkotUser.R.attr#showTitle}
      * attribute's value can be found in the {@link #AlertDialog} array.
      *
      * <p>May be a boolean value, such as "<code>true</code>" or
      * "<code>false</code>".
      *
-     * @attr name com.example.akmal_pc.jhotel_android_akmal:showTitle
+     * @attr name com.example.tim3a.eangkotUser:showTitle
      */
     public static final int AlertDialog_showTitle=5;
     /**
-     * <p>This symbol is the offset where the {@link com.example.akmal_pc.jhotel_android_akmal.R.attr#singleChoiceItemLayout}
+     * <p>This symbol is the offset where the {@link com.example.tim3a.eangkotUser.R.attr#singleChoiceItemLayout}
      * attribute's value can be found in the {@link #AlertDialog} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -4619,7 +4723,7 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.example.akmal_pc.jhotel_android_akmal:singleChoiceItemLayout
+     * @attr name com.example.tim3a.eangkotUser:singleChoiceItemLayout
      */
     public static final int AlertDialog_singleChoiceItemLayout=6;
     /**
@@ -4630,9 +4734,9 @@ public final class R {
      * <colgroup align="left" />
      * <tr><th>Attribute</th><th>Description</th></tr>
      * <tr><td><code>{@link #AppCompatImageView_android_src android:src}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatImageView_srcCompat com.example.akmal_pc.jhotel_android_akmal:srcCompat}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatImageView_tint com.example.akmal_pc.jhotel_android_akmal:tint}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatImageView_tintMode com.example.akmal_pc.jhotel_android_akmal:tintMode}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatImageView_srcCompat com.example.tim3a.eangkotUser:srcCompat}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatImageView_tint com.example.tim3a.eangkotUser:tint}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatImageView_tintMode com.example.tim3a.eangkotUser:tintMode}</code></td><td></td></tr>
      * </table>
      * @see #AppCompatImageView_android_src
      * @see #AppCompatImageView_srcCompat
@@ -4640,7 +4744,7 @@ public final class R {
      * @see #AppCompatImageView_tintMode
      */
     public static final int[] AppCompatImageView={
-      0x01010119, 0x7f02011c, 0x7f02013c, 0x7f02013d
+      0x01010119, 0x7f020127, 0x7f020147, 0x7f020148
     };
     /**
      * <p>This symbol is the offset where the {@link android.R.attr#src}
@@ -4658,7 +4762,7 @@ public final class R {
      */
     public static final int AppCompatImageView_android_src=0;
     /**
-     * <p>This symbol is the offset where the {@link com.example.akmal_pc.jhotel_android_akmal.R.attr#srcCompat}
+     * <p>This symbol is the offset where the {@link com.example.tim3a.eangkotUser.R.attr#srcCompat}
      * attribute's value can be found in the {@link #AppCompatImageView} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -4666,22 +4770,22 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.example.akmal_pc.jhotel_android_akmal:srcCompat
+     * @attr name com.example.tim3a.eangkotUser:srcCompat
      */
     public static final int AppCompatImageView_srcCompat=1;
     /**
-     * <p>This symbol is the offset where the {@link com.example.akmal_pc.jhotel_android_akmal.R.attr#tint}
+     * <p>This symbol is the offset where the {@link com.example.tim3a.eangkotUser.R.attr#tint}
      * attribute's value can be found in the {@link #AppCompatImageView} array.
      *
      * <p>May be a color value, in the form of "<code>#<i>rgb</i></code>",
      * "<code>#<i>argb</i></code>", "<code>#<i>rrggbb</i></code>", or
      * "<code>#<i>aarrggbb</i></code>".
      *
-     * @attr name com.example.akmal_pc.jhotel_android_akmal:tint
+     * @attr name com.example.tim3a.eangkotUser:tint
      */
     public static final int AppCompatImageView_tint=2;
     /**
-     * <p>This symbol is the offset where the {@link com.example.akmal_pc.jhotel_android_akmal.R.attr#tintMode}
+     * <p>This symbol is the offset where the {@link com.example.tim3a.eangkotUser.R.attr#tintMode}
      * attribute's value can be found in the {@link #AppCompatImageView} array.
      *
      * <p>Must be one of the following constant values.</p>
@@ -4697,7 +4801,7 @@ public final class R {
      * <tr><td>src_over</td><td>3</td><td></td></tr>
      * </table>
      *
-     * @attr name com.example.akmal_pc.jhotel_android_akmal:tintMode
+     * @attr name com.example.tim3a.eangkotUser:tintMode
      */
     public static final int AppCompatImageView_tintMode=3;
     /**
@@ -4708,9 +4812,9 @@ public final class R {
      * <colgroup align="left" />
      * <tr><th>Attribute</th><th>Description</th></tr>
      * <tr><td><code>{@link #AppCompatSeekBar_android_thumb android:thumb}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatSeekBar_tickMark com.example.akmal_pc.jhotel_android_akmal:tickMark}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatSeekBar_tickMarkTint com.example.akmal_pc.jhotel_android_akmal:tickMarkTint}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatSeekBar_tickMarkTintMode com.example.akmal_pc.jhotel_android_akmal:tickMarkTintMode}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatSeekBar_tickMark com.example.tim3a.eangkotUser:tickMark}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatSeekBar_tickMarkTint com.example.tim3a.eangkotUser:tickMarkTint}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatSeekBar_tickMarkTintMode com.example.tim3a.eangkotUser:tickMarkTintMode}</code></td><td></td></tr>
      * </table>
      * @see #AppCompatSeekBar_android_thumb
      * @see #AppCompatSeekBar_tickMark
@@ -4718,7 +4822,7 @@ public final class R {
      * @see #AppCompatSeekBar_tickMarkTintMode
      */
     public static final int[] AppCompatSeekBar={
-      0x01010142, 0x7f020139, 0x7f02013a, 0x7f02013b
+      0x01010142, 0x7f020144, 0x7f020145, 0x7f020146
     };
     /**
      * <p>This symbol is the offset where the {@link android.R.attr#thumb}
@@ -4733,7 +4837,7 @@ public final class R {
      */
     public static final int AppCompatSeekBar_android_thumb=0;
     /**
-     * <p>This symbol is the offset where the {@link com.example.akmal_pc.jhotel_android_akmal.R.attr#tickMark}
+     * <p>This symbol is the offset where the {@link com.example.tim3a.eangkotUser.R.attr#tickMark}
      * attribute's value can be found in the {@link #AppCompatSeekBar} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -4741,22 +4845,22 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.example.akmal_pc.jhotel_android_akmal:tickMark
+     * @attr name com.example.tim3a.eangkotUser:tickMark
      */
     public static final int AppCompatSeekBar_tickMark=1;
     /**
-     * <p>This symbol is the offset where the {@link com.example.akmal_pc.jhotel_android_akmal.R.attr#tickMarkTint}
+     * <p>This symbol is the offset where the {@link com.example.tim3a.eangkotUser.R.attr#tickMarkTint}
      * attribute's value can be found in the {@link #AppCompatSeekBar} array.
      *
      * <p>May be a color value, in the form of "<code>#<i>rgb</i></code>",
      * "<code>#<i>argb</i></code>", "<code>#<i>rrggbb</i></code>", or
      * "<code>#<i>aarrggbb</i></code>".
      *
-     * @attr name com.example.akmal_pc.jhotel_android_akmal:tickMarkTint
+     * @attr name com.example.tim3a.eangkotUser:tickMarkTint
      */
     public static final int AppCompatSeekBar_tickMarkTint=2;
     /**
-     * <p>This symbol is the offset where the {@link com.example.akmal_pc.jhotel_android_akmal.R.attr#tickMarkTintMode}
+     * <p>This symbol is the offset where the {@link com.example.tim3a.eangkotUser.R.attr#tickMarkTintMode}
      * attribute's value can be found in the {@link #AppCompatSeekBar} array.
      *
      * <p>Must be one of the following constant values.</p>
@@ -4773,7 +4877,7 @@ public final class R {
      * <tr><td>src_over</td><td>3</td><td></td></tr>
      * </table>
      *
-     * @attr name com.example.akmal_pc.jhotel_android_akmal:tickMarkTintMode
+     * @attr name com.example.tim3a.eangkotUser:tickMarkTintMode
      */
     public static final int AppCompatSeekBar_tickMarkTintMode=3;
     /**
@@ -4913,13 +5017,13 @@ public final class R {
      * <colgroup align="left" />
      * <tr><th>Attribute</th><th>Description</th></tr>
      * <tr><td><code>{@link #AppCompatTextView_android_textAppearance android:textAppearance}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTextView_autoSizeMaxTextSize com.example.akmal_pc.jhotel_android_akmal:autoSizeMaxTextSize}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTextView_autoSizeMinTextSize com.example.akmal_pc.jhotel_android_akmal:autoSizeMinTextSize}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTextView_autoSizePresetSizes com.example.akmal_pc.jhotel_android_akmal:autoSizePresetSizes}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTextView_autoSizeStepGranularity com.example.akmal_pc.jhotel_android_akmal:autoSizeStepGranularity}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTextView_autoSizeTextType com.example.akmal_pc.jhotel_android_akmal:autoSizeTextType}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTextView_fontFamily com.example.akmal_pc.jhotel_android_akmal:fontFamily}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTextView_textAllCaps com.example.akmal_pc.jhotel_android_akmal:textAllCaps}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTextView_autoSizeMaxTextSize com.example.tim3a.eangkotUser:autoSizeMaxTextSize}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTextView_autoSizeMinTextSize com.example.tim3a.eangkotUser:autoSizeMinTextSize}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTextView_autoSizePresetSizes com.example.tim3a.eangkotUser:autoSizePresetSizes}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTextView_autoSizeStepGranularity com.example.tim3a.eangkotUser:autoSizeStepGranularity}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTextView_autoSizeTextType com.example.tim3a.eangkotUser:autoSizeTextType}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTextView_fontFamily com.example.tim3a.eangkotUser:fontFamily}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTextView_textAllCaps com.example.tim3a.eangkotUser:textAllCaps}</code></td><td></td></tr>
      * </table>
      * @see #AppCompatTextView_android_textAppearance
      * @see #AppCompatTextView_autoSizeMaxTextSize
@@ -4932,7 +5036,7 @@ public final class R {
      */
     public static final int[] AppCompatTextView={
       0x01010034, 0x7f02002f, 0x7f020030, 0x7f020031, 
-      0x7f020032, 0x7f020033, 0x7f020086, 0x7f020129
+      0x7f020032, 0x7f020033, 0x7f020091, 0x7f020134
     };
     /**
      * <p>This symbol is the offset where the {@link android.R.attr#textAppearance}
@@ -4947,7 +5051,7 @@ public final class R {
      */
     public static final int AppCompatTextView_android_textAppearance=0;
     /**
-     * <p>This symbol is the offset where the {@link com.example.akmal_pc.jhotel_android_akmal.R.attr#autoSizeMaxTextSize}
+     * <p>This symbol is the offset where the {@link com.example.tim3a.eangkotUser.R.attr#autoSizeMaxTextSize}
      * attribute's value can be found in the {@link #AppCompatTextView} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -4956,11 +5060,11 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name com.example.akmal_pc.jhotel_android_akmal:autoSizeMaxTextSize
+     * @attr name com.example.tim3a.eangkotUser:autoSizeMaxTextSize
      */
     public static final int AppCompatTextView_autoSizeMaxTextSize=1;
     /**
-     * <p>This symbol is the offset where the {@link com.example.akmal_pc.jhotel_android_akmal.R.attr#autoSizeMinTextSize}
+     * <p>This symbol is the offset where the {@link com.example.tim3a.eangkotUser.R.attr#autoSizeMinTextSize}
      * attribute's value can be found in the {@link #AppCompatTextView} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -4969,11 +5073,11 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name com.example.akmal_pc.jhotel_android_akmal:autoSizeMinTextSize
+     * @attr name com.example.tim3a.eangkotUser:autoSizeMinTextSize
      */
     public static final int AppCompatTextView_autoSizeMinTextSize=2;
     /**
-     * <p>This symbol is the offset where the {@link com.example.akmal_pc.jhotel_android_akmal.R.attr#autoSizePresetSizes}
+     * <p>This symbol is the offset where the {@link com.example.tim3a.eangkotUser.R.attr#autoSizePresetSizes}
      * attribute's value can be found in the {@link #AppCompatTextView} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -4981,11 +5085,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.example.akmal_pc.jhotel_android_akmal:autoSizePresetSizes
+     * @attr name com.example.tim3a.eangkotUser:autoSizePresetSizes
      */
     public static final int AppCompatTextView_autoSizePresetSizes=3;
     /**
-     * <p>This symbol is the offset where the {@link com.example.akmal_pc.jhotel_android_akmal.R.attr#autoSizeStepGranularity}
+     * <p>This symbol is the offset where the {@link com.example.tim3a.eangkotUser.R.attr#autoSizeStepGranularity}
      * attribute's value can be found in the {@link #AppCompatTextView} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -4994,11 +5098,11 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name com.example.akmal_pc.jhotel_android_akmal:autoSizeStepGranularity
+     * @attr name com.example.tim3a.eangkotUser:autoSizeStepGranularity
      */
     public static final int AppCompatTextView_autoSizeStepGranularity=4;
     /**
-     * <p>This symbol is the offset where the {@link com.example.akmal_pc.jhotel_android_akmal.R.attr#autoSizeTextType}
+     * <p>This symbol is the offset where the {@link com.example.tim3a.eangkotUser.R.attr#autoSizeTextType}
      * attribute's value can be found in the {@link #AppCompatTextView} array.
      *
      * <p>Must be one of the following constant values.</p>
@@ -5011,21 +5115,21 @@ public final class R {
      * <tr><td>uniform</td><td>1</td><td></td></tr>
      * </table>
      *
-     * @attr name com.example.akmal_pc.jhotel_android_akmal:autoSizeTextType
+     * @attr name com.example.tim3a.eangkotUser:autoSizeTextType
      */
     public static final int AppCompatTextView_autoSizeTextType=5;
     /**
-     * <p>This symbol is the offset where the {@link com.example.akmal_pc.jhotel_android_akmal.R.attr#fontFamily}
+     * <p>This symbol is the offset where the {@link com.example.tim3a.eangkotUser.R.attr#fontFamily}
      * attribute's value can be found in the {@link #AppCompatTextView} array.
      *
      * <p>May be a string value, using '\\;' to escape characters such as
      * '\\n' or '\\uxxxx' for a unicode character;
      *
-     * @attr name com.example.akmal_pc.jhotel_android_akmal:fontFamily
+     * @attr name com.example.tim3a.eangkotUser:fontFamily
      */
     public static final int AppCompatTextView_fontFamily=6;
     /**
-     * <p>This symbol is the offset where the {@link com.example.akmal_pc.jhotel_android_akmal.R.attr#textAllCaps}
+     * <p>This symbol is the offset where the {@link com.example.tim3a.eangkotUser.R.attr#textAllCaps}
      * attribute's value can be found in the {@link #AppCompatTextView} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -5035,7 +5139,7 @@ public final class R {
      * <p>May be a boolean value, such as "<code>true</code>" or
      * "<code>false</code>".
      *
-     * @attr name com.example.akmal_pc.jhotel_android_akmal:textAllCaps
+     * @attr name com.example.tim3a.eangkotUser:textAllCaps
      */
     public static final int AppCompatTextView_textAllCaps=7;
     /**
@@ -5047,123 +5151,123 @@ public final class R {
      * <tr><th>Attribute</th><th>Description</th></tr>
      * <tr><td><code>{@link #AppCompatTheme_android_windowIsFloating android:windowIsFloating}</code></td><td></td></tr>
      * <tr><td><code>{@link #AppCompatTheme_android_windowAnimationStyle android:windowAnimationStyle}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_actionBarDivider com.example.akmal_pc.jhotel_android_akmal:actionBarDivider}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_actionBarItemBackground com.example.akmal_pc.jhotel_android_akmal:actionBarItemBackground}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_actionBarPopupTheme com.example.akmal_pc.jhotel_android_akmal:actionBarPopupTheme}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_actionBarSize com.example.akmal_pc.jhotel_android_akmal:actionBarSize}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_actionBarSplitStyle com.example.akmal_pc.jhotel_android_akmal:actionBarSplitStyle}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_actionBarStyle com.example.akmal_pc.jhotel_android_akmal:actionBarStyle}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_actionBarTabBarStyle com.example.akmal_pc.jhotel_android_akmal:actionBarTabBarStyle}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_actionBarTabStyle com.example.akmal_pc.jhotel_android_akmal:actionBarTabStyle}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_actionBarTabTextStyle com.example.akmal_pc.jhotel_android_akmal:actionBarTabTextStyle}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_actionBarTheme com.example.akmal_pc.jhotel_android_akmal:actionBarTheme}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_actionBarWidgetTheme com.example.akmal_pc.jhotel_android_akmal:actionBarWidgetTheme}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_actionButtonStyle com.example.akmal_pc.jhotel_android_akmal:actionButtonStyle}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_actionDropDownStyle com.example.akmal_pc.jhotel_android_akmal:actionDropDownStyle}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_actionMenuTextAppearance com.example.akmal_pc.jhotel_android_akmal:actionMenuTextAppearance}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_actionMenuTextColor com.example.akmal_pc.jhotel_android_akmal:actionMenuTextColor}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_actionModeBackground com.example.akmal_pc.jhotel_android_akmal:actionModeBackground}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_actionModeCloseButtonStyle com.example.akmal_pc.jhotel_android_akmal:actionModeCloseButtonStyle}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_actionModeCloseDrawable com.example.akmal_pc.jhotel_android_akmal:actionModeCloseDrawable}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_actionModeCopyDrawable com.example.akmal_pc.jhotel_android_akmal:actionModeCopyDrawable}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_actionModeCutDrawable com.example.akmal_pc.jhotel_android_akmal:actionModeCutDrawable}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_actionModeFindDrawable com.example.akmal_pc.jhotel_android_akmal:actionModeFindDrawable}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_actionModePasteDrawable com.example.akmal_pc.jhotel_android_akmal:actionModePasteDrawable}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_actionModePopupWindowStyle com.example.akmal_pc.jhotel_android_akmal:actionModePopupWindowStyle}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_actionModeSelectAllDrawable com.example.akmal_pc.jhotel_android_akmal:actionModeSelectAllDrawable}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_actionModeShareDrawable com.example.akmal_pc.jhotel_android_akmal:actionModeShareDrawable}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_actionModeSplitBackground com.example.akmal_pc.jhotel_android_akmal:actionModeSplitBackground}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_actionModeStyle com.example.akmal_pc.jhotel_android_akmal:actionModeStyle}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_actionModeWebSearchDrawable com.example.akmal_pc.jhotel_android_akmal:actionModeWebSearchDrawable}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_actionOverflowButtonStyle com.example.akmal_pc.jhotel_android_akmal:actionOverflowButtonStyle}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_actionOverflowMenuStyle com.example.akmal_pc.jhotel_android_akmal:actionOverflowMenuStyle}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_activityChooserViewStyle com.example.akmal_pc.jhotel_android_akmal:activityChooserViewStyle}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_alertDialogButtonGroupStyle com.example.akmal_pc.jhotel_android_akmal:alertDialogButtonGroupStyle}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_alertDialogCenterButtons com.example.akmal_pc.jhotel_android_akmal:alertDialogCenterButtons}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_alertDialogStyle com.example.akmal_pc.jhotel_android_akmal:alertDialogStyle}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_alertDialogTheme com.example.akmal_pc.jhotel_android_akmal:alertDialogTheme}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_autoCompleteTextViewStyle com.example.akmal_pc.jhotel_android_akmal:autoCompleteTextViewStyle}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_borderlessButtonStyle com.example.akmal_pc.jhotel_android_akmal:borderlessButtonStyle}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_buttonBarButtonStyle com.example.akmal_pc.jhotel_android_akmal:buttonBarButtonStyle}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_buttonBarNegativeButtonStyle com.example.akmal_pc.jhotel_android_akmal:buttonBarNegativeButtonStyle}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_buttonBarNeutralButtonStyle com.example.akmal_pc.jhotel_android_akmal:buttonBarNeutralButtonStyle}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_buttonBarPositiveButtonStyle com.example.akmal_pc.jhotel_android_akmal:buttonBarPositiveButtonStyle}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_buttonBarStyle com.example.akmal_pc.jhotel_android_akmal:buttonBarStyle}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_buttonStyle com.example.akmal_pc.jhotel_android_akmal:buttonStyle}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_buttonStyleSmall com.example.akmal_pc.jhotel_android_akmal:buttonStyleSmall}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_checkboxStyle com.example.akmal_pc.jhotel_android_akmal:checkboxStyle}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_checkedTextViewStyle com.example.akmal_pc.jhotel_android_akmal:checkedTextViewStyle}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_colorAccent com.example.akmal_pc.jhotel_android_akmal:colorAccent}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_colorBackgroundFloating com.example.akmal_pc.jhotel_android_akmal:colorBackgroundFloating}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_colorButtonNormal com.example.akmal_pc.jhotel_android_akmal:colorButtonNormal}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_colorControlActivated com.example.akmal_pc.jhotel_android_akmal:colorControlActivated}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_colorControlHighlight com.example.akmal_pc.jhotel_android_akmal:colorControlHighlight}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_colorControlNormal com.example.akmal_pc.jhotel_android_akmal:colorControlNormal}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_colorError com.example.akmal_pc.jhotel_android_akmal:colorError}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_colorPrimary com.example.akmal_pc.jhotel_android_akmal:colorPrimary}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_colorPrimaryDark com.example.akmal_pc.jhotel_android_akmal:colorPrimaryDark}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_colorSwitchThumbNormal com.example.akmal_pc.jhotel_android_akmal:colorSwitchThumbNormal}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_controlBackground com.example.akmal_pc.jhotel_android_akmal:controlBackground}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_dialogPreferredPadding com.example.akmal_pc.jhotel_android_akmal:dialogPreferredPadding}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_dialogTheme com.example.akmal_pc.jhotel_android_akmal:dialogTheme}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_dividerHorizontal com.example.akmal_pc.jhotel_android_akmal:dividerHorizontal}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_dividerVertical com.example.akmal_pc.jhotel_android_akmal:dividerVertical}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_dropDownListViewStyle com.example.akmal_pc.jhotel_android_akmal:dropDownListViewStyle}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_dropdownListPreferredItemHeight com.example.akmal_pc.jhotel_android_akmal:dropdownListPreferredItemHeight}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_editTextBackground com.example.akmal_pc.jhotel_android_akmal:editTextBackground}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_editTextColor com.example.akmal_pc.jhotel_android_akmal:editTextColor}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_editTextStyle com.example.akmal_pc.jhotel_android_akmal:editTextStyle}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_homeAsUpIndicator com.example.akmal_pc.jhotel_android_akmal:homeAsUpIndicator}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_imageButtonStyle com.example.akmal_pc.jhotel_android_akmal:imageButtonStyle}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_listChoiceBackgroundIndicator com.example.akmal_pc.jhotel_android_akmal:listChoiceBackgroundIndicator}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_listDividerAlertDialog com.example.akmal_pc.jhotel_android_akmal:listDividerAlertDialog}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_listMenuViewStyle com.example.akmal_pc.jhotel_android_akmal:listMenuViewStyle}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_listPopupWindowStyle com.example.akmal_pc.jhotel_android_akmal:listPopupWindowStyle}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_listPreferredItemHeight com.example.akmal_pc.jhotel_android_akmal:listPreferredItemHeight}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_listPreferredItemHeightLarge com.example.akmal_pc.jhotel_android_akmal:listPreferredItemHeightLarge}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_listPreferredItemHeightSmall com.example.akmal_pc.jhotel_android_akmal:listPreferredItemHeightSmall}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_listPreferredItemPaddingLeft com.example.akmal_pc.jhotel_android_akmal:listPreferredItemPaddingLeft}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_listPreferredItemPaddingRight com.example.akmal_pc.jhotel_android_akmal:listPreferredItemPaddingRight}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_panelBackground com.example.akmal_pc.jhotel_android_akmal:panelBackground}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_panelMenuListTheme com.example.akmal_pc.jhotel_android_akmal:panelMenuListTheme}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_panelMenuListWidth com.example.akmal_pc.jhotel_android_akmal:panelMenuListWidth}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_popupMenuStyle com.example.akmal_pc.jhotel_android_akmal:popupMenuStyle}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_popupWindowStyle com.example.akmal_pc.jhotel_android_akmal:popupWindowStyle}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_radioButtonStyle com.example.akmal_pc.jhotel_android_akmal:radioButtonStyle}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_ratingBarStyle com.example.akmal_pc.jhotel_android_akmal:ratingBarStyle}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_ratingBarStyleIndicator com.example.akmal_pc.jhotel_android_akmal:ratingBarStyleIndicator}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_ratingBarStyleSmall com.example.akmal_pc.jhotel_android_akmal:ratingBarStyleSmall}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_searchViewStyle com.example.akmal_pc.jhotel_android_akmal:searchViewStyle}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_seekBarStyle com.example.akmal_pc.jhotel_android_akmal:seekBarStyle}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_selectableItemBackground com.example.akmal_pc.jhotel_android_akmal:selectableItemBackground}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_selectableItemBackgroundBorderless com.example.akmal_pc.jhotel_android_akmal:selectableItemBackgroundBorderless}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_spinnerDropDownItemStyle com.example.akmal_pc.jhotel_android_akmal:spinnerDropDownItemStyle}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_spinnerStyle com.example.akmal_pc.jhotel_android_akmal:spinnerStyle}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_switchStyle com.example.akmal_pc.jhotel_android_akmal:switchStyle}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_textAppearanceLargePopupMenu com.example.akmal_pc.jhotel_android_akmal:textAppearanceLargePopupMenu}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_textAppearanceListItem com.example.akmal_pc.jhotel_android_akmal:textAppearanceListItem}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_textAppearanceListItemSecondary com.example.akmal_pc.jhotel_android_akmal:textAppearanceListItemSecondary}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_textAppearanceListItemSmall com.example.akmal_pc.jhotel_android_akmal:textAppearanceListItemSmall}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_textAppearancePopupMenuHeader com.example.akmal_pc.jhotel_android_akmal:textAppearancePopupMenuHeader}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_textAppearanceSearchResultSubtitle com.example.akmal_pc.jhotel_android_akmal:textAppearanceSearchResultSubtitle}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_textAppearanceSearchResultTitle com.example.akmal_pc.jhotel_android_akmal:textAppearanceSearchResultTitle}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_textAppearanceSmallPopupMenu com.example.akmal_pc.jhotel_android_akmal:textAppearanceSmallPopupMenu}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_textColorAlertDialogListItem com.example.akmal_pc.jhotel_android_akmal:textColorAlertDialogListItem}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_textColorSearchUrl com.example.akmal_pc.jhotel_android_akmal:textColorSearchUrl}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_toolbarNavigationButtonStyle com.example.akmal_pc.jhotel_android_akmal:toolbarNavigationButtonStyle}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_toolbarStyle com.example.akmal_pc.jhotel_android_akmal:toolbarStyle}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_tooltipForegroundColor com.example.akmal_pc.jhotel_android_akmal:tooltipForegroundColor}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_tooltipFrameBackground com.example.akmal_pc.jhotel_android_akmal:tooltipFrameBackground}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_windowActionBar com.example.akmal_pc.jhotel_android_akmal:windowActionBar}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_windowActionBarOverlay com.example.akmal_pc.jhotel_android_akmal:windowActionBarOverlay}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_windowActionModeOverlay com.example.akmal_pc.jhotel_android_akmal:windowActionModeOverlay}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_windowFixedHeightMajor com.example.akmal_pc.jhotel_android_akmal:windowFixedHeightMajor}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_windowFixedHeightMinor com.example.akmal_pc.jhotel_android_akmal:windowFixedHeightMinor}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_windowFixedWidthMajor com.example.akmal_pc.jhotel_android_akmal:windowFixedWidthMajor}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_windowFixedWidthMinor com.example.akmal_pc.jhotel_android_akmal:windowFixedWidthMinor}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_windowMinWidthMajor com.example.akmal_pc.jhotel_android_akmal:windowMinWidthMajor}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_windowMinWidthMinor com.example.akmal_pc.jhotel_android_akmal:windowMinWidthMinor}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_windowNoTitle com.example.akmal_pc.jhotel_android_akmal:windowNoTitle}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_actionBarDivider com.example.tim3a.eangkotUser:actionBarDivider}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_actionBarItemBackground com.example.tim3a.eangkotUser:actionBarItemBackground}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_actionBarPopupTheme com.example.tim3a.eangkotUser:actionBarPopupTheme}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_actionBarSize com.example.tim3a.eangkotUser:actionBarSize}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_actionBarSplitStyle com.example.tim3a.eangkotUser:actionBarSplitStyle}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_actionBarStyle com.example.tim3a.eangkotUser:actionBarStyle}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_actionBarTabBarStyle com.example.tim3a.eangkotUser:actionBarTabBarStyle}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_actionBarTabStyle com.example.tim3a.eangkotUser:actionBarTabStyle}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_actionBarTabTextStyle com.example.tim3a.eangkotUser:actionBarTabTextStyle}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_actionBarTheme com.example.tim3a.eangkotUser:actionBarTheme}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_actionBarWidgetTheme com.example.tim3a.eangkotUser:actionBarWidgetTheme}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_actionButtonStyle com.example.tim3a.eangkotUser:actionButtonStyle}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_actionDropDownStyle com.example.tim3a.eangkotUser:actionDropDownStyle}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_actionMenuTextAppearance com.example.tim3a.eangkotUser:actionMenuTextAppearance}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_actionMenuTextColor com.example.tim3a.eangkotUser:actionMenuTextColor}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_actionModeBackground com.example.tim3a.eangkotUser:actionModeBackground}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_actionModeCloseButtonStyle com.example.tim3a.eangkotUser:actionModeCloseButtonStyle}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_actionModeCloseDrawable com.example.tim3a.eangkotUser:actionModeCloseDrawable}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_actionModeCopyDrawable com.example.tim3a.eangkotUser:actionModeCopyDrawable}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_actionModeCutDrawable com.example.tim3a.eangkotUser:actionModeCutDrawable}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_actionModeFindDrawable com.example.tim3a.eangkotUser:actionModeFindDrawable}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_actionModePasteDrawable com.example.tim3a.eangkotUser:actionModePasteDrawable}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_actionModePopupWindowStyle com.example.tim3a.eangkotUser:actionModePopupWindowStyle}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_actionModeSelectAllDrawable com.example.tim3a.eangkotUser:actionModeSelectAllDrawable}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_actionModeShareDrawable com.example.tim3a.eangkotUser:actionModeShareDrawable}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_actionModeSplitBackground com.example.tim3a.eangkotUser:actionModeSplitBackground}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_actionModeStyle com.example.tim3a.eangkotUser:actionModeStyle}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_actionModeWebSearchDrawable com.example.tim3a.eangkotUser:actionModeWebSearchDrawable}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_actionOverflowButtonStyle com.example.tim3a.eangkotUser:actionOverflowButtonStyle}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_actionOverflowMenuStyle com.example.tim3a.eangkotUser:actionOverflowMenuStyle}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_activityChooserViewStyle com.example.tim3a.eangkotUser:activityChooserViewStyle}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_alertDialogButtonGroupStyle com.example.tim3a.eangkotUser:alertDialogButtonGroupStyle}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_alertDialogCenterButtons com.example.tim3a.eangkotUser:alertDialogCenterButtons}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_alertDialogStyle com.example.tim3a.eangkotUser:alertDialogStyle}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_alertDialogTheme com.example.tim3a.eangkotUser:alertDialogTheme}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_autoCompleteTextViewStyle com.example.tim3a.eangkotUser:autoCompleteTextViewStyle}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_borderlessButtonStyle com.example.tim3a.eangkotUser:borderlessButtonStyle}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_buttonBarButtonStyle com.example.tim3a.eangkotUser:buttonBarButtonStyle}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_buttonBarNegativeButtonStyle com.example.tim3a.eangkotUser:buttonBarNegativeButtonStyle}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_buttonBarNeutralButtonStyle com.example.tim3a.eangkotUser:buttonBarNeutralButtonStyle}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_buttonBarPositiveButtonStyle com.example.tim3a.eangkotUser:buttonBarPositiveButtonStyle}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_buttonBarStyle com.example.tim3a.eangkotUser:buttonBarStyle}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_buttonStyle com.example.tim3a.eangkotUser:buttonStyle}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_buttonStyleSmall com.example.tim3a.eangkotUser:buttonStyleSmall}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_checkboxStyle com.example.tim3a.eangkotUser:checkboxStyle}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_checkedTextViewStyle com.example.tim3a.eangkotUser:checkedTextViewStyle}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_colorAccent com.example.tim3a.eangkotUser:colorAccent}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_colorBackgroundFloating com.example.tim3a.eangkotUser:colorBackgroundFloating}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_colorButtonNormal com.example.tim3a.eangkotUser:colorButtonNormal}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_colorControlActivated com.example.tim3a.eangkotUser:colorControlActivated}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_colorControlHighlight com.example.tim3a.eangkotUser:colorControlHighlight}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_colorControlNormal com.example.tim3a.eangkotUser:colorControlNormal}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_colorError com.example.tim3a.eangkotUser:colorError}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_colorPrimary com.example.tim3a.eangkotUser:colorPrimary}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_colorPrimaryDark com.example.tim3a.eangkotUser:colorPrimaryDark}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_colorSwitchThumbNormal com.example.tim3a.eangkotUser:colorSwitchThumbNormal}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_controlBackground com.example.tim3a.eangkotUser:controlBackground}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_dialogPreferredPadding com.example.tim3a.eangkotUser:dialogPreferredPadding}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_dialogTheme com.example.tim3a.eangkotUser:dialogTheme}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_dividerHorizontal com.example.tim3a.eangkotUser:dividerHorizontal}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_dividerVertical com.example.tim3a.eangkotUser:dividerVertical}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_dropDownListViewStyle com.example.tim3a.eangkotUser:dropDownListViewStyle}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_dropdownListPreferredItemHeight com.example.tim3a.eangkotUser:dropdownListPreferredItemHeight}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_editTextBackground com.example.tim3a.eangkotUser:editTextBackground}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_editTextColor com.example.tim3a.eangkotUser:editTextColor}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_editTextStyle com.example.tim3a.eangkotUser:editTextStyle}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_homeAsUpIndicator com.example.tim3a.eangkotUser:homeAsUpIndicator}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_imageButtonStyle com.example.tim3a.eangkotUser:imageButtonStyle}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_listChoiceBackgroundIndicator com.example.tim3a.eangkotUser:listChoiceBackgroundIndicator}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_listDividerAlertDialog com.example.tim3a.eangkotUser:listDividerAlertDialog}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_listMenuViewStyle com.example.tim3a.eangkotUser:listMenuViewStyle}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_listPopupWindowStyle com.example.tim3a.eangkotUser:listPopupWindowStyle}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_listPreferredItemHeight com.example.tim3a.eangkotUser:listPreferredItemHeight}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_listPreferredItemHeightLarge com.example.tim3a.eangkotUser:listPreferredItemHeightLarge}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_listPreferredItemHeightSmall com.example.tim3a.eangkotUser:listPreferredItemHeightSmall}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_listPreferredItemPaddingLeft com.example.tim3a.eangkotUser:listPreferredItemPaddingLeft}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_listPreferredItemPaddingRight com.example.tim3a.eangkotUser:listPreferredItemPaddingRight}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_panelBackground com.example.tim3a.eangkotUser:panelBackground}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_panelMenuListTheme com.example.tim3a.eangkotUser:panelMenuListTheme}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_panelMenuListWidth com.example.tim3a.eangkotUser:panelMenuListWidth}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_popupMenuStyle com.example.tim3a.eangkotUser:popupMenuStyle}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_popupWindowStyle com.example.tim3a.eangkotUser:popupWindowStyle}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_radioButtonStyle com.example.tim3a.eangkotUser:radioButtonStyle}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_ratingBarStyle com.example.tim3a.eangkotUser:ratingBarStyle}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_ratingBarStyleIndicator com.example.tim3a.eangkotUser:ratingBarStyleIndicator}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_ratingBarStyleSmall com.example.tim3a.eangkotUser:ratingBarStyleSmall}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_searchViewStyle com.example.tim3a.eangkotUser:searchViewStyle}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_seekBarStyle com.example.tim3a.eangkotUser:seekBarStyle}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_selectableItemBackground com.example.tim3a.eangkotUser:selectableItemBackground}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_selectableItemBackgroundBorderless com.example.tim3a.eangkotUser:selectableItemBackgroundBorderless}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_spinnerDropDownItemStyle com.example.tim3a.eangkotUser:spinnerDropDownItemStyle}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_spinnerStyle com.example.tim3a.eangkotUser:spinnerStyle}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_switchStyle com.example.tim3a.eangkotUser:switchStyle}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_textAppearanceLargePopupMenu com.example.tim3a.eangkotUser:textAppearanceLargePopupMenu}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_textAppearanceListItem com.example.tim3a.eangkotUser:textAppearanceListItem}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_textAppearanceListItemSecondary com.example.tim3a.eangkotUser:textAppearanceListItemSecondary}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_textAppearanceListItemSmall com.example.tim3a.eangkotUser:textAppearanceListItemSmall}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_textAppearancePopupMenuHeader com.example.tim3a.eangkotUser:textAppearancePopupMenuHeader}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_textAppearanceSearchResultSubtitle com.example.tim3a.eangkotUser:textAppearanceSearchResultSubtitle}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_textAppearanceSearchResultTitle com.example.tim3a.eangkotUser:textAppearanceSearchResultTitle}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_textAppearanceSmallPopupMenu com.example.tim3a.eangkotUser:textAppearanceSmallPopupMenu}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_textColorAlertDialogListItem com.example.tim3a.eangkotUser:textColorAlertDialogListItem}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_textColorSearchUrl com.example.tim3a.eangkotUser:textColorSearchUrl}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_toolbarNavigationButtonStyle com.example.tim3a.eangkotUser:toolbarNavigationButtonStyle}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_toolbarStyle com.example.tim3a.eangkotUser:toolbarStyle}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_tooltipForegroundColor com.example.tim3a.eangkotUser:tooltipForegroundColor}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_tooltipFrameBackground com.example.tim3a.eangkotUser:tooltipFrameBackground}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_windowActionBar com.example.tim3a.eangkotUser:windowActionBar}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_windowActionBarOverlay com.example.tim3a.eangkotUser:windowActionBarOverlay}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_windowActionModeOverlay com.example.tim3a.eangkotUser:windowActionModeOverlay}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_windowFixedHeightMajor com.example.tim3a.eangkotUser:windowFixedHeightMajor}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_windowFixedHeightMinor com.example.tim3a.eangkotUser:windowFixedHeightMinor}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_windowFixedWidthMajor com.example.tim3a.eangkotUser:windowFixedWidthMajor}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_windowFixedWidthMinor com.example.tim3a.eangkotUser:windowFixedWidthMinor}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_windowMinWidthMajor com.example.tim3a.eangkotUser:windowMinWidthMajor}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_windowMinWidthMinor com.example.tim3a.eangkotUser:windowMinWidthMinor}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_windowNoTitle com.example.tim3a.eangkotUser:windowNoTitle}</code></td><td></td></tr>
      * </table>
      * @see #AppCompatTheme_android_windowIsFloating
      * @see #AppCompatTheme_android_windowAnimationStyle
@@ -5297,25 +5401,25 @@ public final class R {
       0x7f020021, 0x7f020022, 0x7f020023, 0x7f020024, 
       0x7f020025, 0x7f02002c, 0x7f02003c, 0x7f02003d, 
       0x7f02003e, 0x7f02003f, 0x7f020040, 0x7f020041, 
-      0x7f020045, 0x7f020046, 0x7f020051, 0x7f020052, 
-      0x7f020059, 0x7f02005a, 0x7f02005b, 0x7f02005c, 
-      0x7f02005d, 0x7f02005e, 0x7f02005f, 0x7f020060, 
-      0x7f020061, 0x7f020063, 0x7f02006f, 0x7f020072, 
-      0x7f020073, 0x7f020076, 0x7f020078, 0x7f02007b, 
-      0x7f02007c, 0x7f02007d, 0x7f02007e, 0x7f02007f, 
-      0x7f02009a, 0x7f0200a2, 0x7f0200de, 0x7f0200df, 
-      0x7f0200e2, 0x7f0200e3, 0x7f0200e4, 0x7f0200e5, 
-      0x7f0200e6, 0x7f0200e7, 0x7f0200e8, 0x7f0200fc, 
-      0x7f0200fd, 0x7f0200fe, 0x7f0200ff, 0x7f020101, 
-      0x7f020107, 0x7f020108, 0x7f020109, 0x7f02010a, 
-      0x7f02010e, 0x7f02010f, 0x7f020110, 0x7f020111, 
-      0x7f020119, 0x7f02011a, 0x7f020127, 0x7f02012a, 
-      0x7f02012b, 0x7f02012c, 0x7f02012d, 0x7f02012e, 
-      0x7f02012f, 0x7f020130, 0x7f020131, 0x7f020132, 
-      0x7f020133, 0x7f020148, 0x7f020149, 0x7f02014a, 
-      0x7f02014b, 0x7f02015a, 0x7f02015b, 0x7f02015c, 
-      0x7f02015d, 0x7f02015e, 0x7f02015f, 0x7f020160, 
-      0x7f020161, 0x7f020162, 0x7f020163
+      0x7f020045, 0x7f020046, 0x7f020057, 0x7f020058, 
+      0x7f02005f, 0x7f020060, 0x7f020061, 0x7f020062, 
+      0x7f020063, 0x7f020064, 0x7f020065, 0x7f020066, 
+      0x7f020067, 0x7f020069, 0x7f02007a, 0x7f02007d, 
+      0x7f02007e, 0x7f020081, 0x7f020083, 0x7f020086, 
+      0x7f020087, 0x7f020088, 0x7f020089, 0x7f02008a, 
+      0x7f0200a5, 0x7f0200ad, 0x7f0200e9, 0x7f0200ea, 
+      0x7f0200ed, 0x7f0200ee, 0x7f0200ef, 0x7f0200f0, 
+      0x7f0200f1, 0x7f0200f2, 0x7f0200f3, 0x7f020107, 
+      0x7f020108, 0x7f020109, 0x7f02010a, 0x7f02010c, 
+      0x7f020112, 0x7f020113, 0x7f020114, 0x7f020115, 
+      0x7f020119, 0x7f02011a, 0x7f02011b, 0x7f02011c, 
+      0x7f020124, 0x7f020125, 0x7f020132, 0x7f020135, 
+      0x7f020136, 0x7f020137, 0x7f020138, 0x7f020139, 
+      0x7f02013a, 0x7f02013b, 0x7f02013c, 0x7f02013d, 
+      0x7f02013e, 0x7f020153, 0x7f020154, 0x7f020155, 
+      0x7f020156, 0x7f020165, 0x7f020166, 0x7f020167, 
+      0x7f020168, 0x7f020169, 0x7f02016a, 0x7f02016b, 
+      0x7f02016c, 0x7f02016d, 0x7f02016e
     };
     /**
      * <p>This symbol is the offset where the {@link android.R.attr#windowIsFloating}
@@ -5340,7 +5444,7 @@ public final class R {
      */
     public static final int AppCompatTheme_android_windowAnimationStyle=1;
     /**
-     * <p>This symbol is the offset where the {@link com.example.akmal_pc.jhotel_android_akmal.R.attr#actionBarDivider}
+     * <p>This symbol is the offset where the {@link com.example.tim3a.eangkotUser.R.attr#actionBarDivider}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -5348,11 +5452,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.example.akmal_pc.jhotel_android_akmal:actionBarDivider
+     * @attr name com.example.tim3a.eangkotUser:actionBarDivider
      */
     public static final int AppCompatTheme_actionBarDivider=2;
     /**
-     * <p>This symbol is the offset where the {@link com.example.akmal_pc.jhotel_android_akmal.R.attr#actionBarItemBackground}
+     * <p>This symbol is the offset where the {@link com.example.tim3a.eangkotUser.R.attr#actionBarItemBackground}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -5360,11 +5464,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.example.akmal_pc.jhotel_android_akmal:actionBarItemBackground
+     * @attr name com.example.tim3a.eangkotUser:actionBarItemBackground
      */
     public static final int AppCompatTheme_actionBarItemBackground=3;
     /**
-     * <p>This symbol is the offset where the {@link com.example.akmal_pc.jhotel_android_akmal.R.attr#actionBarPopupTheme}
+     * <p>This symbol is the offset where the {@link com.example.tim3a.eangkotUser.R.attr#actionBarPopupTheme}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -5372,11 +5476,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.example.akmal_pc.jhotel_android_akmal:actionBarPopupTheme
+     * @attr name com.example.tim3a.eangkotUser:actionBarPopupTheme
      */
     public static final int AppCompatTheme_actionBarPopupTheme=4;
     /**
-     * <p>This symbol is the offset where the {@link com.example.akmal_pc.jhotel_android_akmal.R.attr#actionBarSize}
+     * <p>This symbol is the offset where the {@link com.example.tim3a.eangkotUser.R.attr#actionBarSize}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -5393,11 +5497,11 @@ public final class R {
      * <tr><td>wrap_content</td><td>0</td><td></td></tr>
      * </table>
      *
-     * @attr name com.example.akmal_pc.jhotel_android_akmal:actionBarSize
+     * @attr name com.example.tim3a.eangkotUser:actionBarSize
      */
     public static final int AppCompatTheme_actionBarSize=5;
     /**
-     * <p>This symbol is the offset where the {@link com.example.akmal_pc.jhotel_android_akmal.R.attr#actionBarSplitStyle}
+     * <p>This symbol is the offset where the {@link com.example.tim3a.eangkotUser.R.attr#actionBarSplitStyle}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -5405,11 +5509,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.example.akmal_pc.jhotel_android_akmal:actionBarSplitStyle
+     * @attr name com.example.tim3a.eangkotUser:actionBarSplitStyle
      */
     public static final int AppCompatTheme_actionBarSplitStyle=6;
     /**
-     * <p>This symbol is the offset where the {@link com.example.akmal_pc.jhotel_android_akmal.R.attr#actionBarStyle}
+     * <p>This symbol is the offset where the {@link com.example.tim3a.eangkotUser.R.attr#actionBarStyle}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -5417,11 +5521,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.example.akmal_pc.jhotel_android_akmal:actionBarStyle
+     * @attr name com.example.tim3a.eangkotUser:actionBarStyle
      */
     public static final int AppCompatTheme_actionBarStyle=7;
     /**
-     * <p>This symbol is the offset where the {@link com.example.akmal_pc.jhotel_android_akmal.R.attr#actionBarTabBarStyle}
+     * <p>This symbol is the offset where the {@link com.example.tim3a.eangkotUser.R.attr#actionBarTabBarStyle}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -5429,11 +5533,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.example.akmal_pc.jhotel_android_akmal:actionBarTabBarStyle
+     * @attr name com.example.tim3a.eangkotUser:actionBarTabBarStyle
      */
     public static final int AppCompatTheme_actionBarTabBarStyle=8;
     /**
-     * <p>This symbol is the offset where the {@link com.example.akmal_pc.jhotel_android_akmal.R.attr#actionBarTabStyle}
+     * <p>This symbol is the offset where the {@link com.example.tim3a.eangkotUser.R.attr#actionBarTabStyle}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -5441,11 +5545,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.example.akmal_pc.jhotel_android_akmal:actionBarTabStyle
+     * @attr name com.example.tim3a.eangkotUser:actionBarTabStyle
      */
     public static final int AppCompatTheme_actionBarTabStyle=9;
     /**
-     * <p>This symbol is the offset where the {@link com.example.akmal_pc.jhotel_android_akmal.R.attr#actionBarTabTextStyle}
+     * <p>This symbol is the offset where the {@link com.example.tim3a.eangkotUser.R.attr#actionBarTabTextStyle}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -5453,11 +5557,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.example.akmal_pc.jhotel_android_akmal:actionBarTabTextStyle
+     * @attr name com.example.tim3a.eangkotUser:actionBarTabTextStyle
      */
     public static final int AppCompatTheme_actionBarTabTextStyle=10;
     /**
-     * <p>This symbol is the offset where the {@link com.example.akmal_pc.jhotel_android_akmal.R.attr#actionBarTheme}
+     * <p>This symbol is the offset where the {@link com.example.tim3a.eangkotUser.R.attr#actionBarTheme}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -5465,11 +5569,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.example.akmal_pc.jhotel_android_akmal:actionBarTheme
+     * @attr name com.example.tim3a.eangkotUser:actionBarTheme
      */
     public static final int AppCompatTheme_actionBarTheme=11;
     /**
-     * <p>This symbol is the offset where the {@link com.example.akmal_pc.jhotel_android_akmal.R.attr#actionBarWidgetTheme}
+     * <p>This symbol is the offset where the {@link com.example.tim3a.eangkotUser.R.attr#actionBarWidgetTheme}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -5477,11 +5581,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.example.akmal_pc.jhotel_android_akmal:actionBarWidgetTheme
+     * @attr name com.example.tim3a.eangkotUser:actionBarWidgetTheme
      */
     public static final int AppCompatTheme_actionBarWidgetTheme=12;
     /**
-     * <p>This symbol is the offset where the {@link com.example.akmal_pc.jhotel_android_akmal.R.attr#actionButtonStyle}
+     * <p>This symbol is the offset where the {@link com.example.tim3a.eangkotUser.R.attr#actionButtonStyle}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -5489,11 +5593,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.example.akmal_pc.jhotel_android_akmal:actionButtonStyle
+     * @attr name com.example.tim3a.eangkotUser:actionButtonStyle
      */
     public static final int AppCompatTheme_actionButtonStyle=13;
     /**
-     * <p>This symbol is the offset where the {@link com.example.akmal_pc.jhotel_android_akmal.R.attr#actionDropDownStyle}
+     * <p>This symbol is the offset where the {@link com.example.tim3a.eangkotUser.R.attr#actionDropDownStyle}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -5501,11 +5605,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.example.akmal_pc.jhotel_android_akmal:actionDropDownStyle
+     * @attr name com.example.tim3a.eangkotUser:actionDropDownStyle
      */
     public static final int AppCompatTheme_actionDropDownStyle=14;
     /**
-     * <p>This symbol is the offset where the {@link com.example.akmal_pc.jhotel_android_akmal.R.attr#actionMenuTextAppearance}
+     * <p>This symbol is the offset where the {@link com.example.tim3a.eangkotUser.R.attr#actionMenuTextAppearance}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -5513,11 +5617,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.example.akmal_pc.jhotel_android_akmal:actionMenuTextAppearance
+     * @attr name com.example.tim3a.eangkotUser:actionMenuTextAppearance
      */
     public static final int AppCompatTheme_actionMenuTextAppearance=15;
     /**
-     * <p>This symbol is the offset where the {@link com.example.akmal_pc.jhotel_android_akmal.R.attr#actionMenuTextColor}
+     * <p>This symbol is the offset where the {@link com.example.tim3a.eangkotUser.R.attr#actionMenuTextColor}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -5528,11 +5632,11 @@ public final class R {
      * "<code>#<i>argb</i></code>", "<code>#<i>rrggbb</i></code>", or
      * "<code>#<i>aarrggbb</i></code>".
      *
-     * @attr name com.example.akmal_pc.jhotel_android_akmal:actionMenuTextColor
+     * @attr name com.example.tim3a.eangkotUser:actionMenuTextColor
      */
     public static final int AppCompatTheme_actionMenuTextColor=16;
     /**
-     * <p>This symbol is the offset where the {@link com.example.akmal_pc.jhotel_android_akmal.R.attr#actionModeBackground}
+     * <p>This symbol is the offset where the {@link com.example.tim3a.eangkotUser.R.attr#actionModeBackground}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -5540,11 +5644,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.example.akmal_pc.jhotel_android_akmal:actionModeBackground
+     * @attr name com.example.tim3a.eangkotUser:actionModeBackground
      */
     public static final int AppCompatTheme_actionModeBackground=17;
     /**
-     * <p>This symbol is the offset where the {@link com.example.akmal_pc.jhotel_android_akmal.R.attr#actionModeCloseButtonStyle}
+     * <p>This symbol is the offset where the {@link com.example.tim3a.eangkotUser.R.attr#actionModeCloseButtonStyle}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -5552,11 +5656,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.example.akmal_pc.jhotel_android_akmal:actionModeCloseButtonStyle
+     * @attr name com.example.tim3a.eangkotUser:actionModeCloseButtonStyle
      */
     public static final int AppCompatTheme_actionModeCloseButtonStyle=18;
     /**
-     * <p>This symbol is the offset where the {@link com.example.akmal_pc.jhotel_android_akmal.R.attr#actionModeCloseDrawable}
+     * <p>This symbol is the offset where the {@link com.example.tim3a.eangkotUser.R.attr#actionModeCloseDrawable}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -5564,11 +5668,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.example.akmal_pc.jhotel_android_akmal:actionModeCloseDrawable
+     * @attr name com.example.tim3a.eangkotUser:actionModeCloseDrawable
      */
     public static final int AppCompatTheme_actionModeCloseDrawable=19;
     /**
-     * <p>This symbol is the offset where the {@link com.example.akmal_pc.jhotel_android_akmal.R.attr#actionModeCopyDrawable}
+     * <p>This symbol is the offset where the {@link com.example.tim3a.eangkotUser.R.attr#actionModeCopyDrawable}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -5576,11 +5680,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.example.akmal_pc.jhotel_android_akmal:actionModeCopyDrawable
+     * @attr name com.example.tim3a.eangkotUser:actionModeCopyDrawable
      */
     public static final int AppCompatTheme_actionModeCopyDrawable=20;
     /**
-     * <p>This symbol is the offset where the {@link com.example.akmal_pc.jhotel_android_akmal.R.attr#actionModeCutDrawable}
+     * <p>This symbol is the offset where the {@link com.example.tim3a.eangkotUser.R.attr#actionModeCutDrawable}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -5588,11 +5692,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.example.akmal_pc.jhotel_android_akmal:actionModeCutDrawable
+     * @attr name com.example.tim3a.eangkotUser:actionModeCutDrawable
      */
     public static final int AppCompatTheme_actionModeCutDrawable=21;
     /**
-     * <p>This symbol is the offset where the {@link com.example.akmal_pc.jhotel_android_akmal.R.attr#actionModeFindDrawable}
+     * <p>This symbol is the offset where the {@link com.example.tim3a.eangkotUser.R.attr#actionModeFindDrawable}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -5600,11 +5704,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.example.akmal_pc.jhotel_android_akmal:actionModeFindDrawable
+     * @attr name com.example.tim3a.eangkotUser:actionModeFindDrawable
      */
     public static final int AppCompatTheme_actionModeFindDrawable=22;
     /**
-     * <p>This symbol is the offset where the {@link com.example.akmal_pc.jhotel_android_akmal.R.attr#actionModePasteDrawable}
+     * <p>This symbol is the offset where the {@link com.example.tim3a.eangkotUser.R.attr#actionModePasteDrawable}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -5612,11 +5716,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.example.akmal_pc.jhotel_android_akmal:actionModePasteDrawable
+     * @attr name com.example.tim3a.eangkotUser:actionModePasteDrawable
      */
     public static final int AppCompatTheme_actionModePasteDrawable=23;
     /**
-     * <p>This symbol is the offset where the {@link com.example.akmal_pc.jhotel_android_akmal.R.attr#actionModePopupWindowStyle}
+     * <p>This symbol is the offset where the {@link com.example.tim3a.eangkotUser.R.attr#actionModePopupWindowStyle}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -5624,11 +5728,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.example.akmal_pc.jhotel_android_akmal:actionModePopupWindowStyle
+     * @attr name com.example.tim3a.eangkotUser:actionModePopupWindowStyle
      */
     public static final int AppCompatTheme_actionModePopupWindowStyle=24;
     /**
-     * <p>This symbol is the offset where the {@link com.example.akmal_pc.jhotel_android_akmal.R.attr#actionModeSelectAllDrawable}
+     * <p>This symbol is the offset where the {@link com.example.tim3a.eangkotUser.R.attr#actionModeSelectAllDrawable}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -5636,11 +5740,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.example.akmal_pc.jhotel_android_akmal:actionModeSelectAllDrawable
+     * @attr name com.example.tim3a.eangkotUser:actionModeSelectAllDrawable
      */
     public static final int AppCompatTheme_actionModeSelectAllDrawable=25;
     /**
-     * <p>This symbol is the offset where the {@link com.example.akmal_pc.jhotel_android_akmal.R.attr#actionModeShareDrawable}
+     * <p>This symbol is the offset where the {@link com.example.tim3a.eangkotUser.R.attr#actionModeShareDrawable}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -5648,11 +5752,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.example.akmal_pc.jhotel_android_akmal:actionModeShareDrawable
+     * @attr name com.example.tim3a.eangkotUser:actionModeShareDrawable
      */
     public static final int AppCompatTheme_actionModeShareDrawable=26;
     /**
-     * <p>This symbol is the offset where the {@link com.example.akmal_pc.jhotel_android_akmal.R.attr#actionModeSplitBackground}
+     * <p>This symbol is the offset where the {@link com.example.tim3a.eangkotUser.R.attr#actionModeSplitBackground}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -5660,11 +5764,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.example.akmal_pc.jhotel_android_akmal:actionModeSplitBackground
+     * @attr name com.example.tim3a.eangkotUser:actionModeSplitBackground
      */
     public static final int AppCompatTheme_actionModeSplitBackground=27;
     /**
-     * <p>This symbol is the offset where the {@link com.example.akmal_pc.jhotel_android_akmal.R.attr#actionModeStyle}
+     * <p>This symbol is the offset where the {@link com.example.tim3a.eangkotUser.R.attr#actionModeStyle}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -5672,11 +5776,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.example.akmal_pc.jhotel_android_akmal:actionModeStyle
+     * @attr name com.example.tim3a.eangkotUser:actionModeStyle
      */
     public static final int AppCompatTheme_actionModeStyle=28;
     /**
-     * <p>This symbol is the offset where the {@link com.example.akmal_pc.jhotel_android_akmal.R.attr#actionModeWebSearchDrawable}
+     * <p>This symbol is the offset where the {@link com.example.tim3a.eangkotUser.R.attr#actionModeWebSearchDrawable}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -5684,11 +5788,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.example.akmal_pc.jhotel_android_akmal:actionModeWebSearchDrawable
+     * @attr name com.example.tim3a.eangkotUser:actionModeWebSearchDrawable
      */
     public static final int AppCompatTheme_actionModeWebSearchDrawable=29;
     /**
-     * <p>This symbol is the offset where the {@link com.example.akmal_pc.jhotel_android_akmal.R.attr#actionOverflowButtonStyle}
+     * <p>This symbol is the offset where the {@link com.example.tim3a.eangkotUser.R.attr#actionOverflowButtonStyle}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -5696,11 +5800,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.example.akmal_pc.jhotel_android_akmal:actionOverflowButtonStyle
+     * @attr name com.example.tim3a.eangkotUser:actionOverflowButtonStyle
      */
     public static final int AppCompatTheme_actionOverflowButtonStyle=30;
     /**
-     * <p>This symbol is the offset where the {@link com.example.akmal_pc.jhotel_android_akmal.R.attr#actionOverflowMenuStyle}
+     * <p>This symbol is the offset where the {@link com.example.tim3a.eangkotUser.R.attr#actionOverflowMenuStyle}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -5708,11 +5812,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.example.akmal_pc.jhotel_android_akmal:actionOverflowMenuStyle
+     * @attr name com.example.tim3a.eangkotUser:actionOverflowMenuStyle
      */
     public static final int AppCompatTheme_actionOverflowMenuStyle=31;
     /**
-     * <p>This symbol is the offset where the {@link com.example.akmal_pc.jhotel_android_akmal.R.attr#activityChooserViewStyle}
+     * <p>This symbol is the offset where the {@link com.example.tim3a.eangkotUser.R.attr#activityChooserViewStyle}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -5720,11 +5824,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.example.akmal_pc.jhotel_android_akmal:activityChooserViewStyle
+     * @attr name com.example.tim3a.eangkotUser:activityChooserViewStyle
      */
     public static final int AppCompatTheme_activityChooserViewStyle=32;
     /**
-     * <p>This symbol is the offset where the {@link com.example.akmal_pc.jhotel_android_akmal.R.attr#alertDialogButtonGroupStyle}
+     * <p>This symbol is the offset where the {@link com.example.tim3a.eangkotUser.R.attr#alertDialogButtonGroupStyle}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -5732,21 +5836,21 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.example.akmal_pc.jhotel_android_akmal:alertDialogButtonGroupStyle
+     * @attr name com.example.tim3a.eangkotUser:alertDialogButtonGroupStyle
      */
     public static final int AppCompatTheme_alertDialogButtonGroupStyle=33;
     /**
-     * <p>This symbol is the offset where the {@link com.example.akmal_pc.jhotel_android_akmal.R.attr#alertDialogCenterButtons}
+     * <p>This symbol is the offset where the {@link com.example.tim3a.eangkotUser.R.attr#alertDialogCenterButtons}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a boolean value, such as "<code>true</code>" or
      * "<code>false</code>".
      *
-     * @attr name com.example.akmal_pc.jhotel_android_akmal:alertDialogCenterButtons
+     * @attr name com.example.tim3a.eangkotUser:alertDialogCenterButtons
      */
     public static final int AppCompatTheme_alertDialogCenterButtons=34;
     /**
-     * <p>This symbol is the offset where the {@link com.example.akmal_pc.jhotel_android_akmal.R.attr#alertDialogStyle}
+     * <p>This symbol is the offset where the {@link com.example.tim3a.eangkotUser.R.attr#alertDialogStyle}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -5754,11 +5858,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.example.akmal_pc.jhotel_android_akmal:alertDialogStyle
+     * @attr name com.example.tim3a.eangkotUser:alertDialogStyle
      */
     public static final int AppCompatTheme_alertDialogStyle=35;
     /**
-     * <p>This symbol is the offset where the {@link com.example.akmal_pc.jhotel_android_akmal.R.attr#alertDialogTheme}
+     * <p>This symbol is the offset where the {@link com.example.tim3a.eangkotUser.R.attr#alertDialogTheme}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -5766,11 +5870,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.example.akmal_pc.jhotel_android_akmal:alertDialogTheme
+     * @attr name com.example.tim3a.eangkotUser:alertDialogTheme
      */
     public static final int AppCompatTheme_alertDialogTheme=36;
     /**
-     * <p>This symbol is the offset where the {@link com.example.akmal_pc.jhotel_android_akmal.R.attr#autoCompleteTextViewStyle}
+     * <p>This symbol is the offset where the {@link com.example.tim3a.eangkotUser.R.attr#autoCompleteTextViewStyle}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -5778,11 +5882,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.example.akmal_pc.jhotel_android_akmal:autoCompleteTextViewStyle
+     * @attr name com.example.tim3a.eangkotUser:autoCompleteTextViewStyle
      */
     public static final int AppCompatTheme_autoCompleteTextViewStyle=37;
     /**
-     * <p>This symbol is the offset where the {@link com.example.akmal_pc.jhotel_android_akmal.R.attr#borderlessButtonStyle}
+     * <p>This symbol is the offset where the {@link com.example.tim3a.eangkotUser.R.attr#borderlessButtonStyle}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -5790,11 +5894,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.example.akmal_pc.jhotel_android_akmal:borderlessButtonStyle
+     * @attr name com.example.tim3a.eangkotUser:borderlessButtonStyle
      */
     public static final int AppCompatTheme_borderlessButtonStyle=38;
     /**
-     * <p>This symbol is the offset where the {@link com.example.akmal_pc.jhotel_android_akmal.R.attr#buttonBarButtonStyle}
+     * <p>This symbol is the offset where the {@link com.example.tim3a.eangkotUser.R.attr#buttonBarButtonStyle}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -5802,11 +5906,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.example.akmal_pc.jhotel_android_akmal:buttonBarButtonStyle
+     * @attr name com.example.tim3a.eangkotUser:buttonBarButtonStyle
      */
     public static final int AppCompatTheme_buttonBarButtonStyle=39;
     /**
-     * <p>This symbol is the offset where the {@link com.example.akmal_pc.jhotel_android_akmal.R.attr#buttonBarNegativeButtonStyle}
+     * <p>This symbol is the offset where the {@link com.example.tim3a.eangkotUser.R.attr#buttonBarNegativeButtonStyle}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -5814,11 +5918,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.example.akmal_pc.jhotel_android_akmal:buttonBarNegativeButtonStyle
+     * @attr name com.example.tim3a.eangkotUser:buttonBarNegativeButtonStyle
      */
     public static final int AppCompatTheme_buttonBarNegativeButtonStyle=40;
     /**
-     * <p>This symbol is the offset where the {@link com.example.akmal_pc.jhotel_android_akmal.R.attr#buttonBarNeutralButtonStyle}
+     * <p>This symbol is the offset where the {@link com.example.tim3a.eangkotUser.R.attr#buttonBarNeutralButtonStyle}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -5826,11 +5930,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.example.akmal_pc.jhotel_android_akmal:buttonBarNeutralButtonStyle
+     * @attr name com.example.tim3a.eangkotUser:buttonBarNeutralButtonStyle
      */
     public static final int AppCompatTheme_buttonBarNeutralButtonStyle=41;
     /**
-     * <p>This symbol is the offset where the {@link com.example.akmal_pc.jhotel_android_akmal.R.attr#buttonBarPositiveButtonStyle}
+     * <p>This symbol is the offset where the {@link com.example.tim3a.eangkotUser.R.attr#buttonBarPositiveButtonStyle}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -5838,11 +5942,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.example.akmal_pc.jhotel_android_akmal:buttonBarPositiveButtonStyle
+     * @attr name com.example.tim3a.eangkotUser:buttonBarPositiveButtonStyle
      */
     public static final int AppCompatTheme_buttonBarPositiveButtonStyle=42;
     /**
-     * <p>This symbol is the offset where the {@link com.example.akmal_pc.jhotel_android_akmal.R.attr#buttonBarStyle}
+     * <p>This symbol is the offset where the {@link com.example.tim3a.eangkotUser.R.attr#buttonBarStyle}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -5850,11 +5954,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.example.akmal_pc.jhotel_android_akmal:buttonBarStyle
+     * @attr name com.example.tim3a.eangkotUser:buttonBarStyle
      */
     public static final int AppCompatTheme_buttonBarStyle=43;
     /**
-     * <p>This symbol is the offset where the {@link com.example.akmal_pc.jhotel_android_akmal.R.attr#buttonStyle}
+     * <p>This symbol is the offset where the {@link com.example.tim3a.eangkotUser.R.attr#buttonStyle}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -5862,11 +5966,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.example.akmal_pc.jhotel_android_akmal:buttonStyle
+     * @attr name com.example.tim3a.eangkotUser:buttonStyle
      */
     public static final int AppCompatTheme_buttonStyle=44;
     /**
-     * <p>This symbol is the offset where the {@link com.example.akmal_pc.jhotel_android_akmal.R.attr#buttonStyleSmall}
+     * <p>This symbol is the offset where the {@link com.example.tim3a.eangkotUser.R.attr#buttonStyleSmall}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -5874,11 +5978,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.example.akmal_pc.jhotel_android_akmal:buttonStyleSmall
+     * @attr name com.example.tim3a.eangkotUser:buttonStyleSmall
      */
     public static final int AppCompatTheme_buttonStyleSmall=45;
     /**
-     * <p>This symbol is the offset where the {@link com.example.akmal_pc.jhotel_android_akmal.R.attr#checkboxStyle}
+     * <p>This symbol is the offset where the {@link com.example.tim3a.eangkotUser.R.attr#checkboxStyle}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -5886,11 +5990,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.example.akmal_pc.jhotel_android_akmal:checkboxStyle
+     * @attr name com.example.tim3a.eangkotUser:checkboxStyle
      */
     public static final int AppCompatTheme_checkboxStyle=46;
     /**
-     * <p>This symbol is the offset where the {@link com.example.akmal_pc.jhotel_android_akmal.R.attr#checkedTextViewStyle}
+     * <p>This symbol is the offset where the {@link com.example.tim3a.eangkotUser.R.attr#checkedTextViewStyle}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -5898,77 +6002,77 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.example.akmal_pc.jhotel_android_akmal:checkedTextViewStyle
+     * @attr name com.example.tim3a.eangkotUser:checkedTextViewStyle
      */
     public static final int AppCompatTheme_checkedTextViewStyle=47;
     /**
-     * <p>This symbol is the offset where the {@link com.example.akmal_pc.jhotel_android_akmal.R.attr#colorAccent}
+     * <p>This symbol is the offset where the {@link com.example.tim3a.eangkotUser.R.attr#colorAccent}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a color value, in the form of "<code>#<i>rgb</i></code>",
      * "<code>#<i>argb</i></code>", "<code>#<i>rrggbb</i></code>", or
      * "<code>#<i>aarrggbb</i></code>".
      *
-     * @attr name com.example.akmal_pc.jhotel_android_akmal:colorAccent
+     * @attr name com.example.tim3a.eangkotUser:colorAccent
      */
     public static final int AppCompatTheme_colorAccent=48;
     /**
-     * <p>This symbol is the offset where the {@link com.example.akmal_pc.jhotel_android_akmal.R.attr#colorBackgroundFloating}
+     * <p>This symbol is the offset where the {@link com.example.tim3a.eangkotUser.R.attr#colorBackgroundFloating}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a color value, in the form of "<code>#<i>rgb</i></code>",
      * "<code>#<i>argb</i></code>", "<code>#<i>rrggbb</i></code>", or
      * "<code>#<i>aarrggbb</i></code>".
      *
-     * @attr name com.example.akmal_pc.jhotel_android_akmal:colorBackgroundFloating
+     * @attr name com.example.tim3a.eangkotUser:colorBackgroundFloating
      */
     public static final int AppCompatTheme_colorBackgroundFloating=49;
     /**
-     * <p>This symbol is the offset where the {@link com.example.akmal_pc.jhotel_android_akmal.R.attr#colorButtonNormal}
+     * <p>This symbol is the offset where the {@link com.example.tim3a.eangkotUser.R.attr#colorButtonNormal}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a color value, in the form of "<code>#<i>rgb</i></code>",
      * "<code>#<i>argb</i></code>", "<code>#<i>rrggbb</i></code>", or
      * "<code>#<i>aarrggbb</i></code>".
      *
-     * @attr name com.example.akmal_pc.jhotel_android_akmal:colorButtonNormal
+     * @attr name com.example.tim3a.eangkotUser:colorButtonNormal
      */
     public static final int AppCompatTheme_colorButtonNormal=50;
     /**
-     * <p>This symbol is the offset where the {@link com.example.akmal_pc.jhotel_android_akmal.R.attr#colorControlActivated}
+     * <p>This symbol is the offset where the {@link com.example.tim3a.eangkotUser.R.attr#colorControlActivated}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a color value, in the form of "<code>#<i>rgb</i></code>",
      * "<code>#<i>argb</i></code>", "<code>#<i>rrggbb</i></code>", or
      * "<code>#<i>aarrggbb</i></code>".
      *
-     * @attr name com.example.akmal_pc.jhotel_android_akmal:colorControlActivated
+     * @attr name com.example.tim3a.eangkotUser:colorControlActivated
      */
     public static final int AppCompatTheme_colorControlActivated=51;
     /**
-     * <p>This symbol is the offset where the {@link com.example.akmal_pc.jhotel_android_akmal.R.attr#colorControlHighlight}
+     * <p>This symbol is the offset where the {@link com.example.tim3a.eangkotUser.R.attr#colorControlHighlight}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a color value, in the form of "<code>#<i>rgb</i></code>",
      * "<code>#<i>argb</i></code>", "<code>#<i>rrggbb</i></code>", or
      * "<code>#<i>aarrggbb</i></code>".
      *
-     * @attr name com.example.akmal_pc.jhotel_android_akmal:colorControlHighlight
+     * @attr name com.example.tim3a.eangkotUser:colorControlHighlight
      */
     public static final int AppCompatTheme_colorControlHighlight=52;
     /**
-     * <p>This symbol is the offset where the {@link com.example.akmal_pc.jhotel_android_akmal.R.attr#colorControlNormal}
+     * <p>This symbol is the offset where the {@link com.example.tim3a.eangkotUser.R.attr#colorControlNormal}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a color value, in the form of "<code>#<i>rgb</i></code>",
      * "<code>#<i>argb</i></code>", "<code>#<i>rrggbb</i></code>", or
      * "<code>#<i>aarrggbb</i></code>".
      *
-     * @attr name com.example.akmal_pc.jhotel_android_akmal:colorControlNormal
+     * @attr name com.example.tim3a.eangkotUser:colorControlNormal
      */
     public static final int AppCompatTheme_colorControlNormal=53;
     /**
-     * <p>This symbol is the offset where the {@link com.example.akmal_pc.jhotel_android_akmal.R.attr#colorError}
+     * <p>This symbol is the offset where the {@link com.example.tim3a.eangkotUser.R.attr#colorError}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -5979,44 +6083,44 @@ public final class R {
      * "<code>#<i>argb</i></code>", "<code>#<i>rrggbb</i></code>", or
      * "<code>#<i>aarrggbb</i></code>".
      *
-     * @attr name com.example.akmal_pc.jhotel_android_akmal:colorError
+     * @attr name com.example.tim3a.eangkotUser:colorError
      */
     public static final int AppCompatTheme_colorError=54;
     /**
-     * <p>This symbol is the offset where the {@link com.example.akmal_pc.jhotel_android_akmal.R.attr#colorPrimary}
+     * <p>This symbol is the offset where the {@link com.example.tim3a.eangkotUser.R.attr#colorPrimary}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a color value, in the form of "<code>#<i>rgb</i></code>",
      * "<code>#<i>argb</i></code>", "<code>#<i>rrggbb</i></code>", or
      * "<code>#<i>aarrggbb</i></code>".
      *
-     * @attr name com.example.akmal_pc.jhotel_android_akmal:colorPrimary
+     * @attr name com.example.tim3a.eangkotUser:colorPrimary
      */
     public static final int AppCompatTheme_colorPrimary=55;
     /**
-     * <p>This symbol is the offset where the {@link com.example.akmal_pc.jhotel_android_akmal.R.attr#colorPrimaryDark}
+     * <p>This symbol is the offset where the {@link com.example.tim3a.eangkotUser.R.attr#colorPrimaryDark}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a color value, in the form of "<code>#<i>rgb</i></code>",
      * "<code>#<i>argb</i></code>", "<code>#<i>rrggbb</i></code>", or
      * "<code>#<i>aarrggbb</i></code>".
      *
-     * @attr name com.example.akmal_pc.jhotel_android_akmal:colorPrimaryDark
+     * @attr name com.example.tim3a.eangkotUser:colorPrimaryDark
      */
     public static final int AppCompatTheme_colorPrimaryDark=56;
     /**
-     * <p>This symbol is the offset where the {@link com.example.akmal_pc.jhotel_android_akmal.R.attr#colorSwitchThumbNormal}
+     * <p>This symbol is the offset where the {@link com.example.tim3a.eangkotUser.R.attr#colorSwitchThumbNormal}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a color value, in the form of "<code>#<i>rgb</i></code>",
      * "<code>#<i>argb</i></code>", "<code>#<i>rrggbb</i></code>", or
      * "<code>#<i>aarrggbb</i></code>".
      *
-     * @attr name com.example.akmal_pc.jhotel_android_akmal:colorSwitchThumbNormal
+     * @attr name com.example.tim3a.eangkotUser:colorSwitchThumbNormal
      */
     public static final int AppCompatTheme_colorSwitchThumbNormal=57;
     /**
-     * <p>This symbol is the offset where the {@link com.example.akmal_pc.jhotel_android_akmal.R.attr#controlBackground}
+     * <p>This symbol is the offset where the {@link com.example.tim3a.eangkotUser.R.attr#controlBackground}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -6024,11 +6128,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.example.akmal_pc.jhotel_android_akmal:controlBackground
+     * @attr name com.example.tim3a.eangkotUser:controlBackground
      */
     public static final int AppCompatTheme_controlBackground=58;
     /**
-     * <p>This symbol is the offset where the {@link com.example.akmal_pc.jhotel_android_akmal.R.attr#dialogPreferredPadding}
+     * <p>This symbol is the offset where the {@link com.example.tim3a.eangkotUser.R.attr#dialogPreferredPadding}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -6037,11 +6141,11 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name com.example.akmal_pc.jhotel_android_akmal:dialogPreferredPadding
+     * @attr name com.example.tim3a.eangkotUser:dialogPreferredPadding
      */
     public static final int AppCompatTheme_dialogPreferredPadding=59;
     /**
-     * <p>This symbol is the offset where the {@link com.example.akmal_pc.jhotel_android_akmal.R.attr#dialogTheme}
+     * <p>This symbol is the offset where the {@link com.example.tim3a.eangkotUser.R.attr#dialogTheme}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -6049,11 +6153,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.example.akmal_pc.jhotel_android_akmal:dialogTheme
+     * @attr name com.example.tim3a.eangkotUser:dialogTheme
      */
     public static final int AppCompatTheme_dialogTheme=60;
     /**
-     * <p>This symbol is the offset where the {@link com.example.akmal_pc.jhotel_android_akmal.R.attr#dividerHorizontal}
+     * <p>This symbol is the offset where the {@link com.example.tim3a.eangkotUser.R.attr#dividerHorizontal}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -6061,11 +6165,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.example.akmal_pc.jhotel_android_akmal:dividerHorizontal
+     * @attr name com.example.tim3a.eangkotUser:dividerHorizontal
      */
     public static final int AppCompatTheme_dividerHorizontal=61;
     /**
-     * <p>This symbol is the offset where the {@link com.example.akmal_pc.jhotel_android_akmal.R.attr#dividerVertical}
+     * <p>This symbol is the offset where the {@link com.example.tim3a.eangkotUser.R.attr#dividerVertical}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -6073,11 +6177,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.example.akmal_pc.jhotel_android_akmal:dividerVertical
+     * @attr name com.example.tim3a.eangkotUser:dividerVertical
      */
     public static final int AppCompatTheme_dividerVertical=62;
     /**
-     * <p>This symbol is the offset where the {@link com.example.akmal_pc.jhotel_android_akmal.R.attr#dropDownListViewStyle}
+     * <p>This symbol is the offset where the {@link com.example.tim3a.eangkotUser.R.attr#dropDownListViewStyle}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -6085,11 +6189,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.example.akmal_pc.jhotel_android_akmal:dropDownListViewStyle
+     * @attr name com.example.tim3a.eangkotUser:dropDownListViewStyle
      */
     public static final int AppCompatTheme_dropDownListViewStyle=63;
     /**
-     * <p>This symbol is the offset where the {@link com.example.akmal_pc.jhotel_android_akmal.R.attr#dropdownListPreferredItemHeight}
+     * <p>This symbol is the offset where the {@link com.example.tim3a.eangkotUser.R.attr#dropdownListPreferredItemHeight}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -6098,11 +6202,11 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name com.example.akmal_pc.jhotel_android_akmal:dropdownListPreferredItemHeight
+     * @attr name com.example.tim3a.eangkotUser:dropdownListPreferredItemHeight
      */
     public static final int AppCompatTheme_dropdownListPreferredItemHeight=64;
     /**
-     * <p>This symbol is the offset where the {@link com.example.akmal_pc.jhotel_android_akmal.R.attr#editTextBackground}
+     * <p>This symbol is the offset where the {@link com.example.tim3a.eangkotUser.R.attr#editTextBackground}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -6110,11 +6214,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.example.akmal_pc.jhotel_android_akmal:editTextBackground
+     * @attr name com.example.tim3a.eangkotUser:editTextBackground
      */
     public static final int AppCompatTheme_editTextBackground=65;
     /**
-     * <p>This symbol is the offset where the {@link com.example.akmal_pc.jhotel_android_akmal.R.attr#editTextColor}
+     * <p>This symbol is the offset where the {@link com.example.tim3a.eangkotUser.R.attr#editTextColor}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -6125,11 +6229,11 @@ public final class R {
      * "<code>#<i>argb</i></code>", "<code>#<i>rrggbb</i></code>", or
      * "<code>#<i>aarrggbb</i></code>".
      *
-     * @attr name com.example.akmal_pc.jhotel_android_akmal:editTextColor
+     * @attr name com.example.tim3a.eangkotUser:editTextColor
      */
     public static final int AppCompatTheme_editTextColor=66;
     /**
-     * <p>This symbol is the offset where the {@link com.example.akmal_pc.jhotel_android_akmal.R.attr#editTextStyle}
+     * <p>This symbol is the offset where the {@link com.example.tim3a.eangkotUser.R.attr#editTextStyle}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -6137,11 +6241,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.example.akmal_pc.jhotel_android_akmal:editTextStyle
+     * @attr name com.example.tim3a.eangkotUser:editTextStyle
      */
     public static final int AppCompatTheme_editTextStyle=67;
     /**
-     * <p>This symbol is the offset where the {@link com.example.akmal_pc.jhotel_android_akmal.R.attr#homeAsUpIndicator}
+     * <p>This symbol is the offset where the {@link com.example.tim3a.eangkotUser.R.attr#homeAsUpIndicator}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -6149,11 +6253,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.example.akmal_pc.jhotel_android_akmal:homeAsUpIndicator
+     * @attr name com.example.tim3a.eangkotUser:homeAsUpIndicator
      */
     public static final int AppCompatTheme_homeAsUpIndicator=68;
     /**
-     * <p>This symbol is the offset where the {@link com.example.akmal_pc.jhotel_android_akmal.R.attr#imageButtonStyle}
+     * <p>This symbol is the offset where the {@link com.example.tim3a.eangkotUser.R.attr#imageButtonStyle}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -6161,11 +6265,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.example.akmal_pc.jhotel_android_akmal:imageButtonStyle
+     * @attr name com.example.tim3a.eangkotUser:imageButtonStyle
      */
     public static final int AppCompatTheme_imageButtonStyle=69;
     /**
-     * <p>This symbol is the offset where the {@link com.example.akmal_pc.jhotel_android_akmal.R.attr#listChoiceBackgroundIndicator}
+     * <p>This symbol is the offset where the {@link com.example.tim3a.eangkotUser.R.attr#listChoiceBackgroundIndicator}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -6173,11 +6277,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.example.akmal_pc.jhotel_android_akmal:listChoiceBackgroundIndicator
+     * @attr name com.example.tim3a.eangkotUser:listChoiceBackgroundIndicator
      */
     public static final int AppCompatTheme_listChoiceBackgroundIndicator=70;
     /**
-     * <p>This symbol is the offset where the {@link com.example.akmal_pc.jhotel_android_akmal.R.attr#listDividerAlertDialog}
+     * <p>This symbol is the offset where the {@link com.example.tim3a.eangkotUser.R.attr#listDividerAlertDialog}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -6185,11 +6289,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.example.akmal_pc.jhotel_android_akmal:listDividerAlertDialog
+     * @attr name com.example.tim3a.eangkotUser:listDividerAlertDialog
      */
     public static final int AppCompatTheme_listDividerAlertDialog=71;
     /**
-     * <p>This symbol is the offset where the {@link com.example.akmal_pc.jhotel_android_akmal.R.attr#listMenuViewStyle}
+     * <p>This symbol is the offset where the {@link com.example.tim3a.eangkotUser.R.attr#listMenuViewStyle}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -6197,11 +6301,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.example.akmal_pc.jhotel_android_akmal:listMenuViewStyle
+     * @attr name com.example.tim3a.eangkotUser:listMenuViewStyle
      */
     public static final int AppCompatTheme_listMenuViewStyle=72;
     /**
-     * <p>This symbol is the offset where the {@link com.example.akmal_pc.jhotel_android_akmal.R.attr#listPopupWindowStyle}
+     * <p>This symbol is the offset where the {@link com.example.tim3a.eangkotUser.R.attr#listPopupWindowStyle}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -6209,11 +6313,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.example.akmal_pc.jhotel_android_akmal:listPopupWindowStyle
+     * @attr name com.example.tim3a.eangkotUser:listPopupWindowStyle
      */
     public static final int AppCompatTheme_listPopupWindowStyle=73;
     /**
-     * <p>This symbol is the offset where the {@link com.example.akmal_pc.jhotel_android_akmal.R.attr#listPreferredItemHeight}
+     * <p>This symbol is the offset where the {@link com.example.tim3a.eangkotUser.R.attr#listPreferredItemHeight}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -6222,11 +6326,11 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name com.example.akmal_pc.jhotel_android_akmal:listPreferredItemHeight
+     * @attr name com.example.tim3a.eangkotUser:listPreferredItemHeight
      */
     public static final int AppCompatTheme_listPreferredItemHeight=74;
     /**
-     * <p>This symbol is the offset where the {@link com.example.akmal_pc.jhotel_android_akmal.R.attr#listPreferredItemHeightLarge}
+     * <p>This symbol is the offset where the {@link com.example.tim3a.eangkotUser.R.attr#listPreferredItemHeightLarge}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -6235,11 +6339,11 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name com.example.akmal_pc.jhotel_android_akmal:listPreferredItemHeightLarge
+     * @attr name com.example.tim3a.eangkotUser:listPreferredItemHeightLarge
      */
     public static final int AppCompatTheme_listPreferredItemHeightLarge=75;
     /**
-     * <p>This symbol is the offset where the {@link com.example.akmal_pc.jhotel_android_akmal.R.attr#listPreferredItemHeightSmall}
+     * <p>This symbol is the offset where the {@link com.example.tim3a.eangkotUser.R.attr#listPreferredItemHeightSmall}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -6248,11 +6352,11 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name com.example.akmal_pc.jhotel_android_akmal:listPreferredItemHeightSmall
+     * @attr name com.example.tim3a.eangkotUser:listPreferredItemHeightSmall
      */
     public static final int AppCompatTheme_listPreferredItemHeightSmall=76;
     /**
-     * <p>This symbol is the offset where the {@link com.example.akmal_pc.jhotel_android_akmal.R.attr#listPreferredItemPaddingLeft}
+     * <p>This symbol is the offset where the {@link com.example.tim3a.eangkotUser.R.attr#listPreferredItemPaddingLeft}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -6261,11 +6365,11 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name com.example.akmal_pc.jhotel_android_akmal:listPreferredItemPaddingLeft
+     * @attr name com.example.tim3a.eangkotUser:listPreferredItemPaddingLeft
      */
     public static final int AppCompatTheme_listPreferredItemPaddingLeft=77;
     /**
-     * <p>This symbol is the offset where the {@link com.example.akmal_pc.jhotel_android_akmal.R.attr#listPreferredItemPaddingRight}
+     * <p>This symbol is the offset where the {@link com.example.tim3a.eangkotUser.R.attr#listPreferredItemPaddingRight}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -6274,11 +6378,11 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name com.example.akmal_pc.jhotel_android_akmal:listPreferredItemPaddingRight
+     * @attr name com.example.tim3a.eangkotUser:listPreferredItemPaddingRight
      */
     public static final int AppCompatTheme_listPreferredItemPaddingRight=78;
     /**
-     * <p>This symbol is the offset where the {@link com.example.akmal_pc.jhotel_android_akmal.R.attr#panelBackground}
+     * <p>This symbol is the offset where the {@link com.example.tim3a.eangkotUser.R.attr#panelBackground}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -6286,11 +6390,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.example.akmal_pc.jhotel_android_akmal:panelBackground
+     * @attr name com.example.tim3a.eangkotUser:panelBackground
      */
     public static final int AppCompatTheme_panelBackground=79;
     /**
-     * <p>This symbol is the offset where the {@link com.example.akmal_pc.jhotel_android_akmal.R.attr#panelMenuListTheme}
+     * <p>This symbol is the offset where the {@link com.example.tim3a.eangkotUser.R.attr#panelMenuListTheme}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -6298,11 +6402,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.example.akmal_pc.jhotel_android_akmal:panelMenuListTheme
+     * @attr name com.example.tim3a.eangkotUser:panelMenuListTheme
      */
     public static final int AppCompatTheme_panelMenuListTheme=80;
     /**
-     * <p>This symbol is the offset where the {@link com.example.akmal_pc.jhotel_android_akmal.R.attr#panelMenuListWidth}
+     * <p>This symbol is the offset where the {@link com.example.tim3a.eangkotUser.R.attr#panelMenuListWidth}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -6311,11 +6415,11 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name com.example.akmal_pc.jhotel_android_akmal:panelMenuListWidth
+     * @attr name com.example.tim3a.eangkotUser:panelMenuListWidth
      */
     public static final int AppCompatTheme_panelMenuListWidth=81;
     /**
-     * <p>This symbol is the offset where the {@link com.example.akmal_pc.jhotel_android_akmal.R.attr#popupMenuStyle}
+     * <p>This symbol is the offset where the {@link com.example.tim3a.eangkotUser.R.attr#popupMenuStyle}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -6323,11 +6427,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.example.akmal_pc.jhotel_android_akmal:popupMenuStyle
+     * @attr name com.example.tim3a.eangkotUser:popupMenuStyle
      */
     public static final int AppCompatTheme_popupMenuStyle=82;
     /**
-     * <p>This symbol is the offset where the {@link com.example.akmal_pc.jhotel_android_akmal.R.attr#popupWindowStyle}
+     * <p>This symbol is the offset where the {@link com.example.tim3a.eangkotUser.R.attr#popupWindowStyle}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -6335,11 +6439,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.example.akmal_pc.jhotel_android_akmal:popupWindowStyle
+     * @attr name com.example.tim3a.eangkotUser:popupWindowStyle
      */
     public static final int AppCompatTheme_popupWindowStyle=83;
     /**
-     * <p>This symbol is the offset where the {@link com.example.akmal_pc.jhotel_android_akmal.R.attr#radioButtonStyle}
+     * <p>This symbol is the offset where the {@link com.example.tim3a.eangkotUser.R.attr#radioButtonStyle}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -6347,11 +6451,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.example.akmal_pc.jhotel_android_akmal:radioButtonStyle
+     * @attr name com.example.tim3a.eangkotUser:radioButtonStyle
      */
     public static final int AppCompatTheme_radioButtonStyle=84;
     /**
-     * <p>This symbol is the offset where the {@link com.example.akmal_pc.jhotel_android_akmal.R.attr#ratingBarStyle}
+     * <p>This symbol is the offset where the {@link com.example.tim3a.eangkotUser.R.attr#ratingBarStyle}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -6359,11 +6463,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.example.akmal_pc.jhotel_android_akmal:ratingBarStyle
+     * @attr name com.example.tim3a.eangkotUser:ratingBarStyle
      */
     public static final int AppCompatTheme_ratingBarStyle=85;
     /**
-     * <p>This symbol is the offset where the {@link com.example.akmal_pc.jhotel_android_akmal.R.attr#ratingBarStyleIndicator}
+     * <p>This symbol is the offset where the {@link com.example.tim3a.eangkotUser.R.attr#ratingBarStyleIndicator}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -6371,11 +6475,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.example.akmal_pc.jhotel_android_akmal:ratingBarStyleIndicator
+     * @attr name com.example.tim3a.eangkotUser:ratingBarStyleIndicator
      */
     public static final int AppCompatTheme_ratingBarStyleIndicator=86;
     /**
-     * <p>This symbol is the offset where the {@link com.example.akmal_pc.jhotel_android_akmal.R.attr#ratingBarStyleSmall}
+     * <p>This symbol is the offset where the {@link com.example.tim3a.eangkotUser.R.attr#ratingBarStyleSmall}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -6383,11 +6487,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.example.akmal_pc.jhotel_android_akmal:ratingBarStyleSmall
+     * @attr name com.example.tim3a.eangkotUser:ratingBarStyleSmall
      */
     public static final int AppCompatTheme_ratingBarStyleSmall=87;
     /**
-     * <p>This symbol is the offset where the {@link com.example.akmal_pc.jhotel_android_akmal.R.attr#searchViewStyle}
+     * <p>This symbol is the offset where the {@link com.example.tim3a.eangkotUser.R.attr#searchViewStyle}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -6395,11 +6499,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.example.akmal_pc.jhotel_android_akmal:searchViewStyle
+     * @attr name com.example.tim3a.eangkotUser:searchViewStyle
      */
     public static final int AppCompatTheme_searchViewStyle=88;
     /**
-     * <p>This symbol is the offset where the {@link com.example.akmal_pc.jhotel_android_akmal.R.attr#seekBarStyle}
+     * <p>This symbol is the offset where the {@link com.example.tim3a.eangkotUser.R.attr#seekBarStyle}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -6407,11 +6511,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.example.akmal_pc.jhotel_android_akmal:seekBarStyle
+     * @attr name com.example.tim3a.eangkotUser:seekBarStyle
      */
     public static final int AppCompatTheme_seekBarStyle=89;
     /**
-     * <p>This symbol is the offset where the {@link com.example.akmal_pc.jhotel_android_akmal.R.attr#selectableItemBackground}
+     * <p>This symbol is the offset where the {@link com.example.tim3a.eangkotUser.R.attr#selectableItemBackground}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -6419,11 +6523,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.example.akmal_pc.jhotel_android_akmal:selectableItemBackground
+     * @attr name com.example.tim3a.eangkotUser:selectableItemBackground
      */
     public static final int AppCompatTheme_selectableItemBackground=90;
     /**
-     * <p>This symbol is the offset where the {@link com.example.akmal_pc.jhotel_android_akmal.R.attr#selectableItemBackgroundBorderless}
+     * <p>This symbol is the offset where the {@link com.example.tim3a.eangkotUser.R.attr#selectableItemBackgroundBorderless}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -6431,11 +6535,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.example.akmal_pc.jhotel_android_akmal:selectableItemBackgroundBorderless
+     * @attr name com.example.tim3a.eangkotUser:selectableItemBackgroundBorderless
      */
     public static final int AppCompatTheme_selectableItemBackgroundBorderless=91;
     /**
-     * <p>This symbol is the offset where the {@link com.example.akmal_pc.jhotel_android_akmal.R.attr#spinnerDropDownItemStyle}
+     * <p>This symbol is the offset where the {@link com.example.tim3a.eangkotUser.R.attr#spinnerDropDownItemStyle}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -6443,11 +6547,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.example.akmal_pc.jhotel_android_akmal:spinnerDropDownItemStyle
+     * @attr name com.example.tim3a.eangkotUser:spinnerDropDownItemStyle
      */
     public static final int AppCompatTheme_spinnerDropDownItemStyle=92;
     /**
-     * <p>This symbol is the offset where the {@link com.example.akmal_pc.jhotel_android_akmal.R.attr#spinnerStyle}
+     * <p>This symbol is the offset where the {@link com.example.tim3a.eangkotUser.R.attr#spinnerStyle}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -6455,11 +6559,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.example.akmal_pc.jhotel_android_akmal:spinnerStyle
+     * @attr name com.example.tim3a.eangkotUser:spinnerStyle
      */
     public static final int AppCompatTheme_spinnerStyle=93;
     /**
-     * <p>This symbol is the offset where the {@link com.example.akmal_pc.jhotel_android_akmal.R.attr#switchStyle}
+     * <p>This symbol is the offset where the {@link com.example.tim3a.eangkotUser.R.attr#switchStyle}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -6467,11 +6571,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.example.akmal_pc.jhotel_android_akmal:switchStyle
+     * @attr name com.example.tim3a.eangkotUser:switchStyle
      */
     public static final int AppCompatTheme_switchStyle=94;
     /**
-     * <p>This symbol is the offset where the {@link com.example.akmal_pc.jhotel_android_akmal.R.attr#textAppearanceLargePopupMenu}
+     * <p>This symbol is the offset where the {@link com.example.tim3a.eangkotUser.R.attr#textAppearanceLargePopupMenu}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -6479,11 +6583,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.example.akmal_pc.jhotel_android_akmal:textAppearanceLargePopupMenu
+     * @attr name com.example.tim3a.eangkotUser:textAppearanceLargePopupMenu
      */
     public static final int AppCompatTheme_textAppearanceLargePopupMenu=95;
     /**
-     * <p>This symbol is the offset where the {@link com.example.akmal_pc.jhotel_android_akmal.R.attr#textAppearanceListItem}
+     * <p>This symbol is the offset where the {@link com.example.tim3a.eangkotUser.R.attr#textAppearanceListItem}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -6491,11 +6595,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.example.akmal_pc.jhotel_android_akmal:textAppearanceListItem
+     * @attr name com.example.tim3a.eangkotUser:textAppearanceListItem
      */
     public static final int AppCompatTheme_textAppearanceListItem=96;
     /**
-     * <p>This symbol is the offset where the {@link com.example.akmal_pc.jhotel_android_akmal.R.attr#textAppearanceListItemSecondary}
+     * <p>This symbol is the offset where the {@link com.example.tim3a.eangkotUser.R.attr#textAppearanceListItemSecondary}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -6503,11 +6607,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.example.akmal_pc.jhotel_android_akmal:textAppearanceListItemSecondary
+     * @attr name com.example.tim3a.eangkotUser:textAppearanceListItemSecondary
      */
     public static final int AppCompatTheme_textAppearanceListItemSecondary=97;
     /**
-     * <p>This symbol is the offset where the {@link com.example.akmal_pc.jhotel_android_akmal.R.attr#textAppearanceListItemSmall}
+     * <p>This symbol is the offset where the {@link com.example.tim3a.eangkotUser.R.attr#textAppearanceListItemSmall}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -6515,11 +6619,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.example.akmal_pc.jhotel_android_akmal:textAppearanceListItemSmall
+     * @attr name com.example.tim3a.eangkotUser:textAppearanceListItemSmall
      */
     public static final int AppCompatTheme_textAppearanceListItemSmall=98;
     /**
-     * <p>This symbol is the offset where the {@link com.example.akmal_pc.jhotel_android_akmal.R.attr#textAppearancePopupMenuHeader}
+     * <p>This symbol is the offset where the {@link com.example.tim3a.eangkotUser.R.attr#textAppearancePopupMenuHeader}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -6527,11 +6631,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.example.akmal_pc.jhotel_android_akmal:textAppearancePopupMenuHeader
+     * @attr name com.example.tim3a.eangkotUser:textAppearancePopupMenuHeader
      */
     public static final int AppCompatTheme_textAppearancePopupMenuHeader=99;
     /**
-     * <p>This symbol is the offset where the {@link com.example.akmal_pc.jhotel_android_akmal.R.attr#textAppearanceSearchResultSubtitle}
+     * <p>This symbol is the offset where the {@link com.example.tim3a.eangkotUser.R.attr#textAppearanceSearchResultSubtitle}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -6539,11 +6643,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.example.akmal_pc.jhotel_android_akmal:textAppearanceSearchResultSubtitle
+     * @attr name com.example.tim3a.eangkotUser:textAppearanceSearchResultSubtitle
      */
     public static final int AppCompatTheme_textAppearanceSearchResultSubtitle=100;
     /**
-     * <p>This symbol is the offset where the {@link com.example.akmal_pc.jhotel_android_akmal.R.attr#textAppearanceSearchResultTitle}
+     * <p>This symbol is the offset where the {@link com.example.tim3a.eangkotUser.R.attr#textAppearanceSearchResultTitle}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -6551,11 +6655,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.example.akmal_pc.jhotel_android_akmal:textAppearanceSearchResultTitle
+     * @attr name com.example.tim3a.eangkotUser:textAppearanceSearchResultTitle
      */
     public static final int AppCompatTheme_textAppearanceSearchResultTitle=101;
     /**
-     * <p>This symbol is the offset where the {@link com.example.akmal_pc.jhotel_android_akmal.R.attr#textAppearanceSmallPopupMenu}
+     * <p>This symbol is the offset where the {@link com.example.tim3a.eangkotUser.R.attr#textAppearanceSmallPopupMenu}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -6563,11 +6667,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.example.akmal_pc.jhotel_android_akmal:textAppearanceSmallPopupMenu
+     * @attr name com.example.tim3a.eangkotUser:textAppearanceSmallPopupMenu
      */
     public static final int AppCompatTheme_textAppearanceSmallPopupMenu=102;
     /**
-     * <p>This symbol is the offset where the {@link com.example.akmal_pc.jhotel_android_akmal.R.attr#textColorAlertDialogListItem}
+     * <p>This symbol is the offset where the {@link com.example.tim3a.eangkotUser.R.attr#textColorAlertDialogListItem}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -6578,11 +6682,11 @@ public final class R {
      * "<code>#<i>argb</i></code>", "<code>#<i>rrggbb</i></code>", or
      * "<code>#<i>aarrggbb</i></code>".
      *
-     * @attr name com.example.akmal_pc.jhotel_android_akmal:textColorAlertDialogListItem
+     * @attr name com.example.tim3a.eangkotUser:textColorAlertDialogListItem
      */
     public static final int AppCompatTheme_textColorAlertDialogListItem=103;
     /**
-     * <p>This symbol is the offset where the {@link com.example.akmal_pc.jhotel_android_akmal.R.attr#textColorSearchUrl}
+     * <p>This symbol is the offset where the {@link com.example.tim3a.eangkotUser.R.attr#textColorSearchUrl}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -6593,11 +6697,11 @@ public final class R {
      * "<code>#<i>argb</i></code>", "<code>#<i>rrggbb</i></code>", or
      * "<code>#<i>aarrggbb</i></code>".
      *
-     * @attr name com.example.akmal_pc.jhotel_android_akmal:textColorSearchUrl
+     * @attr name com.example.tim3a.eangkotUser:textColorSearchUrl
      */
     public static final int AppCompatTheme_textColorSearchUrl=104;
     /**
-     * <p>This symbol is the offset where the {@link com.example.akmal_pc.jhotel_android_akmal.R.attr#toolbarNavigationButtonStyle}
+     * <p>This symbol is the offset where the {@link com.example.tim3a.eangkotUser.R.attr#toolbarNavigationButtonStyle}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -6605,11 +6709,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.example.akmal_pc.jhotel_android_akmal:toolbarNavigationButtonStyle
+     * @attr name com.example.tim3a.eangkotUser:toolbarNavigationButtonStyle
      */
     public static final int AppCompatTheme_toolbarNavigationButtonStyle=105;
     /**
-     * <p>This symbol is the offset where the {@link com.example.akmal_pc.jhotel_android_akmal.R.attr#toolbarStyle}
+     * <p>This symbol is the offset where the {@link com.example.tim3a.eangkotUser.R.attr#toolbarStyle}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -6617,11 +6721,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.example.akmal_pc.jhotel_android_akmal:toolbarStyle
+     * @attr name com.example.tim3a.eangkotUser:toolbarStyle
      */
     public static final int AppCompatTheme_toolbarStyle=106;
     /**
-     * <p>This symbol is the offset where the {@link com.example.akmal_pc.jhotel_android_akmal.R.attr#tooltipForegroundColor}
+     * <p>This symbol is the offset where the {@link com.example.tim3a.eangkotUser.R.attr#tooltipForegroundColor}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -6632,11 +6736,11 @@ public final class R {
      * "<code>#<i>argb</i></code>", "<code>#<i>rrggbb</i></code>", or
      * "<code>#<i>aarrggbb</i></code>".
      *
-     * @attr name com.example.akmal_pc.jhotel_android_akmal:tooltipForegroundColor
+     * @attr name com.example.tim3a.eangkotUser:tooltipForegroundColor
      */
     public static final int AppCompatTheme_tooltipForegroundColor=107;
     /**
-     * <p>This symbol is the offset where the {@link com.example.akmal_pc.jhotel_android_akmal.R.attr#tooltipFrameBackground}
+     * <p>This symbol is the offset where the {@link com.example.tim3a.eangkotUser.R.attr#tooltipFrameBackground}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -6644,41 +6748,41 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.example.akmal_pc.jhotel_android_akmal:tooltipFrameBackground
+     * @attr name com.example.tim3a.eangkotUser:tooltipFrameBackground
      */
     public static final int AppCompatTheme_tooltipFrameBackground=108;
     /**
-     * <p>This symbol is the offset where the {@link com.example.akmal_pc.jhotel_android_akmal.R.attr#windowActionBar}
+     * <p>This symbol is the offset where the {@link com.example.tim3a.eangkotUser.R.attr#windowActionBar}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a boolean value, such as "<code>true</code>" or
      * "<code>false</code>".
      *
-     * @attr name com.example.akmal_pc.jhotel_android_akmal:windowActionBar
+     * @attr name com.example.tim3a.eangkotUser:windowActionBar
      */
     public static final int AppCompatTheme_windowActionBar=109;
     /**
-     * <p>This symbol is the offset where the {@link com.example.akmal_pc.jhotel_android_akmal.R.attr#windowActionBarOverlay}
+     * <p>This symbol is the offset where the {@link com.example.tim3a.eangkotUser.R.attr#windowActionBarOverlay}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a boolean value, such as "<code>true</code>" or
      * "<code>false</code>".
      *
-     * @attr name com.example.akmal_pc.jhotel_android_akmal:windowActionBarOverlay
+     * @attr name com.example.tim3a.eangkotUser:windowActionBarOverlay
      */
     public static final int AppCompatTheme_windowActionBarOverlay=110;
     /**
-     * <p>This symbol is the offset where the {@link com.example.akmal_pc.jhotel_android_akmal.R.attr#windowActionModeOverlay}
+     * <p>This symbol is the offset where the {@link com.example.tim3a.eangkotUser.R.attr#windowActionModeOverlay}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a boolean value, such as "<code>true</code>" or
      * "<code>false</code>".
      *
-     * @attr name com.example.akmal_pc.jhotel_android_akmal:windowActionModeOverlay
+     * @attr name com.example.tim3a.eangkotUser:windowActionModeOverlay
      */
     public static final int AppCompatTheme_windowActionModeOverlay=111;
     /**
-     * <p>This symbol is the offset where the {@link com.example.akmal_pc.jhotel_android_akmal.R.attr#windowFixedHeightMajor}
+     * <p>This symbol is the offset where the {@link com.example.tim3a.eangkotUser.R.attr#windowFixedHeightMajor}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -6691,11 +6795,11 @@ public final class R {
      * The % suffix always means a percentage of the base size;
      * the optional %p suffix provides a size relative to some parent container.
      *
-     * @attr name com.example.akmal_pc.jhotel_android_akmal:windowFixedHeightMajor
+     * @attr name com.example.tim3a.eangkotUser:windowFixedHeightMajor
      */
     public static final int AppCompatTheme_windowFixedHeightMajor=112;
     /**
-     * <p>This symbol is the offset where the {@link com.example.akmal_pc.jhotel_android_akmal.R.attr#windowFixedHeightMinor}
+     * <p>This symbol is the offset where the {@link com.example.tim3a.eangkotUser.R.attr#windowFixedHeightMinor}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -6708,11 +6812,11 @@ public final class R {
      * The % suffix always means a percentage of the base size;
      * the optional %p suffix provides a size relative to some parent container.
      *
-     * @attr name com.example.akmal_pc.jhotel_android_akmal:windowFixedHeightMinor
+     * @attr name com.example.tim3a.eangkotUser:windowFixedHeightMinor
      */
     public static final int AppCompatTheme_windowFixedHeightMinor=113;
     /**
-     * <p>This symbol is the offset where the {@link com.example.akmal_pc.jhotel_android_akmal.R.attr#windowFixedWidthMajor}
+     * <p>This symbol is the offset where the {@link com.example.tim3a.eangkotUser.R.attr#windowFixedWidthMajor}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -6725,11 +6829,11 @@ public final class R {
      * The % suffix always means a percentage of the base size;
      * the optional %p suffix provides a size relative to some parent container.
      *
-     * @attr name com.example.akmal_pc.jhotel_android_akmal:windowFixedWidthMajor
+     * @attr name com.example.tim3a.eangkotUser:windowFixedWidthMajor
      */
     public static final int AppCompatTheme_windowFixedWidthMajor=114;
     /**
-     * <p>This symbol is the offset where the {@link com.example.akmal_pc.jhotel_android_akmal.R.attr#windowFixedWidthMinor}
+     * <p>This symbol is the offset where the {@link com.example.tim3a.eangkotUser.R.attr#windowFixedWidthMinor}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -6742,11 +6846,11 @@ public final class R {
      * The % suffix always means a percentage of the base size;
      * the optional %p suffix provides a size relative to some parent container.
      *
-     * @attr name com.example.akmal_pc.jhotel_android_akmal:windowFixedWidthMinor
+     * @attr name com.example.tim3a.eangkotUser:windowFixedWidthMinor
      */
     public static final int AppCompatTheme_windowFixedWidthMinor=115;
     /**
-     * <p>This symbol is the offset where the {@link com.example.akmal_pc.jhotel_android_akmal.R.attr#windowMinWidthMajor}
+     * <p>This symbol is the offset where the {@link com.example.tim3a.eangkotUser.R.attr#windowMinWidthMajor}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -6759,11 +6863,11 @@ public final class R {
      * The % suffix always means a percentage of the base size;
      * the optional %p suffix provides a size relative to some parent container.
      *
-     * @attr name com.example.akmal_pc.jhotel_android_akmal:windowMinWidthMajor
+     * @attr name com.example.tim3a.eangkotUser:windowMinWidthMajor
      */
     public static final int AppCompatTheme_windowMinWidthMajor=116;
     /**
-     * <p>This symbol is the offset where the {@link com.example.akmal_pc.jhotel_android_akmal.R.attr#windowMinWidthMinor}
+     * <p>This symbol is the offset where the {@link com.example.tim3a.eangkotUser.R.attr#windowMinWidthMinor}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -6776,17 +6880,17 @@ public final class R {
      * The % suffix always means a percentage of the base size;
      * the optional %p suffix provides a size relative to some parent container.
      *
-     * @attr name com.example.akmal_pc.jhotel_android_akmal:windowMinWidthMinor
+     * @attr name com.example.tim3a.eangkotUser:windowMinWidthMinor
      */
     public static final int AppCompatTheme_windowMinWidthMinor=117;
     /**
-     * <p>This symbol is the offset where the {@link com.example.akmal_pc.jhotel_android_akmal.R.attr#windowNoTitle}
+     * <p>This symbol is the offset where the {@link com.example.tim3a.eangkotUser.R.attr#windowNoTitle}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a boolean value, such as "<code>true</code>" or
      * "<code>false</code>".
      *
-     * @attr name com.example.akmal_pc.jhotel_android_akmal:windowNoTitle
+     * @attr name com.example.tim3a.eangkotUser:windowNoTitle
      */
     public static final int AppCompatTheme_windowNoTitle=118;
     /**
@@ -6796,21 +6900,21 @@ public final class R {
      * <colgroup align="left" />
      * <colgroup align="left" />
      * <tr><th>Attribute</th><th>Description</th></tr>
-     * <tr><td><code>{@link #BarcodeScannerView_shouldScaleToFill com.example.akmal_pc.jhotel_android_akmal:shouldScaleToFill}</code></td><td></td></tr>
+     * <tr><td><code>{@link #BarcodeScannerView_shouldScaleToFill com.example.tim3a.eangkotUser:shouldScaleToFill}</code></td><td></td></tr>
      * </table>
      * @see #BarcodeScannerView_shouldScaleToFill
      */
     public static final int[] BarcodeScannerView={
-      0x7f020112
+      0x7f02011d
     };
     /**
-     * <p>This symbol is the offset where the {@link com.example.akmal_pc.jhotel_android_akmal.R.attr#shouldScaleToFill}
+     * <p>This symbol is the offset where the {@link com.example.tim3a.eangkotUser.R.attr#shouldScaleToFill}
      * attribute's value can be found in the {@link #BarcodeScannerView} array.
      *
      * <p>May be a boolean value, such as "<code>true</code>" or
      * "<code>false</code>".
      *
-     * @attr name com.example.akmal_pc.jhotel_android_akmal:shouldScaleToFill
+     * @attr name com.example.tim3a.eangkotUser:shouldScaleToFill
      */
     public static final int BarcodeScannerView_shouldScaleToFill=0;
     /**
@@ -6820,17 +6924,17 @@ public final class R {
      * <colgroup align="left" />
      * <colgroup align="left" />
      * <tr><th>Attribute</th><th>Description</th></tr>
-     * <tr><td><code>{@link #ButtonBarContainerTheme_metaButtonBarButtonStyle com.example.akmal_pc.jhotel_android_akmal:metaButtonBarButtonStyle}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ButtonBarContainerTheme_metaButtonBarStyle com.example.akmal_pc.jhotel_android_akmal:metaButtonBarStyle}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ButtonBarContainerTheme_metaButtonBarButtonStyle com.example.tim3a.eangkotUser:metaButtonBarButtonStyle}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ButtonBarContainerTheme_metaButtonBarStyle com.example.tim3a.eangkotUser:metaButtonBarStyle}</code></td><td></td></tr>
      * </table>
      * @see #ButtonBarContainerTheme_metaButtonBarButtonStyle
      * @see #ButtonBarContainerTheme_metaButtonBarStyle
      */
     public static final int[] ButtonBarContainerTheme={
-      0x7f0200f0, 0x7f0200f1
+      0x7f0200fb, 0x7f0200fc
     };
     /**
-     * <p>This symbol is the offset where the {@link com.example.akmal_pc.jhotel_android_akmal.R.attr#metaButtonBarButtonStyle}
+     * <p>This symbol is the offset where the {@link com.example.tim3a.eangkotUser.R.attr#metaButtonBarButtonStyle}
      * attribute's value can be found in the {@link #ButtonBarContainerTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -6838,11 +6942,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.example.akmal_pc.jhotel_android_akmal:metaButtonBarButtonStyle
+     * @attr name com.example.tim3a.eangkotUser:metaButtonBarButtonStyle
      */
     public static final int ButtonBarContainerTheme_metaButtonBarButtonStyle=0;
     /**
-     * <p>This symbol is the offset where the {@link com.example.akmal_pc.jhotel_android_akmal.R.attr#metaButtonBarStyle}
+     * <p>This symbol is the offset where the {@link com.example.tim3a.eangkotUser.R.attr#metaButtonBarStyle}
      * attribute's value can be found in the {@link #ButtonBarContainerTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -6850,7 +6954,7 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.example.akmal_pc.jhotel_android_akmal:metaButtonBarStyle
+     * @attr name com.example.tim3a.eangkotUser:metaButtonBarStyle
      */
     public static final int ButtonBarContainerTheme_metaButtonBarStyle=1;
     /**
@@ -6860,7 +6964,7 @@ public final class R {
      * <colgroup align="left" />
      * <colgroup align="left" />
      * <tr><th>Attribute</th><th>Description</th></tr>
-     * <tr><td><code>{@link #ButtonBarLayout_allowStacking com.example.akmal_pc.jhotel_android_akmal:allowStacking}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ButtonBarLayout_allowStacking com.example.tim3a.eangkotUser:allowStacking}</code></td><td></td></tr>
      * </table>
      * @see #ButtonBarLayout_allowStacking
      */
@@ -6868,15 +6972,217 @@ public final class R {
       0x7f020026
     };
     /**
-     * <p>This symbol is the offset where the {@link com.example.akmal_pc.jhotel_android_akmal.R.attr#allowStacking}
+     * <p>This symbol is the offset where the {@link com.example.tim3a.eangkotUser.R.attr#allowStacking}
      * attribute's value can be found in the {@link #ButtonBarLayout} array.
      *
      * <p>May be a boolean value, such as "<code>true</code>" or
      * "<code>false</code>".
      *
-     * @attr name com.example.akmal_pc.jhotel_android_akmal:allowStacking
+     * @attr name com.example.tim3a.eangkotUser:allowStacking
      */
     public static final int ButtonBarLayout_allowStacking=0;
+    /**
+     * Attributes that can be used with a CardView.
+     * <p>Includes the following attributes:</p>
+     * <table>
+     * <colgroup align="left" />
+     * <colgroup align="left" />
+     * <tr><th>Attribute</th><th>Description</th></tr>
+     * <tr><td><code>{@link #CardView_android_minWidth android:minWidth}</code></td><td></td></tr>
+     * <tr><td><code>{@link #CardView_android_minHeight android:minHeight}</code></td><td></td></tr>
+     * <tr><td><code>{@link #CardView_cardBackgroundColor com.example.tim3a.eangkotUser:cardBackgroundColor}</code></td><td></td></tr>
+     * <tr><td><code>{@link #CardView_cardCornerRadius com.example.tim3a.eangkotUser:cardCornerRadius}</code></td><td></td></tr>
+     * <tr><td><code>{@link #CardView_cardElevation com.example.tim3a.eangkotUser:cardElevation}</code></td><td></td></tr>
+     * <tr><td><code>{@link #CardView_cardMaxElevation com.example.tim3a.eangkotUser:cardMaxElevation}</code></td><td></td></tr>
+     * <tr><td><code>{@link #CardView_cardPreventCornerOverlap com.example.tim3a.eangkotUser:cardPreventCornerOverlap}</code></td><td></td></tr>
+     * <tr><td><code>{@link #CardView_cardUseCompatPadding com.example.tim3a.eangkotUser:cardUseCompatPadding}</code></td><td></td></tr>
+     * <tr><td><code>{@link #CardView_contentPadding com.example.tim3a.eangkotUser:contentPadding}</code></td><td></td></tr>
+     * <tr><td><code>{@link #CardView_contentPaddingBottom com.example.tim3a.eangkotUser:contentPaddingBottom}</code></td><td></td></tr>
+     * <tr><td><code>{@link #CardView_contentPaddingLeft com.example.tim3a.eangkotUser:contentPaddingLeft}</code></td><td></td></tr>
+     * <tr><td><code>{@link #CardView_contentPaddingRight com.example.tim3a.eangkotUser:contentPaddingRight}</code></td><td></td></tr>
+     * <tr><td><code>{@link #CardView_contentPaddingTop com.example.tim3a.eangkotUser:contentPaddingTop}</code></td><td></td></tr>
+     * </table>
+     * @see #CardView_android_minWidth
+     * @see #CardView_android_minHeight
+     * @see #CardView_cardBackgroundColor
+     * @see #CardView_cardCornerRadius
+     * @see #CardView_cardElevation
+     * @see #CardView_cardMaxElevation
+     * @see #CardView_cardPreventCornerOverlap
+     * @see #CardView_cardUseCompatPadding
+     * @see #CardView_contentPadding
+     * @see #CardView_contentPaddingBottom
+     * @see #CardView_contentPaddingLeft
+     * @see #CardView_contentPaddingRight
+     * @see #CardView_contentPaddingTop
+     */
+    public static final int[] CardView={
+      0x0101013f, 0x01010140, 0x7f020050, 0x7f020051, 
+      0x7f020052, 0x7f020053, 0x7f020054, 0x7f020055, 
+      0x7f020075, 0x7f020076, 0x7f020077, 0x7f020078, 
+      0x7f020079
+    };
+    /**
+     * <p>This symbol is the offset where the {@link android.R.attr#minWidth}
+     * attribute's value can be found in the {@link #CardView} array.
+     *
+     * <p>May be a dimension value, which is a floating point number appended with a
+     * unit such as "<code>14.5sp</code>".
+     * Available units are: px (pixels), dp (density-independent pixels),
+     * sp (scaled pixels based on preferred font size), in (inches), and
+     * mm (millimeters).
+     *
+     * @attr name android:minWidth
+     */
+    public static final int CardView_android_minWidth=0;
+    /**
+     * <p>This symbol is the offset where the {@link android.R.attr#minHeight}
+     * attribute's value can be found in the {@link #CardView} array.
+     *
+     * <p>May be a dimension value, which is a floating point number appended with a
+     * unit such as "<code>14.5sp</code>".
+     * Available units are: px (pixels), dp (density-independent pixels),
+     * sp (scaled pixels based on preferred font size), in (inches), and
+     * mm (millimeters).
+     *
+     * @attr name android:minHeight
+     */
+    public static final int CardView_android_minHeight=1;
+    /**
+     * <p>This symbol is the offset where the {@link com.example.tim3a.eangkotUser.R.attr#cardBackgroundColor}
+     * attribute's value can be found in the {@link #CardView} array.
+     *
+     * <p>May be a color value, in the form of "<code>#<i>rgb</i></code>",
+     * "<code>#<i>argb</i></code>", "<code>#<i>rrggbb</i></code>", or
+     * "<code>#<i>aarrggbb</i></code>".
+     *
+     * @attr name com.example.tim3a.eangkotUser:cardBackgroundColor
+     */
+    public static final int CardView_cardBackgroundColor=2;
+    /**
+     * <p>This symbol is the offset where the {@link com.example.tim3a.eangkotUser.R.attr#cardCornerRadius}
+     * attribute's value can be found in the {@link #CardView} array.
+     *
+     * <p>May be a dimension value, which is a floating point number appended with a
+     * unit such as "<code>14.5sp</code>".
+     * Available units are: px (pixels), dp (density-independent pixels),
+     * sp (scaled pixels based on preferred font size), in (inches), and
+     * mm (millimeters).
+     *
+     * @attr name com.example.tim3a.eangkotUser:cardCornerRadius
+     */
+    public static final int CardView_cardCornerRadius=3;
+    /**
+     * <p>This symbol is the offset where the {@link com.example.tim3a.eangkotUser.R.attr#cardElevation}
+     * attribute's value can be found in the {@link #CardView} array.
+     *
+     * <p>May be a dimension value, which is a floating point number appended with a
+     * unit such as "<code>14.5sp</code>".
+     * Available units are: px (pixels), dp (density-independent pixels),
+     * sp (scaled pixels based on preferred font size), in (inches), and
+     * mm (millimeters).
+     *
+     * @attr name com.example.tim3a.eangkotUser:cardElevation
+     */
+    public static final int CardView_cardElevation=4;
+    /**
+     * <p>This symbol is the offset where the {@link com.example.tim3a.eangkotUser.R.attr#cardMaxElevation}
+     * attribute's value can be found in the {@link #CardView} array.
+     *
+     * <p>May be a dimension value, which is a floating point number appended with a
+     * unit such as "<code>14.5sp</code>".
+     * Available units are: px (pixels), dp (density-independent pixels),
+     * sp (scaled pixels based on preferred font size), in (inches), and
+     * mm (millimeters).
+     *
+     * @attr name com.example.tim3a.eangkotUser:cardMaxElevation
+     */
+    public static final int CardView_cardMaxElevation=5;
+    /**
+     * <p>This symbol is the offset where the {@link com.example.tim3a.eangkotUser.R.attr#cardPreventCornerOverlap}
+     * attribute's value can be found in the {@link #CardView} array.
+     *
+     * <p>May be a boolean value, such as "<code>true</code>" or
+     * "<code>false</code>".
+     *
+     * @attr name com.example.tim3a.eangkotUser:cardPreventCornerOverlap
+     */
+    public static final int CardView_cardPreventCornerOverlap=6;
+    /**
+     * <p>This symbol is the offset where the {@link com.example.tim3a.eangkotUser.R.attr#cardUseCompatPadding}
+     * attribute's value can be found in the {@link #CardView} array.
+     *
+     * <p>May be a boolean value, such as "<code>true</code>" or
+     * "<code>false</code>".
+     *
+     * @attr name com.example.tim3a.eangkotUser:cardUseCompatPadding
+     */
+    public static final int CardView_cardUseCompatPadding=7;
+    /**
+     * <p>This symbol is the offset where the {@link com.example.tim3a.eangkotUser.R.attr#contentPadding}
+     * attribute's value can be found in the {@link #CardView} array.
+     *
+     * <p>May be a dimension value, which is a floating point number appended with a
+     * unit such as "<code>14.5sp</code>".
+     * Available units are: px (pixels), dp (density-independent pixels),
+     * sp (scaled pixels based on preferred font size), in (inches), and
+     * mm (millimeters).
+     *
+     * @attr name com.example.tim3a.eangkotUser:contentPadding
+     */
+    public static final int CardView_contentPadding=8;
+    /**
+     * <p>This symbol is the offset where the {@link com.example.tim3a.eangkotUser.R.attr#contentPaddingBottom}
+     * attribute's value can be found in the {@link #CardView} array.
+     *
+     * <p>May be a dimension value, which is a floating point number appended with a
+     * unit such as "<code>14.5sp</code>".
+     * Available units are: px (pixels), dp (density-independent pixels),
+     * sp (scaled pixels based on preferred font size), in (inches), and
+     * mm (millimeters).
+     *
+     * @attr name com.example.tim3a.eangkotUser:contentPaddingBottom
+     */
+    public static final int CardView_contentPaddingBottom=9;
+    /**
+     * <p>This symbol is the offset where the {@link com.example.tim3a.eangkotUser.R.attr#contentPaddingLeft}
+     * attribute's value can be found in the {@link #CardView} array.
+     *
+     * <p>May be a dimension value, which is a floating point number appended with a
+     * unit such as "<code>14.5sp</code>".
+     * Available units are: px (pixels), dp (density-independent pixels),
+     * sp (scaled pixels based on preferred font size), in (inches), and
+     * mm (millimeters).
+     *
+     * @attr name com.example.tim3a.eangkotUser:contentPaddingLeft
+     */
+    public static final int CardView_contentPaddingLeft=10;
+    /**
+     * <p>This symbol is the offset where the {@link com.example.tim3a.eangkotUser.R.attr#contentPaddingRight}
+     * attribute's value can be found in the {@link #CardView} array.
+     *
+     * <p>May be a dimension value, which is a floating point number appended with a
+     * unit such as "<code>14.5sp</code>".
+     * Available units are: px (pixels), dp (density-independent pixels),
+     * sp (scaled pixels based on preferred font size), in (inches), and
+     * mm (millimeters).
+     *
+     * @attr name com.example.tim3a.eangkotUser:contentPaddingRight
+     */
+    public static final int CardView_contentPaddingRight=11;
+    /**
+     * <p>This symbol is the offset where the {@link com.example.tim3a.eangkotUser.R.attr#contentPaddingTop}
+     * attribute's value can be found in the {@link #CardView} array.
+     *
+     * <p>May be a dimension value, which is a floating point number appended with a
+     * unit such as "<code>14.5sp</code>".
+     * Available units are: px (pixels), dp (density-independent pixels),
+     * sp (scaled pixels based on preferred font size), in (inches), and
+     * mm (millimeters).
+     *
+     * @attr name com.example.tim3a.eangkotUser:contentPaddingTop
+     */
+    public static final int CardView_contentPaddingTop=12;
     /**
      * Attributes that can be used with a CodeScannerView.
      * <p>Includes the following attributes:</p>
@@ -6884,18 +7190,18 @@ public final class R {
      * <colgroup align="left" />
      * <colgroup align="left" />
      * <tr><th>Attribute</th><th>Description</th></tr>
-     * <tr><td><code>{@link #CodeScannerView_autoFocusButtonColor com.example.akmal_pc.jhotel_android_akmal:autoFocusButtonColor}</code></td><td></td></tr>
-     * <tr><td><code>{@link #CodeScannerView_autoFocusButtonVisible com.example.akmal_pc.jhotel_android_akmal:autoFocusButtonVisible}</code></td><td></td></tr>
-     * <tr><td><code>{@link #CodeScannerView_flashButtonColor com.example.akmal_pc.jhotel_android_akmal:flashButtonColor}</code></td><td></td></tr>
-     * <tr><td><code>{@link #CodeScannerView_flashButtonVisible com.example.akmal_pc.jhotel_android_akmal:flashButtonVisible}</code></td><td></td></tr>
-     * <tr><td><code>{@link #CodeScannerView_frameAspectRatioHeight com.example.akmal_pc.jhotel_android_akmal:frameAspectRatioHeight}</code></td><td></td></tr>
-     * <tr><td><code>{@link #CodeScannerView_frameAspectRatioWidth com.example.akmal_pc.jhotel_android_akmal:frameAspectRatioWidth}</code></td><td></td></tr>
-     * <tr><td><code>{@link #CodeScannerView_frameColor com.example.akmal_pc.jhotel_android_akmal:frameColor}</code></td><td></td></tr>
-     * <tr><td><code>{@link #CodeScannerView_frameCornersRadius com.example.akmal_pc.jhotel_android_akmal:frameCornersRadius}</code></td><td></td></tr>
-     * <tr><td><code>{@link #CodeScannerView_frameCornersSize com.example.akmal_pc.jhotel_android_akmal:frameCornersSize}</code></td><td></td></tr>
-     * <tr><td><code>{@link #CodeScannerView_frameSize com.example.akmal_pc.jhotel_android_akmal:frameSize}</code></td><td></td></tr>
-     * <tr><td><code>{@link #CodeScannerView_frameThickness com.example.akmal_pc.jhotel_android_akmal:frameThickness}</code></td><td></td></tr>
-     * <tr><td><code>{@link #CodeScannerView_maskColor com.example.akmal_pc.jhotel_android_akmal:maskColor}</code></td><td></td></tr>
+     * <tr><td><code>{@link #CodeScannerView_autoFocusButtonColor com.example.tim3a.eangkotUser:autoFocusButtonColor}</code></td><td></td></tr>
+     * <tr><td><code>{@link #CodeScannerView_autoFocusButtonVisible com.example.tim3a.eangkotUser:autoFocusButtonVisible}</code></td><td></td></tr>
+     * <tr><td><code>{@link #CodeScannerView_flashButtonColor com.example.tim3a.eangkotUser:flashButtonColor}</code></td><td></td></tr>
+     * <tr><td><code>{@link #CodeScannerView_flashButtonVisible com.example.tim3a.eangkotUser:flashButtonVisible}</code></td><td></td></tr>
+     * <tr><td><code>{@link #CodeScannerView_frameAspectRatioHeight com.example.tim3a.eangkotUser:frameAspectRatioHeight}</code></td><td></td></tr>
+     * <tr><td><code>{@link #CodeScannerView_frameAspectRatioWidth com.example.tim3a.eangkotUser:frameAspectRatioWidth}</code></td><td></td></tr>
+     * <tr><td><code>{@link #CodeScannerView_frameColor com.example.tim3a.eangkotUser:frameColor}</code></td><td></td></tr>
+     * <tr><td><code>{@link #CodeScannerView_frameCornersRadius com.example.tim3a.eangkotUser:frameCornersRadius}</code></td><td></td></tr>
+     * <tr><td><code>{@link #CodeScannerView_frameCornersSize com.example.tim3a.eangkotUser:frameCornersSize}</code></td><td></td></tr>
+     * <tr><td><code>{@link #CodeScannerView_frameSize com.example.tim3a.eangkotUser:frameSize}</code></td><td></td></tr>
+     * <tr><td><code>{@link #CodeScannerView_frameThickness com.example.tim3a.eangkotUser:frameThickness}</code></td><td></td></tr>
+     * <tr><td><code>{@link #CodeScannerView_maskColor com.example.tim3a.eangkotUser:maskColor}</code></td><td></td></tr>
      * </table>
      * @see #CodeScannerView_autoFocusButtonColor
      * @see #CodeScannerView_autoFocusButtonVisible
@@ -6911,83 +7217,83 @@ public final class R {
      * @see #CodeScannerView_maskColor
      */
     public static final int[] CodeScannerView={
-      0x7f02002d, 0x7f02002e, 0x7f020083, 0x7f020084, 
-      0x7f02008f, 0x7f020090, 0x7f020091, 0x7f020092, 
-      0x7f020093, 0x7f020094, 0x7f020095, 0x7f0200ed
+      0x7f02002d, 0x7f02002e, 0x7f02008e, 0x7f02008f, 
+      0x7f02009a, 0x7f02009b, 0x7f02009c, 0x7f02009d, 
+      0x7f02009e, 0x7f02009f, 0x7f0200a0, 0x7f0200f8
     };
     /**
-     * <p>This symbol is the offset where the {@link com.example.akmal_pc.jhotel_android_akmal.R.attr#autoFocusButtonColor}
+     * <p>This symbol is the offset where the {@link com.example.tim3a.eangkotUser.R.attr#autoFocusButtonColor}
      * attribute's value can be found in the {@link #CodeScannerView} array.
      *
      * <p>May be a color value, in the form of "<code>#<i>rgb</i></code>",
      * "<code>#<i>argb</i></code>", "<code>#<i>rrggbb</i></code>", or
      * "<code>#<i>aarrggbb</i></code>".
      *
-     * @attr name com.example.akmal_pc.jhotel_android_akmal:autoFocusButtonColor
+     * @attr name com.example.tim3a.eangkotUser:autoFocusButtonColor
      */
     public static final int CodeScannerView_autoFocusButtonColor=0;
     /**
-     * <p>This symbol is the offset where the {@link com.example.akmal_pc.jhotel_android_akmal.R.attr#autoFocusButtonVisible}
+     * <p>This symbol is the offset where the {@link com.example.tim3a.eangkotUser.R.attr#autoFocusButtonVisible}
      * attribute's value can be found in the {@link #CodeScannerView} array.
      *
      * <p>May be a boolean value, such as "<code>true</code>" or
      * "<code>false</code>".
      *
-     * @attr name com.example.akmal_pc.jhotel_android_akmal:autoFocusButtonVisible
+     * @attr name com.example.tim3a.eangkotUser:autoFocusButtonVisible
      */
     public static final int CodeScannerView_autoFocusButtonVisible=1;
     /**
-     * <p>This symbol is the offset where the {@link com.example.akmal_pc.jhotel_android_akmal.R.attr#flashButtonColor}
+     * <p>This symbol is the offset where the {@link com.example.tim3a.eangkotUser.R.attr#flashButtonColor}
      * attribute's value can be found in the {@link #CodeScannerView} array.
      *
      * <p>May be a color value, in the form of "<code>#<i>rgb</i></code>",
      * "<code>#<i>argb</i></code>", "<code>#<i>rrggbb</i></code>", or
      * "<code>#<i>aarrggbb</i></code>".
      *
-     * @attr name com.example.akmal_pc.jhotel_android_akmal:flashButtonColor
+     * @attr name com.example.tim3a.eangkotUser:flashButtonColor
      */
     public static final int CodeScannerView_flashButtonColor=2;
     /**
-     * <p>This symbol is the offset where the {@link com.example.akmal_pc.jhotel_android_akmal.R.attr#flashButtonVisible}
+     * <p>This symbol is the offset where the {@link com.example.tim3a.eangkotUser.R.attr#flashButtonVisible}
      * attribute's value can be found in the {@link #CodeScannerView} array.
      *
      * <p>May be a boolean value, such as "<code>true</code>" or
      * "<code>false</code>".
      *
-     * @attr name com.example.akmal_pc.jhotel_android_akmal:flashButtonVisible
+     * @attr name com.example.tim3a.eangkotUser:flashButtonVisible
      */
     public static final int CodeScannerView_flashButtonVisible=3;
     /**
-     * <p>This symbol is the offset where the {@link com.example.akmal_pc.jhotel_android_akmal.R.attr#frameAspectRatioHeight}
+     * <p>This symbol is the offset where the {@link com.example.tim3a.eangkotUser.R.attr#frameAspectRatioHeight}
      * attribute's value can be found in the {@link #CodeScannerView} array.
      *
      * <p>May be a floating point value, such as "<code>1.2</code>".
      *
-     * @attr name com.example.akmal_pc.jhotel_android_akmal:frameAspectRatioHeight
+     * @attr name com.example.tim3a.eangkotUser:frameAspectRatioHeight
      */
     public static final int CodeScannerView_frameAspectRatioHeight=4;
     /**
-     * <p>This symbol is the offset where the {@link com.example.akmal_pc.jhotel_android_akmal.R.attr#frameAspectRatioWidth}
+     * <p>This symbol is the offset where the {@link com.example.tim3a.eangkotUser.R.attr#frameAspectRatioWidth}
      * attribute's value can be found in the {@link #CodeScannerView} array.
      *
      * <p>May be a floating point value, such as "<code>1.2</code>".
      *
-     * @attr name com.example.akmal_pc.jhotel_android_akmal:frameAspectRatioWidth
+     * @attr name com.example.tim3a.eangkotUser:frameAspectRatioWidth
      */
     public static final int CodeScannerView_frameAspectRatioWidth=5;
     /**
-     * <p>This symbol is the offset where the {@link com.example.akmal_pc.jhotel_android_akmal.R.attr#frameColor}
+     * <p>This symbol is the offset where the {@link com.example.tim3a.eangkotUser.R.attr#frameColor}
      * attribute's value can be found in the {@link #CodeScannerView} array.
      *
      * <p>May be a color value, in the form of "<code>#<i>rgb</i></code>",
      * "<code>#<i>argb</i></code>", "<code>#<i>rrggbb</i></code>", or
      * "<code>#<i>aarrggbb</i></code>".
      *
-     * @attr name com.example.akmal_pc.jhotel_android_akmal:frameColor
+     * @attr name com.example.tim3a.eangkotUser:frameColor
      */
     public static final int CodeScannerView_frameColor=6;
     /**
-     * <p>This symbol is the offset where the {@link com.example.akmal_pc.jhotel_android_akmal.R.attr#frameCornersRadius}
+     * <p>This symbol is the offset where the {@link com.example.tim3a.eangkotUser.R.attr#frameCornersRadius}
      * attribute's value can be found in the {@link #CodeScannerView} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -6996,11 +7302,11 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name com.example.akmal_pc.jhotel_android_akmal:frameCornersRadius
+     * @attr name com.example.tim3a.eangkotUser:frameCornersRadius
      */
     public static final int CodeScannerView_frameCornersRadius=7;
     /**
-     * <p>This symbol is the offset where the {@link com.example.akmal_pc.jhotel_android_akmal.R.attr#frameCornersSize}
+     * <p>This symbol is the offset where the {@link com.example.tim3a.eangkotUser.R.attr#frameCornersSize}
      * attribute's value can be found in the {@link #CodeScannerView} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -7009,20 +7315,20 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name com.example.akmal_pc.jhotel_android_akmal:frameCornersSize
+     * @attr name com.example.tim3a.eangkotUser:frameCornersSize
      */
     public static final int CodeScannerView_frameCornersSize=8;
     /**
-     * <p>This symbol is the offset where the {@link com.example.akmal_pc.jhotel_android_akmal.R.attr#frameSize}
+     * <p>This symbol is the offset where the {@link com.example.tim3a.eangkotUser.R.attr#frameSize}
      * attribute's value can be found in the {@link #CodeScannerView} array.
      *
      * <p>May be a floating point value, such as "<code>1.2</code>".
      *
-     * @attr name com.example.akmal_pc.jhotel_android_akmal:frameSize
+     * @attr name com.example.tim3a.eangkotUser:frameSize
      */
     public static final int CodeScannerView_frameSize=9;
     /**
-     * <p>This symbol is the offset where the {@link com.example.akmal_pc.jhotel_android_akmal.R.attr#frameThickness}
+     * <p>This symbol is the offset where the {@link com.example.tim3a.eangkotUser.R.attr#frameThickness}
      * attribute's value can be found in the {@link #CodeScannerView} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -7031,18 +7337,18 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name com.example.akmal_pc.jhotel_android_akmal:frameThickness
+     * @attr name com.example.tim3a.eangkotUser:frameThickness
      */
     public static final int CodeScannerView_frameThickness=10;
     /**
-     * <p>This symbol is the offset where the {@link com.example.akmal_pc.jhotel_android_akmal.R.attr#maskColor}
+     * <p>This symbol is the offset where the {@link com.example.tim3a.eangkotUser.R.attr#maskColor}
      * attribute's value can be found in the {@link #CodeScannerView} array.
      *
      * <p>May be a color value, in the form of "<code>#<i>rgb</i></code>",
      * "<code>#<i>argb</i></code>", "<code>#<i>rrggbb</i></code>", or
      * "<code>#<i>aarrggbb</i></code>".
      *
-     * @attr name com.example.akmal_pc.jhotel_android_akmal:maskColor
+     * @attr name com.example.tim3a.eangkotUser:maskColor
      */
     public static final int CodeScannerView_maskColor=11;
     /**
@@ -7054,7 +7360,7 @@ public final class R {
      * <tr><th>Attribute</th><th>Description</th></tr>
      * <tr><td><code>{@link #ColorStateListItem_android_color android:color}</code></td><td></td></tr>
      * <tr><td><code>{@link #ColorStateListItem_android_alpha android:alpha}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ColorStateListItem_alpha com.example.akmal_pc.jhotel_android_akmal:alpha}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ColorStateListItem_alpha com.example.tim3a.eangkotUser:alpha}</code></td><td></td></tr>
      * </table>
      * @see #ColorStateListItem_android_color
      * @see #ColorStateListItem_android_alpha
@@ -7084,12 +7390,12 @@ public final class R {
      */
     public static final int ColorStateListItem_android_alpha=1;
     /**
-     * <p>This symbol is the offset where the {@link com.example.akmal_pc.jhotel_android_akmal.R.attr#alpha}
+     * <p>This symbol is the offset where the {@link com.example.tim3a.eangkotUser.R.attr#alpha}
      * attribute's value can be found in the {@link #ColorStateListItem} array.
      *
      * <p>May be a floating point value, such as "<code>1.2</code>".
      *
-     * @attr name com.example.akmal_pc.jhotel_android_akmal:alpha
+     * @attr name com.example.tim3a.eangkotUser:alpha
      */
     public static final int ColorStateListItem_alpha=2;
     /**
@@ -7100,8 +7406,8 @@ public final class R {
      * <colgroup align="left" />
      * <tr><th>Attribute</th><th>Description</th></tr>
      * <tr><td><code>{@link #CompoundButton_android_button android:button}</code></td><td></td></tr>
-     * <tr><td><code>{@link #CompoundButton_buttonTint com.example.akmal_pc.jhotel_android_akmal:buttonTint}</code></td><td></td></tr>
-     * <tr><td><code>{@link #CompoundButton_buttonTintMode com.example.akmal_pc.jhotel_android_akmal:buttonTintMode}</code></td><td></td></tr>
+     * <tr><td><code>{@link #CompoundButton_buttonTint com.example.tim3a.eangkotUser:buttonTint}</code></td><td></td></tr>
+     * <tr><td><code>{@link #CompoundButton_buttonTintMode com.example.tim3a.eangkotUser:buttonTintMode}</code></td><td></td></tr>
      * </table>
      * @see #CompoundButton_android_button
      * @see #CompoundButton_buttonTint
@@ -7123,18 +7429,18 @@ public final class R {
      */
     public static final int CompoundButton_android_button=0;
     /**
-     * <p>This symbol is the offset where the {@link com.example.akmal_pc.jhotel_android_akmal.R.attr#buttonTint}
+     * <p>This symbol is the offset where the {@link com.example.tim3a.eangkotUser.R.attr#buttonTint}
      * attribute's value can be found in the {@link #CompoundButton} array.
      *
      * <p>May be a color value, in the form of "<code>#<i>rgb</i></code>",
      * "<code>#<i>argb</i></code>", "<code>#<i>rrggbb</i></code>", or
      * "<code>#<i>aarrggbb</i></code>".
      *
-     * @attr name com.example.akmal_pc.jhotel_android_akmal:buttonTint
+     * @attr name com.example.tim3a.eangkotUser:buttonTint
      */
     public static final int CompoundButton_buttonTint=1;
     /**
-     * <p>This symbol is the offset where the {@link com.example.akmal_pc.jhotel_android_akmal.R.attr#buttonTintMode}
+     * <p>This symbol is the offset where the {@link com.example.tim3a.eangkotUser.R.attr#buttonTintMode}
      * attribute's value can be found in the {@link #CompoundButton} array.
      *
      * <p>Must be one of the following constant values.</p>
@@ -7150,7 +7456,7 @@ public final class R {
      * <tr><td>src_over</td><td>3</td><td></td></tr>
      * </table>
      *
-     * @attr name com.example.akmal_pc.jhotel_android_akmal:buttonTintMode
+     * @attr name com.example.tim3a.eangkotUser:buttonTintMode
      */
     public static final int CompoundButton_buttonTintMode=2;
     /**
@@ -7165,61 +7471,61 @@ public final class R {
      * <tr><td><code>{@link #ConstraintLayout_Layout_android_maxHeight android:maxHeight}</code></td><td></td></tr>
      * <tr><td><code>{@link #ConstraintLayout_Layout_android_minWidth android:minWidth}</code></td><td></td></tr>
      * <tr><td><code>{@link #ConstraintLayout_Layout_android_minHeight android:minHeight}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ConstraintLayout_Layout_barrierAllowsGoneWidgets com.example.akmal_pc.jhotel_android_akmal:barrierAllowsGoneWidgets}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ConstraintLayout_Layout_barrierDirection com.example.akmal_pc.jhotel_android_akmal:barrierDirection}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ConstraintLayout_Layout_chainUseRtl com.example.akmal_pc.jhotel_android_akmal:chainUseRtl}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ConstraintLayout_Layout_constraintSet com.example.akmal_pc.jhotel_android_akmal:constraintSet}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ConstraintLayout_Layout_constraint_referenced_ids com.example.akmal_pc.jhotel_android_akmal:constraint_referenced_ids}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ConstraintLayout_Layout_layout_constrainedHeight com.example.akmal_pc.jhotel_android_akmal:layout_constrainedHeight}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ConstraintLayout_Layout_layout_constrainedWidth com.example.akmal_pc.jhotel_android_akmal:layout_constrainedWidth}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ConstraintLayout_Layout_layout_constraintBaseline_creator com.example.akmal_pc.jhotel_android_akmal:layout_constraintBaseline_creator}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ConstraintLayout_Layout_layout_constraintBaseline_toBaselineOf com.example.akmal_pc.jhotel_android_akmal:layout_constraintBaseline_toBaselineOf}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ConstraintLayout_Layout_layout_constraintBottom_creator com.example.akmal_pc.jhotel_android_akmal:layout_constraintBottom_creator}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ConstraintLayout_Layout_layout_constraintBottom_toBottomOf com.example.akmal_pc.jhotel_android_akmal:layout_constraintBottom_toBottomOf}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ConstraintLayout_Layout_layout_constraintBottom_toTopOf com.example.akmal_pc.jhotel_android_akmal:layout_constraintBottom_toTopOf}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ConstraintLayout_Layout_layout_constraintCircle com.example.akmal_pc.jhotel_android_akmal:layout_constraintCircle}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ConstraintLayout_Layout_layout_constraintCircleAngle com.example.akmal_pc.jhotel_android_akmal:layout_constraintCircleAngle}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ConstraintLayout_Layout_layout_constraintCircleRadius com.example.akmal_pc.jhotel_android_akmal:layout_constraintCircleRadius}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ConstraintLayout_Layout_layout_constraintDimensionRatio com.example.akmal_pc.jhotel_android_akmal:layout_constraintDimensionRatio}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ConstraintLayout_Layout_layout_constraintEnd_toEndOf com.example.akmal_pc.jhotel_android_akmal:layout_constraintEnd_toEndOf}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ConstraintLayout_Layout_layout_constraintEnd_toStartOf com.example.akmal_pc.jhotel_android_akmal:layout_constraintEnd_toStartOf}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ConstraintLayout_Layout_layout_constraintGuide_begin com.example.akmal_pc.jhotel_android_akmal:layout_constraintGuide_begin}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ConstraintLayout_Layout_layout_constraintGuide_end com.example.akmal_pc.jhotel_android_akmal:layout_constraintGuide_end}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ConstraintLayout_Layout_layout_constraintGuide_percent com.example.akmal_pc.jhotel_android_akmal:layout_constraintGuide_percent}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ConstraintLayout_Layout_layout_constraintHeight_default com.example.akmal_pc.jhotel_android_akmal:layout_constraintHeight_default}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ConstraintLayout_Layout_layout_constraintHeight_max com.example.akmal_pc.jhotel_android_akmal:layout_constraintHeight_max}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ConstraintLayout_Layout_layout_constraintHeight_min com.example.akmal_pc.jhotel_android_akmal:layout_constraintHeight_min}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ConstraintLayout_Layout_layout_constraintHeight_percent com.example.akmal_pc.jhotel_android_akmal:layout_constraintHeight_percent}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ConstraintLayout_Layout_layout_constraintHorizontal_bias com.example.akmal_pc.jhotel_android_akmal:layout_constraintHorizontal_bias}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ConstraintLayout_Layout_layout_constraintHorizontal_chainStyle com.example.akmal_pc.jhotel_android_akmal:layout_constraintHorizontal_chainStyle}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ConstraintLayout_Layout_layout_constraintHorizontal_weight com.example.akmal_pc.jhotel_android_akmal:layout_constraintHorizontal_weight}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ConstraintLayout_Layout_layout_constraintLeft_creator com.example.akmal_pc.jhotel_android_akmal:layout_constraintLeft_creator}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ConstraintLayout_Layout_layout_constraintLeft_toLeftOf com.example.akmal_pc.jhotel_android_akmal:layout_constraintLeft_toLeftOf}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ConstraintLayout_Layout_layout_constraintLeft_toRightOf com.example.akmal_pc.jhotel_android_akmal:layout_constraintLeft_toRightOf}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ConstraintLayout_Layout_layout_constraintRight_creator com.example.akmal_pc.jhotel_android_akmal:layout_constraintRight_creator}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ConstraintLayout_Layout_layout_constraintRight_toLeftOf com.example.akmal_pc.jhotel_android_akmal:layout_constraintRight_toLeftOf}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ConstraintLayout_Layout_layout_constraintRight_toRightOf com.example.akmal_pc.jhotel_android_akmal:layout_constraintRight_toRightOf}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ConstraintLayout_Layout_layout_constraintStart_toEndOf com.example.akmal_pc.jhotel_android_akmal:layout_constraintStart_toEndOf}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ConstraintLayout_Layout_layout_constraintStart_toStartOf com.example.akmal_pc.jhotel_android_akmal:layout_constraintStart_toStartOf}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ConstraintLayout_Layout_layout_constraintTop_creator com.example.akmal_pc.jhotel_android_akmal:layout_constraintTop_creator}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ConstraintLayout_Layout_layout_constraintTop_toBottomOf com.example.akmal_pc.jhotel_android_akmal:layout_constraintTop_toBottomOf}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ConstraintLayout_Layout_layout_constraintTop_toTopOf com.example.akmal_pc.jhotel_android_akmal:layout_constraintTop_toTopOf}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ConstraintLayout_Layout_layout_constraintVertical_bias com.example.akmal_pc.jhotel_android_akmal:layout_constraintVertical_bias}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ConstraintLayout_Layout_layout_constraintVertical_chainStyle com.example.akmal_pc.jhotel_android_akmal:layout_constraintVertical_chainStyle}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ConstraintLayout_Layout_layout_constraintVertical_weight com.example.akmal_pc.jhotel_android_akmal:layout_constraintVertical_weight}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ConstraintLayout_Layout_layout_constraintWidth_default com.example.akmal_pc.jhotel_android_akmal:layout_constraintWidth_default}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ConstraintLayout_Layout_layout_constraintWidth_max com.example.akmal_pc.jhotel_android_akmal:layout_constraintWidth_max}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ConstraintLayout_Layout_layout_constraintWidth_min com.example.akmal_pc.jhotel_android_akmal:layout_constraintWidth_min}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ConstraintLayout_Layout_layout_constraintWidth_percent com.example.akmal_pc.jhotel_android_akmal:layout_constraintWidth_percent}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ConstraintLayout_Layout_layout_editor_absoluteX com.example.akmal_pc.jhotel_android_akmal:layout_editor_absoluteX}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ConstraintLayout_Layout_layout_editor_absoluteY com.example.akmal_pc.jhotel_android_akmal:layout_editor_absoluteY}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ConstraintLayout_Layout_layout_goneMarginBottom com.example.akmal_pc.jhotel_android_akmal:layout_goneMarginBottom}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ConstraintLayout_Layout_layout_goneMarginEnd com.example.akmal_pc.jhotel_android_akmal:layout_goneMarginEnd}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ConstraintLayout_Layout_layout_goneMarginLeft com.example.akmal_pc.jhotel_android_akmal:layout_goneMarginLeft}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ConstraintLayout_Layout_layout_goneMarginRight com.example.akmal_pc.jhotel_android_akmal:layout_goneMarginRight}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ConstraintLayout_Layout_layout_goneMarginStart com.example.akmal_pc.jhotel_android_akmal:layout_goneMarginStart}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ConstraintLayout_Layout_layout_goneMarginTop com.example.akmal_pc.jhotel_android_akmal:layout_goneMarginTop}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ConstraintLayout_Layout_layout_optimizationLevel com.example.akmal_pc.jhotel_android_akmal:layout_optimizationLevel}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ConstraintLayout_Layout_barrierAllowsGoneWidgets com.example.tim3a.eangkotUser:barrierAllowsGoneWidgets}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ConstraintLayout_Layout_barrierDirection com.example.tim3a.eangkotUser:barrierDirection}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ConstraintLayout_Layout_chainUseRtl com.example.tim3a.eangkotUser:chainUseRtl}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ConstraintLayout_Layout_constraintSet com.example.tim3a.eangkotUser:constraintSet}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ConstraintLayout_Layout_constraint_referenced_ids com.example.tim3a.eangkotUser:constraint_referenced_ids}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ConstraintLayout_Layout_layout_constrainedHeight com.example.tim3a.eangkotUser:layout_constrainedHeight}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ConstraintLayout_Layout_layout_constrainedWidth com.example.tim3a.eangkotUser:layout_constrainedWidth}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ConstraintLayout_Layout_layout_constraintBaseline_creator com.example.tim3a.eangkotUser:layout_constraintBaseline_creator}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ConstraintLayout_Layout_layout_constraintBaseline_toBaselineOf com.example.tim3a.eangkotUser:layout_constraintBaseline_toBaselineOf}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ConstraintLayout_Layout_layout_constraintBottom_creator com.example.tim3a.eangkotUser:layout_constraintBottom_creator}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ConstraintLayout_Layout_layout_constraintBottom_toBottomOf com.example.tim3a.eangkotUser:layout_constraintBottom_toBottomOf}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ConstraintLayout_Layout_layout_constraintBottom_toTopOf com.example.tim3a.eangkotUser:layout_constraintBottom_toTopOf}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ConstraintLayout_Layout_layout_constraintCircle com.example.tim3a.eangkotUser:layout_constraintCircle}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ConstraintLayout_Layout_layout_constraintCircleAngle com.example.tim3a.eangkotUser:layout_constraintCircleAngle}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ConstraintLayout_Layout_layout_constraintCircleRadius com.example.tim3a.eangkotUser:layout_constraintCircleRadius}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ConstraintLayout_Layout_layout_constraintDimensionRatio com.example.tim3a.eangkotUser:layout_constraintDimensionRatio}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ConstraintLayout_Layout_layout_constraintEnd_toEndOf com.example.tim3a.eangkotUser:layout_constraintEnd_toEndOf}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ConstraintLayout_Layout_layout_constraintEnd_toStartOf com.example.tim3a.eangkotUser:layout_constraintEnd_toStartOf}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ConstraintLayout_Layout_layout_constraintGuide_begin com.example.tim3a.eangkotUser:layout_constraintGuide_begin}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ConstraintLayout_Layout_layout_constraintGuide_end com.example.tim3a.eangkotUser:layout_constraintGuide_end}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ConstraintLayout_Layout_layout_constraintGuide_percent com.example.tim3a.eangkotUser:layout_constraintGuide_percent}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ConstraintLayout_Layout_layout_constraintHeight_default com.example.tim3a.eangkotUser:layout_constraintHeight_default}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ConstraintLayout_Layout_layout_constraintHeight_max com.example.tim3a.eangkotUser:layout_constraintHeight_max}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ConstraintLayout_Layout_layout_constraintHeight_min com.example.tim3a.eangkotUser:layout_constraintHeight_min}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ConstraintLayout_Layout_layout_constraintHeight_percent com.example.tim3a.eangkotUser:layout_constraintHeight_percent}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ConstraintLayout_Layout_layout_constraintHorizontal_bias com.example.tim3a.eangkotUser:layout_constraintHorizontal_bias}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ConstraintLayout_Layout_layout_constraintHorizontal_chainStyle com.example.tim3a.eangkotUser:layout_constraintHorizontal_chainStyle}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ConstraintLayout_Layout_layout_constraintHorizontal_weight com.example.tim3a.eangkotUser:layout_constraintHorizontal_weight}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ConstraintLayout_Layout_layout_constraintLeft_creator com.example.tim3a.eangkotUser:layout_constraintLeft_creator}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ConstraintLayout_Layout_layout_constraintLeft_toLeftOf com.example.tim3a.eangkotUser:layout_constraintLeft_toLeftOf}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ConstraintLayout_Layout_layout_constraintLeft_toRightOf com.example.tim3a.eangkotUser:layout_constraintLeft_toRightOf}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ConstraintLayout_Layout_layout_constraintRight_creator com.example.tim3a.eangkotUser:layout_constraintRight_creator}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ConstraintLayout_Layout_layout_constraintRight_toLeftOf com.example.tim3a.eangkotUser:layout_constraintRight_toLeftOf}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ConstraintLayout_Layout_layout_constraintRight_toRightOf com.example.tim3a.eangkotUser:layout_constraintRight_toRightOf}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ConstraintLayout_Layout_layout_constraintStart_toEndOf com.example.tim3a.eangkotUser:layout_constraintStart_toEndOf}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ConstraintLayout_Layout_layout_constraintStart_toStartOf com.example.tim3a.eangkotUser:layout_constraintStart_toStartOf}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ConstraintLayout_Layout_layout_constraintTop_creator com.example.tim3a.eangkotUser:layout_constraintTop_creator}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ConstraintLayout_Layout_layout_constraintTop_toBottomOf com.example.tim3a.eangkotUser:layout_constraintTop_toBottomOf}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ConstraintLayout_Layout_layout_constraintTop_toTopOf com.example.tim3a.eangkotUser:layout_constraintTop_toTopOf}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ConstraintLayout_Layout_layout_constraintVertical_bias com.example.tim3a.eangkotUser:layout_constraintVertical_bias}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ConstraintLayout_Layout_layout_constraintVertical_chainStyle com.example.tim3a.eangkotUser:layout_constraintVertical_chainStyle}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ConstraintLayout_Layout_layout_constraintVertical_weight com.example.tim3a.eangkotUser:layout_constraintVertical_weight}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ConstraintLayout_Layout_layout_constraintWidth_default com.example.tim3a.eangkotUser:layout_constraintWidth_default}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ConstraintLayout_Layout_layout_constraintWidth_max com.example.tim3a.eangkotUser:layout_constraintWidth_max}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ConstraintLayout_Layout_layout_constraintWidth_min com.example.tim3a.eangkotUser:layout_constraintWidth_min}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ConstraintLayout_Layout_layout_constraintWidth_percent com.example.tim3a.eangkotUser:layout_constraintWidth_percent}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ConstraintLayout_Layout_layout_editor_absoluteX com.example.tim3a.eangkotUser:layout_editor_absoluteX}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ConstraintLayout_Layout_layout_editor_absoluteY com.example.tim3a.eangkotUser:layout_editor_absoluteY}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ConstraintLayout_Layout_layout_goneMarginBottom com.example.tim3a.eangkotUser:layout_goneMarginBottom}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ConstraintLayout_Layout_layout_goneMarginEnd com.example.tim3a.eangkotUser:layout_goneMarginEnd}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ConstraintLayout_Layout_layout_goneMarginLeft com.example.tim3a.eangkotUser:layout_goneMarginLeft}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ConstraintLayout_Layout_layout_goneMarginRight com.example.tim3a.eangkotUser:layout_goneMarginRight}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ConstraintLayout_Layout_layout_goneMarginStart com.example.tim3a.eangkotUser:layout_goneMarginStart}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ConstraintLayout_Layout_layout_goneMarginTop com.example.tim3a.eangkotUser:layout_goneMarginTop}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ConstraintLayout_Layout_layout_optimizationLevel com.example.tim3a.eangkotUser:layout_optimizationLevel}</code></td><td></td></tr>
      * </table>
      * @see #ConstraintLayout_Layout_android_orientation
      * @see #ConstraintLayout_Layout_android_maxWidth
@@ -7284,20 +7590,20 @@ public final class R {
      */
     public static final int[] ConstraintLayout_Layout={
       0x010100c4, 0x0101011f, 0x01010120, 0x0101013f, 
-      0x01010140, 0x7f02003a, 0x7f02003b, 0x7f020050, 
-      0x7f020065, 0x7f020066, 0x7f0200ac, 0x7f0200ad, 
-      0x7f0200ae, 0x7f0200af, 0x7f0200b0, 0x7f0200b1, 
-      0x7f0200b2, 0x7f0200b3, 0x7f0200b4, 0x7f0200b5, 
-      0x7f0200b6, 0x7f0200b7, 0x7f0200b8, 0x7f0200b9, 
-      0x7f0200ba, 0x7f0200bb, 0x7f0200bc, 0x7f0200bd, 
-      0x7f0200be, 0x7f0200bf, 0x7f0200c0, 0x7f0200c1, 
-      0x7f0200c2, 0x7f0200c3, 0x7f0200c4, 0x7f0200c5, 
-      0x7f0200c6, 0x7f0200c7, 0x7f0200c8, 0x7f0200c9, 
-      0x7f0200ca, 0x7f0200cb, 0x7f0200cc, 0x7f0200cd, 
-      0x7f0200ce, 0x7f0200cf, 0x7f0200d0, 0x7f0200d1, 
-      0x7f0200d2, 0x7f0200d3, 0x7f0200d4, 0x7f0200d5, 
-      0x7f0200d6, 0x7f0200d7, 0x7f0200d8, 0x7f0200d9, 
-      0x7f0200da, 0x7f0200db, 0x7f0200dc, 0x7f0200dd
+      0x01010140, 0x7f02003a, 0x7f02003b, 0x7f020056, 
+      0x7f02006b, 0x7f02006c, 0x7f0200b7, 0x7f0200b8, 
+      0x7f0200b9, 0x7f0200ba, 0x7f0200bb, 0x7f0200bc, 
+      0x7f0200bd, 0x7f0200be, 0x7f0200bf, 0x7f0200c0, 
+      0x7f0200c1, 0x7f0200c2, 0x7f0200c3, 0x7f0200c4, 
+      0x7f0200c5, 0x7f0200c6, 0x7f0200c7, 0x7f0200c8, 
+      0x7f0200c9, 0x7f0200ca, 0x7f0200cb, 0x7f0200cc, 
+      0x7f0200cd, 0x7f0200ce, 0x7f0200cf, 0x7f0200d0, 
+      0x7f0200d1, 0x7f0200d2, 0x7f0200d3, 0x7f0200d4, 
+      0x7f0200d5, 0x7f0200d6, 0x7f0200d7, 0x7f0200d8, 
+      0x7f0200d9, 0x7f0200da, 0x7f0200db, 0x7f0200dc, 
+      0x7f0200dd, 0x7f0200de, 0x7f0200df, 0x7f0200e0, 
+      0x7f0200e1, 0x7f0200e2, 0x7f0200e3, 0x7f0200e4, 
+      0x7f0200e5, 0x7f0200e6, 0x7f0200e7, 0x7f0200e8
     };
     /**
      * <p>This symbol is the offset where the {@link android.R.attr#orientation}
@@ -7369,17 +7675,17 @@ public final class R {
      */
     public static final int ConstraintLayout_Layout_android_minHeight=4;
     /**
-     * <p>This symbol is the offset where the {@link com.example.akmal_pc.jhotel_android_akmal.R.attr#barrierAllowsGoneWidgets}
+     * <p>This symbol is the offset where the {@link com.example.tim3a.eangkotUser.R.attr#barrierAllowsGoneWidgets}
      * attribute's value can be found in the {@link #ConstraintLayout_Layout} array.
      *
      * <p>May be a boolean value, such as "<code>true</code>" or
      * "<code>false</code>".
      *
-     * @attr name com.example.akmal_pc.jhotel_android_akmal:barrierAllowsGoneWidgets
+     * @attr name com.example.tim3a.eangkotUser:barrierAllowsGoneWidgets
      */
     public static final int ConstraintLayout_Layout_barrierAllowsGoneWidgets=5;
     /**
-     * <p>This symbol is the offset where the {@link com.example.akmal_pc.jhotel_android_akmal.R.attr#barrierDirection}
+     * <p>This symbol is the offset where the {@link com.example.tim3a.eangkotUser.R.attr#barrierDirection}
      * attribute's value can be found in the {@link #ConstraintLayout_Layout} array.
      *
      * <p>Must be one of the following constant values.</p>
@@ -7396,21 +7702,21 @@ public final class R {
      * <tr><td>top</td><td>2</td><td></td></tr>
      * </table>
      *
-     * @attr name com.example.akmal_pc.jhotel_android_akmal:barrierDirection
+     * @attr name com.example.tim3a.eangkotUser:barrierDirection
      */
     public static final int ConstraintLayout_Layout_barrierDirection=6;
     /**
-     * <p>This symbol is the offset where the {@link com.example.akmal_pc.jhotel_android_akmal.R.attr#chainUseRtl}
+     * <p>This symbol is the offset where the {@link com.example.tim3a.eangkotUser.R.attr#chainUseRtl}
      * attribute's value can be found in the {@link #ConstraintLayout_Layout} array.
      *
      * <p>May be a boolean value, such as "<code>true</code>" or
      * "<code>false</code>".
      *
-     * @attr name com.example.akmal_pc.jhotel_android_akmal:chainUseRtl
+     * @attr name com.example.tim3a.eangkotUser:chainUseRtl
      */
     public static final int ConstraintLayout_Layout_chainUseRtl=7;
     /**
-     * <p>This symbol is the offset where the {@link com.example.akmal_pc.jhotel_android_akmal.R.attr#constraintSet}
+     * <p>This symbol is the offset where the {@link com.example.tim3a.eangkotUser.R.attr#constraintSet}
      * attribute's value can be found in the {@link #ConstraintLayout_Layout} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -7418,50 +7724,50 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.example.akmal_pc.jhotel_android_akmal:constraintSet
+     * @attr name com.example.tim3a.eangkotUser:constraintSet
      */
     public static final int ConstraintLayout_Layout_constraintSet=8;
     /**
-     * <p>This symbol is the offset where the {@link com.example.akmal_pc.jhotel_android_akmal.R.attr#constraint_referenced_ids}
+     * <p>This symbol is the offset where the {@link com.example.tim3a.eangkotUser.R.attr#constraint_referenced_ids}
      * attribute's value can be found in the {@link #ConstraintLayout_Layout} array.
      *
      * <p>May be a string value, using '\\;' to escape characters such as
      * '\\n' or '\\uxxxx' for a unicode character;
      *
-     * @attr name com.example.akmal_pc.jhotel_android_akmal:constraint_referenced_ids
+     * @attr name com.example.tim3a.eangkotUser:constraint_referenced_ids
      */
     public static final int ConstraintLayout_Layout_constraint_referenced_ids=9;
     /**
-     * <p>This symbol is the offset where the {@link com.example.akmal_pc.jhotel_android_akmal.R.attr#layout_constrainedHeight}
+     * <p>This symbol is the offset where the {@link com.example.tim3a.eangkotUser.R.attr#layout_constrainedHeight}
      * attribute's value can be found in the {@link #ConstraintLayout_Layout} array.
      *
      * <p>May be a boolean value, such as "<code>true</code>" or
      * "<code>false</code>".
      *
-     * @attr name com.example.akmal_pc.jhotel_android_akmal:layout_constrainedHeight
+     * @attr name com.example.tim3a.eangkotUser:layout_constrainedHeight
      */
     public static final int ConstraintLayout_Layout_layout_constrainedHeight=10;
     /**
-     * <p>This symbol is the offset where the {@link com.example.akmal_pc.jhotel_android_akmal.R.attr#layout_constrainedWidth}
+     * <p>This symbol is the offset where the {@link com.example.tim3a.eangkotUser.R.attr#layout_constrainedWidth}
      * attribute's value can be found in the {@link #ConstraintLayout_Layout} array.
      *
      * <p>May be a boolean value, such as "<code>true</code>" or
      * "<code>false</code>".
      *
-     * @attr name com.example.akmal_pc.jhotel_android_akmal:layout_constrainedWidth
+     * @attr name com.example.tim3a.eangkotUser:layout_constrainedWidth
      */
     public static final int ConstraintLayout_Layout_layout_constrainedWidth=11;
     /**
-     * <p>This symbol is the offset where the {@link com.example.akmal_pc.jhotel_android_akmal.R.attr#layout_constraintBaseline_creator}
+     * <p>This symbol is the offset where the {@link com.example.tim3a.eangkotUser.R.attr#layout_constraintBaseline_creator}
      * attribute's value can be found in the {@link #ConstraintLayout_Layout} array.
      *
      * <p>May be an integer value, such as "<code>100</code>".
      *
-     * @attr name com.example.akmal_pc.jhotel_android_akmal:layout_constraintBaseline_creator
+     * @attr name com.example.tim3a.eangkotUser:layout_constraintBaseline_creator
      */
     public static final int ConstraintLayout_Layout_layout_constraintBaseline_creator=12;
     /**
-     * <p>This symbol is the offset where the {@link com.example.akmal_pc.jhotel_android_akmal.R.attr#layout_constraintBaseline_toBaselineOf}
+     * <p>This symbol is the offset where the {@link com.example.tim3a.eangkotUser.R.attr#layout_constraintBaseline_toBaselineOf}
      * attribute's value can be found in the {@link #ConstraintLayout_Layout} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -7477,20 +7783,20 @@ public final class R {
      * <tr><td>parent</td><td>0</td><td></td></tr>
      * </table>
      *
-     * @attr name com.example.akmal_pc.jhotel_android_akmal:layout_constraintBaseline_toBaselineOf
+     * @attr name com.example.tim3a.eangkotUser:layout_constraintBaseline_toBaselineOf
      */
     public static final int ConstraintLayout_Layout_layout_constraintBaseline_toBaselineOf=13;
     /**
-     * <p>This symbol is the offset where the {@link com.example.akmal_pc.jhotel_android_akmal.R.attr#layout_constraintBottom_creator}
+     * <p>This symbol is the offset where the {@link com.example.tim3a.eangkotUser.R.attr#layout_constraintBottom_creator}
      * attribute's value can be found in the {@link #ConstraintLayout_Layout} array.
      *
      * <p>May be an integer value, such as "<code>100</code>".
      *
-     * @attr name com.example.akmal_pc.jhotel_android_akmal:layout_constraintBottom_creator
+     * @attr name com.example.tim3a.eangkotUser:layout_constraintBottom_creator
      */
     public static final int ConstraintLayout_Layout_layout_constraintBottom_creator=14;
     /**
-     * <p>This symbol is the offset where the {@link com.example.akmal_pc.jhotel_android_akmal.R.attr#layout_constraintBottom_toBottomOf}
+     * <p>This symbol is the offset where the {@link com.example.tim3a.eangkotUser.R.attr#layout_constraintBottom_toBottomOf}
      * attribute's value can be found in the {@link #ConstraintLayout_Layout} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -7506,11 +7812,11 @@ public final class R {
      * <tr><td>parent</td><td>0</td><td></td></tr>
      * </table>
      *
-     * @attr name com.example.akmal_pc.jhotel_android_akmal:layout_constraintBottom_toBottomOf
+     * @attr name com.example.tim3a.eangkotUser:layout_constraintBottom_toBottomOf
      */
     public static final int ConstraintLayout_Layout_layout_constraintBottom_toBottomOf=15;
     /**
-     * <p>This symbol is the offset where the {@link com.example.akmal_pc.jhotel_android_akmal.R.attr#layout_constraintBottom_toTopOf}
+     * <p>This symbol is the offset where the {@link com.example.tim3a.eangkotUser.R.attr#layout_constraintBottom_toTopOf}
      * attribute's value can be found in the {@link #ConstraintLayout_Layout} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -7526,11 +7832,11 @@ public final class R {
      * <tr><td>parent</td><td>0</td><td></td></tr>
      * </table>
      *
-     * @attr name com.example.akmal_pc.jhotel_android_akmal:layout_constraintBottom_toTopOf
+     * @attr name com.example.tim3a.eangkotUser:layout_constraintBottom_toTopOf
      */
     public static final int ConstraintLayout_Layout_layout_constraintBottom_toTopOf=16;
     /**
-     * <p>This symbol is the offset where the {@link com.example.akmal_pc.jhotel_android_akmal.R.attr#layout_constraintCircle}
+     * <p>This symbol is the offset where the {@link com.example.tim3a.eangkotUser.R.attr#layout_constraintCircle}
      * attribute's value can be found in the {@link #ConstraintLayout_Layout} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -7538,20 +7844,20 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.example.akmal_pc.jhotel_android_akmal:layout_constraintCircle
+     * @attr name com.example.tim3a.eangkotUser:layout_constraintCircle
      */
     public static final int ConstraintLayout_Layout_layout_constraintCircle=17;
     /**
-     * <p>This symbol is the offset where the {@link com.example.akmal_pc.jhotel_android_akmal.R.attr#layout_constraintCircleAngle}
+     * <p>This symbol is the offset where the {@link com.example.tim3a.eangkotUser.R.attr#layout_constraintCircleAngle}
      * attribute's value can be found in the {@link #ConstraintLayout_Layout} array.
      *
      * <p>May be an integer value, such as "<code>100</code>".
      *
-     * @attr name com.example.akmal_pc.jhotel_android_akmal:layout_constraintCircleAngle
+     * @attr name com.example.tim3a.eangkotUser:layout_constraintCircleAngle
      */
     public static final int ConstraintLayout_Layout_layout_constraintCircleAngle=18;
     /**
-     * <p>This symbol is the offset where the {@link com.example.akmal_pc.jhotel_android_akmal.R.attr#layout_constraintCircleRadius}
+     * <p>This symbol is the offset where the {@link com.example.tim3a.eangkotUser.R.attr#layout_constraintCircleRadius}
      * attribute's value can be found in the {@link #ConstraintLayout_Layout} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -7560,21 +7866,21 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name com.example.akmal_pc.jhotel_android_akmal:layout_constraintCircleRadius
+     * @attr name com.example.tim3a.eangkotUser:layout_constraintCircleRadius
      */
     public static final int ConstraintLayout_Layout_layout_constraintCircleRadius=19;
     /**
-     * <p>This symbol is the offset where the {@link com.example.akmal_pc.jhotel_android_akmal.R.attr#layout_constraintDimensionRatio}
+     * <p>This symbol is the offset where the {@link com.example.tim3a.eangkotUser.R.attr#layout_constraintDimensionRatio}
      * attribute's value can be found in the {@link #ConstraintLayout_Layout} array.
      *
      * <p>May be a string value, using '\\;' to escape characters such as
      * '\\n' or '\\uxxxx' for a unicode character;
      *
-     * @attr name com.example.akmal_pc.jhotel_android_akmal:layout_constraintDimensionRatio
+     * @attr name com.example.tim3a.eangkotUser:layout_constraintDimensionRatio
      */
     public static final int ConstraintLayout_Layout_layout_constraintDimensionRatio=20;
     /**
-     * <p>This symbol is the offset where the {@link com.example.akmal_pc.jhotel_android_akmal.R.attr#layout_constraintEnd_toEndOf}
+     * <p>This symbol is the offset where the {@link com.example.tim3a.eangkotUser.R.attr#layout_constraintEnd_toEndOf}
      * attribute's value can be found in the {@link #ConstraintLayout_Layout} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -7590,11 +7896,11 @@ public final class R {
      * <tr><td>parent</td><td>0</td><td></td></tr>
      * </table>
      *
-     * @attr name com.example.akmal_pc.jhotel_android_akmal:layout_constraintEnd_toEndOf
+     * @attr name com.example.tim3a.eangkotUser:layout_constraintEnd_toEndOf
      */
     public static final int ConstraintLayout_Layout_layout_constraintEnd_toEndOf=21;
     /**
-     * <p>This symbol is the offset where the {@link com.example.akmal_pc.jhotel_android_akmal.R.attr#layout_constraintEnd_toStartOf}
+     * <p>This symbol is the offset where the {@link com.example.tim3a.eangkotUser.R.attr#layout_constraintEnd_toStartOf}
      * attribute's value can be found in the {@link #ConstraintLayout_Layout} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -7610,11 +7916,11 @@ public final class R {
      * <tr><td>parent</td><td>0</td><td></td></tr>
      * </table>
      *
-     * @attr name com.example.akmal_pc.jhotel_android_akmal:layout_constraintEnd_toStartOf
+     * @attr name com.example.tim3a.eangkotUser:layout_constraintEnd_toStartOf
      */
     public static final int ConstraintLayout_Layout_layout_constraintEnd_toStartOf=22;
     /**
-     * <p>This symbol is the offset where the {@link com.example.akmal_pc.jhotel_android_akmal.R.attr#layout_constraintGuide_begin}
+     * <p>This symbol is the offset where the {@link com.example.tim3a.eangkotUser.R.attr#layout_constraintGuide_begin}
      * attribute's value can be found in the {@link #ConstraintLayout_Layout} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -7623,11 +7929,11 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name com.example.akmal_pc.jhotel_android_akmal:layout_constraintGuide_begin
+     * @attr name com.example.tim3a.eangkotUser:layout_constraintGuide_begin
      */
     public static final int ConstraintLayout_Layout_layout_constraintGuide_begin=23;
     /**
-     * <p>This symbol is the offset where the {@link com.example.akmal_pc.jhotel_android_akmal.R.attr#layout_constraintGuide_end}
+     * <p>This symbol is the offset where the {@link com.example.tim3a.eangkotUser.R.attr#layout_constraintGuide_end}
      * attribute's value can be found in the {@link #ConstraintLayout_Layout} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -7636,20 +7942,20 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name com.example.akmal_pc.jhotel_android_akmal:layout_constraintGuide_end
+     * @attr name com.example.tim3a.eangkotUser:layout_constraintGuide_end
      */
     public static final int ConstraintLayout_Layout_layout_constraintGuide_end=24;
     /**
-     * <p>This symbol is the offset where the {@link com.example.akmal_pc.jhotel_android_akmal.R.attr#layout_constraintGuide_percent}
+     * <p>This symbol is the offset where the {@link com.example.tim3a.eangkotUser.R.attr#layout_constraintGuide_percent}
      * attribute's value can be found in the {@link #ConstraintLayout_Layout} array.
      *
      * <p>May be a floating point value, such as "<code>1.2</code>".
      *
-     * @attr name com.example.akmal_pc.jhotel_android_akmal:layout_constraintGuide_percent
+     * @attr name com.example.tim3a.eangkotUser:layout_constraintGuide_percent
      */
     public static final int ConstraintLayout_Layout_layout_constraintGuide_percent=25;
     /**
-     * <p>This symbol is the offset where the {@link com.example.akmal_pc.jhotel_android_akmal.R.attr#layout_constraintHeight_default}
+     * <p>This symbol is the offset where the {@link com.example.tim3a.eangkotUser.R.attr#layout_constraintHeight_default}
      * attribute's value can be found in the {@link #ConstraintLayout_Layout} array.
      *
      * <p>Must be one of the following constant values.</p>
@@ -7663,11 +7969,11 @@ public final class R {
      * <tr><td>wrap</td><td>1</td><td></td></tr>
      * </table>
      *
-     * @attr name com.example.akmal_pc.jhotel_android_akmal:layout_constraintHeight_default
+     * @attr name com.example.tim3a.eangkotUser:layout_constraintHeight_default
      */
     public static final int ConstraintLayout_Layout_layout_constraintHeight_default=26;
     /**
-     * <p>This symbol is the offset where the {@link com.example.akmal_pc.jhotel_android_akmal.R.attr#layout_constraintHeight_max}
+     * <p>This symbol is the offset where the {@link com.example.tim3a.eangkotUser.R.attr#layout_constraintHeight_max}
      * attribute's value can be found in the {@link #ConstraintLayout_Layout} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -7684,11 +7990,11 @@ public final class R {
      * <tr><td>wrap</td><td>fffffffe</td><td></td></tr>
      * </table>
      *
-     * @attr name com.example.akmal_pc.jhotel_android_akmal:layout_constraintHeight_max
+     * @attr name com.example.tim3a.eangkotUser:layout_constraintHeight_max
      */
     public static final int ConstraintLayout_Layout_layout_constraintHeight_max=27;
     /**
-     * <p>This symbol is the offset where the {@link com.example.akmal_pc.jhotel_android_akmal.R.attr#layout_constraintHeight_min}
+     * <p>This symbol is the offset where the {@link com.example.tim3a.eangkotUser.R.attr#layout_constraintHeight_min}
      * attribute's value can be found in the {@link #ConstraintLayout_Layout} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -7705,29 +8011,29 @@ public final class R {
      * <tr><td>wrap</td><td>fffffffe</td><td></td></tr>
      * </table>
      *
-     * @attr name com.example.akmal_pc.jhotel_android_akmal:layout_constraintHeight_min
+     * @attr name com.example.tim3a.eangkotUser:layout_constraintHeight_min
      */
     public static final int ConstraintLayout_Layout_layout_constraintHeight_min=28;
     /**
-     * <p>This symbol is the offset where the {@link com.example.akmal_pc.jhotel_android_akmal.R.attr#layout_constraintHeight_percent}
+     * <p>This symbol is the offset where the {@link com.example.tim3a.eangkotUser.R.attr#layout_constraintHeight_percent}
      * attribute's value can be found in the {@link #ConstraintLayout_Layout} array.
      *
      * <p>May be a floating point value, such as "<code>1.2</code>".
      *
-     * @attr name com.example.akmal_pc.jhotel_android_akmal:layout_constraintHeight_percent
+     * @attr name com.example.tim3a.eangkotUser:layout_constraintHeight_percent
      */
     public static final int ConstraintLayout_Layout_layout_constraintHeight_percent=29;
     /**
-     * <p>This symbol is the offset where the {@link com.example.akmal_pc.jhotel_android_akmal.R.attr#layout_constraintHorizontal_bias}
+     * <p>This symbol is the offset where the {@link com.example.tim3a.eangkotUser.R.attr#layout_constraintHorizontal_bias}
      * attribute's value can be found in the {@link #ConstraintLayout_Layout} array.
      *
      * <p>May be a floating point value, such as "<code>1.2</code>".
      *
-     * @attr name com.example.akmal_pc.jhotel_android_akmal:layout_constraintHorizontal_bias
+     * @attr name com.example.tim3a.eangkotUser:layout_constraintHorizontal_bias
      */
     public static final int ConstraintLayout_Layout_layout_constraintHorizontal_bias=30;
     /**
-     * <p>This symbol is the offset where the {@link com.example.akmal_pc.jhotel_android_akmal.R.attr#layout_constraintHorizontal_chainStyle}
+     * <p>This symbol is the offset where the {@link com.example.tim3a.eangkotUser.R.attr#layout_constraintHorizontal_chainStyle}
      * attribute's value can be found in the {@link #ConstraintLayout_Layout} array.
      *
      * <p>Must be one of the following constant values.</p>
@@ -7741,29 +8047,29 @@ public final class R {
      * <tr><td>spread_inside</td><td>1</td><td></td></tr>
      * </table>
      *
-     * @attr name com.example.akmal_pc.jhotel_android_akmal:layout_constraintHorizontal_chainStyle
+     * @attr name com.example.tim3a.eangkotUser:layout_constraintHorizontal_chainStyle
      */
     public static final int ConstraintLayout_Layout_layout_constraintHorizontal_chainStyle=31;
     /**
-     * <p>This symbol is the offset where the {@link com.example.akmal_pc.jhotel_android_akmal.R.attr#layout_constraintHorizontal_weight}
+     * <p>This symbol is the offset where the {@link com.example.tim3a.eangkotUser.R.attr#layout_constraintHorizontal_weight}
      * attribute's value can be found in the {@link #ConstraintLayout_Layout} array.
      *
      * <p>May be a floating point value, such as "<code>1.2</code>".
      *
-     * @attr name com.example.akmal_pc.jhotel_android_akmal:layout_constraintHorizontal_weight
+     * @attr name com.example.tim3a.eangkotUser:layout_constraintHorizontal_weight
      */
     public static final int ConstraintLayout_Layout_layout_constraintHorizontal_weight=32;
     /**
-     * <p>This symbol is the offset where the {@link com.example.akmal_pc.jhotel_android_akmal.R.attr#layout_constraintLeft_creator}
+     * <p>This symbol is the offset where the {@link com.example.tim3a.eangkotUser.R.attr#layout_constraintLeft_creator}
      * attribute's value can be found in the {@link #ConstraintLayout_Layout} array.
      *
      * <p>May be an integer value, such as "<code>100</code>".
      *
-     * @attr name com.example.akmal_pc.jhotel_android_akmal:layout_constraintLeft_creator
+     * @attr name com.example.tim3a.eangkotUser:layout_constraintLeft_creator
      */
     public static final int ConstraintLayout_Layout_layout_constraintLeft_creator=33;
     /**
-     * <p>This symbol is the offset where the {@link com.example.akmal_pc.jhotel_android_akmal.R.attr#layout_constraintLeft_toLeftOf}
+     * <p>This symbol is the offset where the {@link com.example.tim3a.eangkotUser.R.attr#layout_constraintLeft_toLeftOf}
      * attribute's value can be found in the {@link #ConstraintLayout_Layout} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -7779,11 +8085,11 @@ public final class R {
      * <tr><td>parent</td><td>0</td><td></td></tr>
      * </table>
      *
-     * @attr name com.example.akmal_pc.jhotel_android_akmal:layout_constraintLeft_toLeftOf
+     * @attr name com.example.tim3a.eangkotUser:layout_constraintLeft_toLeftOf
      */
     public static final int ConstraintLayout_Layout_layout_constraintLeft_toLeftOf=34;
     /**
-     * <p>This symbol is the offset where the {@link com.example.akmal_pc.jhotel_android_akmal.R.attr#layout_constraintLeft_toRightOf}
+     * <p>This symbol is the offset where the {@link com.example.tim3a.eangkotUser.R.attr#layout_constraintLeft_toRightOf}
      * attribute's value can be found in the {@link #ConstraintLayout_Layout} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -7799,20 +8105,20 @@ public final class R {
      * <tr><td>parent</td><td>0</td><td></td></tr>
      * </table>
      *
-     * @attr name com.example.akmal_pc.jhotel_android_akmal:layout_constraintLeft_toRightOf
+     * @attr name com.example.tim3a.eangkotUser:layout_constraintLeft_toRightOf
      */
     public static final int ConstraintLayout_Layout_layout_constraintLeft_toRightOf=35;
     /**
-     * <p>This symbol is the offset where the {@link com.example.akmal_pc.jhotel_android_akmal.R.attr#layout_constraintRight_creator}
+     * <p>This symbol is the offset where the {@link com.example.tim3a.eangkotUser.R.attr#layout_constraintRight_creator}
      * attribute's value can be found in the {@link #ConstraintLayout_Layout} array.
      *
      * <p>May be an integer value, such as "<code>100</code>".
      *
-     * @attr name com.example.akmal_pc.jhotel_android_akmal:layout_constraintRight_creator
+     * @attr name com.example.tim3a.eangkotUser:layout_constraintRight_creator
      */
     public static final int ConstraintLayout_Layout_layout_constraintRight_creator=36;
     /**
-     * <p>This symbol is the offset where the {@link com.example.akmal_pc.jhotel_android_akmal.R.attr#layout_constraintRight_toLeftOf}
+     * <p>This symbol is the offset where the {@link com.example.tim3a.eangkotUser.R.attr#layout_constraintRight_toLeftOf}
      * attribute's value can be found in the {@link #ConstraintLayout_Layout} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -7828,11 +8134,11 @@ public final class R {
      * <tr><td>parent</td><td>0</td><td></td></tr>
      * </table>
      *
-     * @attr name com.example.akmal_pc.jhotel_android_akmal:layout_constraintRight_toLeftOf
+     * @attr name com.example.tim3a.eangkotUser:layout_constraintRight_toLeftOf
      */
     public static final int ConstraintLayout_Layout_layout_constraintRight_toLeftOf=37;
     /**
-     * <p>This symbol is the offset where the {@link com.example.akmal_pc.jhotel_android_akmal.R.attr#layout_constraintRight_toRightOf}
+     * <p>This symbol is the offset where the {@link com.example.tim3a.eangkotUser.R.attr#layout_constraintRight_toRightOf}
      * attribute's value can be found in the {@link #ConstraintLayout_Layout} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -7848,11 +8154,11 @@ public final class R {
      * <tr><td>parent</td><td>0</td><td></td></tr>
      * </table>
      *
-     * @attr name com.example.akmal_pc.jhotel_android_akmal:layout_constraintRight_toRightOf
+     * @attr name com.example.tim3a.eangkotUser:layout_constraintRight_toRightOf
      */
     public static final int ConstraintLayout_Layout_layout_constraintRight_toRightOf=38;
     /**
-     * <p>This symbol is the offset where the {@link com.example.akmal_pc.jhotel_android_akmal.R.attr#layout_constraintStart_toEndOf}
+     * <p>This symbol is the offset where the {@link com.example.tim3a.eangkotUser.R.attr#layout_constraintStart_toEndOf}
      * attribute's value can be found in the {@link #ConstraintLayout_Layout} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -7868,11 +8174,11 @@ public final class R {
      * <tr><td>parent</td><td>0</td><td></td></tr>
      * </table>
      *
-     * @attr name com.example.akmal_pc.jhotel_android_akmal:layout_constraintStart_toEndOf
+     * @attr name com.example.tim3a.eangkotUser:layout_constraintStart_toEndOf
      */
     public static final int ConstraintLayout_Layout_layout_constraintStart_toEndOf=39;
     /**
-     * <p>This symbol is the offset where the {@link com.example.akmal_pc.jhotel_android_akmal.R.attr#layout_constraintStart_toStartOf}
+     * <p>This symbol is the offset where the {@link com.example.tim3a.eangkotUser.R.attr#layout_constraintStart_toStartOf}
      * attribute's value can be found in the {@link #ConstraintLayout_Layout} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -7888,20 +8194,20 @@ public final class R {
      * <tr><td>parent</td><td>0</td><td></td></tr>
      * </table>
      *
-     * @attr name com.example.akmal_pc.jhotel_android_akmal:layout_constraintStart_toStartOf
+     * @attr name com.example.tim3a.eangkotUser:layout_constraintStart_toStartOf
      */
     public static final int ConstraintLayout_Layout_layout_constraintStart_toStartOf=40;
     /**
-     * <p>This symbol is the offset where the {@link com.example.akmal_pc.jhotel_android_akmal.R.attr#layout_constraintTop_creator}
+     * <p>This symbol is the offset where the {@link com.example.tim3a.eangkotUser.R.attr#layout_constraintTop_creator}
      * attribute's value can be found in the {@link #ConstraintLayout_Layout} array.
      *
      * <p>May be an integer value, such as "<code>100</code>".
      *
-     * @attr name com.example.akmal_pc.jhotel_android_akmal:layout_constraintTop_creator
+     * @attr name com.example.tim3a.eangkotUser:layout_constraintTop_creator
      */
     public static final int ConstraintLayout_Layout_layout_constraintTop_creator=41;
     /**
-     * <p>This symbol is the offset where the {@link com.example.akmal_pc.jhotel_android_akmal.R.attr#layout_constraintTop_toBottomOf}
+     * <p>This symbol is the offset where the {@link com.example.tim3a.eangkotUser.R.attr#layout_constraintTop_toBottomOf}
      * attribute's value can be found in the {@link #ConstraintLayout_Layout} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -7917,11 +8223,11 @@ public final class R {
      * <tr><td>parent</td><td>0</td><td></td></tr>
      * </table>
      *
-     * @attr name com.example.akmal_pc.jhotel_android_akmal:layout_constraintTop_toBottomOf
+     * @attr name com.example.tim3a.eangkotUser:layout_constraintTop_toBottomOf
      */
     public static final int ConstraintLayout_Layout_layout_constraintTop_toBottomOf=42;
     /**
-     * <p>This symbol is the offset where the {@link com.example.akmal_pc.jhotel_android_akmal.R.attr#layout_constraintTop_toTopOf}
+     * <p>This symbol is the offset where the {@link com.example.tim3a.eangkotUser.R.attr#layout_constraintTop_toTopOf}
      * attribute's value can be found in the {@link #ConstraintLayout_Layout} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -7937,20 +8243,20 @@ public final class R {
      * <tr><td>parent</td><td>0</td><td></td></tr>
      * </table>
      *
-     * @attr name com.example.akmal_pc.jhotel_android_akmal:layout_constraintTop_toTopOf
+     * @attr name com.example.tim3a.eangkotUser:layout_constraintTop_toTopOf
      */
     public static final int ConstraintLayout_Layout_layout_constraintTop_toTopOf=43;
     /**
-     * <p>This symbol is the offset where the {@link com.example.akmal_pc.jhotel_android_akmal.R.attr#layout_constraintVertical_bias}
+     * <p>This symbol is the offset where the {@link com.example.tim3a.eangkotUser.R.attr#layout_constraintVertical_bias}
      * attribute's value can be found in the {@link #ConstraintLayout_Layout} array.
      *
      * <p>May be a floating point value, such as "<code>1.2</code>".
      *
-     * @attr name com.example.akmal_pc.jhotel_android_akmal:layout_constraintVertical_bias
+     * @attr name com.example.tim3a.eangkotUser:layout_constraintVertical_bias
      */
     public static final int ConstraintLayout_Layout_layout_constraintVertical_bias=44;
     /**
-     * <p>This symbol is the offset where the {@link com.example.akmal_pc.jhotel_android_akmal.R.attr#layout_constraintVertical_chainStyle}
+     * <p>This symbol is the offset where the {@link com.example.tim3a.eangkotUser.R.attr#layout_constraintVertical_chainStyle}
      * attribute's value can be found in the {@link #ConstraintLayout_Layout} array.
      *
      * <p>Must be one of the following constant values.</p>
@@ -7964,20 +8270,20 @@ public final class R {
      * <tr><td>spread_inside</td><td>1</td><td></td></tr>
      * </table>
      *
-     * @attr name com.example.akmal_pc.jhotel_android_akmal:layout_constraintVertical_chainStyle
+     * @attr name com.example.tim3a.eangkotUser:layout_constraintVertical_chainStyle
      */
     public static final int ConstraintLayout_Layout_layout_constraintVertical_chainStyle=45;
     /**
-     * <p>This symbol is the offset where the {@link com.example.akmal_pc.jhotel_android_akmal.R.attr#layout_constraintVertical_weight}
+     * <p>This symbol is the offset where the {@link com.example.tim3a.eangkotUser.R.attr#layout_constraintVertical_weight}
      * attribute's value can be found in the {@link #ConstraintLayout_Layout} array.
      *
      * <p>May be a floating point value, such as "<code>1.2</code>".
      *
-     * @attr name com.example.akmal_pc.jhotel_android_akmal:layout_constraintVertical_weight
+     * @attr name com.example.tim3a.eangkotUser:layout_constraintVertical_weight
      */
     public static final int ConstraintLayout_Layout_layout_constraintVertical_weight=46;
     /**
-     * <p>This symbol is the offset where the {@link com.example.akmal_pc.jhotel_android_akmal.R.attr#layout_constraintWidth_default}
+     * <p>This symbol is the offset where the {@link com.example.tim3a.eangkotUser.R.attr#layout_constraintWidth_default}
      * attribute's value can be found in the {@link #ConstraintLayout_Layout} array.
      *
      * <p>Must be one of the following constant values.</p>
@@ -7991,11 +8297,11 @@ public final class R {
      * <tr><td>wrap</td><td>1</td><td></td></tr>
      * </table>
      *
-     * @attr name com.example.akmal_pc.jhotel_android_akmal:layout_constraintWidth_default
+     * @attr name com.example.tim3a.eangkotUser:layout_constraintWidth_default
      */
     public static final int ConstraintLayout_Layout_layout_constraintWidth_default=47;
     /**
-     * <p>This symbol is the offset where the {@link com.example.akmal_pc.jhotel_android_akmal.R.attr#layout_constraintWidth_max}
+     * <p>This symbol is the offset where the {@link com.example.tim3a.eangkotUser.R.attr#layout_constraintWidth_max}
      * attribute's value can be found in the {@link #ConstraintLayout_Layout} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -8012,11 +8318,11 @@ public final class R {
      * <tr><td>wrap</td><td>fffffffe</td><td></td></tr>
      * </table>
      *
-     * @attr name com.example.akmal_pc.jhotel_android_akmal:layout_constraintWidth_max
+     * @attr name com.example.tim3a.eangkotUser:layout_constraintWidth_max
      */
     public static final int ConstraintLayout_Layout_layout_constraintWidth_max=48;
     /**
-     * <p>This symbol is the offset where the {@link com.example.akmal_pc.jhotel_android_akmal.R.attr#layout_constraintWidth_min}
+     * <p>This symbol is the offset where the {@link com.example.tim3a.eangkotUser.R.attr#layout_constraintWidth_min}
      * attribute's value can be found in the {@link #ConstraintLayout_Layout} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -8033,20 +8339,20 @@ public final class R {
      * <tr><td>wrap</td><td>fffffffe</td><td></td></tr>
      * </table>
      *
-     * @attr name com.example.akmal_pc.jhotel_android_akmal:layout_constraintWidth_min
+     * @attr name com.example.tim3a.eangkotUser:layout_constraintWidth_min
      */
     public static final int ConstraintLayout_Layout_layout_constraintWidth_min=49;
     /**
-     * <p>This symbol is the offset where the {@link com.example.akmal_pc.jhotel_android_akmal.R.attr#layout_constraintWidth_percent}
+     * <p>This symbol is the offset where the {@link com.example.tim3a.eangkotUser.R.attr#layout_constraintWidth_percent}
      * attribute's value can be found in the {@link #ConstraintLayout_Layout} array.
      *
      * <p>May be a floating point value, such as "<code>1.2</code>".
      *
-     * @attr name com.example.akmal_pc.jhotel_android_akmal:layout_constraintWidth_percent
+     * @attr name com.example.tim3a.eangkotUser:layout_constraintWidth_percent
      */
     public static final int ConstraintLayout_Layout_layout_constraintWidth_percent=50;
     /**
-     * <p>This symbol is the offset where the {@link com.example.akmal_pc.jhotel_android_akmal.R.attr#layout_editor_absoluteX}
+     * <p>This symbol is the offset where the {@link com.example.tim3a.eangkotUser.R.attr#layout_editor_absoluteX}
      * attribute's value can be found in the {@link #ConstraintLayout_Layout} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -8055,11 +8361,11 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name com.example.akmal_pc.jhotel_android_akmal:layout_editor_absoluteX
+     * @attr name com.example.tim3a.eangkotUser:layout_editor_absoluteX
      */
     public static final int ConstraintLayout_Layout_layout_editor_absoluteX=51;
     /**
-     * <p>This symbol is the offset where the {@link com.example.akmal_pc.jhotel_android_akmal.R.attr#layout_editor_absoluteY}
+     * <p>This symbol is the offset where the {@link com.example.tim3a.eangkotUser.R.attr#layout_editor_absoluteY}
      * attribute's value can be found in the {@link #ConstraintLayout_Layout} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -8068,11 +8374,11 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name com.example.akmal_pc.jhotel_android_akmal:layout_editor_absoluteY
+     * @attr name com.example.tim3a.eangkotUser:layout_editor_absoluteY
      */
     public static final int ConstraintLayout_Layout_layout_editor_absoluteY=52;
     /**
-     * <p>This symbol is the offset where the {@link com.example.akmal_pc.jhotel_android_akmal.R.attr#layout_goneMarginBottom}
+     * <p>This symbol is the offset where the {@link com.example.tim3a.eangkotUser.R.attr#layout_goneMarginBottom}
      * attribute's value can be found in the {@link #ConstraintLayout_Layout} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -8081,11 +8387,11 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name com.example.akmal_pc.jhotel_android_akmal:layout_goneMarginBottom
+     * @attr name com.example.tim3a.eangkotUser:layout_goneMarginBottom
      */
     public static final int ConstraintLayout_Layout_layout_goneMarginBottom=53;
     /**
-     * <p>This symbol is the offset where the {@link com.example.akmal_pc.jhotel_android_akmal.R.attr#layout_goneMarginEnd}
+     * <p>This symbol is the offset where the {@link com.example.tim3a.eangkotUser.R.attr#layout_goneMarginEnd}
      * attribute's value can be found in the {@link #ConstraintLayout_Layout} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -8094,11 +8400,11 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name com.example.akmal_pc.jhotel_android_akmal:layout_goneMarginEnd
+     * @attr name com.example.tim3a.eangkotUser:layout_goneMarginEnd
      */
     public static final int ConstraintLayout_Layout_layout_goneMarginEnd=54;
     /**
-     * <p>This symbol is the offset where the {@link com.example.akmal_pc.jhotel_android_akmal.R.attr#layout_goneMarginLeft}
+     * <p>This symbol is the offset where the {@link com.example.tim3a.eangkotUser.R.attr#layout_goneMarginLeft}
      * attribute's value can be found in the {@link #ConstraintLayout_Layout} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -8107,11 +8413,11 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name com.example.akmal_pc.jhotel_android_akmal:layout_goneMarginLeft
+     * @attr name com.example.tim3a.eangkotUser:layout_goneMarginLeft
      */
     public static final int ConstraintLayout_Layout_layout_goneMarginLeft=55;
     /**
-     * <p>This symbol is the offset where the {@link com.example.akmal_pc.jhotel_android_akmal.R.attr#layout_goneMarginRight}
+     * <p>This symbol is the offset where the {@link com.example.tim3a.eangkotUser.R.attr#layout_goneMarginRight}
      * attribute's value can be found in the {@link #ConstraintLayout_Layout} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -8120,11 +8426,11 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name com.example.akmal_pc.jhotel_android_akmal:layout_goneMarginRight
+     * @attr name com.example.tim3a.eangkotUser:layout_goneMarginRight
      */
     public static final int ConstraintLayout_Layout_layout_goneMarginRight=56;
     /**
-     * <p>This symbol is the offset where the {@link com.example.akmal_pc.jhotel_android_akmal.R.attr#layout_goneMarginStart}
+     * <p>This symbol is the offset where the {@link com.example.tim3a.eangkotUser.R.attr#layout_goneMarginStart}
      * attribute's value can be found in the {@link #ConstraintLayout_Layout} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -8133,11 +8439,11 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name com.example.akmal_pc.jhotel_android_akmal:layout_goneMarginStart
+     * @attr name com.example.tim3a.eangkotUser:layout_goneMarginStart
      */
     public static final int ConstraintLayout_Layout_layout_goneMarginStart=57;
     /**
-     * <p>This symbol is the offset where the {@link com.example.akmal_pc.jhotel_android_akmal.R.attr#layout_goneMarginTop}
+     * <p>This symbol is the offset where the {@link com.example.tim3a.eangkotUser.R.attr#layout_goneMarginTop}
      * attribute's value can be found in the {@link #ConstraintLayout_Layout} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -8146,11 +8452,11 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name com.example.akmal_pc.jhotel_android_akmal:layout_goneMarginTop
+     * @attr name com.example.tim3a.eangkotUser:layout_goneMarginTop
      */
     public static final int ConstraintLayout_Layout_layout_goneMarginTop=58;
     /**
-     * <p>This symbol is the offset where the {@link com.example.akmal_pc.jhotel_android_akmal.R.attr#layout_optimizationLevel}
+     * <p>This symbol is the offset where the {@link com.example.tim3a.eangkotUser.R.attr#layout_optimizationLevel}
      * attribute's value can be found in the {@link #ConstraintLayout_Layout} array.
      *
      * <p>Must be one or more (separated by '|') of the following constant values.</p>
@@ -8168,7 +8474,7 @@ public final class R {
      * <tr><td>standard</td><td>7</td><td></td></tr>
      * </table>
      *
-     * @attr name com.example.akmal_pc.jhotel_android_akmal:layout_optimizationLevel
+     * @attr name com.example.tim3a.eangkotUser:layout_optimizationLevel
      */
     public static final int ConstraintLayout_Layout_layout_optimizationLevel=59;
     /**
@@ -8178,17 +8484,17 @@ public final class R {
      * <colgroup align="left" />
      * <colgroup align="left" />
      * <tr><th>Attribute</th><th>Description</th></tr>
-     * <tr><td><code>{@link #ConstraintLayout_placeholder_content com.example.akmal_pc.jhotel_android_akmal:content}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ConstraintLayout_placeholder_emptyVisibility com.example.akmal_pc.jhotel_android_akmal:emptyVisibility}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ConstraintLayout_placeholder_content com.example.tim3a.eangkotUser:content}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ConstraintLayout_placeholder_emptyVisibility com.example.tim3a.eangkotUser:emptyVisibility}</code></td><td></td></tr>
      * </table>
      * @see #ConstraintLayout_placeholder_content
      * @see #ConstraintLayout_placeholder_emptyVisibility
      */
     public static final int[] ConstraintLayout_placeholder={
-      0x7f020067, 0x7f020081
+      0x7f02006d, 0x7f02008c
     };
     /**
-     * <p>This symbol is the offset where the {@link com.example.akmal_pc.jhotel_android_akmal.R.attr#content}
+     * <p>This symbol is the offset where the {@link com.example.tim3a.eangkotUser.R.attr#content}
      * attribute's value can be found in the {@link #ConstraintLayout_placeholder} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -8196,11 +8502,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.example.akmal_pc.jhotel_android_akmal:content
+     * @attr name com.example.tim3a.eangkotUser:content
      */
     public static final int ConstraintLayout_placeholder_content=0;
     /**
-     * <p>This symbol is the offset where the {@link com.example.akmal_pc.jhotel_android_akmal.R.attr#emptyVisibility}
+     * <p>This symbol is the offset where the {@link com.example.tim3a.eangkotUser.R.attr#emptyVisibility}
      * attribute's value can be found in the {@link #ConstraintLayout_placeholder} array.
      *
      * <p>Must be one of the following constant values.</p>
@@ -8213,7 +8519,7 @@ public final class R {
      * <tr><td>invisible</td><td>1</td><td></td></tr>
      * </table>
      *
-     * @attr name com.example.akmal_pc.jhotel_android_akmal:emptyVisibility
+     * @attr name com.example.tim3a.eangkotUser:emptyVisibility
      */
     public static final int ConstraintLayout_placeholder_emptyVisibility=1;
     /**
@@ -8250,59 +8556,59 @@ public final class R {
      * <tr><td><code>{@link #ConstraintSet_android_layout_marginEnd android:layout_marginEnd}</code></td><td></td></tr>
      * <tr><td><code>{@link #ConstraintSet_android_translationZ android:translationZ}</code></td><td></td></tr>
      * <tr><td><code>{@link #ConstraintSet_android_elevation android:elevation}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ConstraintSet_barrierAllowsGoneWidgets com.example.akmal_pc.jhotel_android_akmal:barrierAllowsGoneWidgets}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ConstraintSet_barrierDirection com.example.akmal_pc.jhotel_android_akmal:barrierDirection}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ConstraintSet_chainUseRtl com.example.akmal_pc.jhotel_android_akmal:chainUseRtl}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ConstraintSet_constraint_referenced_ids com.example.akmal_pc.jhotel_android_akmal:constraint_referenced_ids}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ConstraintSet_layout_constrainedHeight com.example.akmal_pc.jhotel_android_akmal:layout_constrainedHeight}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ConstraintSet_layout_constrainedWidth com.example.akmal_pc.jhotel_android_akmal:layout_constrainedWidth}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ConstraintSet_layout_constraintBaseline_creator com.example.akmal_pc.jhotel_android_akmal:layout_constraintBaseline_creator}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ConstraintSet_layout_constraintBaseline_toBaselineOf com.example.akmal_pc.jhotel_android_akmal:layout_constraintBaseline_toBaselineOf}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ConstraintSet_layout_constraintBottom_creator com.example.akmal_pc.jhotel_android_akmal:layout_constraintBottom_creator}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ConstraintSet_layout_constraintBottom_toBottomOf com.example.akmal_pc.jhotel_android_akmal:layout_constraintBottom_toBottomOf}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ConstraintSet_layout_constraintBottom_toTopOf com.example.akmal_pc.jhotel_android_akmal:layout_constraintBottom_toTopOf}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ConstraintSet_layout_constraintCircle com.example.akmal_pc.jhotel_android_akmal:layout_constraintCircle}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ConstraintSet_layout_constraintCircleAngle com.example.akmal_pc.jhotel_android_akmal:layout_constraintCircleAngle}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ConstraintSet_layout_constraintCircleRadius com.example.akmal_pc.jhotel_android_akmal:layout_constraintCircleRadius}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ConstraintSet_layout_constraintDimensionRatio com.example.akmal_pc.jhotel_android_akmal:layout_constraintDimensionRatio}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ConstraintSet_layout_constraintEnd_toEndOf com.example.akmal_pc.jhotel_android_akmal:layout_constraintEnd_toEndOf}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ConstraintSet_layout_constraintEnd_toStartOf com.example.akmal_pc.jhotel_android_akmal:layout_constraintEnd_toStartOf}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ConstraintSet_layout_constraintGuide_begin com.example.akmal_pc.jhotel_android_akmal:layout_constraintGuide_begin}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ConstraintSet_layout_constraintGuide_end com.example.akmal_pc.jhotel_android_akmal:layout_constraintGuide_end}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ConstraintSet_layout_constraintGuide_percent com.example.akmal_pc.jhotel_android_akmal:layout_constraintGuide_percent}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ConstraintSet_layout_constraintHeight_default com.example.akmal_pc.jhotel_android_akmal:layout_constraintHeight_default}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ConstraintSet_layout_constraintHeight_max com.example.akmal_pc.jhotel_android_akmal:layout_constraintHeight_max}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ConstraintSet_layout_constraintHeight_min com.example.akmal_pc.jhotel_android_akmal:layout_constraintHeight_min}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ConstraintSet_layout_constraintHeight_percent com.example.akmal_pc.jhotel_android_akmal:layout_constraintHeight_percent}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ConstraintSet_layout_constraintHorizontal_bias com.example.akmal_pc.jhotel_android_akmal:layout_constraintHorizontal_bias}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ConstraintSet_layout_constraintHorizontal_chainStyle com.example.akmal_pc.jhotel_android_akmal:layout_constraintHorizontal_chainStyle}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ConstraintSet_layout_constraintHorizontal_weight com.example.akmal_pc.jhotel_android_akmal:layout_constraintHorizontal_weight}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ConstraintSet_layout_constraintLeft_creator com.example.akmal_pc.jhotel_android_akmal:layout_constraintLeft_creator}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ConstraintSet_layout_constraintLeft_toLeftOf com.example.akmal_pc.jhotel_android_akmal:layout_constraintLeft_toLeftOf}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ConstraintSet_layout_constraintLeft_toRightOf com.example.akmal_pc.jhotel_android_akmal:layout_constraintLeft_toRightOf}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ConstraintSet_layout_constraintRight_creator com.example.akmal_pc.jhotel_android_akmal:layout_constraintRight_creator}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ConstraintSet_layout_constraintRight_toLeftOf com.example.akmal_pc.jhotel_android_akmal:layout_constraintRight_toLeftOf}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ConstraintSet_layout_constraintRight_toRightOf com.example.akmal_pc.jhotel_android_akmal:layout_constraintRight_toRightOf}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ConstraintSet_layout_constraintStart_toEndOf com.example.akmal_pc.jhotel_android_akmal:layout_constraintStart_toEndOf}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ConstraintSet_layout_constraintStart_toStartOf com.example.akmal_pc.jhotel_android_akmal:layout_constraintStart_toStartOf}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ConstraintSet_layout_constraintTop_creator com.example.akmal_pc.jhotel_android_akmal:layout_constraintTop_creator}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ConstraintSet_layout_constraintTop_toBottomOf com.example.akmal_pc.jhotel_android_akmal:layout_constraintTop_toBottomOf}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ConstraintSet_layout_constraintTop_toTopOf com.example.akmal_pc.jhotel_android_akmal:layout_constraintTop_toTopOf}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ConstraintSet_layout_constraintVertical_bias com.example.akmal_pc.jhotel_android_akmal:layout_constraintVertical_bias}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ConstraintSet_layout_constraintVertical_chainStyle com.example.akmal_pc.jhotel_android_akmal:layout_constraintVertical_chainStyle}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ConstraintSet_layout_constraintVertical_weight com.example.akmal_pc.jhotel_android_akmal:layout_constraintVertical_weight}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ConstraintSet_layout_constraintWidth_default com.example.akmal_pc.jhotel_android_akmal:layout_constraintWidth_default}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ConstraintSet_layout_constraintWidth_max com.example.akmal_pc.jhotel_android_akmal:layout_constraintWidth_max}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ConstraintSet_layout_constraintWidth_min com.example.akmal_pc.jhotel_android_akmal:layout_constraintWidth_min}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ConstraintSet_layout_constraintWidth_percent com.example.akmal_pc.jhotel_android_akmal:layout_constraintWidth_percent}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ConstraintSet_layout_editor_absoluteX com.example.akmal_pc.jhotel_android_akmal:layout_editor_absoluteX}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ConstraintSet_layout_editor_absoluteY com.example.akmal_pc.jhotel_android_akmal:layout_editor_absoluteY}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ConstraintSet_layout_goneMarginBottom com.example.akmal_pc.jhotel_android_akmal:layout_goneMarginBottom}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ConstraintSet_layout_goneMarginEnd com.example.akmal_pc.jhotel_android_akmal:layout_goneMarginEnd}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ConstraintSet_layout_goneMarginLeft com.example.akmal_pc.jhotel_android_akmal:layout_goneMarginLeft}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ConstraintSet_layout_goneMarginRight com.example.akmal_pc.jhotel_android_akmal:layout_goneMarginRight}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ConstraintSet_layout_goneMarginStart com.example.akmal_pc.jhotel_android_akmal:layout_goneMarginStart}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ConstraintSet_layout_goneMarginTop com.example.akmal_pc.jhotel_android_akmal:layout_goneMarginTop}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ConstraintSet_barrierAllowsGoneWidgets com.example.tim3a.eangkotUser:barrierAllowsGoneWidgets}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ConstraintSet_barrierDirection com.example.tim3a.eangkotUser:barrierDirection}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ConstraintSet_chainUseRtl com.example.tim3a.eangkotUser:chainUseRtl}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ConstraintSet_constraint_referenced_ids com.example.tim3a.eangkotUser:constraint_referenced_ids}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ConstraintSet_layout_constrainedHeight com.example.tim3a.eangkotUser:layout_constrainedHeight}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ConstraintSet_layout_constrainedWidth com.example.tim3a.eangkotUser:layout_constrainedWidth}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ConstraintSet_layout_constraintBaseline_creator com.example.tim3a.eangkotUser:layout_constraintBaseline_creator}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ConstraintSet_layout_constraintBaseline_toBaselineOf com.example.tim3a.eangkotUser:layout_constraintBaseline_toBaselineOf}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ConstraintSet_layout_constraintBottom_creator com.example.tim3a.eangkotUser:layout_constraintBottom_creator}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ConstraintSet_layout_constraintBottom_toBottomOf com.example.tim3a.eangkotUser:layout_constraintBottom_toBottomOf}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ConstraintSet_layout_constraintBottom_toTopOf com.example.tim3a.eangkotUser:layout_constraintBottom_toTopOf}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ConstraintSet_layout_constraintCircle com.example.tim3a.eangkotUser:layout_constraintCircle}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ConstraintSet_layout_constraintCircleAngle com.example.tim3a.eangkotUser:layout_constraintCircleAngle}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ConstraintSet_layout_constraintCircleRadius com.example.tim3a.eangkotUser:layout_constraintCircleRadius}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ConstraintSet_layout_constraintDimensionRatio com.example.tim3a.eangkotUser:layout_constraintDimensionRatio}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ConstraintSet_layout_constraintEnd_toEndOf com.example.tim3a.eangkotUser:layout_constraintEnd_toEndOf}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ConstraintSet_layout_constraintEnd_toStartOf com.example.tim3a.eangkotUser:layout_constraintEnd_toStartOf}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ConstraintSet_layout_constraintGuide_begin com.example.tim3a.eangkotUser:layout_constraintGuide_begin}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ConstraintSet_layout_constraintGuide_end com.example.tim3a.eangkotUser:layout_constraintGuide_end}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ConstraintSet_layout_constraintGuide_percent com.example.tim3a.eangkotUser:layout_constraintGuide_percent}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ConstraintSet_layout_constraintHeight_default com.example.tim3a.eangkotUser:layout_constraintHeight_default}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ConstraintSet_layout_constraintHeight_max com.example.tim3a.eangkotUser:layout_constraintHeight_max}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ConstraintSet_layout_constraintHeight_min com.example.tim3a.eangkotUser:layout_constraintHeight_min}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ConstraintSet_layout_constraintHeight_percent com.example.tim3a.eangkotUser:layout_constraintHeight_percent}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ConstraintSet_layout_constraintHorizontal_bias com.example.tim3a.eangkotUser:layout_constraintHorizontal_bias}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ConstraintSet_layout_constraintHorizontal_chainStyle com.example.tim3a.eangkotUser:layout_constraintHorizontal_chainStyle}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ConstraintSet_layout_constraintHorizontal_weight com.example.tim3a.eangkotUser:layout_constraintHorizontal_weight}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ConstraintSet_layout_constraintLeft_creator com.example.tim3a.eangkotUser:layout_constraintLeft_creator}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ConstraintSet_layout_constraintLeft_toLeftOf com.example.tim3a.eangkotUser:layout_constraintLeft_toLeftOf}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ConstraintSet_layout_constraintLeft_toRightOf com.example.tim3a.eangkotUser:layout_constraintLeft_toRightOf}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ConstraintSet_layout_constraintRight_creator com.example.tim3a.eangkotUser:layout_constraintRight_creator}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ConstraintSet_layout_constraintRight_toLeftOf com.example.tim3a.eangkotUser:layout_constraintRight_toLeftOf}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ConstraintSet_layout_constraintRight_toRightOf com.example.tim3a.eangkotUser:layout_constraintRight_toRightOf}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ConstraintSet_layout_constraintStart_toEndOf com.example.tim3a.eangkotUser:layout_constraintStart_toEndOf}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ConstraintSet_layout_constraintStart_toStartOf com.example.tim3a.eangkotUser:layout_constraintStart_toStartOf}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ConstraintSet_layout_constraintTop_creator com.example.tim3a.eangkotUser:layout_constraintTop_creator}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ConstraintSet_layout_constraintTop_toBottomOf com.example.tim3a.eangkotUser:layout_constraintTop_toBottomOf}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ConstraintSet_layout_constraintTop_toTopOf com.example.tim3a.eangkotUser:layout_constraintTop_toTopOf}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ConstraintSet_layout_constraintVertical_bias com.example.tim3a.eangkotUser:layout_constraintVertical_bias}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ConstraintSet_layout_constraintVertical_chainStyle com.example.tim3a.eangkotUser:layout_constraintVertical_chainStyle}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ConstraintSet_layout_constraintVertical_weight com.example.tim3a.eangkotUser:layout_constraintVertical_weight}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ConstraintSet_layout_constraintWidth_default com.example.tim3a.eangkotUser:layout_constraintWidth_default}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ConstraintSet_layout_constraintWidth_max com.example.tim3a.eangkotUser:layout_constraintWidth_max}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ConstraintSet_layout_constraintWidth_min com.example.tim3a.eangkotUser:layout_constraintWidth_min}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ConstraintSet_layout_constraintWidth_percent com.example.tim3a.eangkotUser:layout_constraintWidth_percent}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ConstraintSet_layout_editor_absoluteX com.example.tim3a.eangkotUser:layout_editor_absoluteX}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ConstraintSet_layout_editor_absoluteY com.example.tim3a.eangkotUser:layout_editor_absoluteY}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ConstraintSet_layout_goneMarginBottom com.example.tim3a.eangkotUser:layout_goneMarginBottom}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ConstraintSet_layout_goneMarginEnd com.example.tim3a.eangkotUser:layout_goneMarginEnd}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ConstraintSet_layout_goneMarginLeft com.example.tim3a.eangkotUser:layout_goneMarginLeft}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ConstraintSet_layout_goneMarginRight com.example.tim3a.eangkotUser:layout_goneMarginRight}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ConstraintSet_layout_goneMarginStart com.example.tim3a.eangkotUser:layout_goneMarginStart}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ConstraintSet_layout_goneMarginTop com.example.tim3a.eangkotUser:layout_goneMarginTop}</code></td><td></td></tr>
      * </table>
      * @see #ConstraintSet_android_orientation
      * @see #ConstraintSet_android_id
@@ -8393,19 +8699,19 @@ public final class R {
       0x01010322, 0x01010323, 0x01010324, 0x01010325, 
       0x01010326, 0x01010327, 0x01010328, 0x010103b5, 
       0x010103b6, 0x010103fa, 0x01010440, 0x7f02003a, 
-      0x7f02003b, 0x7f020050, 0x7f020066, 0x7f0200ac, 
-      0x7f0200ad, 0x7f0200ae, 0x7f0200af, 0x7f0200b0, 
-      0x7f0200b1, 0x7f0200b2, 0x7f0200b3, 0x7f0200b4, 
-      0x7f0200b5, 0x7f0200b6, 0x7f0200b7, 0x7f0200b8, 
-      0x7f0200b9, 0x7f0200ba, 0x7f0200bb, 0x7f0200bc, 
-      0x7f0200bd, 0x7f0200be, 0x7f0200bf, 0x7f0200c0, 
-      0x7f0200c1, 0x7f0200c2, 0x7f0200c3, 0x7f0200c4, 
-      0x7f0200c5, 0x7f0200c6, 0x7f0200c7, 0x7f0200c8, 
-      0x7f0200c9, 0x7f0200ca, 0x7f0200cb, 0x7f0200cc, 
-      0x7f0200cd, 0x7f0200ce, 0x7f0200cf, 0x7f0200d0, 
-      0x7f0200d1, 0x7f0200d2, 0x7f0200d3, 0x7f0200d4, 
-      0x7f0200d5, 0x7f0200d6, 0x7f0200d7, 0x7f0200d8, 
-      0x7f0200d9, 0x7f0200da, 0x7f0200db, 0x7f0200dc
+      0x7f02003b, 0x7f020056, 0x7f02006c, 0x7f0200b7, 
+      0x7f0200b8, 0x7f0200b9, 0x7f0200ba, 0x7f0200bb, 
+      0x7f0200bc, 0x7f0200bd, 0x7f0200be, 0x7f0200bf, 
+      0x7f0200c0, 0x7f0200c1, 0x7f0200c2, 0x7f0200c3, 
+      0x7f0200c4, 0x7f0200c5, 0x7f0200c6, 0x7f0200c7, 
+      0x7f0200c8, 0x7f0200c9, 0x7f0200ca, 0x7f0200cb, 
+      0x7f0200cc, 0x7f0200cd, 0x7f0200ce, 0x7f0200cf, 
+      0x7f0200d0, 0x7f0200d1, 0x7f0200d2, 0x7f0200d3, 
+      0x7f0200d4, 0x7f0200d5, 0x7f0200d6, 0x7f0200d7, 
+      0x7f0200d8, 0x7f0200d9, 0x7f0200da, 0x7f0200db, 
+      0x7f0200dc, 0x7f0200dd, 0x7f0200de, 0x7f0200df, 
+      0x7f0200e0, 0x7f0200e1, 0x7f0200e2, 0x7f0200e3, 
+      0x7f0200e4, 0x7f0200e5, 0x7f0200e6, 0x7f0200e7
     };
     /**
      * <p>This symbol is the offset where the {@link android.R.attr#orientation}
@@ -8763,17 +9069,17 @@ public final class R {
      */
     public static final int ConstraintSet_android_elevation=26;
     /**
-     * <p>This symbol is the offset where the {@link com.example.akmal_pc.jhotel_android_akmal.R.attr#barrierAllowsGoneWidgets}
+     * <p>This symbol is the offset where the {@link com.example.tim3a.eangkotUser.R.attr#barrierAllowsGoneWidgets}
      * attribute's value can be found in the {@link #ConstraintSet} array.
      *
      * <p>May be a boolean value, such as "<code>true</code>" or
      * "<code>false</code>".
      *
-     * @attr name com.example.akmal_pc.jhotel_android_akmal:barrierAllowsGoneWidgets
+     * @attr name com.example.tim3a.eangkotUser:barrierAllowsGoneWidgets
      */
     public static final int ConstraintSet_barrierAllowsGoneWidgets=27;
     /**
-     * <p>This symbol is the offset where the {@link com.example.akmal_pc.jhotel_android_akmal.R.attr#barrierDirection}
+     * <p>This symbol is the offset where the {@link com.example.tim3a.eangkotUser.R.attr#barrierDirection}
      * attribute's value can be found in the {@link #ConstraintSet} array.
      *
      * <p>Must be one of the following constant values.</p>
@@ -8790,60 +9096,60 @@ public final class R {
      * <tr><td>top</td><td>2</td><td></td></tr>
      * </table>
      *
-     * @attr name com.example.akmal_pc.jhotel_android_akmal:barrierDirection
+     * @attr name com.example.tim3a.eangkotUser:barrierDirection
      */
     public static final int ConstraintSet_barrierDirection=28;
     /**
-     * <p>This symbol is the offset where the {@link com.example.akmal_pc.jhotel_android_akmal.R.attr#chainUseRtl}
+     * <p>This symbol is the offset where the {@link com.example.tim3a.eangkotUser.R.attr#chainUseRtl}
      * attribute's value can be found in the {@link #ConstraintSet} array.
      *
      * <p>May be a boolean value, such as "<code>true</code>" or
      * "<code>false</code>".
      *
-     * @attr name com.example.akmal_pc.jhotel_android_akmal:chainUseRtl
+     * @attr name com.example.tim3a.eangkotUser:chainUseRtl
      */
     public static final int ConstraintSet_chainUseRtl=29;
     /**
-     * <p>This symbol is the offset where the {@link com.example.akmal_pc.jhotel_android_akmal.R.attr#constraint_referenced_ids}
+     * <p>This symbol is the offset where the {@link com.example.tim3a.eangkotUser.R.attr#constraint_referenced_ids}
      * attribute's value can be found in the {@link #ConstraintSet} array.
      *
      * <p>May be a string value, using '\\;' to escape characters such as
      * '\\n' or '\\uxxxx' for a unicode character;
      *
-     * @attr name com.example.akmal_pc.jhotel_android_akmal:constraint_referenced_ids
+     * @attr name com.example.tim3a.eangkotUser:constraint_referenced_ids
      */
     public static final int ConstraintSet_constraint_referenced_ids=30;
     /**
-     * <p>This symbol is the offset where the {@link com.example.akmal_pc.jhotel_android_akmal.R.attr#layout_constrainedHeight}
+     * <p>This symbol is the offset where the {@link com.example.tim3a.eangkotUser.R.attr#layout_constrainedHeight}
      * attribute's value can be found in the {@link #ConstraintSet} array.
      *
      * <p>May be a boolean value, such as "<code>true</code>" or
      * "<code>false</code>".
      *
-     * @attr name com.example.akmal_pc.jhotel_android_akmal:layout_constrainedHeight
+     * @attr name com.example.tim3a.eangkotUser:layout_constrainedHeight
      */
     public static final int ConstraintSet_layout_constrainedHeight=31;
     /**
-     * <p>This symbol is the offset where the {@link com.example.akmal_pc.jhotel_android_akmal.R.attr#layout_constrainedWidth}
+     * <p>This symbol is the offset where the {@link com.example.tim3a.eangkotUser.R.attr#layout_constrainedWidth}
      * attribute's value can be found in the {@link #ConstraintSet} array.
      *
      * <p>May be a boolean value, such as "<code>true</code>" or
      * "<code>false</code>".
      *
-     * @attr name com.example.akmal_pc.jhotel_android_akmal:layout_constrainedWidth
+     * @attr name com.example.tim3a.eangkotUser:layout_constrainedWidth
      */
     public static final int ConstraintSet_layout_constrainedWidth=32;
     /**
-     * <p>This symbol is the offset where the {@link com.example.akmal_pc.jhotel_android_akmal.R.attr#layout_constraintBaseline_creator}
+     * <p>This symbol is the offset where the {@link com.example.tim3a.eangkotUser.R.attr#layout_constraintBaseline_creator}
      * attribute's value can be found in the {@link #ConstraintSet} array.
      *
      * <p>May be an integer value, such as "<code>100</code>".
      *
-     * @attr name com.example.akmal_pc.jhotel_android_akmal:layout_constraintBaseline_creator
+     * @attr name com.example.tim3a.eangkotUser:layout_constraintBaseline_creator
      */
     public static final int ConstraintSet_layout_constraintBaseline_creator=33;
     /**
-     * <p>This symbol is the offset where the {@link com.example.akmal_pc.jhotel_android_akmal.R.attr#layout_constraintBaseline_toBaselineOf}
+     * <p>This symbol is the offset where the {@link com.example.tim3a.eangkotUser.R.attr#layout_constraintBaseline_toBaselineOf}
      * attribute's value can be found in the {@link #ConstraintSet} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -8859,20 +9165,20 @@ public final class R {
      * <tr><td>parent</td><td>0</td><td></td></tr>
      * </table>
      *
-     * @attr name com.example.akmal_pc.jhotel_android_akmal:layout_constraintBaseline_toBaselineOf
+     * @attr name com.example.tim3a.eangkotUser:layout_constraintBaseline_toBaselineOf
      */
     public static final int ConstraintSet_layout_constraintBaseline_toBaselineOf=34;
     /**
-     * <p>This symbol is the offset where the {@link com.example.akmal_pc.jhotel_android_akmal.R.attr#layout_constraintBottom_creator}
+     * <p>This symbol is the offset where the {@link com.example.tim3a.eangkotUser.R.attr#layout_constraintBottom_creator}
      * attribute's value can be found in the {@link #ConstraintSet} array.
      *
      * <p>May be an integer value, such as "<code>100</code>".
      *
-     * @attr name com.example.akmal_pc.jhotel_android_akmal:layout_constraintBottom_creator
+     * @attr name com.example.tim3a.eangkotUser:layout_constraintBottom_creator
      */
     public static final int ConstraintSet_layout_constraintBottom_creator=35;
     /**
-     * <p>This symbol is the offset where the {@link com.example.akmal_pc.jhotel_android_akmal.R.attr#layout_constraintBottom_toBottomOf}
+     * <p>This symbol is the offset where the {@link com.example.tim3a.eangkotUser.R.attr#layout_constraintBottom_toBottomOf}
      * attribute's value can be found in the {@link #ConstraintSet} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -8888,11 +9194,11 @@ public final class R {
      * <tr><td>parent</td><td>0</td><td></td></tr>
      * </table>
      *
-     * @attr name com.example.akmal_pc.jhotel_android_akmal:layout_constraintBottom_toBottomOf
+     * @attr name com.example.tim3a.eangkotUser:layout_constraintBottom_toBottomOf
      */
     public static final int ConstraintSet_layout_constraintBottom_toBottomOf=36;
     /**
-     * <p>This symbol is the offset where the {@link com.example.akmal_pc.jhotel_android_akmal.R.attr#layout_constraintBottom_toTopOf}
+     * <p>This symbol is the offset where the {@link com.example.tim3a.eangkotUser.R.attr#layout_constraintBottom_toTopOf}
      * attribute's value can be found in the {@link #ConstraintSet} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -8908,11 +9214,11 @@ public final class R {
      * <tr><td>parent</td><td>0</td><td></td></tr>
      * </table>
      *
-     * @attr name com.example.akmal_pc.jhotel_android_akmal:layout_constraintBottom_toTopOf
+     * @attr name com.example.tim3a.eangkotUser:layout_constraintBottom_toTopOf
      */
     public static final int ConstraintSet_layout_constraintBottom_toTopOf=37;
     /**
-     * <p>This symbol is the offset where the {@link com.example.akmal_pc.jhotel_android_akmal.R.attr#layout_constraintCircle}
+     * <p>This symbol is the offset where the {@link com.example.tim3a.eangkotUser.R.attr#layout_constraintCircle}
      * attribute's value can be found in the {@link #ConstraintSet} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -8920,20 +9226,20 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.example.akmal_pc.jhotel_android_akmal:layout_constraintCircle
+     * @attr name com.example.tim3a.eangkotUser:layout_constraintCircle
      */
     public static final int ConstraintSet_layout_constraintCircle=38;
     /**
-     * <p>This symbol is the offset where the {@link com.example.akmal_pc.jhotel_android_akmal.R.attr#layout_constraintCircleAngle}
+     * <p>This symbol is the offset where the {@link com.example.tim3a.eangkotUser.R.attr#layout_constraintCircleAngle}
      * attribute's value can be found in the {@link #ConstraintSet} array.
      *
      * <p>May be an integer value, such as "<code>100</code>".
      *
-     * @attr name com.example.akmal_pc.jhotel_android_akmal:layout_constraintCircleAngle
+     * @attr name com.example.tim3a.eangkotUser:layout_constraintCircleAngle
      */
     public static final int ConstraintSet_layout_constraintCircleAngle=39;
     /**
-     * <p>This symbol is the offset where the {@link com.example.akmal_pc.jhotel_android_akmal.R.attr#layout_constraintCircleRadius}
+     * <p>This symbol is the offset where the {@link com.example.tim3a.eangkotUser.R.attr#layout_constraintCircleRadius}
      * attribute's value can be found in the {@link #ConstraintSet} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -8942,21 +9248,21 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name com.example.akmal_pc.jhotel_android_akmal:layout_constraintCircleRadius
+     * @attr name com.example.tim3a.eangkotUser:layout_constraintCircleRadius
      */
     public static final int ConstraintSet_layout_constraintCircleRadius=40;
     /**
-     * <p>This symbol is the offset where the {@link com.example.akmal_pc.jhotel_android_akmal.R.attr#layout_constraintDimensionRatio}
+     * <p>This symbol is the offset where the {@link com.example.tim3a.eangkotUser.R.attr#layout_constraintDimensionRatio}
      * attribute's value can be found in the {@link #ConstraintSet} array.
      *
      * <p>May be a string value, using '\\;' to escape characters such as
      * '\\n' or '\\uxxxx' for a unicode character;
      *
-     * @attr name com.example.akmal_pc.jhotel_android_akmal:layout_constraintDimensionRatio
+     * @attr name com.example.tim3a.eangkotUser:layout_constraintDimensionRatio
      */
     public static final int ConstraintSet_layout_constraintDimensionRatio=41;
     /**
-     * <p>This symbol is the offset where the {@link com.example.akmal_pc.jhotel_android_akmal.R.attr#layout_constraintEnd_toEndOf}
+     * <p>This symbol is the offset where the {@link com.example.tim3a.eangkotUser.R.attr#layout_constraintEnd_toEndOf}
      * attribute's value can be found in the {@link #ConstraintSet} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -8972,11 +9278,11 @@ public final class R {
      * <tr><td>parent</td><td>0</td><td></td></tr>
      * </table>
      *
-     * @attr name com.example.akmal_pc.jhotel_android_akmal:layout_constraintEnd_toEndOf
+     * @attr name com.example.tim3a.eangkotUser:layout_constraintEnd_toEndOf
      */
     public static final int ConstraintSet_layout_constraintEnd_toEndOf=42;
     /**
-     * <p>This symbol is the offset where the {@link com.example.akmal_pc.jhotel_android_akmal.R.attr#layout_constraintEnd_toStartOf}
+     * <p>This symbol is the offset where the {@link com.example.tim3a.eangkotUser.R.attr#layout_constraintEnd_toStartOf}
      * attribute's value can be found in the {@link #ConstraintSet} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -8992,11 +9298,11 @@ public final class R {
      * <tr><td>parent</td><td>0</td><td></td></tr>
      * </table>
      *
-     * @attr name com.example.akmal_pc.jhotel_android_akmal:layout_constraintEnd_toStartOf
+     * @attr name com.example.tim3a.eangkotUser:layout_constraintEnd_toStartOf
      */
     public static final int ConstraintSet_layout_constraintEnd_toStartOf=43;
     /**
-     * <p>This symbol is the offset where the {@link com.example.akmal_pc.jhotel_android_akmal.R.attr#layout_constraintGuide_begin}
+     * <p>This symbol is the offset where the {@link com.example.tim3a.eangkotUser.R.attr#layout_constraintGuide_begin}
      * attribute's value can be found in the {@link #ConstraintSet} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -9005,11 +9311,11 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name com.example.akmal_pc.jhotel_android_akmal:layout_constraintGuide_begin
+     * @attr name com.example.tim3a.eangkotUser:layout_constraintGuide_begin
      */
     public static final int ConstraintSet_layout_constraintGuide_begin=44;
     /**
-     * <p>This symbol is the offset where the {@link com.example.akmal_pc.jhotel_android_akmal.R.attr#layout_constraintGuide_end}
+     * <p>This symbol is the offset where the {@link com.example.tim3a.eangkotUser.R.attr#layout_constraintGuide_end}
      * attribute's value can be found in the {@link #ConstraintSet} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -9018,20 +9324,20 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name com.example.akmal_pc.jhotel_android_akmal:layout_constraintGuide_end
+     * @attr name com.example.tim3a.eangkotUser:layout_constraintGuide_end
      */
     public static final int ConstraintSet_layout_constraintGuide_end=45;
     /**
-     * <p>This symbol is the offset where the {@link com.example.akmal_pc.jhotel_android_akmal.R.attr#layout_constraintGuide_percent}
+     * <p>This symbol is the offset where the {@link com.example.tim3a.eangkotUser.R.attr#layout_constraintGuide_percent}
      * attribute's value can be found in the {@link #ConstraintSet} array.
      *
      * <p>May be a floating point value, such as "<code>1.2</code>".
      *
-     * @attr name com.example.akmal_pc.jhotel_android_akmal:layout_constraintGuide_percent
+     * @attr name com.example.tim3a.eangkotUser:layout_constraintGuide_percent
      */
     public static final int ConstraintSet_layout_constraintGuide_percent=46;
     /**
-     * <p>This symbol is the offset where the {@link com.example.akmal_pc.jhotel_android_akmal.R.attr#layout_constraintHeight_default}
+     * <p>This symbol is the offset where the {@link com.example.tim3a.eangkotUser.R.attr#layout_constraintHeight_default}
      * attribute's value can be found in the {@link #ConstraintSet} array.
      *
      * <p>Must be one of the following constant values.</p>
@@ -9045,11 +9351,11 @@ public final class R {
      * <tr><td>wrap</td><td>1</td><td></td></tr>
      * </table>
      *
-     * @attr name com.example.akmal_pc.jhotel_android_akmal:layout_constraintHeight_default
+     * @attr name com.example.tim3a.eangkotUser:layout_constraintHeight_default
      */
     public static final int ConstraintSet_layout_constraintHeight_default=47;
     /**
-     * <p>This symbol is the offset where the {@link com.example.akmal_pc.jhotel_android_akmal.R.attr#layout_constraintHeight_max}
+     * <p>This symbol is the offset where the {@link com.example.tim3a.eangkotUser.R.attr#layout_constraintHeight_max}
      * attribute's value can be found in the {@link #ConstraintSet} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -9066,11 +9372,11 @@ public final class R {
      * <tr><td>wrap</td><td>fffffffe</td><td></td></tr>
      * </table>
      *
-     * @attr name com.example.akmal_pc.jhotel_android_akmal:layout_constraintHeight_max
+     * @attr name com.example.tim3a.eangkotUser:layout_constraintHeight_max
      */
     public static final int ConstraintSet_layout_constraintHeight_max=48;
     /**
-     * <p>This symbol is the offset where the {@link com.example.akmal_pc.jhotel_android_akmal.R.attr#layout_constraintHeight_min}
+     * <p>This symbol is the offset where the {@link com.example.tim3a.eangkotUser.R.attr#layout_constraintHeight_min}
      * attribute's value can be found in the {@link #ConstraintSet} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -9087,29 +9393,29 @@ public final class R {
      * <tr><td>wrap</td><td>fffffffe</td><td></td></tr>
      * </table>
      *
-     * @attr name com.example.akmal_pc.jhotel_android_akmal:layout_constraintHeight_min
+     * @attr name com.example.tim3a.eangkotUser:layout_constraintHeight_min
      */
     public static final int ConstraintSet_layout_constraintHeight_min=49;
     /**
-     * <p>This symbol is the offset where the {@link com.example.akmal_pc.jhotel_android_akmal.R.attr#layout_constraintHeight_percent}
+     * <p>This symbol is the offset where the {@link com.example.tim3a.eangkotUser.R.attr#layout_constraintHeight_percent}
      * attribute's value can be found in the {@link #ConstraintSet} array.
      *
      * <p>May be a floating point value, such as "<code>1.2</code>".
      *
-     * @attr name com.example.akmal_pc.jhotel_android_akmal:layout_constraintHeight_percent
+     * @attr name com.example.tim3a.eangkotUser:layout_constraintHeight_percent
      */
     public static final int ConstraintSet_layout_constraintHeight_percent=50;
     /**
-     * <p>This symbol is the offset where the {@link com.example.akmal_pc.jhotel_android_akmal.R.attr#layout_constraintHorizontal_bias}
+     * <p>This symbol is the offset where the {@link com.example.tim3a.eangkotUser.R.attr#layout_constraintHorizontal_bias}
      * attribute's value can be found in the {@link #ConstraintSet} array.
      *
      * <p>May be a floating point value, such as "<code>1.2</code>".
      *
-     * @attr name com.example.akmal_pc.jhotel_android_akmal:layout_constraintHorizontal_bias
+     * @attr name com.example.tim3a.eangkotUser:layout_constraintHorizontal_bias
      */
     public static final int ConstraintSet_layout_constraintHorizontal_bias=51;
     /**
-     * <p>This symbol is the offset where the {@link com.example.akmal_pc.jhotel_android_akmal.R.attr#layout_constraintHorizontal_chainStyle}
+     * <p>This symbol is the offset where the {@link com.example.tim3a.eangkotUser.R.attr#layout_constraintHorizontal_chainStyle}
      * attribute's value can be found in the {@link #ConstraintSet} array.
      *
      * <p>Must be one of the following constant values.</p>
@@ -9123,29 +9429,29 @@ public final class R {
      * <tr><td>spread_inside</td><td>1</td><td></td></tr>
      * </table>
      *
-     * @attr name com.example.akmal_pc.jhotel_android_akmal:layout_constraintHorizontal_chainStyle
+     * @attr name com.example.tim3a.eangkotUser:layout_constraintHorizontal_chainStyle
      */
     public static final int ConstraintSet_layout_constraintHorizontal_chainStyle=52;
     /**
-     * <p>This symbol is the offset where the {@link com.example.akmal_pc.jhotel_android_akmal.R.attr#layout_constraintHorizontal_weight}
+     * <p>This symbol is the offset where the {@link com.example.tim3a.eangkotUser.R.attr#layout_constraintHorizontal_weight}
      * attribute's value can be found in the {@link #ConstraintSet} array.
      *
      * <p>May be a floating point value, such as "<code>1.2</code>".
      *
-     * @attr name com.example.akmal_pc.jhotel_android_akmal:layout_constraintHorizontal_weight
+     * @attr name com.example.tim3a.eangkotUser:layout_constraintHorizontal_weight
      */
     public static final int ConstraintSet_layout_constraintHorizontal_weight=53;
     /**
-     * <p>This symbol is the offset where the {@link com.example.akmal_pc.jhotel_android_akmal.R.attr#layout_constraintLeft_creator}
+     * <p>This symbol is the offset where the {@link com.example.tim3a.eangkotUser.R.attr#layout_constraintLeft_creator}
      * attribute's value can be found in the {@link #ConstraintSet} array.
      *
      * <p>May be an integer value, such as "<code>100</code>".
      *
-     * @attr name com.example.akmal_pc.jhotel_android_akmal:layout_constraintLeft_creator
+     * @attr name com.example.tim3a.eangkotUser:layout_constraintLeft_creator
      */
     public static final int ConstraintSet_layout_constraintLeft_creator=54;
     /**
-     * <p>This symbol is the offset where the {@link com.example.akmal_pc.jhotel_android_akmal.R.attr#layout_constraintLeft_toLeftOf}
+     * <p>This symbol is the offset where the {@link com.example.tim3a.eangkotUser.R.attr#layout_constraintLeft_toLeftOf}
      * attribute's value can be found in the {@link #ConstraintSet} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -9161,11 +9467,11 @@ public final class R {
      * <tr><td>parent</td><td>0</td><td></td></tr>
      * </table>
      *
-     * @attr name com.example.akmal_pc.jhotel_android_akmal:layout_constraintLeft_toLeftOf
+     * @attr name com.example.tim3a.eangkotUser:layout_constraintLeft_toLeftOf
      */
     public static final int ConstraintSet_layout_constraintLeft_toLeftOf=55;
     /**
-     * <p>This symbol is the offset where the {@link com.example.akmal_pc.jhotel_android_akmal.R.attr#layout_constraintLeft_toRightOf}
+     * <p>This symbol is the offset where the {@link com.example.tim3a.eangkotUser.R.attr#layout_constraintLeft_toRightOf}
      * attribute's value can be found in the {@link #ConstraintSet} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -9181,20 +9487,20 @@ public final class R {
      * <tr><td>parent</td><td>0</td><td></td></tr>
      * </table>
      *
-     * @attr name com.example.akmal_pc.jhotel_android_akmal:layout_constraintLeft_toRightOf
+     * @attr name com.example.tim3a.eangkotUser:layout_constraintLeft_toRightOf
      */
     public static final int ConstraintSet_layout_constraintLeft_toRightOf=56;
     /**
-     * <p>This symbol is the offset where the {@link com.example.akmal_pc.jhotel_android_akmal.R.attr#layout_constraintRight_creator}
+     * <p>This symbol is the offset where the {@link com.example.tim3a.eangkotUser.R.attr#layout_constraintRight_creator}
      * attribute's value can be found in the {@link #ConstraintSet} array.
      *
      * <p>May be an integer value, such as "<code>100</code>".
      *
-     * @attr name com.example.akmal_pc.jhotel_android_akmal:layout_constraintRight_creator
+     * @attr name com.example.tim3a.eangkotUser:layout_constraintRight_creator
      */
     public static final int ConstraintSet_layout_constraintRight_creator=57;
     /**
-     * <p>This symbol is the offset where the {@link com.example.akmal_pc.jhotel_android_akmal.R.attr#layout_constraintRight_toLeftOf}
+     * <p>This symbol is the offset where the {@link com.example.tim3a.eangkotUser.R.attr#layout_constraintRight_toLeftOf}
      * attribute's value can be found in the {@link #ConstraintSet} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -9210,11 +9516,11 @@ public final class R {
      * <tr><td>parent</td><td>0</td><td></td></tr>
      * </table>
      *
-     * @attr name com.example.akmal_pc.jhotel_android_akmal:layout_constraintRight_toLeftOf
+     * @attr name com.example.tim3a.eangkotUser:layout_constraintRight_toLeftOf
      */
     public static final int ConstraintSet_layout_constraintRight_toLeftOf=58;
     /**
-     * <p>This symbol is the offset where the {@link com.example.akmal_pc.jhotel_android_akmal.R.attr#layout_constraintRight_toRightOf}
+     * <p>This symbol is the offset where the {@link com.example.tim3a.eangkotUser.R.attr#layout_constraintRight_toRightOf}
      * attribute's value can be found in the {@link #ConstraintSet} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -9230,11 +9536,11 @@ public final class R {
      * <tr><td>parent</td><td>0</td><td></td></tr>
      * </table>
      *
-     * @attr name com.example.akmal_pc.jhotel_android_akmal:layout_constraintRight_toRightOf
+     * @attr name com.example.tim3a.eangkotUser:layout_constraintRight_toRightOf
      */
     public static final int ConstraintSet_layout_constraintRight_toRightOf=59;
     /**
-     * <p>This symbol is the offset where the {@link com.example.akmal_pc.jhotel_android_akmal.R.attr#layout_constraintStart_toEndOf}
+     * <p>This symbol is the offset where the {@link com.example.tim3a.eangkotUser.R.attr#layout_constraintStart_toEndOf}
      * attribute's value can be found in the {@link #ConstraintSet} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -9250,11 +9556,11 @@ public final class R {
      * <tr><td>parent</td><td>0</td><td></td></tr>
      * </table>
      *
-     * @attr name com.example.akmal_pc.jhotel_android_akmal:layout_constraintStart_toEndOf
+     * @attr name com.example.tim3a.eangkotUser:layout_constraintStart_toEndOf
      */
     public static final int ConstraintSet_layout_constraintStart_toEndOf=60;
     /**
-     * <p>This symbol is the offset where the {@link com.example.akmal_pc.jhotel_android_akmal.R.attr#layout_constraintStart_toStartOf}
+     * <p>This symbol is the offset where the {@link com.example.tim3a.eangkotUser.R.attr#layout_constraintStart_toStartOf}
      * attribute's value can be found in the {@link #ConstraintSet} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -9270,20 +9576,20 @@ public final class R {
      * <tr><td>parent</td><td>0</td><td></td></tr>
      * </table>
      *
-     * @attr name com.example.akmal_pc.jhotel_android_akmal:layout_constraintStart_toStartOf
+     * @attr name com.example.tim3a.eangkotUser:layout_constraintStart_toStartOf
      */
     public static final int ConstraintSet_layout_constraintStart_toStartOf=61;
     /**
-     * <p>This symbol is the offset where the {@link com.example.akmal_pc.jhotel_android_akmal.R.attr#layout_constraintTop_creator}
+     * <p>This symbol is the offset where the {@link com.example.tim3a.eangkotUser.R.attr#layout_constraintTop_creator}
      * attribute's value can be found in the {@link #ConstraintSet} array.
      *
      * <p>May be an integer value, such as "<code>100</code>".
      *
-     * @attr name com.example.akmal_pc.jhotel_android_akmal:layout_constraintTop_creator
+     * @attr name com.example.tim3a.eangkotUser:layout_constraintTop_creator
      */
     public static final int ConstraintSet_layout_constraintTop_creator=62;
     /**
-     * <p>This symbol is the offset where the {@link com.example.akmal_pc.jhotel_android_akmal.R.attr#layout_constraintTop_toBottomOf}
+     * <p>This symbol is the offset where the {@link com.example.tim3a.eangkotUser.R.attr#layout_constraintTop_toBottomOf}
      * attribute's value can be found in the {@link #ConstraintSet} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -9299,11 +9605,11 @@ public final class R {
      * <tr><td>parent</td><td>0</td><td></td></tr>
      * </table>
      *
-     * @attr name com.example.akmal_pc.jhotel_android_akmal:layout_constraintTop_toBottomOf
+     * @attr name com.example.tim3a.eangkotUser:layout_constraintTop_toBottomOf
      */
     public static final int ConstraintSet_layout_constraintTop_toBottomOf=63;
     /**
-     * <p>This symbol is the offset where the {@link com.example.akmal_pc.jhotel_android_akmal.R.attr#layout_constraintTop_toTopOf}
+     * <p>This symbol is the offset where the {@link com.example.tim3a.eangkotUser.R.attr#layout_constraintTop_toTopOf}
      * attribute's value can be found in the {@link #ConstraintSet} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -9319,20 +9625,20 @@ public final class R {
      * <tr><td>parent</td><td>0</td><td></td></tr>
      * </table>
      *
-     * @attr name com.example.akmal_pc.jhotel_android_akmal:layout_constraintTop_toTopOf
+     * @attr name com.example.tim3a.eangkotUser:layout_constraintTop_toTopOf
      */
     public static final int ConstraintSet_layout_constraintTop_toTopOf=64;
     /**
-     * <p>This symbol is the offset where the {@link com.example.akmal_pc.jhotel_android_akmal.R.attr#layout_constraintVertical_bias}
+     * <p>This symbol is the offset where the {@link com.example.tim3a.eangkotUser.R.attr#layout_constraintVertical_bias}
      * attribute's value can be found in the {@link #ConstraintSet} array.
      *
      * <p>May be a floating point value, such as "<code>1.2</code>".
      *
-     * @attr name com.example.akmal_pc.jhotel_android_akmal:layout_constraintVertical_bias
+     * @attr name com.example.tim3a.eangkotUser:layout_constraintVertical_bias
      */
     public static final int ConstraintSet_layout_constraintVertical_bias=65;
     /**
-     * <p>This symbol is the offset where the {@link com.example.akmal_pc.jhotel_android_akmal.R.attr#layout_constraintVertical_chainStyle}
+     * <p>This symbol is the offset where the {@link com.example.tim3a.eangkotUser.R.attr#layout_constraintVertical_chainStyle}
      * attribute's value can be found in the {@link #ConstraintSet} array.
      *
      * <p>Must be one of the following constant values.</p>
@@ -9346,20 +9652,20 @@ public final class R {
      * <tr><td>spread_inside</td><td>1</td><td></td></tr>
      * </table>
      *
-     * @attr name com.example.akmal_pc.jhotel_android_akmal:layout_constraintVertical_chainStyle
+     * @attr name com.example.tim3a.eangkotUser:layout_constraintVertical_chainStyle
      */
     public static final int ConstraintSet_layout_constraintVertical_chainStyle=66;
     /**
-     * <p>This symbol is the offset where the {@link com.example.akmal_pc.jhotel_android_akmal.R.attr#layout_constraintVertical_weight}
+     * <p>This symbol is the offset where the {@link com.example.tim3a.eangkotUser.R.attr#layout_constraintVertical_weight}
      * attribute's value can be found in the {@link #ConstraintSet} array.
      *
      * <p>May be a floating point value, such as "<code>1.2</code>".
      *
-     * @attr name com.example.akmal_pc.jhotel_android_akmal:layout_constraintVertical_weight
+     * @attr name com.example.tim3a.eangkotUser:layout_constraintVertical_weight
      */
     public static final int ConstraintSet_layout_constraintVertical_weight=67;
     /**
-     * <p>This symbol is the offset where the {@link com.example.akmal_pc.jhotel_android_akmal.R.attr#layout_constraintWidth_default}
+     * <p>This symbol is the offset where the {@link com.example.tim3a.eangkotUser.R.attr#layout_constraintWidth_default}
      * attribute's value can be found in the {@link #ConstraintSet} array.
      *
      * <p>Must be one of the following constant values.</p>
@@ -9373,11 +9679,11 @@ public final class R {
      * <tr><td>wrap</td><td>1</td><td></td></tr>
      * </table>
      *
-     * @attr name com.example.akmal_pc.jhotel_android_akmal:layout_constraintWidth_default
+     * @attr name com.example.tim3a.eangkotUser:layout_constraintWidth_default
      */
     public static final int ConstraintSet_layout_constraintWidth_default=68;
     /**
-     * <p>This symbol is the offset where the {@link com.example.akmal_pc.jhotel_android_akmal.R.attr#layout_constraintWidth_max}
+     * <p>This symbol is the offset where the {@link com.example.tim3a.eangkotUser.R.attr#layout_constraintWidth_max}
      * attribute's value can be found in the {@link #ConstraintSet} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -9394,11 +9700,11 @@ public final class R {
      * <tr><td>wrap</td><td>fffffffe</td><td></td></tr>
      * </table>
      *
-     * @attr name com.example.akmal_pc.jhotel_android_akmal:layout_constraintWidth_max
+     * @attr name com.example.tim3a.eangkotUser:layout_constraintWidth_max
      */
     public static final int ConstraintSet_layout_constraintWidth_max=69;
     /**
-     * <p>This symbol is the offset where the {@link com.example.akmal_pc.jhotel_android_akmal.R.attr#layout_constraintWidth_min}
+     * <p>This symbol is the offset where the {@link com.example.tim3a.eangkotUser.R.attr#layout_constraintWidth_min}
      * attribute's value can be found in the {@link #ConstraintSet} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -9415,20 +9721,20 @@ public final class R {
      * <tr><td>wrap</td><td>fffffffe</td><td></td></tr>
      * </table>
      *
-     * @attr name com.example.akmal_pc.jhotel_android_akmal:layout_constraintWidth_min
+     * @attr name com.example.tim3a.eangkotUser:layout_constraintWidth_min
      */
     public static final int ConstraintSet_layout_constraintWidth_min=70;
     /**
-     * <p>This symbol is the offset where the {@link com.example.akmal_pc.jhotel_android_akmal.R.attr#layout_constraintWidth_percent}
+     * <p>This symbol is the offset where the {@link com.example.tim3a.eangkotUser.R.attr#layout_constraintWidth_percent}
      * attribute's value can be found in the {@link #ConstraintSet} array.
      *
      * <p>May be a floating point value, such as "<code>1.2</code>".
      *
-     * @attr name com.example.akmal_pc.jhotel_android_akmal:layout_constraintWidth_percent
+     * @attr name com.example.tim3a.eangkotUser:layout_constraintWidth_percent
      */
     public static final int ConstraintSet_layout_constraintWidth_percent=71;
     /**
-     * <p>This symbol is the offset where the {@link com.example.akmal_pc.jhotel_android_akmal.R.attr#layout_editor_absoluteX}
+     * <p>This symbol is the offset where the {@link com.example.tim3a.eangkotUser.R.attr#layout_editor_absoluteX}
      * attribute's value can be found in the {@link #ConstraintSet} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -9437,11 +9743,11 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name com.example.akmal_pc.jhotel_android_akmal:layout_editor_absoluteX
+     * @attr name com.example.tim3a.eangkotUser:layout_editor_absoluteX
      */
     public static final int ConstraintSet_layout_editor_absoluteX=72;
     /**
-     * <p>This symbol is the offset where the {@link com.example.akmal_pc.jhotel_android_akmal.R.attr#layout_editor_absoluteY}
+     * <p>This symbol is the offset where the {@link com.example.tim3a.eangkotUser.R.attr#layout_editor_absoluteY}
      * attribute's value can be found in the {@link #ConstraintSet} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -9450,11 +9756,11 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name com.example.akmal_pc.jhotel_android_akmal:layout_editor_absoluteY
+     * @attr name com.example.tim3a.eangkotUser:layout_editor_absoluteY
      */
     public static final int ConstraintSet_layout_editor_absoluteY=73;
     /**
-     * <p>This symbol is the offset where the {@link com.example.akmal_pc.jhotel_android_akmal.R.attr#layout_goneMarginBottom}
+     * <p>This symbol is the offset where the {@link com.example.tim3a.eangkotUser.R.attr#layout_goneMarginBottom}
      * attribute's value can be found in the {@link #ConstraintSet} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -9463,11 +9769,11 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name com.example.akmal_pc.jhotel_android_akmal:layout_goneMarginBottom
+     * @attr name com.example.tim3a.eangkotUser:layout_goneMarginBottom
      */
     public static final int ConstraintSet_layout_goneMarginBottom=74;
     /**
-     * <p>This symbol is the offset where the {@link com.example.akmal_pc.jhotel_android_akmal.R.attr#layout_goneMarginEnd}
+     * <p>This symbol is the offset where the {@link com.example.tim3a.eangkotUser.R.attr#layout_goneMarginEnd}
      * attribute's value can be found in the {@link #ConstraintSet} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -9476,11 +9782,11 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name com.example.akmal_pc.jhotel_android_akmal:layout_goneMarginEnd
+     * @attr name com.example.tim3a.eangkotUser:layout_goneMarginEnd
      */
     public static final int ConstraintSet_layout_goneMarginEnd=75;
     /**
-     * <p>This symbol is the offset where the {@link com.example.akmal_pc.jhotel_android_akmal.R.attr#layout_goneMarginLeft}
+     * <p>This symbol is the offset where the {@link com.example.tim3a.eangkotUser.R.attr#layout_goneMarginLeft}
      * attribute's value can be found in the {@link #ConstraintSet} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -9489,11 +9795,11 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name com.example.akmal_pc.jhotel_android_akmal:layout_goneMarginLeft
+     * @attr name com.example.tim3a.eangkotUser:layout_goneMarginLeft
      */
     public static final int ConstraintSet_layout_goneMarginLeft=76;
     /**
-     * <p>This symbol is the offset where the {@link com.example.akmal_pc.jhotel_android_akmal.R.attr#layout_goneMarginRight}
+     * <p>This symbol is the offset where the {@link com.example.tim3a.eangkotUser.R.attr#layout_goneMarginRight}
      * attribute's value can be found in the {@link #ConstraintSet} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -9502,11 +9808,11 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name com.example.akmal_pc.jhotel_android_akmal:layout_goneMarginRight
+     * @attr name com.example.tim3a.eangkotUser:layout_goneMarginRight
      */
     public static final int ConstraintSet_layout_goneMarginRight=77;
     /**
-     * <p>This symbol is the offset where the {@link com.example.akmal_pc.jhotel_android_akmal.R.attr#layout_goneMarginStart}
+     * <p>This symbol is the offset where the {@link com.example.tim3a.eangkotUser.R.attr#layout_goneMarginStart}
      * attribute's value can be found in the {@link #ConstraintSet} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -9515,11 +9821,11 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name com.example.akmal_pc.jhotel_android_akmal:layout_goneMarginStart
+     * @attr name com.example.tim3a.eangkotUser:layout_goneMarginStart
      */
     public static final int ConstraintSet_layout_goneMarginStart=78;
     /**
-     * <p>This symbol is the offset where the {@link com.example.akmal_pc.jhotel_android_akmal.R.attr#layout_goneMarginTop}
+     * <p>This symbol is the offset where the {@link com.example.tim3a.eangkotUser.R.attr#layout_goneMarginTop}
      * attribute's value can be found in the {@link #ConstraintSet} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -9528,7 +9834,7 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name com.example.akmal_pc.jhotel_android_akmal:layout_goneMarginTop
+     * @attr name com.example.tim3a.eangkotUser:layout_goneMarginTop
      */
     public static final int ConstraintSet_layout_goneMarginTop=79;
     /**
@@ -9538,14 +9844,14 @@ public final class R {
      * <colgroup align="left" />
      * <colgroup align="left" />
      * <tr><th>Attribute</th><th>Description</th></tr>
-     * <tr><td><code>{@link #DrawerArrowToggle_arrowHeadLength com.example.akmal_pc.jhotel_android_akmal:arrowHeadLength}</code></td><td></td></tr>
-     * <tr><td><code>{@link #DrawerArrowToggle_arrowShaftLength com.example.akmal_pc.jhotel_android_akmal:arrowShaftLength}</code></td><td></td></tr>
-     * <tr><td><code>{@link #DrawerArrowToggle_barLength com.example.akmal_pc.jhotel_android_akmal:barLength}</code></td><td></td></tr>
-     * <tr><td><code>{@link #DrawerArrowToggle_color com.example.akmal_pc.jhotel_android_akmal:color}</code></td><td></td></tr>
-     * <tr><td><code>{@link #DrawerArrowToggle_drawableSize com.example.akmal_pc.jhotel_android_akmal:drawableSize}</code></td><td></td></tr>
-     * <tr><td><code>{@link #DrawerArrowToggle_gapBetweenBars com.example.akmal_pc.jhotel_android_akmal:gapBetweenBars}</code></td><td></td></tr>
-     * <tr><td><code>{@link #DrawerArrowToggle_spinBars com.example.akmal_pc.jhotel_android_akmal:spinBars}</code></td><td></td></tr>
-     * <tr><td><code>{@link #DrawerArrowToggle_thickness com.example.akmal_pc.jhotel_android_akmal:thickness}</code></td><td></td></tr>
+     * <tr><td><code>{@link #DrawerArrowToggle_arrowHeadLength com.example.tim3a.eangkotUser:arrowHeadLength}</code></td><td></td></tr>
+     * <tr><td><code>{@link #DrawerArrowToggle_arrowShaftLength com.example.tim3a.eangkotUser:arrowShaftLength}</code></td><td></td></tr>
+     * <tr><td><code>{@link #DrawerArrowToggle_barLength com.example.tim3a.eangkotUser:barLength}</code></td><td></td></tr>
+     * <tr><td><code>{@link #DrawerArrowToggle_color com.example.tim3a.eangkotUser:color}</code></td><td></td></tr>
+     * <tr><td><code>{@link #DrawerArrowToggle_drawableSize com.example.tim3a.eangkotUser:drawableSize}</code></td><td></td></tr>
+     * <tr><td><code>{@link #DrawerArrowToggle_gapBetweenBars com.example.tim3a.eangkotUser:gapBetweenBars}</code></td><td></td></tr>
+     * <tr><td><code>{@link #DrawerArrowToggle_spinBars com.example.tim3a.eangkotUser:spinBars}</code></td><td></td></tr>
+     * <tr><td><code>{@link #DrawerArrowToggle_thickness com.example.tim3a.eangkotUser:thickness}</code></td><td></td></tr>
      * </table>
      * @see #DrawerArrowToggle_arrowHeadLength
      * @see #DrawerArrowToggle_arrowShaftLength
@@ -9557,11 +9863,11 @@ public final class R {
      * @see #DrawerArrowToggle_thickness
      */
     public static final int[] DrawerArrowToggle={
-      0x7f02002a, 0x7f02002b, 0x7f020039, 0x7f020058, 
-      0x7f020079, 0x7f020096, 0x7f020118, 0x7f020135
+      0x7f02002a, 0x7f02002b, 0x7f020039, 0x7f02005e, 
+      0x7f020084, 0x7f0200a1, 0x7f020123, 0x7f020140
     };
     /**
-     * <p>This symbol is the offset where the {@link com.example.akmal_pc.jhotel_android_akmal.R.attr#arrowHeadLength}
+     * <p>This symbol is the offset where the {@link com.example.tim3a.eangkotUser.R.attr#arrowHeadLength}
      * attribute's value can be found in the {@link #DrawerArrowToggle} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -9570,11 +9876,11 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name com.example.akmal_pc.jhotel_android_akmal:arrowHeadLength
+     * @attr name com.example.tim3a.eangkotUser:arrowHeadLength
      */
     public static final int DrawerArrowToggle_arrowHeadLength=0;
     /**
-     * <p>This symbol is the offset where the {@link com.example.akmal_pc.jhotel_android_akmal.R.attr#arrowShaftLength}
+     * <p>This symbol is the offset where the {@link com.example.tim3a.eangkotUser.R.attr#arrowShaftLength}
      * attribute's value can be found in the {@link #DrawerArrowToggle} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -9583,11 +9889,11 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name com.example.akmal_pc.jhotel_android_akmal:arrowShaftLength
+     * @attr name com.example.tim3a.eangkotUser:arrowShaftLength
      */
     public static final int DrawerArrowToggle_arrowShaftLength=1;
     /**
-     * <p>This symbol is the offset where the {@link com.example.akmal_pc.jhotel_android_akmal.R.attr#barLength}
+     * <p>This symbol is the offset where the {@link com.example.tim3a.eangkotUser.R.attr#barLength}
      * attribute's value can be found in the {@link #DrawerArrowToggle} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -9596,22 +9902,22 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name com.example.akmal_pc.jhotel_android_akmal:barLength
+     * @attr name com.example.tim3a.eangkotUser:barLength
      */
     public static final int DrawerArrowToggle_barLength=2;
     /**
-     * <p>This symbol is the offset where the {@link com.example.akmal_pc.jhotel_android_akmal.R.attr#color}
+     * <p>This symbol is the offset where the {@link com.example.tim3a.eangkotUser.R.attr#color}
      * attribute's value can be found in the {@link #DrawerArrowToggle} array.
      *
      * <p>May be a color value, in the form of "<code>#<i>rgb</i></code>",
      * "<code>#<i>argb</i></code>", "<code>#<i>rrggbb</i></code>", or
      * "<code>#<i>aarrggbb</i></code>".
      *
-     * @attr name com.example.akmal_pc.jhotel_android_akmal:color
+     * @attr name com.example.tim3a.eangkotUser:color
      */
     public static final int DrawerArrowToggle_color=3;
     /**
-     * <p>This symbol is the offset where the {@link com.example.akmal_pc.jhotel_android_akmal.R.attr#drawableSize}
+     * <p>This symbol is the offset where the {@link com.example.tim3a.eangkotUser.R.attr#drawableSize}
      * attribute's value can be found in the {@link #DrawerArrowToggle} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -9620,11 +9926,11 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name com.example.akmal_pc.jhotel_android_akmal:drawableSize
+     * @attr name com.example.tim3a.eangkotUser:drawableSize
      */
     public static final int DrawerArrowToggle_drawableSize=4;
     /**
-     * <p>This symbol is the offset where the {@link com.example.akmal_pc.jhotel_android_akmal.R.attr#gapBetweenBars}
+     * <p>This symbol is the offset where the {@link com.example.tim3a.eangkotUser.R.attr#gapBetweenBars}
      * attribute's value can be found in the {@link #DrawerArrowToggle} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -9633,21 +9939,21 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name com.example.akmal_pc.jhotel_android_akmal:gapBetweenBars
+     * @attr name com.example.tim3a.eangkotUser:gapBetweenBars
      */
     public static final int DrawerArrowToggle_gapBetweenBars=5;
     /**
-     * <p>This symbol is the offset where the {@link com.example.akmal_pc.jhotel_android_akmal.R.attr#spinBars}
+     * <p>This symbol is the offset where the {@link com.example.tim3a.eangkotUser.R.attr#spinBars}
      * attribute's value can be found in the {@link #DrawerArrowToggle} array.
      *
      * <p>May be a boolean value, such as "<code>true</code>" or
      * "<code>false</code>".
      *
-     * @attr name com.example.akmal_pc.jhotel_android_akmal:spinBars
+     * @attr name com.example.tim3a.eangkotUser:spinBars
      */
     public static final int DrawerArrowToggle_spinBars=6;
     /**
-     * <p>This symbol is the offset where the {@link com.example.akmal_pc.jhotel_android_akmal.R.attr#thickness}
+     * <p>This symbol is the offset where the {@link com.example.tim3a.eangkotUser.R.attr#thickness}
      * attribute's value can be found in the {@link #DrawerArrowToggle} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -9656,7 +9962,7 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name com.example.akmal_pc.jhotel_android_akmal:thickness
+     * @attr name com.example.tim3a.eangkotUser:thickness
      */
     public static final int DrawerArrowToggle_thickness=7;
     /**
@@ -9666,12 +9972,12 @@ public final class R {
      * <colgroup align="left" />
      * <colgroup align="left" />
      * <tr><th>Attribute</th><th>Description</th></tr>
-     * <tr><td><code>{@link #FontFamily_fontProviderAuthority com.example.akmal_pc.jhotel_android_akmal:fontProviderAuthority}</code></td><td></td></tr>
-     * <tr><td><code>{@link #FontFamily_fontProviderCerts com.example.akmal_pc.jhotel_android_akmal:fontProviderCerts}</code></td><td></td></tr>
-     * <tr><td><code>{@link #FontFamily_fontProviderFetchStrategy com.example.akmal_pc.jhotel_android_akmal:fontProviderFetchStrategy}</code></td><td></td></tr>
-     * <tr><td><code>{@link #FontFamily_fontProviderFetchTimeout com.example.akmal_pc.jhotel_android_akmal:fontProviderFetchTimeout}</code></td><td></td></tr>
-     * <tr><td><code>{@link #FontFamily_fontProviderPackage com.example.akmal_pc.jhotel_android_akmal:fontProviderPackage}</code></td><td></td></tr>
-     * <tr><td><code>{@link #FontFamily_fontProviderQuery com.example.akmal_pc.jhotel_android_akmal:fontProviderQuery}</code></td><td></td></tr>
+     * <tr><td><code>{@link #FontFamily_fontProviderAuthority com.example.tim3a.eangkotUser:fontProviderAuthority}</code></td><td></td></tr>
+     * <tr><td><code>{@link #FontFamily_fontProviderCerts com.example.tim3a.eangkotUser:fontProviderCerts}</code></td><td></td></tr>
+     * <tr><td><code>{@link #FontFamily_fontProviderFetchStrategy com.example.tim3a.eangkotUser:fontProviderFetchStrategy}</code></td><td></td></tr>
+     * <tr><td><code>{@link #FontFamily_fontProviderFetchTimeout com.example.tim3a.eangkotUser:fontProviderFetchTimeout}</code></td><td></td></tr>
+     * <tr><td><code>{@link #FontFamily_fontProviderPackage com.example.tim3a.eangkotUser:fontProviderPackage}</code></td><td></td></tr>
+     * <tr><td><code>{@link #FontFamily_fontProviderQuery com.example.tim3a.eangkotUser:fontProviderQuery}</code></td><td></td></tr>
      * </table>
      * @see #FontFamily_fontProviderAuthority
      * @see #FontFamily_fontProviderCerts
@@ -9681,21 +9987,21 @@ public final class R {
      * @see #FontFamily_fontProviderQuery
      */
     public static final int[] FontFamily={
-      0x7f020087, 0x7f020088, 0x7f020089, 0x7f02008a, 
-      0x7f02008b, 0x7f02008c
+      0x7f020092, 0x7f020093, 0x7f020094, 0x7f020095, 
+      0x7f020096, 0x7f020097
     };
     /**
-     * <p>This symbol is the offset where the {@link com.example.akmal_pc.jhotel_android_akmal.R.attr#fontProviderAuthority}
+     * <p>This symbol is the offset where the {@link com.example.tim3a.eangkotUser.R.attr#fontProviderAuthority}
      * attribute's value can be found in the {@link #FontFamily} array.
      *
      * <p>May be a string value, using '\\;' to escape characters such as
      * '\\n' or '\\uxxxx' for a unicode character;
      *
-     * @attr name com.example.akmal_pc.jhotel_android_akmal:fontProviderAuthority
+     * @attr name com.example.tim3a.eangkotUser:fontProviderAuthority
      */
     public static final int FontFamily_fontProviderAuthority=0;
     /**
-     * <p>This symbol is the offset where the {@link com.example.akmal_pc.jhotel_android_akmal.R.attr#fontProviderCerts}
+     * <p>This symbol is the offset where the {@link com.example.tim3a.eangkotUser.R.attr#fontProviderCerts}
      * attribute's value can be found in the {@link #FontFamily} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -9703,11 +10009,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.example.akmal_pc.jhotel_android_akmal:fontProviderCerts
+     * @attr name com.example.tim3a.eangkotUser:fontProviderCerts
      */
     public static final int FontFamily_fontProviderCerts=1;
     /**
-     * <p>This symbol is the offset where the {@link com.example.akmal_pc.jhotel_android_akmal.R.attr#fontProviderFetchStrategy}
+     * <p>This symbol is the offset where the {@link com.example.tim3a.eangkotUser.R.attr#fontProviderFetchStrategy}
      * attribute's value can be found in the {@link #FontFamily} array.
      *
      * <p>Must be one of the following constant values.</p>
@@ -9720,11 +10026,11 @@ public final class R {
      * <tr><td>blocking</td><td>0</td><td></td></tr>
      * </table>
      *
-     * @attr name com.example.akmal_pc.jhotel_android_akmal:fontProviderFetchStrategy
+     * @attr name com.example.tim3a.eangkotUser:fontProviderFetchStrategy
      */
     public static final int FontFamily_fontProviderFetchStrategy=2;
     /**
-     * <p>This symbol is the offset where the {@link com.example.akmal_pc.jhotel_android_akmal.R.attr#fontProviderFetchTimeout}
+     * <p>This symbol is the offset where the {@link com.example.tim3a.eangkotUser.R.attr#fontProviderFetchTimeout}
      * attribute's value can be found in the {@link #FontFamily} array.
      *
      * <p>May be an integer value, such as "<code>100</code>".
@@ -9737,27 +10043,27 @@ public final class R {
      * <tr><td>forever</td><td>ffffffff</td><td></td></tr>
      * </table>
      *
-     * @attr name com.example.akmal_pc.jhotel_android_akmal:fontProviderFetchTimeout
+     * @attr name com.example.tim3a.eangkotUser:fontProviderFetchTimeout
      */
     public static final int FontFamily_fontProviderFetchTimeout=3;
     /**
-     * <p>This symbol is the offset where the {@link com.example.akmal_pc.jhotel_android_akmal.R.attr#fontProviderPackage}
+     * <p>This symbol is the offset where the {@link com.example.tim3a.eangkotUser.R.attr#fontProviderPackage}
      * attribute's value can be found in the {@link #FontFamily} array.
      *
      * <p>May be a string value, using '\\;' to escape characters such as
      * '\\n' or '\\uxxxx' for a unicode character;
      *
-     * @attr name com.example.akmal_pc.jhotel_android_akmal:fontProviderPackage
+     * @attr name com.example.tim3a.eangkotUser:fontProviderPackage
      */
     public static final int FontFamily_fontProviderPackage=4;
     /**
-     * <p>This symbol is the offset where the {@link com.example.akmal_pc.jhotel_android_akmal.R.attr#fontProviderQuery}
+     * <p>This symbol is the offset where the {@link com.example.tim3a.eangkotUser.R.attr#fontProviderQuery}
      * attribute's value can be found in the {@link #FontFamily} array.
      *
      * <p>May be a string value, using '\\;' to escape characters such as
      * '\\n' or '\\uxxxx' for a unicode character;
      *
-     * @attr name com.example.akmal_pc.jhotel_android_akmal:fontProviderQuery
+     * @attr name com.example.tim3a.eangkotUser:fontProviderQuery
      */
     public static final int FontFamily_fontProviderQuery=5;
     /**
@@ -9767,19 +10073,19 @@ public final class R {
      * <colgroup align="left" />
      * <colgroup align="left" />
      * <tr><th>Attribute</th><th>Description</th></tr>
-     * <tr><td><code>{@link #FontFamilyFont_font com.example.akmal_pc.jhotel_android_akmal:font}</code></td><td></td></tr>
-     * <tr><td><code>{@link #FontFamilyFont_fontStyle com.example.akmal_pc.jhotel_android_akmal:fontStyle}</code></td><td></td></tr>
-     * <tr><td><code>{@link #FontFamilyFont_fontWeight com.example.akmal_pc.jhotel_android_akmal:fontWeight}</code></td><td></td></tr>
+     * <tr><td><code>{@link #FontFamilyFont_font com.example.tim3a.eangkotUser:font}</code></td><td></td></tr>
+     * <tr><td><code>{@link #FontFamilyFont_fontStyle com.example.tim3a.eangkotUser:fontStyle}</code></td><td></td></tr>
+     * <tr><td><code>{@link #FontFamilyFont_fontWeight com.example.tim3a.eangkotUser:fontWeight}</code></td><td></td></tr>
      * </table>
      * @see #FontFamilyFont_font
      * @see #FontFamilyFont_fontStyle
      * @see #FontFamilyFont_fontWeight
      */
     public static final int[] FontFamilyFont={
-      0x7f020085, 0x7f02008d, 0x7f02008e
+      0x7f020090, 0x7f020098, 0x7f020099
     };
     /**
-     * <p>This symbol is the offset where the {@link com.example.akmal_pc.jhotel_android_akmal.R.attr#font}
+     * <p>This symbol is the offset where the {@link com.example.tim3a.eangkotUser.R.attr#font}
      * attribute's value can be found in the {@link #FontFamilyFont} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -9787,11 +10093,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.example.akmal_pc.jhotel_android_akmal:font
+     * @attr name com.example.tim3a.eangkotUser:font
      */
     public static final int FontFamilyFont_font=0;
     /**
-     * <p>This symbol is the offset where the {@link com.example.akmal_pc.jhotel_android_akmal.R.attr#fontStyle}
+     * <p>This symbol is the offset where the {@link com.example.tim3a.eangkotUser.R.attr#fontStyle}
      * attribute's value can be found in the {@link #FontFamilyFont} array.
      *
      * <p>Must be one of the following constant values.</p>
@@ -9804,16 +10110,16 @@ public final class R {
      * <tr><td>normal</td><td>0</td><td></td></tr>
      * </table>
      *
-     * @attr name com.example.akmal_pc.jhotel_android_akmal:fontStyle
+     * @attr name com.example.tim3a.eangkotUser:fontStyle
      */
     public static final int FontFamilyFont_fontStyle=1;
     /**
-     * <p>This symbol is the offset where the {@link com.example.akmal_pc.jhotel_android_akmal.R.attr#fontWeight}
+     * <p>This symbol is the offset where the {@link com.example.tim3a.eangkotUser.R.attr#fontWeight}
      * attribute's value can be found in the {@link #FontFamilyFont} array.
      *
      * <p>May be an integer value, such as "<code>100</code>".
      *
-     * @attr name com.example.akmal_pc.jhotel_android_akmal:fontWeight
+     * @attr name com.example.tim3a.eangkotUser:fontWeight
      */
     public static final int FontFamilyFont_fontWeight=2;
     /**
@@ -9859,10 +10165,10 @@ public final class R {
      * <tr><td><code>{@link #LinearLayoutCompat_android_baselineAligned android:baselineAligned}</code></td><td></td></tr>
      * <tr><td><code>{@link #LinearLayoutCompat_android_baselineAlignedChildIndex android:baselineAlignedChildIndex}</code></td><td></td></tr>
      * <tr><td><code>{@link #LinearLayoutCompat_android_weightSum android:weightSum}</code></td><td></td></tr>
-     * <tr><td><code>{@link #LinearLayoutCompat_divider com.example.akmal_pc.jhotel_android_akmal:divider}</code></td><td></td></tr>
-     * <tr><td><code>{@link #LinearLayoutCompat_dividerPadding com.example.akmal_pc.jhotel_android_akmal:dividerPadding}</code></td><td></td></tr>
-     * <tr><td><code>{@link #LinearLayoutCompat_measureWithLargestChild com.example.akmal_pc.jhotel_android_akmal:measureWithLargestChild}</code></td><td></td></tr>
-     * <tr><td><code>{@link #LinearLayoutCompat_showDividers com.example.akmal_pc.jhotel_android_akmal:showDividers}</code></td><td></td></tr>
+     * <tr><td><code>{@link #LinearLayoutCompat_divider com.example.tim3a.eangkotUser:divider}</code></td><td></td></tr>
+     * <tr><td><code>{@link #LinearLayoutCompat_dividerPadding com.example.tim3a.eangkotUser:dividerPadding}</code></td><td></td></tr>
+     * <tr><td><code>{@link #LinearLayoutCompat_measureWithLargestChild com.example.tim3a.eangkotUser:measureWithLargestChild}</code></td><td></td></tr>
+     * <tr><td><code>{@link #LinearLayoutCompat_showDividers com.example.tim3a.eangkotUser:showDividers}</code></td><td></td></tr>
      * </table>
      * @see #LinearLayoutCompat_android_gravity
      * @see #LinearLayoutCompat_android_orientation
@@ -9876,8 +10182,8 @@ public final class R {
      */
     public static final int[] LinearLayoutCompat={
       0x010100af, 0x010100c4, 0x01010126, 0x01010127, 
-      0x01010128, 0x7f020075, 0x7f020077, 0x7f0200ef, 
-      0x7f020114
+      0x01010128, 0x7f020080, 0x7f020082, 0x7f0200fa, 
+      0x7f02011f
     };
     /**
      * <p>This symbol is the offset where the {@link android.R.attr#gravity}
@@ -9954,7 +10260,7 @@ public final class R {
      */
     public static final int LinearLayoutCompat_android_weightSum=4;
     /**
-     * <p>This symbol is the offset where the {@link com.example.akmal_pc.jhotel_android_akmal.R.attr#divider}
+     * <p>This symbol is the offset where the {@link com.example.tim3a.eangkotUser.R.attr#divider}
      * attribute's value can be found in the {@link #LinearLayoutCompat} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -9962,11 +10268,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.example.akmal_pc.jhotel_android_akmal:divider
+     * @attr name com.example.tim3a.eangkotUser:divider
      */
     public static final int LinearLayoutCompat_divider=5;
     /**
-     * <p>This symbol is the offset where the {@link com.example.akmal_pc.jhotel_android_akmal.R.attr#dividerPadding}
+     * <p>This symbol is the offset where the {@link com.example.tim3a.eangkotUser.R.attr#dividerPadding}
      * attribute's value can be found in the {@link #LinearLayoutCompat} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -9975,21 +10281,21 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name com.example.akmal_pc.jhotel_android_akmal:dividerPadding
+     * @attr name com.example.tim3a.eangkotUser:dividerPadding
      */
     public static final int LinearLayoutCompat_dividerPadding=6;
     /**
-     * <p>This symbol is the offset where the {@link com.example.akmal_pc.jhotel_android_akmal.R.attr#measureWithLargestChild}
+     * <p>This symbol is the offset where the {@link com.example.tim3a.eangkotUser.R.attr#measureWithLargestChild}
      * attribute's value can be found in the {@link #LinearLayoutCompat} array.
      *
      * <p>May be a boolean value, such as "<code>true</code>" or
      * "<code>false</code>".
      *
-     * @attr name com.example.akmal_pc.jhotel_android_akmal:measureWithLargestChild
+     * @attr name com.example.tim3a.eangkotUser:measureWithLargestChild
      */
     public static final int LinearLayoutCompat_measureWithLargestChild=7;
     /**
-     * <p>This symbol is the offset where the {@link com.example.akmal_pc.jhotel_android_akmal.R.attr#showDividers}
+     * <p>This symbol is the offset where the {@link com.example.tim3a.eangkotUser.R.attr#showDividers}
      * attribute's value can be found in the {@link #LinearLayoutCompat} array.
      *
      * <p>Must be one or more (separated by '|') of the following constant values.</p>
@@ -10004,7 +10310,7 @@ public final class R {
      * <tr><td>none</td><td>0</td><td></td></tr>
      * </table>
      *
-     * @attr name com.example.akmal_pc.jhotel_android_akmal:showDividers
+     * @attr name com.example.tim3a.eangkotUser:showDividers
      */
     public static final int LinearLayoutCompat_showDividers=8;
     /**
@@ -10160,38 +10466,38 @@ public final class R {
      * <colgroup align="left" />
      * <colgroup align="left" />
      * <tr><th>Attribute</th><th>Description</th></tr>
-     * <tr><td><code>{@link #LoadingImageView_circleCrop com.example.akmal_pc.jhotel_android_akmal:circleCrop}</code></td><td></td></tr>
-     * <tr><td><code>{@link #LoadingImageView_imageAspectRatio com.example.akmal_pc.jhotel_android_akmal:imageAspectRatio}</code></td><td></td></tr>
-     * <tr><td><code>{@link #LoadingImageView_imageAspectRatioAdjust com.example.akmal_pc.jhotel_android_akmal:imageAspectRatioAdjust}</code></td><td></td></tr>
+     * <tr><td><code>{@link #LoadingImageView_circleCrop com.example.tim3a.eangkotUser:circleCrop}</code></td><td></td></tr>
+     * <tr><td><code>{@link #LoadingImageView_imageAspectRatio com.example.tim3a.eangkotUser:imageAspectRatio}</code></td><td></td></tr>
+     * <tr><td><code>{@link #LoadingImageView_imageAspectRatioAdjust com.example.tim3a.eangkotUser:imageAspectRatioAdjust}</code></td><td></td></tr>
      * </table>
      * @see #LoadingImageView_circleCrop
      * @see #LoadingImageView_imageAspectRatio
      * @see #LoadingImageView_imageAspectRatioAdjust
      */
     public static final int[] LoadingImageView={
-      0x7f020053, 0x7f0200a0, 0x7f0200a1
+      0x7f020059, 0x7f0200ab, 0x7f0200ac
     };
     /**
-     * <p>This symbol is the offset where the {@link com.example.akmal_pc.jhotel_android_akmal.R.attr#circleCrop}
+     * <p>This symbol is the offset where the {@link com.example.tim3a.eangkotUser.R.attr#circleCrop}
      * attribute's value can be found in the {@link #LoadingImageView} array.
      *
      * <p>May be a boolean value, such as "<code>true</code>" or
      * "<code>false</code>".
      *
-     * @attr name com.example.akmal_pc.jhotel_android_akmal:circleCrop
+     * @attr name com.example.tim3a.eangkotUser:circleCrop
      */
     public static final int LoadingImageView_circleCrop=0;
     /**
-     * <p>This symbol is the offset where the {@link com.example.akmal_pc.jhotel_android_akmal.R.attr#imageAspectRatio}
+     * <p>This symbol is the offset where the {@link com.example.tim3a.eangkotUser.R.attr#imageAspectRatio}
      * attribute's value can be found in the {@link #LoadingImageView} array.
      *
      * <p>May be a floating point value, such as "<code>1.2</code>".
      *
-     * @attr name com.example.akmal_pc.jhotel_android_akmal:imageAspectRatio
+     * @attr name com.example.tim3a.eangkotUser:imageAspectRatio
      */
     public static final int LoadingImageView_imageAspectRatio=1;
     /**
-     * <p>This symbol is the offset where the {@link com.example.akmal_pc.jhotel_android_akmal.R.attr#imageAspectRatioAdjust}
+     * <p>This symbol is the offset where the {@link com.example.tim3a.eangkotUser.R.attr#imageAspectRatioAdjust}
      * attribute's value can be found in the {@link #LoadingImageView} array.
      *
      * <p>Must be one of the following constant values.</p>
@@ -10205,7 +10511,7 @@ public final class R {
      * <tr><td>none</td><td>0</td><td></td></tr>
      * </table>
      *
-     * @attr name com.example.akmal_pc.jhotel_android_akmal:imageAspectRatioAdjust
+     * @attr name com.example.tim3a.eangkotUser:imageAspectRatioAdjust
      */
     public static final int LoadingImageView_imageAspectRatioAdjust=2;
     /**
@@ -10215,30 +10521,30 @@ public final class R {
      * <colgroup align="left" />
      * <colgroup align="left" />
      * <tr><th>Attribute</th><th>Description</th></tr>
-     * <tr><td><code>{@link #MapAttrs_ambientEnabled com.example.akmal_pc.jhotel_android_akmal:ambientEnabled}</code></td><td></td></tr>
-     * <tr><td><code>{@link #MapAttrs_cameraBearing com.example.akmal_pc.jhotel_android_akmal:cameraBearing}</code></td><td></td></tr>
-     * <tr><td><code>{@link #MapAttrs_cameraMaxZoomPreference com.example.akmal_pc.jhotel_android_akmal:cameraMaxZoomPreference}</code></td><td></td></tr>
-     * <tr><td><code>{@link #MapAttrs_cameraMinZoomPreference com.example.akmal_pc.jhotel_android_akmal:cameraMinZoomPreference}</code></td><td></td></tr>
-     * <tr><td><code>{@link #MapAttrs_cameraTargetLat com.example.akmal_pc.jhotel_android_akmal:cameraTargetLat}</code></td><td></td></tr>
-     * <tr><td><code>{@link #MapAttrs_cameraTargetLng com.example.akmal_pc.jhotel_android_akmal:cameraTargetLng}</code></td><td></td></tr>
-     * <tr><td><code>{@link #MapAttrs_cameraTilt com.example.akmal_pc.jhotel_android_akmal:cameraTilt}</code></td><td></td></tr>
-     * <tr><td><code>{@link #MapAttrs_cameraZoom com.example.akmal_pc.jhotel_android_akmal:cameraZoom}</code></td><td></td></tr>
-     * <tr><td><code>{@link #MapAttrs_latLngBoundsNorthEastLatitude com.example.akmal_pc.jhotel_android_akmal:latLngBoundsNorthEastLatitude}</code></td><td></td></tr>
-     * <tr><td><code>{@link #MapAttrs_latLngBoundsNorthEastLongitude com.example.akmal_pc.jhotel_android_akmal:latLngBoundsNorthEastLongitude}</code></td><td></td></tr>
-     * <tr><td><code>{@link #MapAttrs_latLngBoundsSouthWestLatitude com.example.akmal_pc.jhotel_android_akmal:latLngBoundsSouthWestLatitude}</code></td><td></td></tr>
-     * <tr><td><code>{@link #MapAttrs_latLngBoundsSouthWestLongitude com.example.akmal_pc.jhotel_android_akmal:latLngBoundsSouthWestLongitude}</code></td><td></td></tr>
-     * <tr><td><code>{@link #MapAttrs_liteMode com.example.akmal_pc.jhotel_android_akmal:liteMode}</code></td><td></td></tr>
-     * <tr><td><code>{@link #MapAttrs_mapType com.example.akmal_pc.jhotel_android_akmal:mapType}</code></td><td></td></tr>
-     * <tr><td><code>{@link #MapAttrs_uiCompass com.example.akmal_pc.jhotel_android_akmal:uiCompass}</code></td><td></td></tr>
-     * <tr><td><code>{@link #MapAttrs_uiMapToolbar com.example.akmal_pc.jhotel_android_akmal:uiMapToolbar}</code></td><td></td></tr>
-     * <tr><td><code>{@link #MapAttrs_uiRotateGestures com.example.akmal_pc.jhotel_android_akmal:uiRotateGestures}</code></td><td></td></tr>
-     * <tr><td><code>{@link #MapAttrs_uiScrollGestures com.example.akmal_pc.jhotel_android_akmal:uiScrollGestures}</code></td><td></td></tr>
-     * <tr><td><code>{@link #MapAttrs_uiScrollGesturesDuringRotateOrZoom com.example.akmal_pc.jhotel_android_akmal:uiScrollGesturesDuringRotateOrZoom}</code></td><td></td></tr>
-     * <tr><td><code>{@link #MapAttrs_uiTiltGestures com.example.akmal_pc.jhotel_android_akmal:uiTiltGestures}</code></td><td></td></tr>
-     * <tr><td><code>{@link #MapAttrs_uiZoomControls com.example.akmal_pc.jhotel_android_akmal:uiZoomControls}</code></td><td></td></tr>
-     * <tr><td><code>{@link #MapAttrs_uiZoomGestures com.example.akmal_pc.jhotel_android_akmal:uiZoomGestures}</code></td><td></td></tr>
-     * <tr><td><code>{@link #MapAttrs_useViewLifecycle com.example.akmal_pc.jhotel_android_akmal:useViewLifecycle}</code></td><td></td></tr>
-     * <tr><td><code>{@link #MapAttrs_zOrderOnTop com.example.akmal_pc.jhotel_android_akmal:zOrderOnTop}</code></td><td></td></tr>
+     * <tr><td><code>{@link #MapAttrs_ambientEnabled com.example.tim3a.eangkotUser:ambientEnabled}</code></td><td></td></tr>
+     * <tr><td><code>{@link #MapAttrs_cameraBearing com.example.tim3a.eangkotUser:cameraBearing}</code></td><td></td></tr>
+     * <tr><td><code>{@link #MapAttrs_cameraMaxZoomPreference com.example.tim3a.eangkotUser:cameraMaxZoomPreference}</code></td><td></td></tr>
+     * <tr><td><code>{@link #MapAttrs_cameraMinZoomPreference com.example.tim3a.eangkotUser:cameraMinZoomPreference}</code></td><td></td></tr>
+     * <tr><td><code>{@link #MapAttrs_cameraTargetLat com.example.tim3a.eangkotUser:cameraTargetLat}</code></td><td></td></tr>
+     * <tr><td><code>{@link #MapAttrs_cameraTargetLng com.example.tim3a.eangkotUser:cameraTargetLng}</code></td><td></td></tr>
+     * <tr><td><code>{@link #MapAttrs_cameraTilt com.example.tim3a.eangkotUser:cameraTilt}</code></td><td></td></tr>
+     * <tr><td><code>{@link #MapAttrs_cameraZoom com.example.tim3a.eangkotUser:cameraZoom}</code></td><td></td></tr>
+     * <tr><td><code>{@link #MapAttrs_latLngBoundsNorthEastLatitude com.example.tim3a.eangkotUser:latLngBoundsNorthEastLatitude}</code></td><td></td></tr>
+     * <tr><td><code>{@link #MapAttrs_latLngBoundsNorthEastLongitude com.example.tim3a.eangkotUser:latLngBoundsNorthEastLongitude}</code></td><td></td></tr>
+     * <tr><td><code>{@link #MapAttrs_latLngBoundsSouthWestLatitude com.example.tim3a.eangkotUser:latLngBoundsSouthWestLatitude}</code></td><td></td></tr>
+     * <tr><td><code>{@link #MapAttrs_latLngBoundsSouthWestLongitude com.example.tim3a.eangkotUser:latLngBoundsSouthWestLongitude}</code></td><td></td></tr>
+     * <tr><td><code>{@link #MapAttrs_liteMode com.example.tim3a.eangkotUser:liteMode}</code></td><td></td></tr>
+     * <tr><td><code>{@link #MapAttrs_mapType com.example.tim3a.eangkotUser:mapType}</code></td><td></td></tr>
+     * <tr><td><code>{@link #MapAttrs_uiCompass com.example.tim3a.eangkotUser:uiCompass}</code></td><td></td></tr>
+     * <tr><td><code>{@link #MapAttrs_uiMapToolbar com.example.tim3a.eangkotUser:uiMapToolbar}</code></td><td></td></tr>
+     * <tr><td><code>{@link #MapAttrs_uiRotateGestures com.example.tim3a.eangkotUser:uiRotateGestures}</code></td><td></td></tr>
+     * <tr><td><code>{@link #MapAttrs_uiScrollGestures com.example.tim3a.eangkotUser:uiScrollGestures}</code></td><td></td></tr>
+     * <tr><td><code>{@link #MapAttrs_uiScrollGesturesDuringRotateOrZoom com.example.tim3a.eangkotUser:uiScrollGesturesDuringRotateOrZoom}</code></td><td></td></tr>
+     * <tr><td><code>{@link #MapAttrs_uiTiltGestures com.example.tim3a.eangkotUser:uiTiltGestures}</code></td><td></td></tr>
+     * <tr><td><code>{@link #MapAttrs_uiZoomControls com.example.tim3a.eangkotUser:uiZoomControls}</code></td><td></td></tr>
+     * <tr><td><code>{@link #MapAttrs_uiZoomGestures com.example.tim3a.eangkotUser:uiZoomGestures}</code></td><td></td></tr>
+     * <tr><td><code>{@link #MapAttrs_useViewLifecycle com.example.tim3a.eangkotUser:useViewLifecycle}</code></td><td></td></tr>
+     * <tr><td><code>{@link #MapAttrs_zOrderOnTop com.example.tim3a.eangkotUser:zOrderOnTop}</code></td><td></td></tr>
      * </table>
      * @see #MapAttrs_ambientEnabled
      * @see #MapAttrs_cameraBearing
@@ -10268,132 +10574,132 @@ public final class R {
     public static final int[] MapAttrs={
       0x7f020029, 0x7f020049, 0x7f02004a, 0x7f02004b, 
       0x7f02004c, 0x7f02004d, 0x7f02004e, 0x7f02004f, 
-      0x7f0200a7, 0x7f0200a8, 0x7f0200a9, 0x7f0200aa, 
-      0x7f0200e9, 0x7f0200ec, 0x7f020150, 0x7f020151, 
-      0x7f020152, 0x7f020153, 0x7f020154, 0x7f020155, 
-      0x7f020156, 0x7f020157, 0x7f020158, 0x7f020164
+      0x7f0200b2, 0x7f0200b3, 0x7f0200b4, 0x7f0200b5, 
+      0x7f0200f4, 0x7f0200f7, 0x7f02015b, 0x7f02015c, 
+      0x7f02015d, 0x7f02015e, 0x7f02015f, 0x7f020160, 
+      0x7f020161, 0x7f020162, 0x7f020163, 0x7f02016f
     };
     /**
-     * <p>This symbol is the offset where the {@link com.example.akmal_pc.jhotel_android_akmal.R.attr#ambientEnabled}
+     * <p>This symbol is the offset where the {@link com.example.tim3a.eangkotUser.R.attr#ambientEnabled}
      * attribute's value can be found in the {@link #MapAttrs} array.
      *
      * <p>May be a boolean value, such as "<code>true</code>" or
      * "<code>false</code>".
      *
-     * @attr name com.example.akmal_pc.jhotel_android_akmal:ambientEnabled
+     * @attr name com.example.tim3a.eangkotUser:ambientEnabled
      */
     public static final int MapAttrs_ambientEnabled=0;
     /**
-     * <p>This symbol is the offset where the {@link com.example.akmal_pc.jhotel_android_akmal.R.attr#cameraBearing}
+     * <p>This symbol is the offset where the {@link com.example.tim3a.eangkotUser.R.attr#cameraBearing}
      * attribute's value can be found in the {@link #MapAttrs} array.
      *
      * <p>May be a floating point value, such as "<code>1.2</code>".
      *
-     * @attr name com.example.akmal_pc.jhotel_android_akmal:cameraBearing
+     * @attr name com.example.tim3a.eangkotUser:cameraBearing
      */
     public static final int MapAttrs_cameraBearing=1;
     /**
-     * <p>This symbol is the offset where the {@link com.example.akmal_pc.jhotel_android_akmal.R.attr#cameraMaxZoomPreference}
+     * <p>This symbol is the offset where the {@link com.example.tim3a.eangkotUser.R.attr#cameraMaxZoomPreference}
      * attribute's value can be found in the {@link #MapAttrs} array.
      *
      * <p>May be a floating point value, such as "<code>1.2</code>".
      *
-     * @attr name com.example.akmal_pc.jhotel_android_akmal:cameraMaxZoomPreference
+     * @attr name com.example.tim3a.eangkotUser:cameraMaxZoomPreference
      */
     public static final int MapAttrs_cameraMaxZoomPreference=2;
     /**
-     * <p>This symbol is the offset where the {@link com.example.akmal_pc.jhotel_android_akmal.R.attr#cameraMinZoomPreference}
+     * <p>This symbol is the offset where the {@link com.example.tim3a.eangkotUser.R.attr#cameraMinZoomPreference}
      * attribute's value can be found in the {@link #MapAttrs} array.
      *
      * <p>May be a floating point value, such as "<code>1.2</code>".
      *
-     * @attr name com.example.akmal_pc.jhotel_android_akmal:cameraMinZoomPreference
+     * @attr name com.example.tim3a.eangkotUser:cameraMinZoomPreference
      */
     public static final int MapAttrs_cameraMinZoomPreference=3;
     /**
-     * <p>This symbol is the offset where the {@link com.example.akmal_pc.jhotel_android_akmal.R.attr#cameraTargetLat}
+     * <p>This symbol is the offset where the {@link com.example.tim3a.eangkotUser.R.attr#cameraTargetLat}
      * attribute's value can be found in the {@link #MapAttrs} array.
      *
      * <p>May be a floating point value, such as "<code>1.2</code>".
      *
-     * @attr name com.example.akmal_pc.jhotel_android_akmal:cameraTargetLat
+     * @attr name com.example.tim3a.eangkotUser:cameraTargetLat
      */
     public static final int MapAttrs_cameraTargetLat=4;
     /**
-     * <p>This symbol is the offset where the {@link com.example.akmal_pc.jhotel_android_akmal.R.attr#cameraTargetLng}
+     * <p>This symbol is the offset where the {@link com.example.tim3a.eangkotUser.R.attr#cameraTargetLng}
      * attribute's value can be found in the {@link #MapAttrs} array.
      *
      * <p>May be a floating point value, such as "<code>1.2</code>".
      *
-     * @attr name com.example.akmal_pc.jhotel_android_akmal:cameraTargetLng
+     * @attr name com.example.tim3a.eangkotUser:cameraTargetLng
      */
     public static final int MapAttrs_cameraTargetLng=5;
     /**
-     * <p>This symbol is the offset where the {@link com.example.akmal_pc.jhotel_android_akmal.R.attr#cameraTilt}
+     * <p>This symbol is the offset where the {@link com.example.tim3a.eangkotUser.R.attr#cameraTilt}
      * attribute's value can be found in the {@link #MapAttrs} array.
      *
      * <p>May be a floating point value, such as "<code>1.2</code>".
      *
-     * @attr name com.example.akmal_pc.jhotel_android_akmal:cameraTilt
+     * @attr name com.example.tim3a.eangkotUser:cameraTilt
      */
     public static final int MapAttrs_cameraTilt=6;
     /**
-     * <p>This symbol is the offset where the {@link com.example.akmal_pc.jhotel_android_akmal.R.attr#cameraZoom}
+     * <p>This symbol is the offset where the {@link com.example.tim3a.eangkotUser.R.attr#cameraZoom}
      * attribute's value can be found in the {@link #MapAttrs} array.
      *
      * <p>May be a floating point value, such as "<code>1.2</code>".
      *
-     * @attr name com.example.akmal_pc.jhotel_android_akmal:cameraZoom
+     * @attr name com.example.tim3a.eangkotUser:cameraZoom
      */
     public static final int MapAttrs_cameraZoom=7;
     /**
-     * <p>This symbol is the offset where the {@link com.example.akmal_pc.jhotel_android_akmal.R.attr#latLngBoundsNorthEastLatitude}
+     * <p>This symbol is the offset where the {@link com.example.tim3a.eangkotUser.R.attr#latLngBoundsNorthEastLatitude}
      * attribute's value can be found in the {@link #MapAttrs} array.
      *
      * <p>May be a floating point value, such as "<code>1.2</code>".
      *
-     * @attr name com.example.akmal_pc.jhotel_android_akmal:latLngBoundsNorthEastLatitude
+     * @attr name com.example.tim3a.eangkotUser:latLngBoundsNorthEastLatitude
      */
     public static final int MapAttrs_latLngBoundsNorthEastLatitude=8;
     /**
-     * <p>This symbol is the offset where the {@link com.example.akmal_pc.jhotel_android_akmal.R.attr#latLngBoundsNorthEastLongitude}
+     * <p>This symbol is the offset where the {@link com.example.tim3a.eangkotUser.R.attr#latLngBoundsNorthEastLongitude}
      * attribute's value can be found in the {@link #MapAttrs} array.
      *
      * <p>May be a floating point value, such as "<code>1.2</code>".
      *
-     * @attr name com.example.akmal_pc.jhotel_android_akmal:latLngBoundsNorthEastLongitude
+     * @attr name com.example.tim3a.eangkotUser:latLngBoundsNorthEastLongitude
      */
     public static final int MapAttrs_latLngBoundsNorthEastLongitude=9;
     /**
-     * <p>This symbol is the offset where the {@link com.example.akmal_pc.jhotel_android_akmal.R.attr#latLngBoundsSouthWestLatitude}
+     * <p>This symbol is the offset where the {@link com.example.tim3a.eangkotUser.R.attr#latLngBoundsSouthWestLatitude}
      * attribute's value can be found in the {@link #MapAttrs} array.
      *
      * <p>May be a floating point value, such as "<code>1.2</code>".
      *
-     * @attr name com.example.akmal_pc.jhotel_android_akmal:latLngBoundsSouthWestLatitude
+     * @attr name com.example.tim3a.eangkotUser:latLngBoundsSouthWestLatitude
      */
     public static final int MapAttrs_latLngBoundsSouthWestLatitude=10;
     /**
-     * <p>This symbol is the offset where the {@link com.example.akmal_pc.jhotel_android_akmal.R.attr#latLngBoundsSouthWestLongitude}
+     * <p>This symbol is the offset where the {@link com.example.tim3a.eangkotUser.R.attr#latLngBoundsSouthWestLongitude}
      * attribute's value can be found in the {@link #MapAttrs} array.
      *
      * <p>May be a floating point value, such as "<code>1.2</code>".
      *
-     * @attr name com.example.akmal_pc.jhotel_android_akmal:latLngBoundsSouthWestLongitude
+     * @attr name com.example.tim3a.eangkotUser:latLngBoundsSouthWestLongitude
      */
     public static final int MapAttrs_latLngBoundsSouthWestLongitude=11;
     /**
-     * <p>This symbol is the offset where the {@link com.example.akmal_pc.jhotel_android_akmal.R.attr#liteMode}
+     * <p>This symbol is the offset where the {@link com.example.tim3a.eangkotUser.R.attr#liteMode}
      * attribute's value can be found in the {@link #MapAttrs} array.
      *
      * <p>May be a boolean value, such as "<code>true</code>" or
      * "<code>false</code>".
      *
-     * @attr name com.example.akmal_pc.jhotel_android_akmal:liteMode
+     * @attr name com.example.tim3a.eangkotUser:liteMode
      */
     public static final int MapAttrs_liteMode=12;
     /**
-     * <p>This symbol is the offset where the {@link com.example.akmal_pc.jhotel_android_akmal.R.attr#mapType}
+     * <p>This symbol is the offset where the {@link com.example.tim3a.eangkotUser.R.attr#mapType}
      * attribute's value can be found in the {@link #MapAttrs} array.
      *
      * <p>Must be one of the following constant values.</p>
@@ -10409,107 +10715,107 @@ public final class R {
      * <tr><td>terrain</td><td>3</td><td></td></tr>
      * </table>
      *
-     * @attr name com.example.akmal_pc.jhotel_android_akmal:mapType
+     * @attr name com.example.tim3a.eangkotUser:mapType
      */
     public static final int MapAttrs_mapType=13;
     /**
-     * <p>This symbol is the offset where the {@link com.example.akmal_pc.jhotel_android_akmal.R.attr#uiCompass}
+     * <p>This symbol is the offset where the {@link com.example.tim3a.eangkotUser.R.attr#uiCompass}
      * attribute's value can be found in the {@link #MapAttrs} array.
      *
      * <p>May be a boolean value, such as "<code>true</code>" or
      * "<code>false</code>".
      *
-     * @attr name com.example.akmal_pc.jhotel_android_akmal:uiCompass
+     * @attr name com.example.tim3a.eangkotUser:uiCompass
      */
     public static final int MapAttrs_uiCompass=14;
     /**
-     * <p>This symbol is the offset where the {@link com.example.akmal_pc.jhotel_android_akmal.R.attr#uiMapToolbar}
+     * <p>This symbol is the offset where the {@link com.example.tim3a.eangkotUser.R.attr#uiMapToolbar}
      * attribute's value can be found in the {@link #MapAttrs} array.
      *
      * <p>May be a boolean value, such as "<code>true</code>" or
      * "<code>false</code>".
      *
-     * @attr name com.example.akmal_pc.jhotel_android_akmal:uiMapToolbar
+     * @attr name com.example.tim3a.eangkotUser:uiMapToolbar
      */
     public static final int MapAttrs_uiMapToolbar=15;
     /**
-     * <p>This symbol is the offset where the {@link com.example.akmal_pc.jhotel_android_akmal.R.attr#uiRotateGestures}
+     * <p>This symbol is the offset where the {@link com.example.tim3a.eangkotUser.R.attr#uiRotateGestures}
      * attribute's value can be found in the {@link #MapAttrs} array.
      *
      * <p>May be a boolean value, such as "<code>true</code>" or
      * "<code>false</code>".
      *
-     * @attr name com.example.akmal_pc.jhotel_android_akmal:uiRotateGestures
+     * @attr name com.example.tim3a.eangkotUser:uiRotateGestures
      */
     public static final int MapAttrs_uiRotateGestures=16;
     /**
-     * <p>This symbol is the offset where the {@link com.example.akmal_pc.jhotel_android_akmal.R.attr#uiScrollGestures}
+     * <p>This symbol is the offset where the {@link com.example.tim3a.eangkotUser.R.attr#uiScrollGestures}
      * attribute's value can be found in the {@link #MapAttrs} array.
      *
      * <p>May be a boolean value, such as "<code>true</code>" or
      * "<code>false</code>".
      *
-     * @attr name com.example.akmal_pc.jhotel_android_akmal:uiScrollGestures
+     * @attr name com.example.tim3a.eangkotUser:uiScrollGestures
      */
     public static final int MapAttrs_uiScrollGestures=17;
     /**
-     * <p>This symbol is the offset where the {@link com.example.akmal_pc.jhotel_android_akmal.R.attr#uiScrollGesturesDuringRotateOrZoom}
+     * <p>This symbol is the offset where the {@link com.example.tim3a.eangkotUser.R.attr#uiScrollGesturesDuringRotateOrZoom}
      * attribute's value can be found in the {@link #MapAttrs} array.
      *
      * <p>May be a boolean value, such as "<code>true</code>" or
      * "<code>false</code>".
      *
-     * @attr name com.example.akmal_pc.jhotel_android_akmal:uiScrollGesturesDuringRotateOrZoom
+     * @attr name com.example.tim3a.eangkotUser:uiScrollGesturesDuringRotateOrZoom
      */
     public static final int MapAttrs_uiScrollGesturesDuringRotateOrZoom=18;
     /**
-     * <p>This symbol is the offset where the {@link com.example.akmal_pc.jhotel_android_akmal.R.attr#uiTiltGestures}
+     * <p>This symbol is the offset where the {@link com.example.tim3a.eangkotUser.R.attr#uiTiltGestures}
      * attribute's value can be found in the {@link #MapAttrs} array.
      *
      * <p>May be a boolean value, such as "<code>true</code>" or
      * "<code>false</code>".
      *
-     * @attr name com.example.akmal_pc.jhotel_android_akmal:uiTiltGestures
+     * @attr name com.example.tim3a.eangkotUser:uiTiltGestures
      */
     public static final int MapAttrs_uiTiltGestures=19;
     /**
-     * <p>This symbol is the offset where the {@link com.example.akmal_pc.jhotel_android_akmal.R.attr#uiZoomControls}
+     * <p>This symbol is the offset where the {@link com.example.tim3a.eangkotUser.R.attr#uiZoomControls}
      * attribute's value can be found in the {@link #MapAttrs} array.
      *
      * <p>May be a boolean value, such as "<code>true</code>" or
      * "<code>false</code>".
      *
-     * @attr name com.example.akmal_pc.jhotel_android_akmal:uiZoomControls
+     * @attr name com.example.tim3a.eangkotUser:uiZoomControls
      */
     public static final int MapAttrs_uiZoomControls=20;
     /**
-     * <p>This symbol is the offset where the {@link com.example.akmal_pc.jhotel_android_akmal.R.attr#uiZoomGestures}
+     * <p>This symbol is the offset where the {@link com.example.tim3a.eangkotUser.R.attr#uiZoomGestures}
      * attribute's value can be found in the {@link #MapAttrs} array.
      *
      * <p>May be a boolean value, such as "<code>true</code>" or
      * "<code>false</code>".
      *
-     * @attr name com.example.akmal_pc.jhotel_android_akmal:uiZoomGestures
+     * @attr name com.example.tim3a.eangkotUser:uiZoomGestures
      */
     public static final int MapAttrs_uiZoomGestures=21;
     /**
-     * <p>This symbol is the offset where the {@link com.example.akmal_pc.jhotel_android_akmal.R.attr#useViewLifecycle}
+     * <p>This symbol is the offset where the {@link com.example.tim3a.eangkotUser.R.attr#useViewLifecycle}
      * attribute's value can be found in the {@link #MapAttrs} array.
      *
      * <p>May be a boolean value, such as "<code>true</code>" or
      * "<code>false</code>".
      *
-     * @attr name com.example.akmal_pc.jhotel_android_akmal:useViewLifecycle
+     * @attr name com.example.tim3a.eangkotUser:useViewLifecycle
      */
     public static final int MapAttrs_useViewLifecycle=22;
     /**
-     * <p>This symbol is the offset where the {@link com.example.akmal_pc.jhotel_android_akmal.R.attr#zOrderOnTop}
+     * <p>This symbol is the offset where the {@link com.example.tim3a.eangkotUser.R.attr#zOrderOnTop}
      * attribute's value can be found in the {@link #MapAttrs} array.
      *
      * <p>May be a boolean value, such as "<code>true</code>" or
      * "<code>false</code>".
      *
-     * @attr name com.example.akmal_pc.jhotel_android_akmal:zOrderOnTop
+     * @attr name com.example.tim3a.eangkotUser:zOrderOnTop
      */
     public static final int MapAttrs_zOrderOnTop=23;
     /**
@@ -10635,16 +10941,16 @@ public final class R {
      * <tr><td><code>{@link #MenuItem_android_numericShortcut android:numericShortcut}</code></td><td></td></tr>
      * <tr><td><code>{@link #MenuItem_android_checkable android:checkable}</code></td><td></td></tr>
      * <tr><td><code>{@link #MenuItem_android_onClick android:onClick}</code></td><td></td></tr>
-     * <tr><td><code>{@link #MenuItem_actionLayout com.example.akmal_pc.jhotel_android_akmal:actionLayout}</code></td><td></td></tr>
-     * <tr><td><code>{@link #MenuItem_actionProviderClass com.example.akmal_pc.jhotel_android_akmal:actionProviderClass}</code></td><td></td></tr>
-     * <tr><td><code>{@link #MenuItem_actionViewClass com.example.akmal_pc.jhotel_android_akmal:actionViewClass}</code></td><td></td></tr>
-     * <tr><td><code>{@link #MenuItem_alphabeticModifiers com.example.akmal_pc.jhotel_android_akmal:alphabeticModifiers}</code></td><td></td></tr>
-     * <tr><td><code>{@link #MenuItem_contentDescription com.example.akmal_pc.jhotel_android_akmal:contentDescription}</code></td><td></td></tr>
-     * <tr><td><code>{@link #MenuItem_iconTint com.example.akmal_pc.jhotel_android_akmal:iconTint}</code></td><td></td></tr>
-     * <tr><td><code>{@link #MenuItem_iconTintMode com.example.akmal_pc.jhotel_android_akmal:iconTintMode}</code></td><td></td></tr>
-     * <tr><td><code>{@link #MenuItem_numericModifiers com.example.akmal_pc.jhotel_android_akmal:numericModifiers}</code></td><td></td></tr>
-     * <tr><td><code>{@link #MenuItem_showAsAction com.example.akmal_pc.jhotel_android_akmal:showAsAction}</code></td><td></td></tr>
-     * <tr><td><code>{@link #MenuItem_tooltipText com.example.akmal_pc.jhotel_android_akmal:tooltipText}</code></td><td></td></tr>
+     * <tr><td><code>{@link #MenuItem_actionLayout com.example.tim3a.eangkotUser:actionLayout}</code></td><td></td></tr>
+     * <tr><td><code>{@link #MenuItem_actionProviderClass com.example.tim3a.eangkotUser:actionProviderClass}</code></td><td></td></tr>
+     * <tr><td><code>{@link #MenuItem_actionViewClass com.example.tim3a.eangkotUser:actionViewClass}</code></td><td></td></tr>
+     * <tr><td><code>{@link #MenuItem_alphabeticModifiers com.example.tim3a.eangkotUser:alphabeticModifiers}</code></td><td></td></tr>
+     * <tr><td><code>{@link #MenuItem_contentDescription com.example.tim3a.eangkotUser:contentDescription}</code></td><td></td></tr>
+     * <tr><td><code>{@link #MenuItem_iconTint com.example.tim3a.eangkotUser:iconTint}</code></td><td></td></tr>
+     * <tr><td><code>{@link #MenuItem_iconTintMode com.example.tim3a.eangkotUser:iconTintMode}</code></td><td></td></tr>
+     * <tr><td><code>{@link #MenuItem_numericModifiers com.example.tim3a.eangkotUser:numericModifiers}</code></td><td></td></tr>
+     * <tr><td><code>{@link #MenuItem_showAsAction com.example.tim3a.eangkotUser:showAsAction}</code></td><td></td></tr>
+     * <tr><td><code>{@link #MenuItem_tooltipText com.example.tim3a.eangkotUser:tooltipText}</code></td><td></td></tr>
      * </table>
      * @see #MenuItem_android_icon
      * @see #MenuItem_android_enabled
@@ -10675,8 +10981,8 @@ public final class R {
       0x01010194, 0x010101de, 0x010101df, 0x010101e1, 
       0x010101e2, 0x010101e3, 0x010101e4, 0x010101e5, 
       0x0101026f, 0x7f02000d, 0x7f02001f, 0x7f020020, 
-      0x7f020028, 0x7f020068, 0x7f02009d, 0x7f02009e, 
-      0x7f0200f6, 0x7f020113, 0x7f02014c
+      0x7f020028, 0x7f02006e, 0x7f0200a8, 0x7f0200a9, 
+      0x7f020101, 0x7f02011e, 0x7f020157
     };
     /**
      * <p>This symbol is the offset where the {@link android.R.attr#icon}
@@ -10821,7 +11127,7 @@ public final class R {
      */
     public static final int MenuItem_android_onClick=12;
     /**
-     * <p>This symbol is the offset where the {@link com.example.akmal_pc.jhotel_android_akmal.R.attr#actionLayout}
+     * <p>This symbol is the offset where the {@link com.example.tim3a.eangkotUser.R.attr#actionLayout}
      * attribute's value can be found in the {@link #MenuItem} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -10829,31 +11135,31 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.example.akmal_pc.jhotel_android_akmal:actionLayout
+     * @attr name com.example.tim3a.eangkotUser:actionLayout
      */
     public static final int MenuItem_actionLayout=13;
     /**
-     * <p>This symbol is the offset where the {@link com.example.akmal_pc.jhotel_android_akmal.R.attr#actionProviderClass}
+     * <p>This symbol is the offset where the {@link com.example.tim3a.eangkotUser.R.attr#actionProviderClass}
      * attribute's value can be found in the {@link #MenuItem} array.
      *
      * <p>May be a string value, using '\\;' to escape characters such as
      * '\\n' or '\\uxxxx' for a unicode character;
      *
-     * @attr name com.example.akmal_pc.jhotel_android_akmal:actionProviderClass
+     * @attr name com.example.tim3a.eangkotUser:actionProviderClass
      */
     public static final int MenuItem_actionProviderClass=14;
     /**
-     * <p>This symbol is the offset where the {@link com.example.akmal_pc.jhotel_android_akmal.R.attr#actionViewClass}
+     * <p>This symbol is the offset where the {@link com.example.tim3a.eangkotUser.R.attr#actionViewClass}
      * attribute's value can be found in the {@link #MenuItem} array.
      *
      * <p>May be a string value, using '\\;' to escape characters such as
      * '\\n' or '\\uxxxx' for a unicode character;
      *
-     * @attr name com.example.akmal_pc.jhotel_android_akmal:actionViewClass
+     * @attr name com.example.tim3a.eangkotUser:actionViewClass
      */
     public static final int MenuItem_actionViewClass=15;
     /**
-     * <p>This symbol is the offset where the {@link com.example.akmal_pc.jhotel_android_akmal.R.attr#alphabeticModifiers}
+     * <p>This symbol is the offset where the {@link com.example.tim3a.eangkotUser.R.attr#alphabeticModifiers}
      * attribute's value can be found in the {@link #MenuItem} array.
      *
      * <p>Must be one or more (separated by '|') of the following constant values.</p>
@@ -10870,32 +11176,32 @@ public final class R {
      * <tr><td>SYM</td><td>4</td><td></td></tr>
      * </table>
      *
-     * @attr name com.example.akmal_pc.jhotel_android_akmal:alphabeticModifiers
+     * @attr name com.example.tim3a.eangkotUser:alphabeticModifiers
      */
     public static final int MenuItem_alphabeticModifiers=16;
     /**
-     * <p>This symbol is the offset where the {@link com.example.akmal_pc.jhotel_android_akmal.R.attr#contentDescription}
+     * <p>This symbol is the offset where the {@link com.example.tim3a.eangkotUser.R.attr#contentDescription}
      * attribute's value can be found in the {@link #MenuItem} array.
      *
      * <p>May be a string value, using '\\;' to escape characters such as
      * '\\n' or '\\uxxxx' for a unicode character;
      *
-     * @attr name com.example.akmal_pc.jhotel_android_akmal:contentDescription
+     * @attr name com.example.tim3a.eangkotUser:contentDescription
      */
     public static final int MenuItem_contentDescription=17;
     /**
-     * <p>This symbol is the offset where the {@link com.example.akmal_pc.jhotel_android_akmal.R.attr#iconTint}
+     * <p>This symbol is the offset where the {@link com.example.tim3a.eangkotUser.R.attr#iconTint}
      * attribute's value can be found in the {@link #MenuItem} array.
      *
      * <p>May be a color value, in the form of "<code>#<i>rgb</i></code>",
      * "<code>#<i>argb</i></code>", "<code>#<i>rrggbb</i></code>", or
      * "<code>#<i>aarrggbb</i></code>".
      *
-     * @attr name com.example.akmal_pc.jhotel_android_akmal:iconTint
+     * @attr name com.example.tim3a.eangkotUser:iconTint
      */
     public static final int MenuItem_iconTint=18;
     /**
-     * <p>This symbol is the offset where the {@link com.example.akmal_pc.jhotel_android_akmal.R.attr#iconTintMode}
+     * <p>This symbol is the offset where the {@link com.example.tim3a.eangkotUser.R.attr#iconTintMode}
      * attribute's value can be found in the {@link #MenuItem} array.
      *
      * <p>Must be one of the following constant values.</p>
@@ -10912,11 +11218,11 @@ public final class R {
      * <tr><td>src_over</td><td>3</td><td></td></tr>
      * </table>
      *
-     * @attr name com.example.akmal_pc.jhotel_android_akmal:iconTintMode
+     * @attr name com.example.tim3a.eangkotUser:iconTintMode
      */
     public static final int MenuItem_iconTintMode=19;
     /**
-     * <p>This symbol is the offset where the {@link com.example.akmal_pc.jhotel_android_akmal.R.attr#numericModifiers}
+     * <p>This symbol is the offset where the {@link com.example.tim3a.eangkotUser.R.attr#numericModifiers}
      * attribute's value can be found in the {@link #MenuItem} array.
      *
      * <p>Must be one or more (separated by '|') of the following constant values.</p>
@@ -10933,11 +11239,11 @@ public final class R {
      * <tr><td>SYM</td><td>4</td><td></td></tr>
      * </table>
      *
-     * @attr name com.example.akmal_pc.jhotel_android_akmal:numericModifiers
+     * @attr name com.example.tim3a.eangkotUser:numericModifiers
      */
     public static final int MenuItem_numericModifiers=20;
     /**
-     * <p>This symbol is the offset where the {@link com.example.akmal_pc.jhotel_android_akmal.R.attr#showAsAction}
+     * <p>This symbol is the offset where the {@link com.example.tim3a.eangkotUser.R.attr#showAsAction}
      * attribute's value can be found in the {@link #MenuItem} array.
      *
      * <p>Must be one or more (separated by '|') of the following constant values.</p>
@@ -10953,17 +11259,17 @@ public final class R {
      * <tr><td>withText</td><td>4</td><td></td></tr>
      * </table>
      *
-     * @attr name com.example.akmal_pc.jhotel_android_akmal:showAsAction
+     * @attr name com.example.tim3a.eangkotUser:showAsAction
      */
     public static final int MenuItem_showAsAction=21;
     /**
-     * <p>This symbol is the offset where the {@link com.example.akmal_pc.jhotel_android_akmal.R.attr#tooltipText}
+     * <p>This symbol is the offset where the {@link com.example.tim3a.eangkotUser.R.attr#tooltipText}
      * attribute's value can be found in the {@link #MenuItem} array.
      *
      * <p>May be a string value, using '\\;' to escape characters such as
      * '\\n' or '\\uxxxx' for a unicode character;
      *
-     * @attr name com.example.akmal_pc.jhotel_android_akmal:tooltipText
+     * @attr name com.example.tim3a.eangkotUser:tooltipText
      */
     public static final int MenuItem_tooltipText=22;
     /**
@@ -10980,8 +11286,8 @@ public final class R {
      * <tr><td><code>{@link #MenuView_android_headerBackground android:headerBackground}</code></td><td></td></tr>
      * <tr><td><code>{@link #MenuView_android_itemBackground android:itemBackground}</code></td><td></td></tr>
      * <tr><td><code>{@link #MenuView_android_itemIconDisabledAlpha android:itemIconDisabledAlpha}</code></td><td></td></tr>
-     * <tr><td><code>{@link #MenuView_preserveIconSpacing com.example.akmal_pc.jhotel_android_akmal:preserveIconSpacing}</code></td><td></td></tr>
-     * <tr><td><code>{@link #MenuView_subMenuArrow com.example.akmal_pc.jhotel_android_akmal:subMenuArrow}</code></td><td></td></tr>
+     * <tr><td><code>{@link #MenuView_preserveIconSpacing com.example.tim3a.eangkotUser:preserveIconSpacing}</code></td><td></td></tr>
+     * <tr><td><code>{@link #MenuView_subMenuArrow com.example.tim3a.eangkotUser:subMenuArrow}</code></td><td></td></tr>
      * </table>
      * @see #MenuView_android_windowAnimationStyle
      * @see #MenuView_android_itemTextAppearance
@@ -10995,8 +11301,8 @@ public final class R {
      */
     public static final int[] MenuView={
       0x010100ae, 0x0101012c, 0x0101012d, 0x0101012e, 
-      0x0101012f, 0x01010130, 0x01010131, 0x7f020102, 
-      0x7f02011e
+      0x0101012f, 0x01010130, 0x01010131, 0x7f02010d, 
+      0x7f020129
     };
     /**
      * <p>This symbol is the offset where the {@link android.R.attr#windowAnimationStyle}
@@ -11086,17 +11392,17 @@ public final class R {
      */
     public static final int MenuView_android_itemIconDisabledAlpha=6;
     /**
-     * <p>This symbol is the offset where the {@link com.example.akmal_pc.jhotel_android_akmal.R.attr#preserveIconSpacing}
+     * <p>This symbol is the offset where the {@link com.example.tim3a.eangkotUser.R.attr#preserveIconSpacing}
      * attribute's value can be found in the {@link #MenuView} array.
      *
      * <p>May be a boolean value, such as "<code>true</code>" or
      * "<code>false</code>".
      *
-     * @attr name com.example.akmal_pc.jhotel_android_akmal:preserveIconSpacing
+     * @attr name com.example.tim3a.eangkotUser:preserveIconSpacing
      */
     public static final int MenuView_preserveIconSpacing=7;
     /**
-     * <p>This symbol is the offset where the {@link com.example.akmal_pc.jhotel_android_akmal.R.attr#subMenuArrow}
+     * <p>This symbol is the offset where the {@link com.example.tim3a.eangkotUser.R.attr#subMenuArrow}
      * attribute's value can be found in the {@link #MenuView} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -11104,7 +11410,7 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.example.akmal_pc.jhotel_android_akmal:subMenuArrow
+     * @attr name com.example.tim3a.eangkotUser:subMenuArrow
      */
     public static final int MenuView_subMenuArrow=8;
     /**
@@ -11116,14 +11422,14 @@ public final class R {
      * <tr><th>Attribute</th><th>Description</th></tr>
      * <tr><td><code>{@link #PopupWindow_android_popupBackground android:popupBackground}</code></td><td></td></tr>
      * <tr><td><code>{@link #PopupWindow_android_popupAnimationStyle android:popupAnimationStyle}</code></td><td></td></tr>
-     * <tr><td><code>{@link #PopupWindow_overlapAnchor com.example.akmal_pc.jhotel_android_akmal:overlapAnchor}</code></td><td></td></tr>
+     * <tr><td><code>{@link #PopupWindow_overlapAnchor com.example.tim3a.eangkotUser:overlapAnchor}</code></td><td></td></tr>
      * </table>
      * @see #PopupWindow_android_popupBackground
      * @see #PopupWindow_android_popupAnimationStyle
      * @see #PopupWindow_overlapAnchor
      */
     public static final int[] PopupWindow={
-      0x01010176, 0x010102c9, 0x7f0200f7
+      0x01010176, 0x010102c9, 0x7f020102
     };
     /**
      * <p>This symbol is the offset where the {@link android.R.attr#popupBackground}
@@ -11153,13 +11459,13 @@ public final class R {
      */
     public static final int PopupWindow_android_popupAnimationStyle=1;
     /**
-     * <p>This symbol is the offset where the {@link com.example.akmal_pc.jhotel_android_akmal.R.attr#overlapAnchor}
+     * <p>This symbol is the offset where the {@link com.example.tim3a.eangkotUser.R.attr#overlapAnchor}
      * attribute's value can be found in the {@link #PopupWindow} array.
      *
      * <p>May be a boolean value, such as "<code>true</code>" or
      * "<code>false</code>".
      *
-     * @attr name com.example.akmal_pc.jhotel_android_akmal:overlapAnchor
+     * @attr name com.example.tim3a.eangkotUser:overlapAnchor
      */
     public static final int PopupWindow_overlapAnchor=2;
     /**
@@ -11169,21 +11475,21 @@ public final class R {
      * <colgroup align="left" />
      * <colgroup align="left" />
      * <tr><th>Attribute</th><th>Description</th></tr>
-     * <tr><td><code>{@link #PopupWindowBackgroundState_state_above_anchor com.example.akmal_pc.jhotel_android_akmal:state_above_anchor}</code></td><td></td></tr>
+     * <tr><td><code>{@link #PopupWindowBackgroundState_state_above_anchor com.example.tim3a.eangkotUser:state_above_anchor}</code></td><td></td></tr>
      * </table>
      * @see #PopupWindowBackgroundState_state_above_anchor
      */
     public static final int[] PopupWindowBackgroundState={
-      0x7f02011d
+      0x7f020128
     };
     /**
-     * <p>This symbol is the offset where the {@link com.example.akmal_pc.jhotel_android_akmal.R.attr#state_above_anchor}
+     * <p>This symbol is the offset where the {@link com.example.tim3a.eangkotUser.R.attr#state_above_anchor}
      * attribute's value can be found in the {@link #PopupWindowBackgroundState} array.
      *
      * <p>May be a boolean value, such as "<code>true</code>" or
      * "<code>false</code>".
      *
-     * @attr name com.example.akmal_pc.jhotel_android_akmal:state_above_anchor
+     * @attr name com.example.tim3a.eangkotUser:state_above_anchor
      */
     public static final int PopupWindowBackgroundState_state_above_anchor=0;
     /**
@@ -11193,17 +11499,17 @@ public final class R {
      * <colgroup align="left" />
      * <colgroup align="left" />
      * <tr><th>Attribute</th><th>Description</th></tr>
-     * <tr><td><code>{@link #RecycleListView_paddingBottomNoButtons com.example.akmal_pc.jhotel_android_akmal:paddingBottomNoButtons}</code></td><td></td></tr>
-     * <tr><td><code>{@link #RecycleListView_paddingTopNoTitle com.example.akmal_pc.jhotel_android_akmal:paddingTopNoTitle}</code></td><td></td></tr>
+     * <tr><td><code>{@link #RecycleListView_paddingBottomNoButtons com.example.tim3a.eangkotUser:paddingBottomNoButtons}</code></td><td></td></tr>
+     * <tr><td><code>{@link #RecycleListView_paddingTopNoTitle com.example.tim3a.eangkotUser:paddingTopNoTitle}</code></td><td></td></tr>
      * </table>
      * @see #RecycleListView_paddingBottomNoButtons
      * @see #RecycleListView_paddingTopNoTitle
      */
     public static final int[] RecycleListView={
-      0x7f0200f8, 0x7f0200fb
+      0x7f020103, 0x7f020106
     };
     /**
-     * <p>This symbol is the offset where the {@link com.example.akmal_pc.jhotel_android_akmal.R.attr#paddingBottomNoButtons}
+     * <p>This symbol is the offset where the {@link com.example.tim3a.eangkotUser.R.attr#paddingBottomNoButtons}
      * attribute's value can be found in the {@link #RecycleListView} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -11212,11 +11518,11 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name com.example.akmal_pc.jhotel_android_akmal:paddingBottomNoButtons
+     * @attr name com.example.tim3a.eangkotUser:paddingBottomNoButtons
      */
     public static final int RecycleListView_paddingBottomNoButtons=0;
     /**
-     * <p>This symbol is the offset where the {@link com.example.akmal_pc.jhotel_android_akmal.R.attr#paddingTopNoTitle}
+     * <p>This symbol is the offset where the {@link com.example.tim3a.eangkotUser.R.attr#paddingTopNoTitle}
      * attribute's value can be found in the {@link #RecycleListView} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -11225,7 +11531,7 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name com.example.akmal_pc.jhotel_android_akmal:paddingTopNoTitle
+     * @attr name com.example.tim3a.eangkotUser:paddingTopNoTitle
      */
     public static final int RecycleListView_paddingTopNoTitle=1;
     /**
@@ -11239,19 +11545,19 @@ public final class R {
      * <tr><td><code>{@link #SearchView_android_maxWidth android:maxWidth}</code></td><td></td></tr>
      * <tr><td><code>{@link #SearchView_android_inputType android:inputType}</code></td><td></td></tr>
      * <tr><td><code>{@link #SearchView_android_imeOptions android:imeOptions}</code></td><td></td></tr>
-     * <tr><td><code>{@link #SearchView_closeIcon com.example.akmal_pc.jhotel_android_akmal:closeIcon}</code></td><td></td></tr>
-     * <tr><td><code>{@link #SearchView_commitIcon com.example.akmal_pc.jhotel_android_akmal:commitIcon}</code></td><td></td></tr>
-     * <tr><td><code>{@link #SearchView_defaultQueryHint com.example.akmal_pc.jhotel_android_akmal:defaultQueryHint}</code></td><td></td></tr>
-     * <tr><td><code>{@link #SearchView_goIcon com.example.akmal_pc.jhotel_android_akmal:goIcon}</code></td><td></td></tr>
-     * <tr><td><code>{@link #SearchView_iconifiedByDefault com.example.akmal_pc.jhotel_android_akmal:iconifiedByDefault}</code></td><td></td></tr>
-     * <tr><td><code>{@link #SearchView_layout com.example.akmal_pc.jhotel_android_akmal:layout}</code></td><td></td></tr>
-     * <tr><td><code>{@link #SearchView_queryBackground com.example.akmal_pc.jhotel_android_akmal:queryBackground}</code></td><td></td></tr>
-     * <tr><td><code>{@link #SearchView_queryHint com.example.akmal_pc.jhotel_android_akmal:queryHint}</code></td><td></td></tr>
-     * <tr><td><code>{@link #SearchView_searchHintIcon com.example.akmal_pc.jhotel_android_akmal:searchHintIcon}</code></td><td></td></tr>
-     * <tr><td><code>{@link #SearchView_searchIcon com.example.akmal_pc.jhotel_android_akmal:searchIcon}</code></td><td></td></tr>
-     * <tr><td><code>{@link #SearchView_submitBackground com.example.akmal_pc.jhotel_android_akmal:submitBackground}</code></td><td></td></tr>
-     * <tr><td><code>{@link #SearchView_suggestionRowLayout com.example.akmal_pc.jhotel_android_akmal:suggestionRowLayout}</code></td><td></td></tr>
-     * <tr><td><code>{@link #SearchView_voiceIcon com.example.akmal_pc.jhotel_android_akmal:voiceIcon}</code></td><td></td></tr>
+     * <tr><td><code>{@link #SearchView_closeIcon com.example.tim3a.eangkotUser:closeIcon}</code></td><td></td></tr>
+     * <tr><td><code>{@link #SearchView_commitIcon com.example.tim3a.eangkotUser:commitIcon}</code></td><td></td></tr>
+     * <tr><td><code>{@link #SearchView_defaultQueryHint com.example.tim3a.eangkotUser:defaultQueryHint}</code></td><td></td></tr>
+     * <tr><td><code>{@link #SearchView_goIcon com.example.tim3a.eangkotUser:goIcon}</code></td><td></td></tr>
+     * <tr><td><code>{@link #SearchView_iconifiedByDefault com.example.tim3a.eangkotUser:iconifiedByDefault}</code></td><td></td></tr>
+     * <tr><td><code>{@link #SearchView_layout com.example.tim3a.eangkotUser:layout}</code></td><td></td></tr>
+     * <tr><td><code>{@link #SearchView_queryBackground com.example.tim3a.eangkotUser:queryBackground}</code></td><td></td></tr>
+     * <tr><td><code>{@link #SearchView_queryHint com.example.tim3a.eangkotUser:queryHint}</code></td><td></td></tr>
+     * <tr><td><code>{@link #SearchView_searchHintIcon com.example.tim3a.eangkotUser:searchHintIcon}</code></td><td></td></tr>
+     * <tr><td><code>{@link #SearchView_searchIcon com.example.tim3a.eangkotUser:searchIcon}</code></td><td></td></tr>
+     * <tr><td><code>{@link #SearchView_submitBackground com.example.tim3a.eangkotUser:submitBackground}</code></td><td></td></tr>
+     * <tr><td><code>{@link #SearchView_suggestionRowLayout com.example.tim3a.eangkotUser:suggestionRowLayout}</code></td><td></td></tr>
+     * <tr><td><code>{@link #SearchView_voiceIcon com.example.tim3a.eangkotUser:voiceIcon}</code></td><td></td></tr>
      * </table>
      * @see #SearchView_android_focusable
      * @see #SearchView_android_maxWidth
@@ -11273,10 +11579,10 @@ public final class R {
      */
     public static final int[] SearchView={
       0x010100da, 0x0101011f, 0x01010220, 0x01010264, 
-      0x7f020054, 0x7f020064, 0x7f020071, 0x7f020097, 
-      0x7f02009f, 0x7f0200ab, 0x7f020105, 0x7f020106, 
-      0x7f02010c, 0x7f02010d, 0x7f02011f, 0x7f020124, 
-      0x7f020159
+      0x7f02005a, 0x7f02006a, 0x7f02007c, 0x7f0200a2, 
+      0x7f0200aa, 0x7f0200b6, 0x7f020110, 0x7f020111, 
+      0x7f020117, 0x7f020118, 0x7f02012a, 0x7f02012f, 
+      0x7f020164
     };
     /**
      * <p>This symbol is the offset where the {@link android.R.attr#focusable}
@@ -11389,7 +11695,7 @@ public final class R {
      */
     public static final int SearchView_android_imeOptions=3;
     /**
-     * <p>This symbol is the offset where the {@link com.example.akmal_pc.jhotel_android_akmal.R.attr#closeIcon}
+     * <p>This symbol is the offset where the {@link com.example.tim3a.eangkotUser.R.attr#closeIcon}
      * attribute's value can be found in the {@link #SearchView} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -11397,11 +11703,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.example.akmal_pc.jhotel_android_akmal:closeIcon
+     * @attr name com.example.tim3a.eangkotUser:closeIcon
      */
     public static final int SearchView_closeIcon=4;
     /**
-     * <p>This symbol is the offset where the {@link com.example.akmal_pc.jhotel_android_akmal.R.attr#commitIcon}
+     * <p>This symbol is the offset where the {@link com.example.tim3a.eangkotUser.R.attr#commitIcon}
      * attribute's value can be found in the {@link #SearchView} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -11409,21 +11715,21 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.example.akmal_pc.jhotel_android_akmal:commitIcon
+     * @attr name com.example.tim3a.eangkotUser:commitIcon
      */
     public static final int SearchView_commitIcon=5;
     /**
-     * <p>This symbol is the offset where the {@link com.example.akmal_pc.jhotel_android_akmal.R.attr#defaultQueryHint}
+     * <p>This symbol is the offset where the {@link com.example.tim3a.eangkotUser.R.attr#defaultQueryHint}
      * attribute's value can be found in the {@link #SearchView} array.
      *
      * <p>May be a string value, using '\\;' to escape characters such as
      * '\\n' or '\\uxxxx' for a unicode character;
      *
-     * @attr name com.example.akmal_pc.jhotel_android_akmal:defaultQueryHint
+     * @attr name com.example.tim3a.eangkotUser:defaultQueryHint
      */
     public static final int SearchView_defaultQueryHint=6;
     /**
-     * <p>This symbol is the offset where the {@link com.example.akmal_pc.jhotel_android_akmal.R.attr#goIcon}
+     * <p>This symbol is the offset where the {@link com.example.tim3a.eangkotUser.R.attr#goIcon}
      * attribute's value can be found in the {@link #SearchView} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -11431,21 +11737,21 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.example.akmal_pc.jhotel_android_akmal:goIcon
+     * @attr name com.example.tim3a.eangkotUser:goIcon
      */
     public static final int SearchView_goIcon=7;
     /**
-     * <p>This symbol is the offset where the {@link com.example.akmal_pc.jhotel_android_akmal.R.attr#iconifiedByDefault}
+     * <p>This symbol is the offset where the {@link com.example.tim3a.eangkotUser.R.attr#iconifiedByDefault}
      * attribute's value can be found in the {@link #SearchView} array.
      *
      * <p>May be a boolean value, such as "<code>true</code>" or
      * "<code>false</code>".
      *
-     * @attr name com.example.akmal_pc.jhotel_android_akmal:iconifiedByDefault
+     * @attr name com.example.tim3a.eangkotUser:iconifiedByDefault
      */
     public static final int SearchView_iconifiedByDefault=8;
     /**
-     * <p>This symbol is the offset where the {@link com.example.akmal_pc.jhotel_android_akmal.R.attr#layout}
+     * <p>This symbol is the offset where the {@link com.example.tim3a.eangkotUser.R.attr#layout}
      * attribute's value can be found in the {@link #SearchView} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -11453,11 +11759,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.example.akmal_pc.jhotel_android_akmal:layout
+     * @attr name com.example.tim3a.eangkotUser:layout
      */
     public static final int SearchView_layout=9;
     /**
-     * <p>This symbol is the offset where the {@link com.example.akmal_pc.jhotel_android_akmal.R.attr#queryBackground}
+     * <p>This symbol is the offset where the {@link com.example.tim3a.eangkotUser.R.attr#queryBackground}
      * attribute's value can be found in the {@link #SearchView} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -11465,21 +11771,21 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.example.akmal_pc.jhotel_android_akmal:queryBackground
+     * @attr name com.example.tim3a.eangkotUser:queryBackground
      */
     public static final int SearchView_queryBackground=10;
     /**
-     * <p>This symbol is the offset where the {@link com.example.akmal_pc.jhotel_android_akmal.R.attr#queryHint}
+     * <p>This symbol is the offset where the {@link com.example.tim3a.eangkotUser.R.attr#queryHint}
      * attribute's value can be found in the {@link #SearchView} array.
      *
      * <p>May be a string value, using '\\;' to escape characters such as
      * '\\n' or '\\uxxxx' for a unicode character;
      *
-     * @attr name com.example.akmal_pc.jhotel_android_akmal:queryHint
+     * @attr name com.example.tim3a.eangkotUser:queryHint
      */
     public static final int SearchView_queryHint=11;
     /**
-     * <p>This symbol is the offset where the {@link com.example.akmal_pc.jhotel_android_akmal.R.attr#searchHintIcon}
+     * <p>This symbol is the offset where the {@link com.example.tim3a.eangkotUser.R.attr#searchHintIcon}
      * attribute's value can be found in the {@link #SearchView} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -11487,11 +11793,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.example.akmal_pc.jhotel_android_akmal:searchHintIcon
+     * @attr name com.example.tim3a.eangkotUser:searchHintIcon
      */
     public static final int SearchView_searchHintIcon=12;
     /**
-     * <p>This symbol is the offset where the {@link com.example.akmal_pc.jhotel_android_akmal.R.attr#searchIcon}
+     * <p>This symbol is the offset where the {@link com.example.tim3a.eangkotUser.R.attr#searchIcon}
      * attribute's value can be found in the {@link #SearchView} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -11499,11 +11805,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.example.akmal_pc.jhotel_android_akmal:searchIcon
+     * @attr name com.example.tim3a.eangkotUser:searchIcon
      */
     public static final int SearchView_searchIcon=13;
     /**
-     * <p>This symbol is the offset where the {@link com.example.akmal_pc.jhotel_android_akmal.R.attr#submitBackground}
+     * <p>This symbol is the offset where the {@link com.example.tim3a.eangkotUser.R.attr#submitBackground}
      * attribute's value can be found in the {@link #SearchView} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -11511,11 +11817,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.example.akmal_pc.jhotel_android_akmal:submitBackground
+     * @attr name com.example.tim3a.eangkotUser:submitBackground
      */
     public static final int SearchView_submitBackground=14;
     /**
-     * <p>This symbol is the offset where the {@link com.example.akmal_pc.jhotel_android_akmal.R.attr#suggestionRowLayout}
+     * <p>This symbol is the offset where the {@link com.example.tim3a.eangkotUser.R.attr#suggestionRowLayout}
      * attribute's value can be found in the {@link #SearchView} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -11523,11 +11829,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.example.akmal_pc.jhotel_android_akmal:suggestionRowLayout
+     * @attr name com.example.tim3a.eangkotUser:suggestionRowLayout
      */
     public static final int SearchView_suggestionRowLayout=15;
     /**
-     * <p>This symbol is the offset where the {@link com.example.akmal_pc.jhotel_android_akmal.R.attr#voiceIcon}
+     * <p>This symbol is the offset where the {@link com.example.tim3a.eangkotUser.R.attr#voiceIcon}
      * attribute's value can be found in the {@link #SearchView} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -11535,7 +11841,7 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.example.akmal_pc.jhotel_android_akmal:voiceIcon
+     * @attr name com.example.tim3a.eangkotUser:voiceIcon
      */
     public static final int SearchView_voiceIcon=16;
     /**
@@ -11545,19 +11851,19 @@ public final class R {
      * <colgroup align="left" />
      * <colgroup align="left" />
      * <tr><th>Attribute</th><th>Description</th></tr>
-     * <tr><td><code>{@link #SignInButton_buttonSize com.example.akmal_pc.jhotel_android_akmal:buttonSize}</code></td><td></td></tr>
-     * <tr><td><code>{@link #SignInButton_colorScheme com.example.akmal_pc.jhotel_android_akmal:colorScheme}</code></td><td></td></tr>
-     * <tr><td><code>{@link #SignInButton_scopeUris com.example.akmal_pc.jhotel_android_akmal:scopeUris}</code></td><td></td></tr>
+     * <tr><td><code>{@link #SignInButton_buttonSize com.example.tim3a.eangkotUser:buttonSize}</code></td><td></td></tr>
+     * <tr><td><code>{@link #SignInButton_colorScheme com.example.tim3a.eangkotUser:colorScheme}</code></td><td></td></tr>
+     * <tr><td><code>{@link #SignInButton_scopeUris com.example.tim3a.eangkotUser:scopeUris}</code></td><td></td></tr>
      * </table>
      * @see #SignInButton_buttonSize
      * @see #SignInButton_colorScheme
      * @see #SignInButton_scopeUris
      */
     public static final int[] SignInButton={
-      0x7f020044, 0x7f020062, 0x7f02010b
+      0x7f020044, 0x7f020068, 0x7f020116
     };
     /**
-     * <p>This symbol is the offset where the {@link com.example.akmal_pc.jhotel_android_akmal.R.attr#buttonSize}
+     * <p>This symbol is the offset where the {@link com.example.tim3a.eangkotUser.R.attr#buttonSize}
      * attribute's value can be found in the {@link #SignInButton} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -11575,11 +11881,11 @@ public final class R {
      * <tr><td>wide</td><td>1</td><td></td></tr>
      * </table>
      *
-     * @attr name com.example.akmal_pc.jhotel_android_akmal:buttonSize
+     * @attr name com.example.tim3a.eangkotUser:buttonSize
      */
     public static final int SignInButton_buttonSize=0;
     /**
-     * <p>This symbol is the offset where the {@link com.example.akmal_pc.jhotel_android_akmal.R.attr#colorScheme}
+     * <p>This symbol is the offset where the {@link com.example.tim3a.eangkotUser.R.attr#colorScheme}
      * attribute's value can be found in the {@link #SignInButton} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -11597,11 +11903,11 @@ public final class R {
      * <tr><td>light</td><td>1</td><td></td></tr>
      * </table>
      *
-     * @attr name com.example.akmal_pc.jhotel_android_akmal:colorScheme
+     * @attr name com.example.tim3a.eangkotUser:colorScheme
      */
     public static final int SignInButton_colorScheme=1;
     /**
-     * <p>This symbol is the offset where the {@link com.example.akmal_pc.jhotel_android_akmal.R.attr#scopeUris}
+     * <p>This symbol is the offset where the {@link com.example.tim3a.eangkotUser.R.attr#scopeUris}
      * attribute's value can be found in the {@link #SignInButton} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -11611,7 +11917,7 @@ public final class R {
      * <p>May be a string value, using '\\;' to escape characters such as
      * '\\n' or '\\uxxxx' for a unicode character;
      *
-     * @attr name com.example.akmal_pc.jhotel_android_akmal:scopeUris
+     * @attr name com.example.tim3a.eangkotUser:scopeUris
      */
     public static final int SignInButton_scopeUris=2;
     /**
@@ -11625,7 +11931,7 @@ public final class R {
      * <tr><td><code>{@link #Spinner_android_popupBackground android:popupBackground}</code></td><td></td></tr>
      * <tr><td><code>{@link #Spinner_android_prompt android:prompt}</code></td><td></td></tr>
      * <tr><td><code>{@link #Spinner_android_dropDownWidth android:dropDownWidth}</code></td><td></td></tr>
-     * <tr><td><code>{@link #Spinner_popupTheme com.example.akmal_pc.jhotel_android_akmal:popupTheme}</code></td><td></td></tr>
+     * <tr><td><code>{@link #Spinner_popupTheme com.example.tim3a.eangkotUser:popupTheme}</code></td><td></td></tr>
      * </table>
      * @see #Spinner_android_entries
      * @see #Spinner_android_popupBackground
@@ -11635,7 +11941,7 @@ public final class R {
      */
     public static final int[] Spinner={
       0x010100b2, 0x01010176, 0x0101017b, 0x01010262, 
-      0x7f020100
+      0x7f02010b
     };
     /**
      * <p>This symbol is the offset where the {@link android.R.attr#entries}
@@ -11700,7 +12006,7 @@ public final class R {
      */
     public static final int Spinner_android_dropDownWidth=3;
     /**
-     * <p>This symbol is the offset where the {@link com.example.akmal_pc.jhotel_android_akmal.R.attr#popupTheme}
+     * <p>This symbol is the offset where the {@link com.example.tim3a.eangkotUser.R.attr#popupTheme}
      * attribute's value can be found in the {@link #Spinner} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -11708,7 +12014,7 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.example.akmal_pc.jhotel_android_akmal:popupTheme
+     * @attr name com.example.tim3a.eangkotUser:popupTheme
      */
     public static final int Spinner_popupTheme=4;
     /**
@@ -11721,17 +12027,17 @@ public final class R {
      * <tr><td><code>{@link #SwitchCompat_android_textOn android:textOn}</code></td><td></td></tr>
      * <tr><td><code>{@link #SwitchCompat_android_textOff android:textOff}</code></td><td></td></tr>
      * <tr><td><code>{@link #SwitchCompat_android_thumb android:thumb}</code></td><td></td></tr>
-     * <tr><td><code>{@link #SwitchCompat_showText com.example.akmal_pc.jhotel_android_akmal:showText}</code></td><td></td></tr>
-     * <tr><td><code>{@link #SwitchCompat_splitTrack com.example.akmal_pc.jhotel_android_akmal:splitTrack}</code></td><td></td></tr>
-     * <tr><td><code>{@link #SwitchCompat_switchMinWidth com.example.akmal_pc.jhotel_android_akmal:switchMinWidth}</code></td><td></td></tr>
-     * <tr><td><code>{@link #SwitchCompat_switchPadding com.example.akmal_pc.jhotel_android_akmal:switchPadding}</code></td><td></td></tr>
-     * <tr><td><code>{@link #SwitchCompat_switchTextAppearance com.example.akmal_pc.jhotel_android_akmal:switchTextAppearance}</code></td><td></td></tr>
-     * <tr><td><code>{@link #SwitchCompat_thumbTextPadding com.example.akmal_pc.jhotel_android_akmal:thumbTextPadding}</code></td><td></td></tr>
-     * <tr><td><code>{@link #SwitchCompat_thumbTint com.example.akmal_pc.jhotel_android_akmal:thumbTint}</code></td><td></td></tr>
-     * <tr><td><code>{@link #SwitchCompat_thumbTintMode com.example.akmal_pc.jhotel_android_akmal:thumbTintMode}</code></td><td></td></tr>
-     * <tr><td><code>{@link #SwitchCompat_track com.example.akmal_pc.jhotel_android_akmal:track}</code></td><td></td></tr>
-     * <tr><td><code>{@link #SwitchCompat_trackTint com.example.akmal_pc.jhotel_android_akmal:trackTint}</code></td><td></td></tr>
-     * <tr><td><code>{@link #SwitchCompat_trackTintMode com.example.akmal_pc.jhotel_android_akmal:trackTintMode}</code></td><td></td></tr>
+     * <tr><td><code>{@link #SwitchCompat_showText com.example.tim3a.eangkotUser:showText}</code></td><td></td></tr>
+     * <tr><td><code>{@link #SwitchCompat_splitTrack com.example.tim3a.eangkotUser:splitTrack}</code></td><td></td></tr>
+     * <tr><td><code>{@link #SwitchCompat_switchMinWidth com.example.tim3a.eangkotUser:switchMinWidth}</code></td><td></td></tr>
+     * <tr><td><code>{@link #SwitchCompat_switchPadding com.example.tim3a.eangkotUser:switchPadding}</code></td><td></td></tr>
+     * <tr><td><code>{@link #SwitchCompat_switchTextAppearance com.example.tim3a.eangkotUser:switchTextAppearance}</code></td><td></td></tr>
+     * <tr><td><code>{@link #SwitchCompat_thumbTextPadding com.example.tim3a.eangkotUser:thumbTextPadding}</code></td><td></td></tr>
+     * <tr><td><code>{@link #SwitchCompat_thumbTint com.example.tim3a.eangkotUser:thumbTint}</code></td><td></td></tr>
+     * <tr><td><code>{@link #SwitchCompat_thumbTintMode com.example.tim3a.eangkotUser:thumbTintMode}</code></td><td></td></tr>
+     * <tr><td><code>{@link #SwitchCompat_track com.example.tim3a.eangkotUser:track}</code></td><td></td></tr>
+     * <tr><td><code>{@link #SwitchCompat_trackTint com.example.tim3a.eangkotUser:trackTint}</code></td><td></td></tr>
+     * <tr><td><code>{@link #SwitchCompat_trackTintMode com.example.tim3a.eangkotUser:trackTintMode}</code></td><td></td></tr>
      * </table>
      * @see #SwitchCompat_android_textOn
      * @see #SwitchCompat_android_textOff
@@ -11749,10 +12055,10 @@ public final class R {
      * @see #SwitchCompat_trackTintMode
      */
     public static final int[] SwitchCompat={
-      0x01010124, 0x01010125, 0x01010142, 0x7f020115, 
-      0x7f02011b, 0x7f020125, 0x7f020126, 0x7f020128, 
-      0x7f020136, 0x7f020137, 0x7f020138, 0x7f02014d, 
-      0x7f02014e, 0x7f02014f
+      0x01010124, 0x01010125, 0x01010142, 0x7f020120, 
+      0x7f020126, 0x7f020130, 0x7f020131, 0x7f020133, 
+      0x7f020141, 0x7f020142, 0x7f020143, 0x7f020158, 
+      0x7f020159, 0x7f02015a
     };
     /**
      * <p>This symbol is the offset where the {@link android.R.attr#textOn}
@@ -11787,27 +12093,27 @@ public final class R {
      */
     public static final int SwitchCompat_android_thumb=2;
     /**
-     * <p>This symbol is the offset where the {@link com.example.akmal_pc.jhotel_android_akmal.R.attr#showText}
+     * <p>This symbol is the offset where the {@link com.example.tim3a.eangkotUser.R.attr#showText}
      * attribute's value can be found in the {@link #SwitchCompat} array.
      *
      * <p>May be a boolean value, such as "<code>true</code>" or
      * "<code>false</code>".
      *
-     * @attr name com.example.akmal_pc.jhotel_android_akmal:showText
+     * @attr name com.example.tim3a.eangkotUser:showText
      */
     public static final int SwitchCompat_showText=3;
     /**
-     * <p>This symbol is the offset where the {@link com.example.akmal_pc.jhotel_android_akmal.R.attr#splitTrack}
+     * <p>This symbol is the offset where the {@link com.example.tim3a.eangkotUser.R.attr#splitTrack}
      * attribute's value can be found in the {@link #SwitchCompat} array.
      *
      * <p>May be a boolean value, such as "<code>true</code>" or
      * "<code>false</code>".
      *
-     * @attr name com.example.akmal_pc.jhotel_android_akmal:splitTrack
+     * @attr name com.example.tim3a.eangkotUser:splitTrack
      */
     public static final int SwitchCompat_splitTrack=4;
     /**
-     * <p>This symbol is the offset where the {@link com.example.akmal_pc.jhotel_android_akmal.R.attr#switchMinWidth}
+     * <p>This symbol is the offset where the {@link com.example.tim3a.eangkotUser.R.attr#switchMinWidth}
      * attribute's value can be found in the {@link #SwitchCompat} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -11816,11 +12122,11 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name com.example.akmal_pc.jhotel_android_akmal:switchMinWidth
+     * @attr name com.example.tim3a.eangkotUser:switchMinWidth
      */
     public static final int SwitchCompat_switchMinWidth=5;
     /**
-     * <p>This symbol is the offset where the {@link com.example.akmal_pc.jhotel_android_akmal.R.attr#switchPadding}
+     * <p>This symbol is the offset where the {@link com.example.tim3a.eangkotUser.R.attr#switchPadding}
      * attribute's value can be found in the {@link #SwitchCompat} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -11829,11 +12135,11 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name com.example.akmal_pc.jhotel_android_akmal:switchPadding
+     * @attr name com.example.tim3a.eangkotUser:switchPadding
      */
     public static final int SwitchCompat_switchPadding=6;
     /**
-     * <p>This symbol is the offset where the {@link com.example.akmal_pc.jhotel_android_akmal.R.attr#switchTextAppearance}
+     * <p>This symbol is the offset where the {@link com.example.tim3a.eangkotUser.R.attr#switchTextAppearance}
      * attribute's value can be found in the {@link #SwitchCompat} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -11841,11 +12147,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.example.akmal_pc.jhotel_android_akmal:switchTextAppearance
+     * @attr name com.example.tim3a.eangkotUser:switchTextAppearance
      */
     public static final int SwitchCompat_switchTextAppearance=7;
     /**
-     * <p>This symbol is the offset where the {@link com.example.akmal_pc.jhotel_android_akmal.R.attr#thumbTextPadding}
+     * <p>This symbol is the offset where the {@link com.example.tim3a.eangkotUser.R.attr#thumbTextPadding}
      * attribute's value can be found in the {@link #SwitchCompat} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -11854,22 +12160,22 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name com.example.akmal_pc.jhotel_android_akmal:thumbTextPadding
+     * @attr name com.example.tim3a.eangkotUser:thumbTextPadding
      */
     public static final int SwitchCompat_thumbTextPadding=8;
     /**
-     * <p>This symbol is the offset where the {@link com.example.akmal_pc.jhotel_android_akmal.R.attr#thumbTint}
+     * <p>This symbol is the offset where the {@link com.example.tim3a.eangkotUser.R.attr#thumbTint}
      * attribute's value can be found in the {@link #SwitchCompat} array.
      *
      * <p>May be a color value, in the form of "<code>#<i>rgb</i></code>",
      * "<code>#<i>argb</i></code>", "<code>#<i>rrggbb</i></code>", or
      * "<code>#<i>aarrggbb</i></code>".
      *
-     * @attr name com.example.akmal_pc.jhotel_android_akmal:thumbTint
+     * @attr name com.example.tim3a.eangkotUser:thumbTint
      */
     public static final int SwitchCompat_thumbTint=9;
     /**
-     * <p>This symbol is the offset where the {@link com.example.akmal_pc.jhotel_android_akmal.R.attr#thumbTintMode}
+     * <p>This symbol is the offset where the {@link com.example.tim3a.eangkotUser.R.attr#thumbTintMode}
      * attribute's value can be found in the {@link #SwitchCompat} array.
      *
      * <p>Must be one of the following constant values.</p>
@@ -11886,11 +12192,11 @@ public final class R {
      * <tr><td>src_over</td><td>3</td><td></td></tr>
      * </table>
      *
-     * @attr name com.example.akmal_pc.jhotel_android_akmal:thumbTintMode
+     * @attr name com.example.tim3a.eangkotUser:thumbTintMode
      */
     public static final int SwitchCompat_thumbTintMode=10;
     /**
-     * <p>This symbol is the offset where the {@link com.example.akmal_pc.jhotel_android_akmal.R.attr#track}
+     * <p>This symbol is the offset where the {@link com.example.tim3a.eangkotUser.R.attr#track}
      * attribute's value can be found in the {@link #SwitchCompat} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -11898,22 +12204,22 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.example.akmal_pc.jhotel_android_akmal:track
+     * @attr name com.example.tim3a.eangkotUser:track
      */
     public static final int SwitchCompat_track=11;
     /**
-     * <p>This symbol is the offset where the {@link com.example.akmal_pc.jhotel_android_akmal.R.attr#trackTint}
+     * <p>This symbol is the offset where the {@link com.example.tim3a.eangkotUser.R.attr#trackTint}
      * attribute's value can be found in the {@link #SwitchCompat} array.
      *
      * <p>May be a color value, in the form of "<code>#<i>rgb</i></code>",
      * "<code>#<i>argb</i></code>", "<code>#<i>rrggbb</i></code>", or
      * "<code>#<i>aarrggbb</i></code>".
      *
-     * @attr name com.example.akmal_pc.jhotel_android_akmal:trackTint
+     * @attr name com.example.tim3a.eangkotUser:trackTint
      */
     public static final int SwitchCompat_trackTint=12;
     /**
-     * <p>This symbol is the offset where the {@link com.example.akmal_pc.jhotel_android_akmal.R.attr#trackTintMode}
+     * <p>This symbol is the offset where the {@link com.example.tim3a.eangkotUser.R.attr#trackTintMode}
      * attribute's value can be found in the {@link #SwitchCompat} array.
      *
      * <p>Must be one of the following constant values.</p>
@@ -11930,7 +12236,7 @@ public final class R {
      * <tr><td>src_over</td><td>3</td><td></td></tr>
      * </table>
      *
-     * @attr name com.example.akmal_pc.jhotel_android_akmal:trackTintMode
+     * @attr name com.example.tim3a.eangkotUser:trackTintMode
      */
     public static final int SwitchCompat_trackTintMode=13;
     /**
@@ -11951,8 +12257,8 @@ public final class R {
      * <tr><td><code>{@link #TextAppearance_android_shadowDy android:shadowDy}</code></td><td></td></tr>
      * <tr><td><code>{@link #TextAppearance_android_shadowRadius android:shadowRadius}</code></td><td></td></tr>
      * <tr><td><code>{@link #TextAppearance_android_fontFamily android:fontFamily}</code></td><td></td></tr>
-     * <tr><td><code>{@link #TextAppearance_fontFamily com.example.akmal_pc.jhotel_android_akmal:fontFamily}</code></td><td></td></tr>
-     * <tr><td><code>{@link #TextAppearance_textAllCaps com.example.akmal_pc.jhotel_android_akmal:textAllCaps}</code></td><td></td></tr>
+     * <tr><td><code>{@link #TextAppearance_fontFamily com.example.tim3a.eangkotUser:fontFamily}</code></td><td></td></tr>
+     * <tr><td><code>{@link #TextAppearance_textAllCaps com.example.tim3a.eangkotUser:textAllCaps}</code></td><td></td></tr>
      * </table>
      * @see #TextAppearance_android_textSize
      * @see #TextAppearance_android_typeface
@@ -11971,8 +12277,8 @@ public final class R {
     public static final int[] TextAppearance={
       0x01010095, 0x01010096, 0x01010097, 0x01010098, 
       0x0101009a, 0x0101009b, 0x01010161, 0x01010162, 
-      0x01010163, 0x01010164, 0x010103ac, 0x7f020086, 
-      0x7f020129
+      0x01010163, 0x01010164, 0x010103ac, 0x7f020091, 
+      0x7f020134
     };
     /**
      * <p>This symbol is the offset where the {@link android.R.attr#textSize}
@@ -12118,17 +12424,17 @@ public final class R {
      */
     public static final int TextAppearance_android_fontFamily=10;
     /**
-     * <p>This symbol is the offset where the {@link com.example.akmal_pc.jhotel_android_akmal.R.attr#fontFamily}
+     * <p>This symbol is the offset where the {@link com.example.tim3a.eangkotUser.R.attr#fontFamily}
      * attribute's value can be found in the {@link #TextAppearance} array.
      *
      * <p>May be a string value, using '\\;' to escape characters such as
      * '\\n' or '\\uxxxx' for a unicode character;
      *
-     * @attr name com.example.akmal_pc.jhotel_android_akmal:fontFamily
+     * @attr name com.example.tim3a.eangkotUser:fontFamily
      */
     public static final int TextAppearance_fontFamily=11;
     /**
-     * <p>This symbol is the offset where the {@link com.example.akmal_pc.jhotel_android_akmal.R.attr#textAllCaps}
+     * <p>This symbol is the offset where the {@link com.example.tim3a.eangkotUser.R.attr#textAllCaps}
      * attribute's value can be found in the {@link #TextAppearance} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -12138,7 +12444,7 @@ public final class R {
      * <p>May be a boolean value, such as "<code>true</code>" or
      * "<code>false</code>".
      *
-     * @attr name com.example.akmal_pc.jhotel_android_akmal:textAllCaps
+     * @attr name com.example.tim3a.eangkotUser:textAllCaps
      */
     public static final int TextAppearance_textAllCaps=12;
     /**
@@ -12150,33 +12456,33 @@ public final class R {
      * <tr><th>Attribute</th><th>Description</th></tr>
      * <tr><td><code>{@link #Toolbar_android_gravity android:gravity}</code></td><td></td></tr>
      * <tr><td><code>{@link #Toolbar_android_minHeight android:minHeight}</code></td><td></td></tr>
-     * <tr><td><code>{@link #Toolbar_buttonGravity com.example.akmal_pc.jhotel_android_akmal:buttonGravity}</code></td><td></td></tr>
-     * <tr><td><code>{@link #Toolbar_collapseContentDescription com.example.akmal_pc.jhotel_android_akmal:collapseContentDescription}</code></td><td></td></tr>
-     * <tr><td><code>{@link #Toolbar_collapseIcon com.example.akmal_pc.jhotel_android_akmal:collapseIcon}</code></td><td></td></tr>
-     * <tr><td><code>{@link #Toolbar_contentInsetEnd com.example.akmal_pc.jhotel_android_akmal:contentInsetEnd}</code></td><td></td></tr>
-     * <tr><td><code>{@link #Toolbar_contentInsetEndWithActions com.example.akmal_pc.jhotel_android_akmal:contentInsetEndWithActions}</code></td><td></td></tr>
-     * <tr><td><code>{@link #Toolbar_contentInsetLeft com.example.akmal_pc.jhotel_android_akmal:contentInsetLeft}</code></td><td></td></tr>
-     * <tr><td><code>{@link #Toolbar_contentInsetRight com.example.akmal_pc.jhotel_android_akmal:contentInsetRight}</code></td><td></td></tr>
-     * <tr><td><code>{@link #Toolbar_contentInsetStart com.example.akmal_pc.jhotel_android_akmal:contentInsetStart}</code></td><td></td></tr>
-     * <tr><td><code>{@link #Toolbar_contentInsetStartWithNavigation com.example.akmal_pc.jhotel_android_akmal:contentInsetStartWithNavigation}</code></td><td></td></tr>
-     * <tr><td><code>{@link #Toolbar_logo com.example.akmal_pc.jhotel_android_akmal:logo}</code></td><td></td></tr>
-     * <tr><td><code>{@link #Toolbar_logoDescription com.example.akmal_pc.jhotel_android_akmal:logoDescription}</code></td><td></td></tr>
-     * <tr><td><code>{@link #Toolbar_maxButtonHeight com.example.akmal_pc.jhotel_android_akmal:maxButtonHeight}</code></td><td></td></tr>
-     * <tr><td><code>{@link #Toolbar_navigationContentDescription com.example.akmal_pc.jhotel_android_akmal:navigationContentDescription}</code></td><td></td></tr>
-     * <tr><td><code>{@link #Toolbar_navigationIcon com.example.akmal_pc.jhotel_android_akmal:navigationIcon}</code></td><td></td></tr>
-     * <tr><td><code>{@link #Toolbar_popupTheme com.example.akmal_pc.jhotel_android_akmal:popupTheme}</code></td><td></td></tr>
-     * <tr><td><code>{@link #Toolbar_subtitle com.example.akmal_pc.jhotel_android_akmal:subtitle}</code></td><td></td></tr>
-     * <tr><td><code>{@link #Toolbar_subtitleTextAppearance com.example.akmal_pc.jhotel_android_akmal:subtitleTextAppearance}</code></td><td></td></tr>
-     * <tr><td><code>{@link #Toolbar_subtitleTextColor com.example.akmal_pc.jhotel_android_akmal:subtitleTextColor}</code></td><td></td></tr>
-     * <tr><td><code>{@link #Toolbar_title com.example.akmal_pc.jhotel_android_akmal:title}</code></td><td></td></tr>
-     * <tr><td><code>{@link #Toolbar_titleMargin com.example.akmal_pc.jhotel_android_akmal:titleMargin}</code></td><td></td></tr>
-     * <tr><td><code>{@link #Toolbar_titleMarginBottom com.example.akmal_pc.jhotel_android_akmal:titleMarginBottom}</code></td><td></td></tr>
-     * <tr><td><code>{@link #Toolbar_titleMarginEnd com.example.akmal_pc.jhotel_android_akmal:titleMarginEnd}</code></td><td></td></tr>
-     * <tr><td><code>{@link #Toolbar_titleMarginStart com.example.akmal_pc.jhotel_android_akmal:titleMarginStart}</code></td><td></td></tr>
-     * <tr><td><code>{@link #Toolbar_titleMarginTop com.example.akmal_pc.jhotel_android_akmal:titleMarginTop}</code></td><td></td></tr>
-     * <tr><td><code>{@link #Toolbar_titleMargins com.example.akmal_pc.jhotel_android_akmal:titleMargins}</code></td><td></td></tr>
-     * <tr><td><code>{@link #Toolbar_titleTextAppearance com.example.akmal_pc.jhotel_android_akmal:titleTextAppearance}</code></td><td></td></tr>
-     * <tr><td><code>{@link #Toolbar_titleTextColor com.example.akmal_pc.jhotel_android_akmal:titleTextColor}</code></td><td></td></tr>
+     * <tr><td><code>{@link #Toolbar_buttonGravity com.example.tim3a.eangkotUser:buttonGravity}</code></td><td></td></tr>
+     * <tr><td><code>{@link #Toolbar_collapseContentDescription com.example.tim3a.eangkotUser:collapseContentDescription}</code></td><td></td></tr>
+     * <tr><td><code>{@link #Toolbar_collapseIcon com.example.tim3a.eangkotUser:collapseIcon}</code></td><td></td></tr>
+     * <tr><td><code>{@link #Toolbar_contentInsetEnd com.example.tim3a.eangkotUser:contentInsetEnd}</code></td><td></td></tr>
+     * <tr><td><code>{@link #Toolbar_contentInsetEndWithActions com.example.tim3a.eangkotUser:contentInsetEndWithActions}</code></td><td></td></tr>
+     * <tr><td><code>{@link #Toolbar_contentInsetLeft com.example.tim3a.eangkotUser:contentInsetLeft}</code></td><td></td></tr>
+     * <tr><td><code>{@link #Toolbar_contentInsetRight com.example.tim3a.eangkotUser:contentInsetRight}</code></td><td></td></tr>
+     * <tr><td><code>{@link #Toolbar_contentInsetStart com.example.tim3a.eangkotUser:contentInsetStart}</code></td><td></td></tr>
+     * <tr><td><code>{@link #Toolbar_contentInsetStartWithNavigation com.example.tim3a.eangkotUser:contentInsetStartWithNavigation}</code></td><td></td></tr>
+     * <tr><td><code>{@link #Toolbar_logo com.example.tim3a.eangkotUser:logo}</code></td><td></td></tr>
+     * <tr><td><code>{@link #Toolbar_logoDescription com.example.tim3a.eangkotUser:logoDescription}</code></td><td></td></tr>
+     * <tr><td><code>{@link #Toolbar_maxButtonHeight com.example.tim3a.eangkotUser:maxButtonHeight}</code></td><td></td></tr>
+     * <tr><td><code>{@link #Toolbar_navigationContentDescription com.example.tim3a.eangkotUser:navigationContentDescription}</code></td><td></td></tr>
+     * <tr><td><code>{@link #Toolbar_navigationIcon com.example.tim3a.eangkotUser:navigationIcon}</code></td><td></td></tr>
+     * <tr><td><code>{@link #Toolbar_popupTheme com.example.tim3a.eangkotUser:popupTheme}</code></td><td></td></tr>
+     * <tr><td><code>{@link #Toolbar_subtitle com.example.tim3a.eangkotUser:subtitle}</code></td><td></td></tr>
+     * <tr><td><code>{@link #Toolbar_subtitleTextAppearance com.example.tim3a.eangkotUser:subtitleTextAppearance}</code></td><td></td></tr>
+     * <tr><td><code>{@link #Toolbar_subtitleTextColor com.example.tim3a.eangkotUser:subtitleTextColor}</code></td><td></td></tr>
+     * <tr><td><code>{@link #Toolbar_title com.example.tim3a.eangkotUser:title}</code></td><td></td></tr>
+     * <tr><td><code>{@link #Toolbar_titleMargin com.example.tim3a.eangkotUser:titleMargin}</code></td><td></td></tr>
+     * <tr><td><code>{@link #Toolbar_titleMarginBottom com.example.tim3a.eangkotUser:titleMarginBottom}</code></td><td></td></tr>
+     * <tr><td><code>{@link #Toolbar_titleMarginEnd com.example.tim3a.eangkotUser:titleMarginEnd}</code></td><td></td></tr>
+     * <tr><td><code>{@link #Toolbar_titleMarginStart com.example.tim3a.eangkotUser:titleMarginStart}</code></td><td></td></tr>
+     * <tr><td><code>{@link #Toolbar_titleMarginTop com.example.tim3a.eangkotUser:titleMarginTop}</code></td><td></td></tr>
+     * <tr><td><code>{@link #Toolbar_titleMargins com.example.tim3a.eangkotUser:titleMargins}</code></td><td></td></tr>
+     * <tr><td><code>{@link #Toolbar_titleTextAppearance com.example.tim3a.eangkotUser:titleTextAppearance}</code></td><td></td></tr>
+     * <tr><td><code>{@link #Toolbar_titleTextColor com.example.tim3a.eangkotUser:titleTextColor}</code></td><td></td></tr>
      * </table>
      * @see #Toolbar_android_gravity
      * @see #Toolbar_android_minHeight
@@ -12209,14 +12515,14 @@ public final class R {
      * @see #Toolbar_titleTextColor
      */
     public static final int[] Toolbar={
-      0x010100af, 0x01010140, 0x7f020042, 0x7f020056, 
-      0x7f020057, 0x7f020069, 0x7f02006a, 0x7f02006b, 
-      0x7f02006c, 0x7f02006d, 0x7f02006e, 0x7f0200ea, 
-      0x7f0200eb, 0x7f0200ee, 0x7f0200f3, 0x7f0200f4, 
-      0x7f020100, 0x7f020120, 0x7f020121, 0x7f020122, 
-      0x7f02013e, 0x7f02013f, 0x7f020140, 0x7f020141, 
-      0x7f020142, 0x7f020143, 0x7f020144, 0x7f020145, 
-      0x7f020146
+      0x010100af, 0x01010140, 0x7f020042, 0x7f02005c, 
+      0x7f02005d, 0x7f02006f, 0x7f020070, 0x7f020071, 
+      0x7f020072, 0x7f020073, 0x7f020074, 0x7f0200f5, 
+      0x7f0200f6, 0x7f0200f9, 0x7f0200fe, 0x7f0200ff, 
+      0x7f02010b, 0x7f02012b, 0x7f02012c, 0x7f02012d, 
+      0x7f020149, 0x7f02014a, 0x7f02014b, 0x7f02014c, 
+      0x7f02014d, 0x7f02014e, 0x7f02014f, 0x7f020150, 
+      0x7f020151
     };
     /**
      * <p>This symbol is the offset where the {@link android.R.attr#gravity}
@@ -12261,7 +12567,7 @@ public final class R {
      */
     public static final int Toolbar_android_minHeight=1;
     /**
-     * <p>This symbol is the offset where the {@link com.example.akmal_pc.jhotel_android_akmal.R.attr#buttonGravity}
+     * <p>This symbol is the offset where the {@link com.example.tim3a.eangkotUser.R.attr#buttonGravity}
      * attribute's value can be found in the {@link #Toolbar} array.
      *
      * <p>Must be one or more (separated by '|') of the following constant values.</p>
@@ -12274,21 +12580,21 @@ public final class R {
      * <tr><td>top</td><td>30</td><td></td></tr>
      * </table>
      *
-     * @attr name com.example.akmal_pc.jhotel_android_akmal:buttonGravity
+     * @attr name com.example.tim3a.eangkotUser:buttonGravity
      */
     public static final int Toolbar_buttonGravity=2;
     /**
-     * <p>This symbol is the offset where the {@link com.example.akmal_pc.jhotel_android_akmal.R.attr#collapseContentDescription}
+     * <p>This symbol is the offset where the {@link com.example.tim3a.eangkotUser.R.attr#collapseContentDescription}
      * attribute's value can be found in the {@link #Toolbar} array.
      *
      * <p>May be a string value, using '\\;' to escape characters such as
      * '\\n' or '\\uxxxx' for a unicode character;
      *
-     * @attr name com.example.akmal_pc.jhotel_android_akmal:collapseContentDescription
+     * @attr name com.example.tim3a.eangkotUser:collapseContentDescription
      */
     public static final int Toolbar_collapseContentDescription=3;
     /**
-     * <p>This symbol is the offset where the {@link com.example.akmal_pc.jhotel_android_akmal.R.attr#collapseIcon}
+     * <p>This symbol is the offset where the {@link com.example.tim3a.eangkotUser.R.attr#collapseIcon}
      * attribute's value can be found in the {@link #Toolbar} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -12296,11 +12602,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.example.akmal_pc.jhotel_android_akmal:collapseIcon
+     * @attr name com.example.tim3a.eangkotUser:collapseIcon
      */
     public static final int Toolbar_collapseIcon=4;
     /**
-     * <p>This symbol is the offset where the {@link com.example.akmal_pc.jhotel_android_akmal.R.attr#contentInsetEnd}
+     * <p>This symbol is the offset where the {@link com.example.tim3a.eangkotUser.R.attr#contentInsetEnd}
      * attribute's value can be found in the {@link #Toolbar} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -12309,11 +12615,11 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name com.example.akmal_pc.jhotel_android_akmal:contentInsetEnd
+     * @attr name com.example.tim3a.eangkotUser:contentInsetEnd
      */
     public static final int Toolbar_contentInsetEnd=5;
     /**
-     * <p>This symbol is the offset where the {@link com.example.akmal_pc.jhotel_android_akmal.R.attr#contentInsetEndWithActions}
+     * <p>This symbol is the offset where the {@link com.example.tim3a.eangkotUser.R.attr#contentInsetEndWithActions}
      * attribute's value can be found in the {@link #Toolbar} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -12322,11 +12628,11 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name com.example.akmal_pc.jhotel_android_akmal:contentInsetEndWithActions
+     * @attr name com.example.tim3a.eangkotUser:contentInsetEndWithActions
      */
     public static final int Toolbar_contentInsetEndWithActions=6;
     /**
-     * <p>This symbol is the offset where the {@link com.example.akmal_pc.jhotel_android_akmal.R.attr#contentInsetLeft}
+     * <p>This symbol is the offset where the {@link com.example.tim3a.eangkotUser.R.attr#contentInsetLeft}
      * attribute's value can be found in the {@link #Toolbar} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -12335,11 +12641,11 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name com.example.akmal_pc.jhotel_android_akmal:contentInsetLeft
+     * @attr name com.example.tim3a.eangkotUser:contentInsetLeft
      */
     public static final int Toolbar_contentInsetLeft=7;
     /**
-     * <p>This symbol is the offset where the {@link com.example.akmal_pc.jhotel_android_akmal.R.attr#contentInsetRight}
+     * <p>This symbol is the offset where the {@link com.example.tim3a.eangkotUser.R.attr#contentInsetRight}
      * attribute's value can be found in the {@link #Toolbar} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -12348,11 +12654,11 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name com.example.akmal_pc.jhotel_android_akmal:contentInsetRight
+     * @attr name com.example.tim3a.eangkotUser:contentInsetRight
      */
     public static final int Toolbar_contentInsetRight=8;
     /**
-     * <p>This symbol is the offset where the {@link com.example.akmal_pc.jhotel_android_akmal.R.attr#contentInsetStart}
+     * <p>This symbol is the offset where the {@link com.example.tim3a.eangkotUser.R.attr#contentInsetStart}
      * attribute's value can be found in the {@link #Toolbar} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -12361,11 +12667,11 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name com.example.akmal_pc.jhotel_android_akmal:contentInsetStart
+     * @attr name com.example.tim3a.eangkotUser:contentInsetStart
      */
     public static final int Toolbar_contentInsetStart=9;
     /**
-     * <p>This symbol is the offset where the {@link com.example.akmal_pc.jhotel_android_akmal.R.attr#contentInsetStartWithNavigation}
+     * <p>This symbol is the offset where the {@link com.example.tim3a.eangkotUser.R.attr#contentInsetStartWithNavigation}
      * attribute's value can be found in the {@link #Toolbar} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -12374,11 +12680,11 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name com.example.akmal_pc.jhotel_android_akmal:contentInsetStartWithNavigation
+     * @attr name com.example.tim3a.eangkotUser:contentInsetStartWithNavigation
      */
     public static final int Toolbar_contentInsetStartWithNavigation=10;
     /**
-     * <p>This symbol is the offset where the {@link com.example.akmal_pc.jhotel_android_akmal.R.attr#logo}
+     * <p>This symbol is the offset where the {@link com.example.tim3a.eangkotUser.R.attr#logo}
      * attribute's value can be found in the {@link #Toolbar} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -12386,21 +12692,21 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.example.akmal_pc.jhotel_android_akmal:logo
+     * @attr name com.example.tim3a.eangkotUser:logo
      */
     public static final int Toolbar_logo=11;
     /**
-     * <p>This symbol is the offset where the {@link com.example.akmal_pc.jhotel_android_akmal.R.attr#logoDescription}
+     * <p>This symbol is the offset where the {@link com.example.tim3a.eangkotUser.R.attr#logoDescription}
      * attribute's value can be found in the {@link #Toolbar} array.
      *
      * <p>May be a string value, using '\\;' to escape characters such as
      * '\\n' or '\\uxxxx' for a unicode character;
      *
-     * @attr name com.example.akmal_pc.jhotel_android_akmal:logoDescription
+     * @attr name com.example.tim3a.eangkotUser:logoDescription
      */
     public static final int Toolbar_logoDescription=12;
     /**
-     * <p>This symbol is the offset where the {@link com.example.akmal_pc.jhotel_android_akmal.R.attr#maxButtonHeight}
+     * <p>This symbol is the offset where the {@link com.example.tim3a.eangkotUser.R.attr#maxButtonHeight}
      * attribute's value can be found in the {@link #Toolbar} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -12409,21 +12715,21 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name com.example.akmal_pc.jhotel_android_akmal:maxButtonHeight
+     * @attr name com.example.tim3a.eangkotUser:maxButtonHeight
      */
     public static final int Toolbar_maxButtonHeight=13;
     /**
-     * <p>This symbol is the offset where the {@link com.example.akmal_pc.jhotel_android_akmal.R.attr#navigationContentDescription}
+     * <p>This symbol is the offset where the {@link com.example.tim3a.eangkotUser.R.attr#navigationContentDescription}
      * attribute's value can be found in the {@link #Toolbar} array.
      *
      * <p>May be a string value, using '\\;' to escape characters such as
      * '\\n' or '\\uxxxx' for a unicode character;
      *
-     * @attr name com.example.akmal_pc.jhotel_android_akmal:navigationContentDescription
+     * @attr name com.example.tim3a.eangkotUser:navigationContentDescription
      */
     public static final int Toolbar_navigationContentDescription=14;
     /**
-     * <p>This symbol is the offset where the {@link com.example.akmal_pc.jhotel_android_akmal.R.attr#navigationIcon}
+     * <p>This symbol is the offset where the {@link com.example.tim3a.eangkotUser.R.attr#navigationIcon}
      * attribute's value can be found in the {@link #Toolbar} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -12431,11 +12737,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.example.akmal_pc.jhotel_android_akmal:navigationIcon
+     * @attr name com.example.tim3a.eangkotUser:navigationIcon
      */
     public static final int Toolbar_navigationIcon=15;
     /**
-     * <p>This symbol is the offset where the {@link com.example.akmal_pc.jhotel_android_akmal.R.attr#popupTheme}
+     * <p>This symbol is the offset where the {@link com.example.tim3a.eangkotUser.R.attr#popupTheme}
      * attribute's value can be found in the {@link #Toolbar} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -12443,21 +12749,21 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.example.akmal_pc.jhotel_android_akmal:popupTheme
+     * @attr name com.example.tim3a.eangkotUser:popupTheme
      */
     public static final int Toolbar_popupTheme=16;
     /**
-     * <p>This symbol is the offset where the {@link com.example.akmal_pc.jhotel_android_akmal.R.attr#subtitle}
+     * <p>This symbol is the offset where the {@link com.example.tim3a.eangkotUser.R.attr#subtitle}
      * attribute's value can be found in the {@link #Toolbar} array.
      *
      * <p>May be a string value, using '\\;' to escape characters such as
      * '\\n' or '\\uxxxx' for a unicode character;
      *
-     * @attr name com.example.akmal_pc.jhotel_android_akmal:subtitle
+     * @attr name com.example.tim3a.eangkotUser:subtitle
      */
     public static final int Toolbar_subtitle=17;
     /**
-     * <p>This symbol is the offset where the {@link com.example.akmal_pc.jhotel_android_akmal.R.attr#subtitleTextAppearance}
+     * <p>This symbol is the offset where the {@link com.example.tim3a.eangkotUser.R.attr#subtitleTextAppearance}
      * attribute's value can be found in the {@link #Toolbar} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -12465,32 +12771,32 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.example.akmal_pc.jhotel_android_akmal:subtitleTextAppearance
+     * @attr name com.example.tim3a.eangkotUser:subtitleTextAppearance
      */
     public static final int Toolbar_subtitleTextAppearance=18;
     /**
-     * <p>This symbol is the offset where the {@link com.example.akmal_pc.jhotel_android_akmal.R.attr#subtitleTextColor}
+     * <p>This symbol is the offset where the {@link com.example.tim3a.eangkotUser.R.attr#subtitleTextColor}
      * attribute's value can be found in the {@link #Toolbar} array.
      *
      * <p>May be a color value, in the form of "<code>#<i>rgb</i></code>",
      * "<code>#<i>argb</i></code>", "<code>#<i>rrggbb</i></code>", or
      * "<code>#<i>aarrggbb</i></code>".
      *
-     * @attr name com.example.akmal_pc.jhotel_android_akmal:subtitleTextColor
+     * @attr name com.example.tim3a.eangkotUser:subtitleTextColor
      */
     public static final int Toolbar_subtitleTextColor=19;
     /**
-     * <p>This symbol is the offset where the {@link com.example.akmal_pc.jhotel_android_akmal.R.attr#title}
+     * <p>This symbol is the offset where the {@link com.example.tim3a.eangkotUser.R.attr#title}
      * attribute's value can be found in the {@link #Toolbar} array.
      *
      * <p>May be a string value, using '\\;' to escape characters such as
      * '\\n' or '\\uxxxx' for a unicode character;
      *
-     * @attr name com.example.akmal_pc.jhotel_android_akmal:title
+     * @attr name com.example.tim3a.eangkotUser:title
      */
     public static final int Toolbar_title=20;
     /**
-     * <p>This symbol is the offset where the {@link com.example.akmal_pc.jhotel_android_akmal.R.attr#titleMargin}
+     * <p>This symbol is the offset where the {@link com.example.tim3a.eangkotUser.R.attr#titleMargin}
      * attribute's value can be found in the {@link #Toolbar} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -12499,11 +12805,11 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name com.example.akmal_pc.jhotel_android_akmal:titleMargin
+     * @attr name com.example.tim3a.eangkotUser:titleMargin
      */
     public static final int Toolbar_titleMargin=21;
     /**
-     * <p>This symbol is the offset where the {@link com.example.akmal_pc.jhotel_android_akmal.R.attr#titleMarginBottom}
+     * <p>This symbol is the offset where the {@link com.example.tim3a.eangkotUser.R.attr#titleMarginBottom}
      * attribute's value can be found in the {@link #Toolbar} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -12512,11 +12818,11 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name com.example.akmal_pc.jhotel_android_akmal:titleMarginBottom
+     * @attr name com.example.tim3a.eangkotUser:titleMarginBottom
      */
     public static final int Toolbar_titleMarginBottom=22;
     /**
-     * <p>This symbol is the offset where the {@link com.example.akmal_pc.jhotel_android_akmal.R.attr#titleMarginEnd}
+     * <p>This symbol is the offset where the {@link com.example.tim3a.eangkotUser.R.attr#titleMarginEnd}
      * attribute's value can be found in the {@link #Toolbar} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -12525,11 +12831,11 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name com.example.akmal_pc.jhotel_android_akmal:titleMarginEnd
+     * @attr name com.example.tim3a.eangkotUser:titleMarginEnd
      */
     public static final int Toolbar_titleMarginEnd=23;
     /**
-     * <p>This symbol is the offset where the {@link com.example.akmal_pc.jhotel_android_akmal.R.attr#titleMarginStart}
+     * <p>This symbol is the offset where the {@link com.example.tim3a.eangkotUser.R.attr#titleMarginStart}
      * attribute's value can be found in the {@link #Toolbar} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -12538,11 +12844,11 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name com.example.akmal_pc.jhotel_android_akmal:titleMarginStart
+     * @attr name com.example.tim3a.eangkotUser:titleMarginStart
      */
     public static final int Toolbar_titleMarginStart=24;
     /**
-     * <p>This symbol is the offset where the {@link com.example.akmal_pc.jhotel_android_akmal.R.attr#titleMarginTop}
+     * <p>This symbol is the offset where the {@link com.example.tim3a.eangkotUser.R.attr#titleMarginTop}
      * attribute's value can be found in the {@link #Toolbar} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -12551,11 +12857,11 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name com.example.akmal_pc.jhotel_android_akmal:titleMarginTop
+     * @attr name com.example.tim3a.eangkotUser:titleMarginTop
      */
     public static final int Toolbar_titleMarginTop=25;
     /**
-     * <p>This symbol is the offset where the {@link com.example.akmal_pc.jhotel_android_akmal.R.attr#titleMargins}
+     * <p>This symbol is the offset where the {@link com.example.tim3a.eangkotUser.R.attr#titleMargins}
      * attribute's value can be found in the {@link #Toolbar} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -12564,11 +12870,11 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name com.example.akmal_pc.jhotel_android_akmal:titleMargins
+     * @attr name com.example.tim3a.eangkotUser:titleMargins
      */
     public static final int Toolbar_titleMargins=26;
     /**
-     * <p>This symbol is the offset where the {@link com.example.akmal_pc.jhotel_android_akmal.R.attr#titleTextAppearance}
+     * <p>This symbol is the offset where the {@link com.example.tim3a.eangkotUser.R.attr#titleTextAppearance}
      * attribute's value can be found in the {@link #Toolbar} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -12576,18 +12882,18 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.example.akmal_pc.jhotel_android_akmal:titleTextAppearance
+     * @attr name com.example.tim3a.eangkotUser:titleTextAppearance
      */
     public static final int Toolbar_titleTextAppearance=27;
     /**
-     * <p>This symbol is the offset where the {@link com.example.akmal_pc.jhotel_android_akmal.R.attr#titleTextColor}
+     * <p>This symbol is the offset where the {@link com.example.tim3a.eangkotUser.R.attr#titleTextColor}
      * attribute's value can be found in the {@link #Toolbar} array.
      *
      * <p>May be a color value, in the form of "<code>#<i>rgb</i></code>",
      * "<code>#<i>argb</i></code>", "<code>#<i>rrggbb</i></code>", or
      * "<code>#<i>aarrggbb</i></code>".
      *
-     * @attr name com.example.akmal_pc.jhotel_android_akmal:titleTextColor
+     * @attr name com.example.tim3a.eangkotUser:titleTextColor
      */
     public static final int Toolbar_titleTextColor=28;
     /**
@@ -12599,9 +12905,9 @@ public final class R {
      * <tr><th>Attribute</th><th>Description</th></tr>
      * <tr><td><code>{@link #View_android_theme android:theme}</code></td><td></td></tr>
      * <tr><td><code>{@link #View_android_focusable android:focusable}</code></td><td></td></tr>
-     * <tr><td><code>{@link #View_paddingEnd com.example.akmal_pc.jhotel_android_akmal:paddingEnd}</code></td><td></td></tr>
-     * <tr><td><code>{@link #View_paddingStart com.example.akmal_pc.jhotel_android_akmal:paddingStart}</code></td><td></td></tr>
-     * <tr><td><code>{@link #View_theme com.example.akmal_pc.jhotel_android_akmal:theme}</code></td><td></td></tr>
+     * <tr><td><code>{@link #View_paddingEnd com.example.tim3a.eangkotUser:paddingEnd}</code></td><td></td></tr>
+     * <tr><td><code>{@link #View_paddingStart com.example.tim3a.eangkotUser:paddingStart}</code></td><td></td></tr>
+     * <tr><td><code>{@link #View_theme com.example.tim3a.eangkotUser:theme}</code></td><td></td></tr>
      * </table>
      * @see #View_android_theme
      * @see #View_android_focusable
@@ -12610,8 +12916,8 @@ public final class R {
      * @see #View_theme
      */
     public static final int[] View={
-      0x01010000, 0x010100da, 0x7f0200f9, 0x7f0200fa, 
-      0x7f020134
+      0x01010000, 0x010100da, 0x7f020104, 0x7f020105, 
+      0x7f02013f
     };
     /**
      * <p>This symbol is the offset where the {@link android.R.attr#theme}
@@ -12644,7 +12950,7 @@ public final class R {
      */
     public static final int View_android_focusable=1;
     /**
-     * <p>This symbol is the offset where the {@link com.example.akmal_pc.jhotel_android_akmal.R.attr#paddingEnd}
+     * <p>This symbol is the offset where the {@link com.example.tim3a.eangkotUser.R.attr#paddingEnd}
      * attribute's value can be found in the {@link #View} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -12653,11 +12959,11 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name com.example.akmal_pc.jhotel_android_akmal:paddingEnd
+     * @attr name com.example.tim3a.eangkotUser:paddingEnd
      */
     public static final int View_paddingEnd=2;
     /**
-     * <p>This symbol is the offset where the {@link com.example.akmal_pc.jhotel_android_akmal.R.attr#paddingStart}
+     * <p>This symbol is the offset where the {@link com.example.tim3a.eangkotUser.R.attr#paddingStart}
      * attribute's value can be found in the {@link #View} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -12666,11 +12972,11 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name com.example.akmal_pc.jhotel_android_akmal:paddingStart
+     * @attr name com.example.tim3a.eangkotUser:paddingStart
      */
     public static final int View_paddingStart=3;
     /**
-     * <p>This symbol is the offset where the {@link com.example.akmal_pc.jhotel_android_akmal.R.attr#theme}
+     * <p>This symbol is the offset where the {@link com.example.tim3a.eangkotUser.R.attr#theme}
      * attribute's value can be found in the {@link #View} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -12678,7 +12984,7 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.example.akmal_pc.jhotel_android_akmal:theme
+     * @attr name com.example.tim3a.eangkotUser:theme
      */
     public static final int View_theme=4;
     /**
@@ -12689,8 +12995,8 @@ public final class R {
      * <colgroup align="left" />
      * <tr><th>Attribute</th><th>Description</th></tr>
      * <tr><td><code>{@link #ViewBackgroundHelper_android_background android:background}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ViewBackgroundHelper_backgroundTint com.example.akmal_pc.jhotel_android_akmal:backgroundTint}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ViewBackgroundHelper_backgroundTintMode com.example.akmal_pc.jhotel_android_akmal:backgroundTintMode}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ViewBackgroundHelper_backgroundTint com.example.tim3a.eangkotUser:backgroundTint}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ViewBackgroundHelper_backgroundTintMode com.example.tim3a.eangkotUser:backgroundTintMode}</code></td><td></td></tr>
      * </table>
      * @see #ViewBackgroundHelper_android_background
      * @see #ViewBackgroundHelper_backgroundTint
@@ -12715,18 +13021,18 @@ public final class R {
      */
     public static final int ViewBackgroundHelper_android_background=0;
     /**
-     * <p>This symbol is the offset where the {@link com.example.akmal_pc.jhotel_android_akmal.R.attr#backgroundTint}
+     * <p>This symbol is the offset where the {@link com.example.tim3a.eangkotUser.R.attr#backgroundTint}
      * attribute's value can be found in the {@link #ViewBackgroundHelper} array.
      *
      * <p>May be a color value, in the form of "<code>#<i>rgb</i></code>",
      * "<code>#<i>argb</i></code>", "<code>#<i>rrggbb</i></code>", or
      * "<code>#<i>aarrggbb</i></code>".
      *
-     * @attr name com.example.akmal_pc.jhotel_android_akmal:backgroundTint
+     * @attr name com.example.tim3a.eangkotUser:backgroundTint
      */
     public static final int ViewBackgroundHelper_backgroundTint=1;
     /**
-     * <p>This symbol is the offset where the {@link com.example.akmal_pc.jhotel_android_akmal.R.attr#backgroundTintMode}
+     * <p>This symbol is the offset where the {@link com.example.tim3a.eangkotUser.R.attr#backgroundTintMode}
      * attribute's value can be found in the {@link #ViewBackgroundHelper} array.
      *
      * <p>Must be one of the following constant values.</p>
@@ -12742,7 +13048,7 @@ public final class R {
      * <tr><td>src_over</td><td>3</td><td></td></tr>
      * </table>
      *
-     * @attr name com.example.akmal_pc.jhotel_android_akmal:backgroundTintMode
+     * @attr name com.example.tim3a.eangkotUser:backgroundTintMode
      */
     public static final int ViewBackgroundHelper_backgroundTintMode=2;
     /**

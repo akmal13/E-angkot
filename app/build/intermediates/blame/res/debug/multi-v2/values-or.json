@@ -4,24 +4,7 @@
             "outputFile": "C:\\Users\\Akmal\\Documents\\E-angkot\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-or\\values-or.xml",
             "map": [
                 {
-                    "source": "C:\\Users\\Akmal\\.gradle\\caches\\transforms-2\\files-2.1\\9f4c412f55019a7d5a0471bb72f9b19a\\res\\values-or\\values.xml",
-                    "from": {
-                        "startLines": "4",
-                        "startColumns": "0",
-                        "startOffsets": "247",
-                        "endColumns": "198",
-                        "endOffsets": "445"
-                    },
-                    "to": {
-                        "startLines": "10",
-                        "startColumns": "4",
-                        "startOffsets": "1302",
-                        "endColumns": "198",
-                        "endOffsets": "1496"
-                    }
-                },
-                {
-                    "source": "C:\\Users\\Akmal\\.gradle\\caches\\transforms-2\\files-2.1\\12af08969c5099e9b5422f0986ebd321\\res\\values-or\\values.xml",
+                    "source": "C:\\Users\\Akmal\\.gradle\\caches\\transforms-2\\files-2.1\\af4f3c52f3dd0387ca5611685f160f5d\\res\\values-or\\values.xml",
                     "from": {
                         "startLines": "4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20",
                         "startColumns": "0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0",
@@ -35,6 +18,23 @@
                         "startOffsets": "105,218,411,546,665,880,1018,1163,1501,1728,1843,2035,2171,2382,2570,2665,2767",
                         "endColumns": "112,192,134,118,214,137,144,138,226,114,191,135,210,187,94,101,115",
                         "endOffsets": "213,406,541,660,875,1013,1158,1297,1723,1838,2030,2166,2377,2565,2660,2762,2878"
+                    }
+                },
+                {
+                    "source": "C:\\Users\\Akmal\\.gradle\\caches\\transforms-2\\files-2.1\\672d2caf12d308b7f62a3f7c2f9c237b\\res\\values-or\\values.xml",
+                    "from": {
+                        "startLines": "4",
+                        "startColumns": "0",
+                        "startOffsets": "247",
+                        "endColumns": "198",
+                        "endOffsets": "445"
+                    },
+                    "to": {
+                        "startLines": "10",
+                        "startColumns": "4",
+                        "startOffsets": "1302",
+                        "endColumns": "198",
+                        "endOffsets": "1496"
                     }
                 }
             ]

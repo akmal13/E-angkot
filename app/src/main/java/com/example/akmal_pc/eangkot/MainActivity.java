@@ -9,6 +9,7 @@ import android.support.v4.app.ActivityCompat;
 import android.support.v7.app.ActionBar;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
+import android.telephony.TelephonyManager;
 import android.util.Log;
 import android.view.View;
 import android.view.WindowManager;
@@ -23,7 +24,6 @@ import com.google.firebase.database.FirebaseDatabase;
 
 import me.dm7.barcodescanner.zxing.ZXingScannerView;
 import android.provider.Settings.Secure;
-import android.telephony.TelephonyManager;
 import android.content.Context;
 
 
@@ -72,11 +72,10 @@ public class MainActivity extends AppCompatActivity{
                     Secure.ANDROID_ID);
         }
 
-        String email = LoginActivity.getEmail();
 
         //Write data kepada database
 
-        Location loc = new Location(latit,longit,email);
+        Location loc = new Location(latit,longit);
 
         mDatabase.child(IDNumber).setValue(loc);
         if(isServicesOK()){
