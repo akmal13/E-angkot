@@ -36,10 +36,10 @@ public class RideInfo extends AppCompatActivity {
             }
         });
         TextView namdriv = findViewById(R.id.inputnamadriver);
-        namdriv.setText("Jamil");
+        namdriv.setText(CameraActivity.getNamaDriver());
 
         TextView nodriv = findViewById(R.id.inputnodriver);
-        nodriv.setText("B-30");
+        nodriv.setText(CameraActivity.getNoDriver());
     }
 
 

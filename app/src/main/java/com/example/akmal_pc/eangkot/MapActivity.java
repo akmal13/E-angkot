@@ -13,6 +13,7 @@ import android.support.v7.app.AppCompatActivity;
 import android.util.Log;
 import android.view.View;
 import android.view.WindowManager;
+import android.widget.ArrayAdapter;
 import android.widget.ImageView;
 import android.widget.Toast;
 
@@ -26,9 +27,19 @@ import com.google.android.gms.maps.model.LatLng;
 import com.google.android.gms.maps.model.MarkerOptions;
 import com.google.android.gms.tasks.OnCompleteListener;
 import com.google.android.gms.tasks.Task;
+import com.google.firebase.database.DataSnapshot;
+import com.google.firebase.database.DatabaseError;
+import com.google.firebase.database.DatabaseReference;
+import com.google.firebase.database.FirebaseDatabase;
+import com.google.firebase.database.ValueEventListener;
+
+import java.util.ArrayList;
 
 
 public class MapActivity extends AppCompatActivity implements OnMapReadyCallback {
+
+    private FirebaseDatabase mFirebaseDatabase;
+    private DatabaseReference myRef;
 
     @Override
     public void onMapReady(GoogleMap googleMap) {
@@ -74,6 +85,9 @@ public class MapActivity extends AppCompatActivity implements OnMapReadyCallback
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_map);
         mGps = (ImageView) findViewById(R.id.ic_gps);
+
+        mFirebaseDatabase = FirebaseDatabase.getInstance();
+        myRef = mFirebaseDatabase.getReference("Driver");
 
         getLocationPermission();
 
@@ -146,12 +160,21 @@ public class MapActivity extends AppCompatActivity implements OnMapReadyCallback
                                 moveCamera(new LatLng(currentLocation.getLatitude(), currentLocation.getLongitude()),
                                         DEFAULT_ZOOM,
                                         "My Location");
-                                LatLng ln1 = new LatLng(-6.3624,106.824);
-                                MarkerOptions lat1 = new MarkerOptions().position(ln1).title("Jamil , B-30");
-                                mMap.addMarker(lat1);
-                                LatLng ln2 = new LatLng(-6.3627,106.825);
-                                MarkerOptions lat2 = new MarkerOptions().position(ln2).title("Teja , B-24");
-                                mMap.addMarker(lat2);
+
+                                myRef.addValueEventListener(new ValueEventListener() {
+                                    @Override
+                                    public void onDataChange(DataSnapshot dataSnapshot) {
+                                        // This method is called once with the initial value and again
+                                        // whenever data at this location is updated.
+                                        showData(dataSnapshot);
+                                    }
+
+                                    @Override
+                                    public void onCancelled(DatabaseError databaseError) {
+
+                                    }
+                                });
+
                             }catch (NullPointerException e){Log.e("Lat","LATLONG tidak dapat");}
 
 
@@ -245,6 +268,28 @@ public class MapActivity extends AppCompatActivity implements OnMapReadyCallback
         String goog = "https://maps.googleapis.com/maps/api/place/nearbysearch/json?location="+latitude+","+longitude+"&radius=1000&keyword="+nearbyPlace+"&key=AIzaSyDscPC7ciOxF5K305AuolTwvI76L7gSAto";
         Log.d("getUrl", goog);
         return (goog);
+    }
+
+    private void showData(DataSnapshot dataSnapshot) {
+        for (int i = 0; i < 100 ; i++) {
+            String userID = "driver"+ i;
+            for (DataSnapshot ds : dataSnapshot.getChildren()) {
+                Driver uInfo = new Driver();
+                uInfo.setName(ds.child(userID).getValue(Driver.class).getName()); //set the name
+                uInfo.setLongitude(ds.child(userID).getValue(Driver.class).getLongitude()); //set the email
+                uInfo.setLatitude(ds.child(userID).getValue(Driver.class).getLatitude()); //set the phone_num
+
+                //display all the information
+                Log.d(TAG, "showData: name: " + uInfo.getName());
+                Log.d(TAG, "showData: latitude: " + uInfo.getLongitude());
+                Log.d(TAG, "showData: Longitude: " + uInfo.getLatitude());
+
+
+                LatLng ln1 = new LatLng(uInfo.getLatitude(),uInfo.getLongitude());
+                MarkerOptions lat1 = new MarkerOptions().position(ln1).title(uInfo.getName());
+                mMap.addMarker(lat1);
+            }
+        }
     }
 
 }

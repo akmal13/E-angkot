@@ -14,6 +14,8 @@ import android.widget.TextView;
 
 import com.google.android.gms.location.FusedLocationProviderClient;
 import com.google.android.gms.location.LocationServices;
+import com.google.android.gms.maps.model.LatLng;
+import com.google.android.gms.maps.model.MarkerOptions;
 import com.google.android.gms.tasks.OnSuccessListener;
 import com.google.firebase.database.DataSnapshot;
 import com.google.firebase.database.DatabaseError;
@@ -28,24 +30,26 @@ import static android.Manifest.permission.ACCESS_FINE_LOCATION;
 
 public class CameraActivity extends AppCompatActivity implements ZXingScannerView.ResultHandler{
     private ZXingScannerView mScannerView;
-    DatabaseReference databaseride;
     Ride rid;
-    public static int max;
     private FusedLocationProviderClient client;
     public static double Lathasil;
     public static double Longhasil;
     public static double hasilmeter;
-
+    private FirebaseDatabase mFirebaseDatabase;
+    private DatabaseReference myRef;
+    private DatabaseReference myRef1;
+    private static String hasilscan;
+    public static String namaDriver;
+    public static String noDriver;
 
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        // setContentView(R.layout.activity_main);
         mScannerView = new ZXingScannerView(this);   // Programmatically initialize the scanner view
         setContentView(mScannerView);
-        databaseride = FirebaseDatabase.getInstance().getReference("Ride");
-
+        myRef = mFirebaseDatabase.getReference("Ride");
+        myRef1 = mFirebaseDatabase.getReference("Driver");
         client = LocationServices.getFusedLocationProviderClient(this);
 
 
@@ -82,18 +86,10 @@ public class CameraActivity extends AppCompatActivity implements ZXingScannerVie
     }
 
     @Override
-    public void handleResult(Result rawResult) {
+    public void handleResult(final Result rawResult) {
 
-        // Do something with the result here
-        //Log.v("TAG", rawResult.getText()); // Prints scan results
-        //Log.v("TAG", rawResult.getBarcodeFormat().toString()); // Prints the scan format (qrcode, pdf417 etc.)
-        //AlertDialog.Builder builder = new AlertDialog.Builder(this);
-        //builder.setTitle("Scan Result");
-        //builder.setMessage(rawResult.getText());
-        //AlertDialog alert1 = builder.create();
-        //alert1.show();
 
-        DatabaseReference ref = databaseride.child(rawResult.getText());
+        DatabaseReference ref = myRef.child(rawResult.getText());
         ref.addValueEventListener(new ValueEventListener() {
             @Override
             public void onDataChange(@NonNull DataSnapshot dataSnapshot) {
@@ -106,19 +102,48 @@ public class CameraActivity extends AppCompatActivity implements ZXingScannerVie
             }
         });
 
-        if(rid == null){
+        if(hasilscan != null){
+            if(hasilscan == rawResult.getText()){
+                if (ActivityCompat.checkSelfPermission(this, ACCESS_FINE_LOCATION) != PackageManager.PERMISSION_GRANTED) {
+
+                    return;
+                }
+                client.getLastLocation().addOnSuccessListener(CameraActivity.this, new OnSuccessListener<android.location.Location>() {
+                    @Override
+                    public void onSuccess(Location location) {
+
+                        if (location != null) {
+                            hasilmeter=hitungmeter(Lathasil,Longhasil,location.getLatitude(),location.getLongitude());
+
+                        }
+                    }
+                });
+                CameraActivity.this.startActivity(new Intent(CameraActivity.this,PaymentInfo.class));
+            }
+            else {
+                Log.d("Input qr2","QR berbeda");
+            }
+        }
+        else {
+            hasilscan = rawResult.getText();
+            myRef.addValueEventListener(new ValueEventListener() {
+                @Override
+                public void onDataChange(DataSnapshot dataSnapshot) {
+                    // This method is called once with the initial value and again
+                    // whenever data at this location is updated.
+                    showData(dataSnapshot,rawResult.getText());
+                }
+
+                @Override
+                public void onCancelled(DatabaseError databaseError) {
+
+                }
+            });
+            CameraActivity.this.startActivity(new Intent(CameraActivity.this,RideInfo.class));
+        }
 
 
-        }
-        max = max+1;
-        if(max == 1){
-            Intent intent = new Intent(CameraActivity.this, RideInfo.class);
-            startActivity(intent);
-        }else{
-            Intent intent = new Intent(CameraActivity.this, PaymentInfo.class);
-            hasilmeter = hitungmeter(SplashScreen.getLat(),SplashScreen.getLong(),Lathasil,Longhasil);
-            startActivity(intent);
-        }
+
 
         // If you would like to resume scanning, call this method below:
         mScannerView.resumeCameraPreview(this);
@@ -130,5 +155,30 @@ public class CameraActivity extends AppCompatActivity implements ZXingScannerVie
 
     public static double getHasilmeter() {
         return hasilmeter;
+    }
+
+    private void showData(DataSnapshot dataSnapshot, String id) {
+
+            String userID = id;
+            for (DataSnapshot ds : dataSnapshot.getChildren()) {
+                Driver uInfo = new Driver();
+                uInfo.setName(ds.child(userID).getValue(Driver.class).getName()); //set the name
+                uInfo.setLongitude(ds.child(userID).getValue(Driver.class).getLongitude()); //set the email
+                uInfo.setLatitude(ds.child(userID).getValue(Driver.class).getLatitude());
+                uInfo.setNoAngkot(ds.child(userID).getValue(Driver.class).getNoAngkot());//set the phone_num
+
+                namaDriver = uInfo.getName();
+                noDriver = uInfo.getNoAngkot();
+
+            }
+
+    }
+
+    public static String getNamaDriver() {
+        return namaDriver;
+    }
+
+    public static String getNoDriver() {
+        return noDriver;
     }
 }
