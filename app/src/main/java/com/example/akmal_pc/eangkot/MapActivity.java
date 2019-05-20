@@ -274,6 +274,7 @@ public class MapActivity extends AppCompatActivity implements OnMapReadyCallback
         for (int i = 0; i < 100 ; i++) {
             String userID = "driver"+ i;
             for (DataSnapshot ds : dataSnapshot.getChildren()) {
+                try{
                 Driver uInfo = new Driver();
                 uInfo.setName(ds.child(userID).getValue(Driver.class).getName()); //set the name
                 uInfo.setLongitude(ds.child(userID).getValue(Driver.class).getLongitude()); //set the email
@@ -285,9 +286,11 @@ public class MapActivity extends AppCompatActivity implements OnMapReadyCallback
                 Log.d(TAG, "showData: Longitude: " + uInfo.getLatitude());
 
 
-                LatLng ln1 = new LatLng(uInfo.getLatitude(),uInfo.getLongitude());
-                MarkerOptions lat1 = new MarkerOptions().position(ln1).title(uInfo.getName());
-                mMap.addMarker(lat1);
+                    LatLng ln1 = new LatLng(uInfo.getLatitude(),uInfo.getLongitude());
+                    MarkerOptions lat1 = new MarkerOptions().position(ln1).title(uInfo.getName());
+                    mMap.addMarker(lat1);
+                }catch (NullPointerException e){Log.e("Membaca Database :","Database tidak ditemukan/telah dihapus");}
+
             }
         }
     }

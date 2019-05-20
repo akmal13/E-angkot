@@ -48,8 +48,10 @@ public class CameraActivity extends AppCompatActivity implements ZXingScannerVie
         super.onCreate(savedInstanceState);
         mScannerView = new ZXingScannerView(this);   // Programmatically initialize the scanner view
         setContentView(mScannerView);
+        try{
         myRef = mFirebaseDatabase.getReference("Ride");
         myRef1 = mFirebaseDatabase.getReference("Driver");
+        }catch (NullPointerException e){Log.e("Membaca Database :","Database tidak ditemukan/telah dihapus");}
         client = LocationServices.getFusedLocationProviderClient(this);
 
 
@@ -88,19 +90,21 @@ public class CameraActivity extends AppCompatActivity implements ZXingScannerVie
     @Override
     public void handleResult(final Result rawResult) {
 
+        try{
+            DatabaseReference ref = myRef.child(rawResult.getText());
+            ref.addValueEventListener(new ValueEventListener() {
+                @Override
+                public void onDataChange(@NonNull DataSnapshot dataSnapshot) {
+                    rid = dataSnapshot.getValue(Ride.class);
+                }
 
-        DatabaseReference ref = myRef.child(rawResult.getText());
-        ref.addValueEventListener(new ValueEventListener() {
-            @Override
-            public void onDataChange(@NonNull DataSnapshot dataSnapshot) {
-                rid = dataSnapshot.getValue(Ride.class);
-            }
+                @Override
+                public void onCancelled(@NonNull DatabaseError databaseError) {
+                    System.out.println("The read failed: " + databaseError.getCode());
+                }
+            });
+        }catch (NullPointerException e){Log.e("Membaca Database :","Database tidak ditemukan/telah dihapus");}
 
-            @Override
-            public void onCancelled(@NonNull DatabaseError databaseError) {
-                System.out.println("The read failed: " + databaseError.getCode());
-            }
-        });
 
         if(hasilscan != null){
             if(hasilscan == rawResult.getText()){
@@ -125,6 +129,7 @@ public class CameraActivity extends AppCompatActivity implements ZXingScannerVie
             }
         }
         else {
+            try{
             hasilscan = rawResult.getText();
             myRef.addValueEventListener(new ValueEventListener() {
                 @Override
@@ -140,6 +145,7 @@ public class CameraActivity extends AppCompatActivity implements ZXingScannerVie
                 }
             });
             CameraActivity.this.startActivity(new Intent(CameraActivity.this,RideInfo.class));
+            }catch (NullPointerException e){Log.e("Membaca Database :","Database tidak ditemukan/telah dihapus");}
         }
 
 
@@ -158,7 +164,7 @@ public class CameraActivity extends AppCompatActivity implements ZXingScannerVie
     }
 
     private void showData(DataSnapshot dataSnapshot, String id) {
-
+            try{
             String userID = id;
             for (DataSnapshot ds : dataSnapshot.getChildren()) {
                 Driver uInfo = new Driver();
@@ -171,6 +177,7 @@ public class CameraActivity extends AppCompatActivity implements ZXingScannerVie
                 noDriver = uInfo.getNoAngkot();
 
             }
+            }catch (NullPointerException e){Log.e("Membaca Database :","Database tidak ditemukan/telah dihapus");}
 
     }
 

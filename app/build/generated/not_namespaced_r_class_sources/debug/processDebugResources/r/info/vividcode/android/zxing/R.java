@@ -26,11 +26,11 @@ public final class R {
         public static final int decode = 0x7f070037;
         public static final int decode_failed = 0x7f070038;
         public static final int decode_succeeded = 0x7f070039;
-        public static final int preview_view = 0x7f07006f;
-        public static final int quit = 0x7f070072;
-        public static final int return_scan_result = 0x7f070076;
-        public static final int status_view = 0x7f070098;
-        public static final int viewfinder_view = 0x7f0700ad;
+        public static final int preview_view = 0x7f070070;
+        public static final int quit = 0x7f070073;
+        public static final int return_scan_result = 0x7f070077;
+        public static final int status_view = 0x7f070099;
+        public static final int viewfinder_view = 0x7f0700ae;
     }
     public static final class layout {
         private layout() {}

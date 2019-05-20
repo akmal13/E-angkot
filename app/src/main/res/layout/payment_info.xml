@@ -61,6 +61,7 @@
         android:layout_alignTop="@id/tulisantarif"
         android:textColor="@color/black"
         android:text="Rp.50 / M"
+        android:id="@+id/nilaitarif"
         />
 
     <TextView

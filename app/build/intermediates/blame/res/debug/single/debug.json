@@ -120,12 +120,12 @@
         "source": "C:\\Users\\Akmal\\.gradle\\caches\\transforms-2\\files-2.1\\d5b0ded86a4f18da11babb2ed8584fc2\\res\\drawable-v23\\abc_control_background_material.xml"
     },
     {
-        "merged": "C:\\Users\\Akmal\\Documents\\E-angkot\\app\\build\\intermediates\\res\\merged\\debug\\layout-v21_notification_template_icon_group.xml.flat",
-        "source": "C:\\Users\\Akmal\\.gradle\\caches\\transforms-2\\files-2.1\\0d024300dbf4283b455335f8b7e665d0\\res\\layout-v21\\notification_template_icon_group.xml"
-    },
-    {
         "merged": "C:\\Users\\Akmal\\Documents\\E-angkot\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4_abc_ic_commit_search_api_mtrl_alpha.png.flat",
         "source": "C:\\Users\\Akmal\\.gradle\\caches\\transforms-2\\files-2.1\\d5b0ded86a4f18da11babb2ed8584fc2\\res\\drawable-xhdpi-v4\\abc_ic_commit_search_api_mtrl_alpha.png"
+    },
+    {
+        "merged": "C:\\Users\\Akmal\\Documents\\E-angkot\\app\\build\\intermediates\\res\\merged\\debug\\layout-v21_notification_template_icon_group.xml.flat",
+        "source": "C:\\Users\\Akmal\\.gradle\\caches\\transforms-2\\files-2.1\\0d024300dbf4283b455335f8b7e665d0\\res\\layout-v21\\notification_template_icon_group.xml"
     },
     {
         "merged": "C:\\Users\\Akmal\\Documents\\E-angkot\\app\\build\\intermediates\\res\\merged\\debug\\drawable_abc_ic_search_api_material.xml.flat",
@@ -144,12 +144,12 @@
         "source": "C:\\Users\\Akmal\\.gradle\\caches\\transforms-2\\files-2.1\\0d024300dbf4283b455335f8b7e665d0\\res\\drawable-xhdpi-v4\\notification_bg_normal.9.png"
     },
     {
-        "merged": "C:\\Users\\Akmal\\Documents\\E-angkot\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4_abc_menu_hardkey_panel_mtrl_mult.9.png.flat",
-        "source": "C:\\Users\\Akmal\\.gradle\\caches\\transforms-2\\files-2.1\\d5b0ded86a4f18da11babb2ed8584fc2\\res\\drawable-hdpi-v4\\abc_menu_hardkey_panel_mtrl_mult.9.png"
-    },
-    {
         "merged": "C:\\Users\\Akmal\\Documents\\E-angkot\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4_abc_scrubber_track_mtrl_alpha.9.png.flat",
         "source": "C:\\Users\\Akmal\\.gradle\\caches\\transforms-2\\files-2.1\\d5b0ded86a4f18da11babb2ed8584fc2\\res\\drawable-xhdpi-v4\\abc_scrubber_track_mtrl_alpha.9.png"
+    },
+    {
+        "merged": "C:\\Users\\Akmal\\Documents\\E-angkot\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4_abc_menu_hardkey_panel_mtrl_mult.9.png.flat",
+        "source": "C:\\Users\\Akmal\\.gradle\\caches\\transforms-2\\files-2.1\\d5b0ded86a4f18da11babb2ed8584fc2\\res\\drawable-hdpi-v4\\abc_menu_hardkey_panel_mtrl_mult.9.png"
     },
     {
         "merged": "C:\\Users\\Akmal\\Documents\\E-angkot\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi_iconbundar.png.flat",
@@ -188,28 +188,28 @@
         "source": "C:\\Users\\Akmal\\.gradle\\caches\\transforms-2\\files-2.1\\d5b0ded86a4f18da11babb2ed8584fc2\\res\\drawable\\abc_cab_background_top_material.xml"
     },
     {
-        "merged": "C:\\Users\\Akmal\\Documents\\E-angkot\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4_googleg_standard_color_18.png.flat",
-        "source": "C:\\Users\\Akmal\\.gradle\\caches\\transforms-2\\files-2.1\\af4f3c52f3dd0387ca5611685f160f5d\\res\\drawable-mdpi-v4\\googleg_standard_color_18.png"
-    },
-    {
         "merged": "C:\\Users\\Akmal\\Documents\\E-angkot\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4_abc_scrubber_track_mtrl_alpha.9.png.flat",
         "source": "C:\\Users\\Akmal\\.gradle\\caches\\transforms-2\\files-2.1\\d5b0ded86a4f18da11babb2ed8584fc2\\res\\drawable-mdpi-v4\\abc_scrubber_track_mtrl_alpha.9.png"
+    },
+    {
+        "merged": "C:\\Users\\Akmal\\Documents\\E-angkot\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4_googleg_standard_color_18.png.flat",
+        "source": "C:\\Users\\Akmal\\.gradle\\caches\\transforms-2\\files-2.1\\af4f3c52f3dd0387ca5611685f160f5d\\res\\drawable-mdpi-v4\\googleg_standard_color_18.png"
     },
     {
         "merged": "C:\\Users\\Akmal\\Documents\\E-angkot\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4_abc_scrubber_control_to_pressed_mtrl_000.png.flat",
         "source": "C:\\Users\\Akmal\\.gradle\\caches\\transforms-2\\files-2.1\\d5b0ded86a4f18da11babb2ed8584fc2\\res\\drawable-mdpi-v4\\abc_scrubber_control_to_pressed_mtrl_000.png"
     },
     {
-        "merged": "C:\\Users\\Akmal\\Documents\\E-angkot\\app\\build\\intermediates\\res\\merged\\debug\\layout_abc_action_menu_layout.xml.flat",
-        "source": "C:\\Users\\Akmal\\.gradle\\caches\\transforms-2\\files-2.1\\d5b0ded86a4f18da11babb2ed8584fc2\\res\\layout\\abc_action_menu_layout.xml"
+        "merged": "C:\\Users\\Akmal\\Documents\\E-angkot\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi-v4_abc_tab_indicator_mtrl_alpha.9.png.flat",
+        "source": "C:\\Users\\Akmal\\.gradle\\caches\\transforms-2\\files-2.1\\d5b0ded86a4f18da11babb2ed8584fc2\\res\\drawable-xxxhdpi-v4\\abc_tab_indicator_mtrl_alpha.9.png"
     },
     {
         "merged": "C:\\Users\\Akmal\\Documents\\E-angkot\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi-v4_abc_list_selector_disabled_holo_light.9.png.flat",
         "source": "C:\\Users\\Akmal\\.gradle\\caches\\transforms-2\\files-2.1\\d5b0ded86a4f18da11babb2ed8584fc2\\res\\drawable-xxhdpi-v4\\abc_list_selector_disabled_holo_light.9.png"
     },
     {
-        "merged": "C:\\Users\\Akmal\\Documents\\E-angkot\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi-v4_abc_tab_indicator_mtrl_alpha.9.png.flat",
-        "source": "C:\\Users\\Akmal\\.gradle\\caches\\transforms-2\\files-2.1\\d5b0ded86a4f18da11babb2ed8584fc2\\res\\drawable-xxxhdpi-v4\\abc_tab_indicator_mtrl_alpha.9.png"
+        "merged": "C:\\Users\\Akmal\\Documents\\E-angkot\\app\\build\\intermediates\\res\\merged\\debug\\layout_abc_action_menu_layout.xml.flat",
+        "source": "C:\\Users\\Akmal\\.gradle\\caches\\transforms-2\\files-2.1\\d5b0ded86a4f18da11babb2ed8584fc2\\res\\layout\\abc_action_menu_layout.xml"
     },
     {
         "merged": "C:\\Users\\Akmal\\Documents\\E-angkot\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4_ic_code_scanner_flash_off.png.flat",
@@ -264,12 +264,12 @@
         "source": "C:\\Users\\Akmal\\.gradle\\caches\\transforms-2\\files-2.1\\d5b0ded86a4f18da11babb2ed8584fc2\\res\\drawable-xxhdpi-v4\\abc_scrubber_control_to_pressed_mtrl_000.png"
     },
     {
-        "merged": "C:\\Users\\Akmal\\Documents\\E-angkot\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi-v4_abc_popup_background_mtrl_mult.9.png.flat",
-        "source": "C:\\Users\\Akmal\\.gradle\\caches\\transforms-2\\files-2.1\\d5b0ded86a4f18da11babb2ed8584fc2\\res\\drawable-xxhdpi-v4\\abc_popup_background_mtrl_mult.9.png"
-    },
-    {
         "merged": "C:\\Users\\Akmal\\Documents\\E-angkot\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4_common_google_signin_btn_text_light_normal_background.9.png.flat",
         "source": "C:\\Users\\Akmal\\.gradle\\caches\\transforms-2\\files-2.1\\af4f3c52f3dd0387ca5611685f160f5d\\res\\drawable-mdpi-v4\\common_google_signin_btn_text_light_normal_background.9.png"
+    },
+    {
+        "merged": "C:\\Users\\Akmal\\Documents\\E-angkot\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi-v4_abc_popup_background_mtrl_mult.9.png.flat",
+        "source": "C:\\Users\\Akmal\\.gradle\\caches\\transforms-2\\files-2.1\\d5b0ded86a4f18da11babb2ed8584fc2\\res\\drawable-xxhdpi-v4\\abc_popup_background_mtrl_mult.9.png"
     },
     {
         "merged": "C:\\Users\\Akmal\\Documents\\E-angkot\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi-v4_abc_text_select_handle_left_mtrl_light.png.flat",
@@ -324,12 +324,12 @@
         "source": "C:\\Users\\Akmal\\.gradle\\caches\\transforms-2\\files-2.1\\d5b0ded86a4f18da11babb2ed8584fc2\\res\\anim\\tooltip_enter.xml"
     },
     {
-        "merged": "C:\\Users\\Akmal\\Documents\\E-angkot\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_map.xml.flat",
-        "source": "C:\\Users\\Akmal\\Documents\\E-angkot\\app\\src\\main\\res\\layout\\activity_map.xml"
-    },
-    {
         "merged": "C:\\Users\\Akmal\\Documents\\E-angkot\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi_registerback.jpg.flat",
         "source": "C:\\Users\\Akmal\\Documents\\E-angkot\\app\\src\\main\\res\\drawable-xxhdpi\\registerback.jpg"
+    },
+    {
+        "merged": "C:\\Users\\Akmal\\Documents\\E-angkot\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_map.xml.flat",
+        "source": "C:\\Users\\Akmal\\Documents\\E-angkot\\app\\src\\main\\res\\layout\\activity_map.xml"
     },
     {
         "merged": "C:\\Users\\Akmal\\Documents\\E-angkot\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi-v4_abc_ic_star_black_48dp.png.flat",

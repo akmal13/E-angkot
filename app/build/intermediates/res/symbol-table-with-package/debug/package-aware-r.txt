@@ -846,6 +846,7 @@ id multiply
 id nameInput
 id never
 id nilaibayar
+id nilaitarif
 id none
 id normal
 id notification_background
